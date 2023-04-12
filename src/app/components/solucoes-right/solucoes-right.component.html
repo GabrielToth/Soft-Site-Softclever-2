@@ -1,0 +1,12 @@
+<div class="solucoes-right-feature-card" [ngClass]="rootClassName">
+  <div class="solucoes-right-container">
+    <h2 class="solucoes-right-text">{{ title }}</h2>
+    <span class="solucoes-right-text1">{{ description }}</span>
+  </div>
+  <img
+    [attr.alt]="image_alt"
+    [attr.src]="image_src"
+    loading="lazy"
+    class="solucoes-right-image"
+  />
+</div>

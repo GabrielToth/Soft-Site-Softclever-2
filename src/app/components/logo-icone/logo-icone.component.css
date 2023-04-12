@@ -1,0 +1,68 @@
+:host { 
+  display: contents; 
+}
+.logo-icone-container {
+  display: flex;
+  position: relative;
+}
+.logo-icone-navlink {
+  display: contents;
+}
+.logo-icone-image {
+  width: auto;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+  text-decoration: none;
+}
+.logo-icone-root-class-name {
+  top: var(--dl-space-space-unit);
+  left: var(--dl-space-space-unit);
+  margin: auto;
+  position: absolute;
+}
+.logo-icone-root-class-name1 {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  margin-top: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: auto;
+}
+.logo-icone-root-class-name2 {
+  top: var(--dl-space-space-unit);
+  left: var(--dl-space-space-unit);
+  margin: auto;
+  position: absolute;
+}
+.logo-icone-root-class-name3 {
+  top: 0px;
+  right: 0px;
+  margin: var(--dl-space-space-unit);
+  position: absolute;
+}
+.logo-icone-root-class-name4 {
+  top: 0px;
+  right: 0px;
+  margin: var(--dl-space-space-unit);
+  position: absolute;
+}
+.logo-icone-root-class-name5 {
+  top: 0px;
+  right: 0px;
+  margin: var(--dl-space-space-unit);
+  position: absolute;
+}
+.logo-icone-root-class-name6 {
+  top: 0px;
+  right: 0px;
+  margin: var(--dl-space-space-unit);
+  position: absolute;
+}
+.logo-icone-root-class-name7 {
+  top: 0px;
+  right: 0px;
+  margin: var(--dl-space-space-unit);
+  position: absolute;
+}
