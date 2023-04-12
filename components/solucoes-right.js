@@ -111,12 +111,22 @@ const SolucoesRIGHT = (props) => {
             margin-left: auto;
             margin-right: auto;
           }
+          .solucoes-right-root-class-name10 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+          }
           .solucoes-right-root-class-name11 {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
           }
           .solucoes-right-root-class-name12 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .solucoes-right-root-class-name13 {
             width: 100%;
             margin-left: auto;
             margin-right: auto;

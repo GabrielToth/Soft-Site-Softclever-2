@@ -35,21 +35,24 @@ const Footer = (props) => {
                 <Link href="/solucao-varejo">
                   <a className="footer-link01">{props.text3}</a>
                 </Link>
+                <Link href="/solucao-varejo2">
+                  <a className="footer-link02">{props.text31}</a>
+                </Link>
                 <Link href="/solucao-atacado--distribuicao">
-                  <a className="footer-link02">{props.text4}</a>
+                  <a className="footer-link03">{props.text4}</a>
                 </Link>
                 <Link href="/solucao-industria--servico">
-                  <a className="footer-link03">{props.text5}</a>
+                  <a className="footer-link04">{props.text5}</a>
                 </Link>
                 <Link href="/solucao-fiscal">
-                  <a className="footer-link04">{props.text6}</a>
+                  <a className="footer-link05">{props.text6}</a>
                 </Link>
               </div>
             </div>
             <div className="footer-company-container">
               <span className="footer-text07">{props.text1}</span>
               <Link href="/politica-de-privacidade">
-                <a className="footer-link05">
+                <a className="footer-link06">
                   <span>Politica de</span>
                   <br></br>
                   <span>Privacidade</span>
@@ -61,14 +64,14 @@ const Footer = (props) => {
                 <span className="footer-text11">{props.text7}</span>
                 <a
                   href="mailto:softclever@softclever.com.br?subject=Tenho uma dúvida"
-                  className="footer-link06"
+                  className="footer-link07"
                 >
                   {props.text8}
                 </a>
-                <a href="tel:+55 (11) 3991-3923" className="footer-link07">
+                <a href="tel:+55 (11) 3991-3923" className="footer-link08">
                   {props.text9}
                 </a>
-                <a href="tel:+55 (11) 2361-8334" className="footer-link08">
+                <a href="tel:+55 (11) 2361-8334" className="footer-link09">
                   {props.text10}
                 </a>
               </div>
@@ -79,7 +82,7 @@ const Footer = (props) => {
                     href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="footer-link09"
+                    className="footer-link10"
                   >
                     <svg
                       filter="invert(1)"
@@ -93,7 +96,7 @@ const Footer = (props) => {
                     href="https://www.instagram.com/soft.clever"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="footer-link10"
+                    className="footer-link11"
                   >
                     <svg
                       filter="invert(1)"
@@ -107,7 +110,7 @@ const Footer = (props) => {
                     href="https://www.facebook.com/softcleverinformatica"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="footer-link11"
+                    className="footer-link12"
                   >
                     <svg
                       filter="invert(1)"
@@ -160,6 +163,7 @@ const Footer = (props) => {
           }
           .footer-link {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             margin-top: var(--dl-space-space-oneandhalfunits);
             font-weight: 300;
@@ -195,6 +199,7 @@ const Footer = (props) => {
           }
           .footer-link01 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
@@ -202,6 +207,7 @@ const Footer = (props) => {
           }
           .footer-link02 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
@@ -209,6 +215,7 @@ const Footer = (props) => {
           }
           .footer-link03 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
@@ -216,6 +223,15 @@ const Footer = (props) => {
           }
           .footer-link04 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link05 {
+            color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             text-decoration: none;
@@ -233,8 +249,9 @@ const Footer = (props) => {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .footer-link05 {
+          .footer-link06 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
@@ -258,15 +275,9 @@ const Footer = (props) => {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .footer-link06 {
-            color: var(--dl-color-gray-white);
-            font-style: normal;
-            font-weight: 300;
-            margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-          }
           .footer-link07 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-unit);
@@ -274,6 +285,15 @@ const Footer = (props) => {
           }
           .footer-link08 {
             color: var(--dl-color-gray-white);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link09 {
+            color: var(--dl-color-gray-white);
+            font-size: 14px;
             font-style: normal;
             font-weight: 300;
             margin-bottom: 0px;
@@ -296,7 +316,7 @@ const Footer = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .footer-link09 {
+          .footer-link10 {
             display: contents;
           }
           .footer-icon {
@@ -305,7 +325,7 @@ const Footer = (props) => {
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .footer-link10 {
+          .footer-link11 {
             display: contents;
           }
           .footer-icon2 {
@@ -314,7 +334,7 @@ const Footer = (props) => {
             margin-right: var(--dl-space-space-unit);
             text-decoration: none;
           }
-          .footer-link11 {
+          .footer-link12 {
             display: contents;
           }
           .footer-icon4 {
@@ -359,7 +379,7 @@ const Footer = (props) => {
               margin-right: 0px;
               justify-content: flex-start;
             }
-            .footer-link05 {
+            .footer-link06 {
               color: var(--dl-color-gray-white);
               margin-bottom: 0px;
             }
@@ -414,13 +434,16 @@ const Footer = (props) => {
             .footer-link04 {
               color: var(--dl-color-gray-white);
             }
+            .footer-link05 {
+              color: var(--dl-color-gray-white);
+            }
             .footer-company-container {
               margin-right: 0px;
             }
             .footer-text07 {
               color: var(--dl-color-gray-white);
             }
-            .footer-link05 {
+            .footer-link06 {
               color: var(--dl-color-gray-white);
               margin-bottom: 0px;
             }
@@ -501,6 +524,7 @@ Footer.defaultProps = {
   text3: 'Varejo',
   text11: 'Follow Us',
   text2: 'Para quem?',
+  text31: 'Varejo2',
   image_src:
     '/playground_assets/logo%20soft%20clever%20branca%20height32-1500h.png',
   text5: 'Industria e Serviço',
@@ -520,6 +544,7 @@ Footer.propTypes = {
   text3: PropTypes.string,
   text11: PropTypes.string,
   text2: PropTypes.string,
+  text31: PropTypes.string,
   image_src: PropTypes.string,
   text5: PropTypes.string,
 }

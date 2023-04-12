@@ -87,6 +87,11 @@ const SolucoesLEFT = (props) => {
             margin-left: auto;
             margin-right: auto;
           }
+          .solucoes-left-root-class-name6 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+          }
           .solucoes-left-root-class-name7 {
             width: 100%;
             margin-left: auto;
