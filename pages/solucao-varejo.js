@@ -309,22 +309,30 @@ const SolucaoVarejo = (props) => {
             <br></br>
           </h1>
           <div className="solucao-varejo-container4">
-            <SolucoesLEFT
-              title="Atacado e Distribuição"
-              action="VEJA MAIS"
-              image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
-              description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
-              rootClassName="rootClassName11"
-              className="solucao-varejo-component2"
-            ></SolucoesLEFT>
-            <SolucoesRIGHT
-              title="Indústria e Serviço"
-              image_alt="Fiscal"
-              image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=400"
-              description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
-              rootClassName="solucoes-right-root-class-name8"
-              className="solucao-varejo-component3"
-            ></SolucoesRIGHT>
+            <Link href="/solucao-atacado--distribuicao">
+              <a>
+                <SolucoesLEFT
+                  title="Atacado e Distribuição"
+                  action="VEJA MAIS"
+                  image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
+                  description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
+                  rootClassName="rootClassName11"
+                  className="solucao-varejo-component2"
+                ></SolucoesLEFT>
+              </a>
+            </Link>
+            <Link href="/solucao-industria--servico">
+              <a>
+                <SolucoesRIGHT
+                  title="Indústria e Serviço"
+                  image_alt="Fiscal"
+                  image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=400"
+                  description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
+                  rootClassName="solucoes-right-root-class-name8"
+                  className="solucao-varejo-component3"
+                ></SolucoesRIGHT>
+              </a>
+            </Link>
             <Link href="/solucao-fiscal">
               <a>
                 <SolucoesLEFT
