@@ -2,30 +2,30 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-const SolucoesLEFT = (props) => {
+const SolucoesLEFT1 = (props) => {
   return (
     <>
-      <div className={`solucoes-left-feature-card ${props.rootClassName} `}>
+      <div className={`solucoes-left1-feature-card ${props.rootClassName} `}>
         <img
           alt={props.image_alt}
           src={props.image_src}
           loading="lazy"
-          className="solucoes-left-image"
+          className="solucoes-left1-image"
         />
-        <div className="solucoes-left-container">
-          <h2 className="solucoes-left-text">{props.title}</h2>
-          <span className="solucoes-left-text1">{props.description}</span>
+        <div className="solucoes-left1-container">
+          <h2 className="solucoes-left1-text">{props.title}</h2>
+          <span className="solucoes-left1-text1">{props.description}</span>
         </div>
       </div>
       <style jsx>
         {`
-          .solucoes-left-feature-card {
+          .solucoes-left1-feature-card {
             width: 100%;
             display: flex;
             align-items: stretch;
             flex-direction: row;
           }
-          .solucoes-left-image {
+          .solucoes-left1-image {
             width: 320px;
             height: 180px;
             min-width: 320px;
@@ -34,7 +34,7 @@ const SolucoesLEFT = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucoes-left-container {
+          .solucoes-left1-container {
             height: 180px;
             display: flex;
             align-items: flex-start;
@@ -43,7 +43,7 @@ const SolucoesLEFT = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .solucoes-left-text {
+          .solucoes-left1-text {
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             text-align: center;
@@ -52,95 +52,84 @@ const SolucoesLEFT = (props) => {
             margin-right: 0px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-left-text1 {
+          .solucoes-left1-text1 {
             color: var(--dl-color-gray-000000);
             text-align: left;
             line-height: 1.5;
           }
-          .solucoes-left-root-class-name {
+          .solucoes-left1-root-class-name {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
           }
-          .solucoes-left-root-class-name1 {
+          .solucoes-left1-root-class-name1 {
             width: 100%;
           }
-          .solucoes-left-root-class-name2 {
+          .solucoes-left1-root-class-name2 {
             width: 80vw;
             margin-left: auto;
             margin-right: auto;
           }
-          .solucoes-left-root-class-name3 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name4 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name5 {
+          .solucoes-left1-root-class-name3 {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
           }
-          .solucoes-left-root-class-name6 {
+          .solucoes-left1-root-class-name5 {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
           }
-          .solucoes-left-root-class-name8 {
+          .solucoes-left1-root-class-name6 {
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
           }
-          .solucoes-left-root-class-name9 {
+          .solucoes-left1-root-class-name8 {
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
           }
-          .solucoes-left-root-class-name10 {
+          .solucoes-left1-root-class-name9 {
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
           }
-          .solucoes-left-root-class-name11 {
+          .solucoes-left1-root-class-name10 {
             width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .solucoes-left1-root-class-name11 {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
           }
           @media (max-width: 991px) {
-            .solucoes-left-image {
+            .solucoes-left1-image {
               margin-bottom: 0px;
             }
-            .solucoes-left-container {
+            .solucoes-left1-container {
               margin-right: 0px;
             }
           }
           @media (max-width: 767px) {
-            .solucoes-left-feature-card {
+            .solucoes-left1-feature-card {
               align-items: center;
               flex-direction: column;
               justify-content: flex-start;
             }
-            .solucoes-left-image {
+            .solucoes-left1-image {
               align-self: center;
             }
-            .solucoes-left-container {
+            .solucoes-left1-container {
               height: auto;
               align-items: center;
               margin-left: 0px;
             }
-            .solucoes-left-root-class-name {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .solucoes-left-root-class-name5 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .solucoes-left-root-class-name8 {
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name9 {
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name10 {
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name11 {
-              margin-bottom: var(--dl-space-space-twounits);
-            }
           }
           @media (max-width: 479px) {
-            .solucoes-left-text1 {
+            .solucoes-left1-text1 {
               align-self: center;
             }
           }
@@ -150,20 +139,20 @@ const SolucoesLEFT = (props) => {
   )
 }
 
-SolucoesLEFT.defaultProps = {
-  image_src: '/playground_assets/comercio-varejista-200h.webp',
-  rootClassName: '',
-  title: 'Lorem ipsum',
-  image_alt: 'image',
+SolucoesLEFT1.defaultProps = {
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+  title: 'Lorem ipsum',
+  rootClassName: '',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
 }
 
-SolucoesLEFT.propTypes = {
-  image_src: PropTypes.string,
-  rootClassName: PropTypes.string,
-  title: PropTypes.string,
-  image_alt: PropTypes.string,
+SolucoesLEFT1.propTypes = {
   description: PropTypes.string,
+  title: PropTypes.string,
+  rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
-export default SolucoesLEFT
+export default SolucoesLEFT1

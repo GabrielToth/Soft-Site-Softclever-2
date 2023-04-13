@@ -5,8 +5,8 @@ import Head from 'next/head'
 import LogoIcone from '../components/logo-icone'
 import BotesWHATSCTT from '../components/botes-whats-ctt'
 import Videos from '../components/videos'
-import SolucoesRIGHT from '../components/solucoes-right'
 import SolucoesLEFT from '../components/solucoes-left'
+import SolucoesRIGHT from '../components/solucoes-right'
 import Footer from '../components/footer'
 
 const SolucaoIndustriaEServico = (props) => {
@@ -41,279 +41,153 @@ const SolucaoIndustriaEServico = (props) => {
               Indústria e Serviço
             </h1>
             <span className="solucao-industria--servico-text01">
-              <span>
-                Soluções em sistemas para o varejo em geral, seja de micro,
-                pequeno ou de médio porte.
+              <span className="solucao-industria--servico-text02">
+                Sistema de gestão empresarial completo que facilita o fluxo de
+                informações entre todos os setores da empresa, tais como;
+                produção, compras, vendas, estoque, fiscal, financeiro,
+                expedição, cobrança e afins. O Sírius ERP está em constante
+                atualização e crescimento e conta com mais de 12 mil usuários
+                atendidos desde 1994. Disponibilizamos as melhores e mais
+                avançadas tecnologias para atender de forma prática qualquer
+                tipo de empresa de micro, pequeno, e médio porte. Oferecemos
+                planos mensais ou anuais com descontos e não cobramos pela cópia
+                do sistema. O nosso contrato mensal não possui fidelidade.
               </span>
-              <br></br>
-              <span>
-                Oferecemos planos mensais ou anuais com descontos. Temos um
-                pacote que cabe no seu bolso.
-              </span>
-              <br></br>
-              <span>
-                Não cobramos pela cópia do sistema e o nosso contrato mensal não
-                possui fidelidade.
-              </span>
-              <br></br>
-              <span>
+              <br className="solucao-industria--servico-text03"></br>
+              <span className="solucao-industria--servico-text04">
                 Nosso suporte é remoto e online e atendemos em todo o território
                 nacional.
               </span>
-              <br></br>
-              <span>
-                O Sírius S@T Fiscal é homologado pela Sefaz-SP e é indicado por
-                centenas de contadores.
+              <br className="solucao-industria--servico-text05"></br>
+              <span className="solucao-industria--servico-text06">
+                O Sírius ERP Atende completamente a Legislação Fiscal exigida
+                pela SEFAZ e centenas de contabilidades nos indicam. Na Soft
+                Clever você pode confiar.
               </span>
-              <br></br>
-              <span>
-                São mais de 12.000 usuários atendidos desde 1994. Na Soft Clever
-                você pode confiar.
+              <br className="solucao-industria--servico-text07"></br>
+              <span className="solucao-industria--servico-text08">
+                Tenha o controle de sua produção com explosão de matérias
+                primas, saldos de estoque e lotes. Conheça abaixo alguns módulos
+                específicos para o setor fabril e de serviços. Os módulos
+                mencionados precisam ser utilizados em conjunto com o Sírius
+                ERP.
               </span>
-              <br></br>
               <span>
-                Conheça abaixo as nossas soluções voltadas para o comércio
-                varejista.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
-              <br></br>
             </span>
             <BotesWHATSCTT></BotesWHATSCTT>
           </div>
         </div>
         <Videos></Videos>
         <div className="solucao-industria--servico-container2">
-          <div className="solucao-industria--servico-text-left">
+          <div className="solucao-industria--servico-text-right">
             <div className="solucao-industria--servico-text-solution">
-              <h1 className="solucao-industria--servico-text16">
-                Sírius S@T Fiscal / NFC-e
-              </h1>
-              <span className="solucao-industria--servico-text17">
-                <span>· Geração de Cupom Fiscal Eletrônico SAT</span>
-                <br></br>
-                <span>
-                  · Geração de Nota Fiscal de Consumidor Eletrônica NFC-e
-                </span>
-                <br></br>
-                <span>· Preparado para atender a lei da transparência</span>
-                <br></br>
-                <span>· Geração de Nota Fiscal Paulista</span>
-                <br></br>
-                <span>· Integração com TEF (cartão de crédito)</span>
-                <br></br>
-                <span>· Rotinas de abertura e fechamento de caixa</span>
-                <br></br>
-                <span>· Controle de estoque</span>
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution01">
-              <h1 className="solucao-industria--servico-text31">Sírius Nf-e</h1>
-              <span className="solucao-industria--servico-text32">
-                <span>· Geração de NFE a partir do pedido</span>
-                <br></br>
-                <span>· Digitação expressa de nfe de saída ou entrada</span>
-                <br></br>
-                <span>· Processos automatizados de;</span>
-                <br></br>
-                <span>
-                  · Cálculos de impostos, inclusive substituição tributária
-                </span>
-                <br></br>
-                <span>· Cálculos de peso e volume</span>
-                <br></br>
-                <span>· Envio, autorização e retorno junto a SEFAZ</span>
-                <br></br>
-                <span>· Impressão da Danfe</span>
-                <br></br>
-                <span>· Geração e envio de arquivo XML</span>
-                <br></br>
-                <span>· Visualização da pré-danfe</span>
-                <br></br>
-                <span>· Rotinas de cancelamento e inutilização</span>
-                <br></br>
-                <span>· Geração de notas de importação</span>
-                <br></br>
-                <span>· Carta de correção, nota complementar e afins</span>
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution02">
-              <h1 className="solucao-industria--servico-text56">
-                Sírius S@T Safira – Para todo o comércio varejista
-              </h1>
-              <span className="solucao-industria--servico-text57">
-                <span>· Possui todos os recursos do Sírius S@T Fiscal</span>
-                <br></br>
-                <span>· Módulo Financeiro a pagar</span>
-                <br></br>
-                <span>· Módulo Financeiro a receber</span>
-                <br></br>
-                <span>· Pedidos de compras</span>
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution03">
-              <h1 className="solucao-industria--servico-text65">
-                Sírius Óticas
-              </h1>
-              <span className="solucao-industria--servico-text66">
-                Cadastro de laboratórios, oftalmologistas e afins. Controle de
-                lentes, armações, marcas e modelos. Controle de ordens de
-                serviços. Gera o cupom fiscal de forma automatizada através do
-                Sírius SAT.
-              </span>
-            </div>
-          </div>
-          <div className="solucao-industria--servico-images">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
-              loading="lazy"
-              className="solucao-industria--servico-image1"
-            />
-            <div className="solucao-industria--servico-left-images">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                src="https://images.unsplash.com/photo-1567789884554-0b844b597180?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=1400"
                 loading="lazy"
+                className="solucao-industria--servico-image1"
+              />
+              <div className="solucao-industria--servico-container3">
+                <h1 className="solucao-industria--servico-text10">Produção</h1>
+              </div>
+              <span className="solucao-industria--servico-text11">
+                Totalmente integrado com o estoque. Geração de ordem de produção
+                a partir do pedido de venda. Controle por fases da produção,
+                controle por grade, baixa automática das matérias primas e
+                remessa parcial de matérias primas a terceiros. Carga automática
+                de estoque dos produtos acabados, impressão de ordem de
+                produção, ficha técnica e ou de corte. Envia pagamento a
+                terceiros para as contas a pagar.
+              </span>
+            </div>
+            <div className="solucao-industria--servico-text-solution1">
+              <img
+                alt="image"
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=1400"
                 className="solucao-industria--servico-image2"
               />
+              <div className="solucao-industria--servico-container4">
+                <h1 className="solucao-industria--servico-text12">
+                  Entrada para Beneficiamento
+                </h1>
+              </div>
+              <span className="solucao-industria--servico-text13">
+                Totalmente integrado com o estoque, vendas e financeiro. Permite
+                ao usuário controle detalhado das entradas de mercadorias que
+                passarão pelos processos de beneficiamento. Entrada de notas,
+                emissão de pedidos de vendas totais e parciais, controle de
+                saldos de matérias primas e produtos acabados, emissão de NF-es
+                a partir do pedido de venda com possibilidade de acrescentar
+                mais de uma operação na mesma NF-e.
+              </span>
+            </div>
+            <div className="solucao-industria--servico-text-solution2">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ1fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=1400"
                 className="solucao-industria--servico-image3"
               />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG9wdGljfGVufDB8fHx8MTY4MTMxMzg5NA&amp;ixlib=rb-4.0.3&amp;w=500"
-                className="solucao-industria--servico-image4"
-              />
-            </div>
-            <div className="solucao-industria--servico-right-images">
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=500"
-                className="solucao-industria--servico-image5"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1618007625018-51cbd56c0520?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMzfHxkZWxpdmVyeXxlbnwwfHx8fDE2ODEzMTMzNTY&amp;ixlib=rb-4.0.3&amp;h=1500"
-                className="solucao-industria--servico-image6"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;h=1500"
-                className="solucao-industria--servico-image7"
-              />
-            </div>
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1529472119196-cb724127a98e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fHBldCUyMHNob3B8ZW58MHx8fHwxNjgxMzE0MzYx&amp;ixlib=rb-4.0.3&amp;w=500"
-              className="solucao-industria--servico-image8"
-            />
-          </div>
-          <div className="solucao-industria--servico-text-right">
-            <div className="solucao-industria--servico-text-solution04">
-              <h1 className="solucao-industria--servico-text67">
-                Sírius Pré Venda / Balcão – Lojas em geral
-              </h1>
-              <span className="solucao-industria--servico-text68">
-                Geração de orçamento, pedido de venda, baixa de estoque e afins.
-                Ideal para o lojista que emite pedidos de venda e possui mais de
-                um ponto de venda na loja. Gera o cupom fiscal de forma
-                automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution05">
-              <h1 className="solucao-industria--servico-text69">
-                Sírius Comanda / Mesas – Alimentação em Geral
-              </h1>
-              <span className="solucao-industria--servico-text70">
-                Geração de orçamento, pedido de venda, baixa de estoque e afins.
-                Ideal para o lojista que emite pedidos de venda e possui mais de
-                um ponto de venda na loja. Gera o cupom fiscal de forma
-                automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution06">
-              <h1 className="solucao-industria--servico-text71">
-                Sírius Delivery – Alimentação em Geral
-              </h1>
-              <span className="solucao-industria--servico-text72">
-                Controle das entregas para comércio em geral. Gera o cupom
-                fiscal de forma automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution07">
-              <h1 className="solucao-industria--servico-text73">
-                Sírius Pizzarias
-              </h1>
-              <span className="solucao-industria--servico-text74">
-                Recursos voltados exclusivamente as pizzarias como; promoção de
-                vendas, fracionamento da pizza (2 ou mais sabores), observações
-                enviadas a cozinha em relação a montagem da pizza e muito mias.
-                Gera o cupom fiscal de forma automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution08">
-              <h1 className="solucao-industria--servico-text75">
-                Sírius iFood
-              </h1>
-              <span className="solucao-industria--servico-text76">
-                Captura os pedidos do iFood, monta o pedido de venda e executa o
-                despacho de forma rápida e fácil. Gera o cupom fiscal de forma
-                automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-industria--servico-text-solution09">
-              <h1 className="solucao-industria--servico-text77">
-                Sírius Pet Shop
-              </h1>
-              <span className="solucao-industria--servico-text78">
-                Controle de raça, tipo de pelagem, tutor, vacinação,
-                agendamentos, atendimentos e muito mais. Gera o cupom fiscal de
-                forma automatizada através do Sírius SAT.
+              <div className="solucao-industria--servico-container5">
+                <h1 className="solucao-industria--servico-text14">
+                  Ordens de Serviços
+                </h1>
+              </div>
+              <span className="solucao-industria--servico-text15">
+                Totalmente integrado com as vendas, estoque e financeiro.
+                Controle de entradas dos itens que serão consertados. Geração de
+                orçamentos e ordens de serviços. Envio para pedido de vendas e
+                geração de nota fiscal. Baixa automática das peças utilizadas,
+                diversas opções de status, filtros, relatório e rotinas com
+                exportação para Excel.
               </span>
             </div>
           </div>
         </div>
         <div className="solucao-industria--servico-features">
-          <h1 className="solucao-industria--servico-text79">
+          <h1 className="solucao-industria--servico-text16">
             <span>Conheça nossos Serviços</span>
             <br></br>
           </h1>
-          <div className="solucao-industria--servico-container3">
+          <div className="solucao-industria--servico-container6">
             <Link href="/solucao-varejo">
               <a>
-                <SolucoesRIGHT
+                <SolucoesLEFT
                   title="Varejo"
-                  image_alt="Atacado e Distribuição"
-                  image_src="/playground_assets/comercio-varejista-200h.webp"
-                  description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
-                  rootClassName="solucoes-right-root-class-name12"
+                  action="VEJA MAIS"
+                  description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
+                  rootClassName="rootClassName10"
                   className="solucao-industria--servico-component2"
-                ></SolucoesRIGHT>
+                ></SolucoesLEFT>
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
               <a>
-                <SolucoesLEFT
+                <SolucoesRIGHT
                   title="Atacado e Distribuição"
-                  action="VEJA MAIS"
+                  image_alt="Atacado e Distribuição"
                   image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
                   description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
-                  rootClassName="rootClassName4"
+                  rootClassName="solucoes-right-root-class-name6"
                   className="solucao-industria--servico-component3"
-                ></SolucoesLEFT>
+                ></SolucoesRIGHT>
               </a>
             </Link>
             <Link href="/solucao-fiscal">
               <a>
-                <SolucoesRIGHT
+                <SolucoesLEFT
                   title="Fiscal"
-                  image_alt="Fiscal"
+                  action="VEJA MAIS"
                   image_src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNjgxMjI0ODg0&amp;ixlib=rb-4.0.3&amp;h=200"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
-                  rootClassName="solucoes-right-root-class-name9"
+                  rootClassName="rootClassName4"
                   className="solucao-industria--servico-component4"
-                ></SolucoesRIGHT>
+                ></SolucoesLEFT>
               </a>
             </Link>
           </div>
@@ -368,6 +242,27 @@ const SolucaoIndustriaEServico = (props) => {
             line-height: 2;
             margin-bottom: var(--dl-space-space-twounits);
           }
+          .solucao-industria--servico-text02 {
+            font-size: 14px;
+          }
+          .solucao-industria--servico-text03 {
+            font-size: 14px;
+          }
+          .solucao-industria--servico-text04 {
+            font-size: 14px;
+          }
+          .solucao-industria--servico-text05 {
+            font-size: 14px;
+          }
+          .solucao-industria--servico-text06 {
+            font-size: 14px;
+          }
+          .solucao-industria--servico-text07 {
+            font-size: 14px;
+          }
+          .solucao-industria--servico-text08 {
+            font-size: 14px;
+          }
           .solucao-industria--servico-container2 {
             width: 100%;
             height: auto;
@@ -375,294 +270,124 @@ const SolucaoIndustriaEServico = (props) => {
             align-self: center;
             align-items: center;
             justify-content: center;
+            background-color: var(--dl-color-gray-eeeeee);
           }
-          .solucao-industria--servico-text-left {
+          .solucao-industria--servico-text-right {
             flex: 0 0 auto;
-            width: 25%;
+            width: 100%;
             height: auto;
             display: flex;
-            align-self: flex-start;
-            margin-top: var(--dl-space-space-twounits);
-            max-height: 100%;
+            padding: var(--dl-space-space-twounits);
+            flex-wrap: wrap;
+            max-width: var(--dl-size-size-maxwidth);
+            align-self: stretch;
             align-items: stretch;
-            margin-left: var(--dl-space-space-twounits);
-            margin-right: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-between;
           }
           .solucao-industria--servico-text-solution {
             flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            margin-top: 0px;
-            align-items: stretch;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text16 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text17 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution01 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            margin-top: 0px;
-            align-items: stretch;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text31 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text32 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution02 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            margin-top: 0px;
-            align-items: stretch;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text56 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text57 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution03 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            margin-top: 0px;
-            align-items: stretch;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text65 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text66 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-images {
-            flex: 0 0 auto;
             width: 30%;
-            height: auto;
             display: flex;
-            flex-wrap: wrap;
-            min-width: 370px;
-            align-self: center;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: row;
+            align-self: flex-start;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: space-between;
           }
           .solucao-industria--servico-image1 {
             width: 100%;
-            height: 175px;
+            height: 200px;
             align-self: flex-start;
             object-fit: cover;
             border-radius: 16px;
-            object-position: 0 -170px;
           }
-          .solucao-industria--servico-left-images {
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-unit);
-            flex-direction: column;
-          }
-          .solucao-industria--servico-image2 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-industria--servico-image3 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-            object-position: -060px;
-          }
-          .solucao-industria--servico-image4 {
-            width: 177px;
-            height: 177px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-industria--servico-right-images {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .solucao-industria--servico-image5 {
-            width: 177px;
-            height: 177px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-industria--servico-image6 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-industria--servico-image7 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-industria--servico-image8 {
+          .solucao-industria--servico-container3 {
             width: 100%;
-            height: 175px;
-            min-width: 370px;
-            align-self: flex-start;
+            height: 70px;
+            display: flex;
             margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-            object-position: 0 -300px;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: column;
+            justify-content: center;
           }
-          .solucao-industria--servico-text-right {
+          .solucao-industria--servico-text10 {
+            width: 100%;
+            height: auto;
+            align-self: center;
+            text-align: center;
+          }
+          .solucao-industria--servico-text11 {
+            width: 100%;
+            line-height: 1.5;
+          }
+          .solucao-industria--servico-text-solution1 {
             flex: 0 0 auto;
             width: 30%;
+            display: flex;
+            align-self: flex-start;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .solucao-industria--servico-image2 {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-industria--servico-container4 {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            margin-top: var(--dl-space-space-unit);
+            align-items: center;
+            margin-bottom: var(--dl-space-space-unit);
+            flex-direction: column;
+            justify-content: center;
+          }
+          .solucao-industria--servico-text12 {
+            width: 100%;
             height: auto;
-            display: flex;
-            align-self: stretch;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: stretch;
-            margin-left: var(--dl-space-space-twounits);
-            margin-right: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text-solution04 {
-            flex: 0 0 auto;
-            display: flex;
             align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
-            flex-direction: column;
-            justify-content: space-between;
+            text-align: center;
           }
-          .solucao-industria--servico-text67 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text68 {
+          .solucao-industria--servico-text13 {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-industria--servico-text-solution05 {
+          .solucao-industria--servico-text-solution2 {
             flex: 0 0 auto;
+            width: 30%;
             display: flex;
-            align-self: center;
-            margin-top: 0px;
+            align-self: flex-start;
             align-items: stretch;
-            margin-bottom: 0px;
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-industria--servico-text69 {
+          .solucao-industria--servico-image3 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
+            height: 200px;
+            object-fit: cover;
+            border-radius: 16px;
           }
-          .solucao-industria--servico-text70 {
+          .solucao-industria--servico-container5 {
             width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution06 {
-            flex: 0 0 auto;
+            height: 70px;
             display: flex;
-            align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text71 {
-            width: 100%;
+            margin-top: var(--dl-space-space-unit);
+            align-items: center;
             margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text72 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution07 {
-            flex: 0 0 auto;
-            display: flex;
-            align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
           }
-          .solucao-industria--servico-text73 {
+          .solucao-industria--servico-text14 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text74 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution08 {
-            flex: 0 0 auto;
-            display: flex;
+            height: auto;
             align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
-            flex-direction: column;
-            justify-content: space-between;
+            text-align: center;
           }
-          .solucao-industria--servico-text75 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text76 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-industria--servico-text-solution09 {
-            flex: 0 0 auto;
-            display: flex;
-            align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-industria--servico-text77 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-industria--servico-text78 {
+          .solucao-industria--servico-text15 {
             width: 100%;
             line-height: 1.5;
           }
@@ -674,11 +399,11 @@ const SolucaoIndustriaEServico = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .solucao-industria--servico-text79 {
+          .solucao-industria--servico-text16 {
             font-size: 3rem;
             margin-bottom: 0px;
           }
-          .solucao-industria--servico-container3 {
+          .solucao-industria--servico-container6 {
             width: 100%;
             position: relative;
             align-self: center;
@@ -721,75 +446,22 @@ const SolucaoIndustriaEServico = (props) => {
               text-align: center;
               margin-bottom: var(--dl-space-space-fourunits);
             }
-            .solucao-industria--servico-images {
-              width: 30%;
-              height: 1719px;
-              min-width: 0px;
-              align-self: flex-start;
-              align-items: center;
-              flex-direction: column;
-              justify-content: space-between;
-            }
             .solucao-industria--servico-image1 {
               height: fit-content;
               max-height: 175px;
               object-position: center;
             }
-            .solucao-industria--servico-left-images {
-              width: 100%;
-              height: 37, 5%;
-              align-items: center;
-              justify-content: space-between;
-            }
             .solucao-industria--servico-image2 {
               width: 100%;
-              height: 175px;
-              margin-top: 0px;
+              height: 170px;
               margin-bottom: 0px;
             }
             .solucao-industria--servico-image3 {
               width: 100%;
               height: 170px;
-              margin-top: 0px;
-              margin-bottom: 0px;
-              object-position: 0;
-            }
-            .solucao-industria--servico-image4 {
-              width: 100%;
-              height: 170px;
-              margin-top: 0px;
               margin-bottom: 0px;
             }
-            .solucao-industria--servico-right-images {
-              width: 100%;
-              height: 37, 5%;
-              align-self: flex-start;
-              align-items: center;
-              justify-content: space-between;
-            }
-            .solucao-industria--servico-image5 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-industria--servico-image6 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-industria--servico-image7 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-industria--servico-image8 {
-              width: 100%;
-              height: 175px;
-              min-width: 0px;
-              object-fit: cover;
-              object-position: center;
-            }
-            .solucao-industria--servico-text79 {
+            .solucao-industria--servico-text16 {
               text-align: center;
             }
           }
@@ -801,11 +473,89 @@ const SolucaoIndustriaEServico = (props) => {
               padding-right: var(--dl-space-space-twounits);
               justify-content: center;
             }
+            .solucao-industria--servico-container2 {
+              align-items: center;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .solucao-industria--servico-text-right {
+              width: auto;
+              height: auto;
+              align-self: center;
+              align-items: center;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .solucao-industria--servico-text-solution {
+              width: 70%;
+              align-self: center;
+              align-items: center;
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .solucao-industria--servico-image1 {
+              width: 80%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              max-height: auto;
+              align-items: center;
+              justify-content: center;
+            }
+            .solucao-industria--servico-text10 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-industria--servico-text11 {
+              line-height: 1.5;
+            }
+            .solucao-industria--servico-text-solution1 {
+              width: 70%;
+              align-self: center;
+              align-items: center;
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .solucao-industria--servico-image2 {
+              width: 80%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              max-height: auto;
+              align-items: center;
+              justify-content: center;
+            }
+            .solucao-industria--servico-text12 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-industria--servico-text13 {
+              line-height: 1.5;
+            }
+            .solucao-industria--servico-text-solution2 {
+              width: 70%;
+              align-self: center;
+              align-items: center;
+            }
+            .solucao-industria--servico-image3 {
+              width: 80%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              max-height: auto;
+              align-items: center;
+              justify-content: center;
+            }
+            .solucao-industria--servico-text14 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-industria--servico-text15 {
+              line-height: 1.5;
+            }
             .solucao-industria--servico-features {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .solucao-industria--servico-text79 {
+            .solucao-industria--servico-text16 {
               text-align: center;
             }
           }
@@ -813,6 +563,24 @@ const SolucaoIndustriaEServico = (props) => {
             .solucao-industria--servico-container1 {
               width: 459px;
               margin-bottom: var(--dl-space-space-unit);
+            }
+            .solucao-industria--servico-text-solution {
+              width: 100%;
+            }
+            .solucao-industria--servico-image1 {
+              width: 100%;
+            }
+            .solucao-industria--servico-text-solution1 {
+              width: 100%;
+            }
+            .solucao-industria--servico-image2 {
+              width: 100%;
+            }
+            .solucao-industria--servico-text-solution2 {
+              width: 100%;
+            }
+            .solucao-industria--servico-image3 {
+              width: 100%;
             }
             .solucao-industria--servico-features {
               padding-top: var(--dl-space-space-twounits);

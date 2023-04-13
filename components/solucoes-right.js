@@ -83,45 +83,17 @@ const SolucoesRIGHT = (props) => {
           }
           .solucoes-right-root-class-name4 {
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
           }
           .solucoes-right-root-class-name5 {
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
           }
           .solucoes-right-root-class-name6 {
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name7 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
           }
           .solucoes-right-root-class-name8 {
             width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name9 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
           }
           .solucoes-right-root-class-name10 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name11 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name12 {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
@@ -170,29 +142,17 @@ const SolucoesRIGHT = (props) => {
             .solucoes-right-root-class-name1 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .solucoes-right-root-class-name6 {
-              margin-top: 0px;
-              margin-bottom: var(--dl-space-space-unit);
+            .solucoes-right-root-class-name4 {
+              margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucoes-right-root-class-name7 {
-              margin-top: 0px;
-              margin-bottom: 0px;
+            .solucoes-right-root-class-name5 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .solucoes-right-root-class-name6 {
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .solucoes-right-root-class-name8 {
-              margin-top: 0px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .solucoes-right-root-class-name9 {
-              margin-top: 0px;
-              margin-bottom: 0px;
-            }
-            .solucoes-right-root-class-name11 {
-              margin-top: 0px;
-              margin-bottom: 0px;
-            }
-            .solucoes-right-root-class-name12 {
-              margin-top: 0px;
-              margin-bottom: var(--dl-space-space-unit);
+              margin-bottom: var(--dl-space-space-twounits);
             }
           }
           @media (max-width: 479px) {

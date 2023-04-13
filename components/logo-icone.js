@@ -90,6 +90,12 @@ const LogoIcone = (props) => {
             margin: var(--dl-space-space-unit);
             position: absolute;
           }
+          .logo-icone-root-class-name9 {
+            top: 0px;
+            right: 0px;
+            margin: var(--dl-space-space-unit);
+            position: absolute;
+          }
         `}
       </style>
     </>

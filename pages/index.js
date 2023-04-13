@@ -40,7 +40,7 @@ const Home = (props) => {
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ4fHxsYXB0b3B8ZW58MHx8fHwxNjgxMTI3OTcy&amp;ixlib=rb-4.0.3&amp;h=1500"
+            src="https://img.freepik.com/free-photo/man-with-laptop-sitting-table_23-2147800022.jpg"
             loading="eager"
             className="home-image"
           />

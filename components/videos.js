@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Videos = (props) => {
   return (
     <>
-      <div className="videos-videos">
+      <div className={`videos-videos ${props.rootClassName} `}>
         <div className="videos-container">
           <h1 className="videos-text">{props.heading}</h1>
           <span className="videos-text1">{props.text}</span>
@@ -38,7 +38,6 @@ const Videos = (props) => {
             height: 400px;
             display: flex;
             position: relative;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             justify-content: center;
             background-color: #222222;
@@ -52,8 +51,6 @@ const Videos = (props) => {
           }
           .videos-text {
             color: #ffffff;
-            padding-top: var(--dl-space-space-unit);
-            padding-bottom: 0px;
           }
           .videos-text1 {
             color: #ffffff;
@@ -74,7 +71,6 @@ const Videos = (props) => {
           .videos-text2 {
             color: #ffffff;
             padding-top: var(--dl-space-space-unit);
-            padding-bottom: 0px;
           }
           .videos-text3 {
             color: #ffffff;
@@ -86,13 +82,62 @@ const Videos = (props) => {
             height: 240px;
             border-radius: 16px;
           }
+          .videos-root-class-name {
+            max-width: auto;
+          }
           @media (max-width: 991px) {
             .videos-videos {
-              height: 700px;
+              height: auto;
+              padding-top: var(--dl-space-space-twounits);
               flex-direction: column;
+              padding-bottom: var(--dl-space-space-twounits);
             }
             .videos-container {
+              height: auto;
               margin-right: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .videos-container1 {
+              height: auto;
+            }
+          }
+          @media (max-width: 767px) {
+            .videos-videos {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .videos-container1 {
+              height: 48%;
+            }
+          }
+          @media (max-width: 479px) {
+            .videos-videos {
+              justify-content: center;
+            }
+            .videos-iframe {
+              max-width: 100%;
+              max-height: 100%;
+            }
+            .videos-container1 {
+              height: 48%;
+              align-self: center;
+              align-items: flex-start;
+            }
+            .videos-text2 {
+              width: 100%;
+              align-self: center;
+              text-align: center;
+              padding-top: 0px;
+            }
+            .videos-text3 {
+              text-align: center;
+            }
+            .videos-iframe1 {
+              width: 100%;
+              height: auto;
+              align-self: stretch;
             }
           }
         `}
@@ -102,6 +147,7 @@ const Videos = (props) => {
 }
 
 Videos.defaultProps = {
+  rootClassName: '',
   heading: 'Soft Clever na Mídia',
   heading1: 'Produtos e Serviços',
   text1: 'Conheça nossos produtos e serviços em apenas 1 minuto',
@@ -109,6 +155,7 @@ Videos.defaultProps = {
 }
 
 Videos.propTypes = {
+  rootClassName: PropTypes.string,
   heading: PropTypes.string,
   heading1: PropTypes.string,
   text1: PropTypes.string,

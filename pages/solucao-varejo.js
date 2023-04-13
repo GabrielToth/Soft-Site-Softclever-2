@@ -2,10 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 
-import HeroRight from '../components/hero-right'
+import LogoIcone from '../components/logo-icone'
+import BotesWHATSCTT from '../components/botes-whats-ctt'
 import Videos from '../components/videos'
-import SolucoesRIGHT from '../components/solucoes-right'
 import SolucoesLEFT from '../components/solucoes-left'
+import SolucoesRIGHT from '../components/solucoes-right'
 import Footer from '../components/footer'
 
 const SolucaoVarejo = (props) => {
@@ -24,231 +25,316 @@ const SolucaoVarejo = (props) => {
             content="A solução para a gestão empresarial do seu negócio."
           />
         </Head>
-        <HeroRight></HeroRight>
-        <Videos></Videos>
-        <div className="solucao-varejo-container1">
-          <div className="solucao-varejo-text-left">
-            <div className="solucao-varejo-text-solution">
-              <h1 className="solucao-varejo-text">Sírius S@T Fiscal / NFC-e</h1>
-              <span className="solucao-varejo-text01">
-                <span>· Geração de Cupom Fiscal Eletrônico SAT</span>
-                <br></br>
-                <span>
-                  · Geração de Nota Fiscal de Consumidor Eletrônica NFC-e
-                </span>
-                <br></br>
-                <span>· Preparado para atender a lei da transparência</span>
-                <br></br>
-                <span>· Geração de Nota Fiscal Paulista</span>
-                <br></br>
-                <span>· Integração com TEF (cartão de crédito)</span>
-                <br></br>
-                <span>· Rotinas de abertura e fechamento de caixa</span>
-                <br></br>
-                <span>· Controle de estoque</span>
+        <div className="solucao-varejo-hero-right">
+          <img
+            alt="image"
+            src="/playground_assets/mulher-com-tablet-1500h.webp"
+            loading="eager"
+            className="solucao-varejo-image"
+          />
+          <LogoIcone rootClassName="logo-icone-root-class-name9"></LogoIcone>
+          <div className="solucao-varejo-container1">
+            <h1 className="solucao-varejo-heading">Varejo</h1>
+            <span className="solucao-varejo-text">
+              <span>
+                Soluções em sistemas para o varejo em geral, seja de micro,
+                pequeno ou de médio porte.
               </span>
-            </div>
-            <div className="solucao-varejo-text-solution01">
-              <h1 className="solucao-varejo-text15">Sírius Nf-e</h1>
-              <span className="solucao-varejo-text16">
-                <span>· Geração de NFE a partir do pedido</span>
-                <br></br>
-                <span>· Digitação expressa de nfe de saída ou entrada</span>
-                <br></br>
-                <span>· Processos automatizados de;</span>
-                <br></br>
-                <span>
-                  · Cálculos de impostos, inclusive substituição tributária
-                </span>
-                <br></br>
-                <span>· Cálculos de peso e volume</span>
-                <br></br>
-                <span>· Envio, autorização e retorno junto a SEFAZ</span>
-                <br></br>
-                <span>· Impressão da Danfe</span>
-                <br></br>
-                <span>· Geração e envio de arquivo XML</span>
-                <br></br>
-                <span>· Visualização da pré-danfe</span>
-                <br></br>
-                <span>· Rotinas de cancelamento e inutilização</span>
-                <br></br>
-                <span>· Geração de notas de importação</span>
-                <br></br>
-                <span>· Carta de correção, nota complementar e afins</span>
+              <br></br>
+              <span>
+                Oferecemos planos mensais ou anuais com descontos. Temos um
+                pacote que cabe no seu bolso.
               </span>
-            </div>
-            <div className="solucao-varejo-text-solution02">
-              <h1 className="solucao-varejo-text40">
-                Sírius S@T Safira – Para todo o comércio varejista
-              </h1>
-              <span className="solucao-varejo-text41">
-                <span>· Possui todos os recursos do Sírius S@T Fiscal</span>
-                <br></br>
-                <span>· Módulo Financeiro a pagar</span>
-                <br></br>
-                <span>· Módulo Financeiro a receber</span>
-                <br></br>
-                <span>· Pedidos de compras</span>
+              <br></br>
+              <span>
+                Não cobramos pela cópia do sistema e o nosso contrato mensal não
+                possui fidelidade.
               </span>
-            </div>
-            <div className="solucao-varejo-text-solution03">
-              <h1 className="solucao-varejo-text49">Sírius Óticas</h1>
-              <span className="solucao-varejo-text50">
-                Cadastro de laboratórios, oftalmologistas e afins. Controle de
-                lentes, armações, marcas e modelos. Controle de ordens de
-                serviços. Gera o cupom fiscal de forma automatizada através do
-                Sírius SAT.
+              <br></br>
+              <span>
+                Nosso suporte é remoto e online e atendemos em todo o território
+                nacional.
               </span>
-            </div>
+              <br></br>
+              <span>
+                O Sírius S@T Fiscal é homologado pela Sefaz-SP e é indicado por
+                centenas de contadores.
+              </span>
+              <br></br>
+              <span>
+                São mais de 12.000 usuários atendidos desde 1994. Na Soft Clever
+                você pode confiar.
+              </span>
+              <br></br>
+              <span>
+                Conheça abaixo as nossas soluções voltadas para o comércio
+                varejista.
+              </span>
+              <br></br>
+            </span>
+            <BotesWHATSCTT></BotesWHATSCTT>
           </div>
-          <div className="solucao-varejo-images">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
-              loading="lazy"
-              className="solucao-varejo-image"
-            />
-            <div className="solucao-varejo-left-images">
+        </div>
+        <Videos rootClassName="videos-root-class-name"></Videos>
+        <div className="solucao-varejo-container2">
+          <div className="solucao-varejo-container3">
+            <div className="solucao-varejo-text-left">
+              <div className="solucao-varejo-text-solution">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=500"
+                  className="solucao-varejo-image01"
+                />
+                <h1 className="solucao-varejo-text15">
+                  Sírius S@T Fiscal / NFC-e
+                </h1>
+                <span className="solucao-varejo-text16">
+                  <span>· Geração de Cupom Fiscal Eletrônico SAT</span>
+                  <br></br>
+                  <span>
+                    · Geração de Nota Fiscal de Consumidor Eletrônica NFC-e
+                  </span>
+                  <br></br>
+                  <span>· Preparado para atender a lei da transparência</span>
+                  <br></br>
+                  <span>· Geração de Nota Fiscal Paulista</span>
+                  <br></br>
+                  <span>· Integração com TEF (cartão de crédito)</span>
+                  <br></br>
+                  <span>· Rotinas de abertura e fechamento de caixa</span>
+                  <br></br>
+                  <span>· Controle de estoque</span>
+                </span>
+              </div>
+              <div className="solucao-varejo-text-solution1">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  loading="lazy"
+                  className="solucao-varejo-image02"
+                />
+                <h1 className="solucao-varejo-text30">Sírius Nf-e</h1>
+                <span className="solucao-varejo-text31">
+                  <span>· Geração de NFE a partir do pedido</span>
+                  <br></br>
+                  <span>· Digitação expressa de nfe de saída ou entrada</span>
+                  <br></br>
+                  <span>· Processos automatizados de;</span>
+                  <br></br>
+                  <span>
+                    · Cálculos de impostos, inclusive substituição tributária
+                  </span>
+                  <br></br>
+                  <span>· Cálculos de peso e volume</span>
+                  <br></br>
+                  <span>· Envio, autorização e retorno junto a SEFAZ</span>
+                  <br></br>
+                  <span>· Impressão da Danfe</span>
+                  <br></br>
+                  <span>· Geração e envio de arquivo XML</span>
+                  <br></br>
+                  <span>· Visualização da pré-danfe</span>
+                  <br></br>
+                  <span>· Rotinas de cancelamento e inutilização</span>
+                  <br></br>
+                  <span>· Geração de notas de importação</span>
+                  <br></br>
+                  <span>· Carta de correção, nota complementar e afins</span>
+                </span>
+              </div>
+              <div className="solucao-varejo-text-solution2">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  loading="lazy"
+                  className="solucao-varejo-image03"
+                />
+                <h1 className="solucao-varejo-text55">
+                  Sírius S@T Safira – Para todo o comércio varejista
+                </h1>
+                <span className="solucao-varejo-text56">
+                  <span>· Possui todos os recursos do Sírius S@T Fiscal</span>
+                  <br></br>
+                  <span>· Módulo Financeiro a pagar</span>
+                  <br></br>
+                  <span>· Módulo Financeiro a receber</span>
+                  <br></br>
+                  <span>· Pedidos de compras</span>
+                </span>
+              </div>
+              <div className="solucao-varejo-text-solution3">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG9wdGljc3xlbnwwfHx8fDE2ODE0MDYzMzI&amp;ixlib=rb-4.0.3&amp;w=500"
+                  className="solucao-varejo-image04"
+                />
+                <h1 className="solucao-varejo-text64">Sírius Óticas</h1>
+                <span className="solucao-varejo-text65">
+                  Cadastro de laboratórios, oftalmologistas e afins. Controle de
+                  lentes, armações, marcas e modelos. Controle de ordens de
+                  serviços. Gera o cupom fiscal de forma automatizada através do
+                  Sírius SAT.
+                </span>
+              </div>
+            </div>
+            <div className="solucao-varejo-images">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
                 loading="lazy"
-                className="solucao-varejo-image1"
+                className="solucao-varejo-image05"
               />
+              <div className="solucao-varejo-left-images">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  loading="lazy"
+                  className="solucao-varejo-image06"
+                />
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  className="solucao-varejo-image07"
+                />
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG9wdGljfGVufDB8fHx8MTY4MTMxMzg5NA&amp;ixlib=rb-4.0.3&amp;w=500"
+                  className="solucao-varejo-image08"
+                />
+              </div>
+              <div className="solucao-varejo-right-images">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=500"
+                  className="solucao-varejo-image09"
+                />
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1618007625018-51cbd56c0520?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMzfHxkZWxpdmVyeXxlbnwwfHx8fDE2ODEzMTMzNTY&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  className="solucao-varejo-image10"
+                />
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  className="solucao-varejo-image11"
+                />
+              </div>
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
-                className="solucao-varejo-image2"
+                src="https://uploads.metropoles.com/wp-content/uploads/2021/07/07140330/Design-sem-nome-60-1-600x400.jpg"
+                className="solucao-varejo-image12"
               />
+            </div>
+            <div className="solucao-varejo-text-right">
+              <div className="solucao-varejo-text-solution4">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
+                  loading="lazy"
+                  className="solucao-varejo-image13"
+                />
+                <h1 className="solucao-varejo-text66">
+                  Sírius Pré Venda / Balcão – Lojas em geral
+                </h1>
+                <span className="solucao-varejo-text67">
+                  Geração de orçamento, pedido de venda, baixa de estoque e
+                  afins. Ideal para o lojista que emite pedidos de venda e
+                  possui mais de um ponto de venda na loja. Gera o cupom fiscal
+                  de forma automatizada através do Sírius SAT.
+                </span>
+              </div>
+              <div className="solucao-varejo-text-solution5">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=500"
+                  className="solucao-varejo-image14"
+                />
+                <h1 className="solucao-varejo-text68">
+                  Sírius Comanda / Mesas – Alimentação em Geral
+                </h1>
+                <span className="solucao-varejo-text69">
+                  Geração de orçamento, pedido de venda, baixa de estoque e
+                  afins. Ideal para o lojista que emite pedidos de venda e
+                  possui mais de um ponto de venda na loja. Gera o cupom fiscal
+                  de forma automatizada através do Sírius SAT.
+                </span>
+              </div>
+              <div className="solucao-varejo-text-solution6">
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;w=500"
+                  className="solucao-varejo-image15"
+                />
+                <h1 className="solucao-varejo-text70">Sírius Pizzarias</h1>
+                <span className="solucao-varejo-text71">
+                  Recursos voltados exclusivamente as pizzarias como; promoção
+                  de vendas, fracionamento da pizza (2 ou mais sabores),
+                  observações enviadas a cozinha em relação a montagem da pizza
+                  e muito mias. Gera o cupom fiscal de forma automatizada
+                  através do Sírius SAT.
+                </span>
+              </div>
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG9wdGljfGVufDB8fHx8MTY4MTMxMzg5NA&amp;ixlib=rb-4.0.3&amp;w=500"
-                className="solucao-varejo-image3"
+                src="https://static.poder360.com.br/2020/05/Delivery-Ifood-Motoboy-Bike-Ciclista-Entregadores-5-1.jpg"
+                className="solucao-varejo-image16"
               />
-            </div>
-            <div className="solucao-varejo-right-images">
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=500"
-                className="solucao-varejo-image4"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1618007625018-51cbd56c0520?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMzfHxkZWxpdmVyeXxlbnwwfHx8fDE2ODEzMTMzNTY&amp;ixlib=rb-4.0.3&amp;h=1500"
-                className="solucao-varejo-image5"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;h=1500"
-                className="solucao-varejo-image6"
-              />
-            </div>
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1529472119196-cb724127a98e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fHBldCUyMHNob3B8ZW58MHx8fHwxNjgxMzE0MzYx&amp;ixlib=rb-4.0.3&amp;w=500"
-              className="solucao-varejo-image7"
-            />
-          </div>
-          <div className="solucao-varejo-text-right">
-            <div className="solucao-varejo-text-solution04">
-              <h1 className="solucao-varejo-text51">
-                Sírius Pré Venda / Balcão – Lojas em geral
-              </h1>
-              <span className="solucao-varejo-text52">
-                Geração de orçamento, pedido de venda, baixa de estoque e afins.
-                Ideal para o lojista que emite pedidos de venda e possui mais de
-                um ponto de venda na loja. Gera o cupom fiscal de forma
-                automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-varejo-text-solution05">
-              <h1 className="solucao-varejo-text53">
-                Sírius Comanda / Mesas – Alimentação em Geral
-              </h1>
-              <span className="solucao-varejo-text54">
-                Geração de orçamento, pedido de venda, baixa de estoque e afins.
-                Ideal para o lojista que emite pedidos de venda e possui mais de
-                um ponto de venda na loja. Gera o cupom fiscal de forma
-                automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-varejo-text-solution06">
-              <h1 className="solucao-varejo-text55">
-                Sírius Delivery – Alimentação em Geral
-              </h1>
-              <span className="solucao-varejo-text56">
-                Controle das entregas para comércio em geral. Gera o cupom
-                fiscal de forma automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-varejo-text-solution07">
-              <h1 className="solucao-varejo-text57">Sírius Pizzarias</h1>
-              <span className="solucao-varejo-text58">
-                Recursos voltados exclusivamente as pizzarias como; promoção de
-                vendas, fracionamento da pizza (2 ou mais sabores), observações
-                enviadas a cozinha em relação a montagem da pizza e muito mias.
-                Gera o cupom fiscal de forma automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-varejo-text-solution08">
-              <h1 className="solucao-varejo-text59">Sírius iFood</h1>
-              <span className="solucao-varejo-text60">
-                Captura os pedidos do iFood, monta o pedido de venda e executa o
-                despacho de forma rápida e fácil. Gera o cupom fiscal de forma
-                automatizada através do Sírius SAT.
-              </span>
-            </div>
-            <div className="solucao-varejo-text-solution09">
-              <h1 className="solucao-varejo-text61">Sírius Pet Shop</h1>
-              <span className="solucao-varejo-text62">
-                Controle de raça, tipo de pelagem, tutor, vacinação,
-                agendamentos, atendimentos e muito mais. Gera o cupom fiscal de
-                forma automatizada através do Sírius SAT.
-              </span>
+              <div className="solucao-varejo-text-solution7">
+                <h1 className="solucao-varejo-text72">Sírius iFood</h1>
+                <span className="solucao-varejo-text73">
+                  Captura os pedidos do iFood, monta o pedido de venda e executa
+                  o despacho de forma rápida e fácil. Gera o cupom fiscal de
+                  forma automatizada através do Sírius SAT.
+                </span>
+              </div>
+              <div className="solucao-varejo-text-solution8">
+                <img
+                  alt="image"
+                  src="https://uploads.metropoles.com/wp-content/uploads/2021/07/07140330/Design-sem-nome-60-1-600x400.jpg"
+                  className="solucao-varejo-image17"
+                />
+                <h1 className="solucao-varejo-text74">Sírius Pet Shop</h1>
+                <span className="solucao-varejo-text75">
+                  Controle de raça, tipo de pelagem, tutor, vacinação,
+                  agendamentos, atendimentos e muito mais. Gera o cupom fiscal
+                  de forma automatizada através do Sírius SAT.
+                </span>
+              </div>
             </div>
           </div>
         </div>
         <div className="solucao-varejo-features">
-          <h1 className="solucao-varejo-text63">
+          <h1 className="solucao-varejo-text76">
             <span>Conheça nossos Serviços</span>
             <br></br>
           </h1>
-          <div className="solucao-varejo-container2">
-            <Link href="/solucao-atacado--distribuicao">
-              <a>
-                <SolucoesRIGHT
-                  title="Atacado e Distribuição"
-                  image_alt="Atacado e Distribuição"
-                  image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
-                  description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
-                  rootClassName="solucoes-right-root-class-name4"
-                  className="solucao-varejo-component2"
-                ></SolucoesRIGHT>
-              </a>
-            </Link>
-            <Link href="/solucao-industria--servico">
-              <a>
-                <SolucoesLEFT
-                  title="Indústria e Serviço"
-                  action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&amp;ixlib=rb-4.0.3&amp;h=200"
-                  description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
-                  rootClassName="rootClassName1"
-                  className="solucao-varejo-component3"
-                ></SolucoesLEFT>
-              </a>
-            </Link>
+          <div className="solucao-varejo-container4">
+            <SolucoesLEFT
+              title="Atacado e Distribuição"
+              action="VEJA MAIS"
+              image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
+              description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
+              rootClassName="rootClassName11"
+              className="solucao-varejo-component2"
+            ></SolucoesLEFT>
+            <SolucoesRIGHT
+              title="Indústria e Serviço"
+              image_alt="Fiscal"
+              image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=400"
+              description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
+              rootClassName="solucoes-right-root-class-name8"
+              className="solucao-varejo-component3"
+            ></SolucoesRIGHT>
             <Link href="/solucao-fiscal">
               <a>
-                <SolucoesRIGHT
+                <SolucoesLEFT
                   title="Fiscal"
-                  image_alt="Fiscal"
+                  action="VEJA MAIS"
                   image_src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNjgxMjI0ODg0&amp;ixlib=rb-4.0.3&amp;h=200"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
-                  rootClassName="solucoes-right-root-class-name5"
+                  rootClassName="rootClassName1"
                   className="solucao-varejo-component4"
-                ></SolucoesRIGHT>
+                ></SolucoesLEFT>
               </a>
             </Link>
           </div>
@@ -266,26 +352,67 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: center;
           }
+          .solucao-varejo-hero-right {
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            position: relative;
+            max-width: var(--dl-size-size-maxwidth);
+            min-height: 700px;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .solucao-varejo-image {
+            width: 50%;
+            height: 100%;
+            align-self: flex-start;
+            object-fit: cover;
+          }
           .solucao-varejo-container1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-self: center;
+            align-items: flex-start;
+            padding-left: 5%;
+            padding-right: 24px;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .solucao-varejo-heading {
+            font-size: 3rem;
+          }
+          .solucao-varejo-text {
+            width: 100%;
+            margin-top: var(--dl-space-space-twounits);
+            line-height: 2;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .solucao-varejo-container2 {
             width: 100%;
             height: auto;
             display: flex;
             align-self: center;
-            align-items: center;
+            align-items: stretch;
             justify-content: center;
+          }
+          .solucao-varejo-container3 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: stretch;
+            justify-content: space-between;
           }
           .solucao-varejo-text-left {
             flex: 0 0 auto;
             width: 25%;
-            height: auto;
+            height: 100%;
             display: flex;
-            align-self: flex-start;
-            margin-top: var(--dl-space-space-twounits);
-            max-height: 100%;
+            align-self: stretch;
             align-items: stretch;
-            margin-left: var(--dl-space-space-twounits);
-            margin-right: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
@@ -298,22 +425,16 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text {
+          .solucao-varejo-image01 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-varejo-text01 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-varejo-text-solution01 {
-            flex: 0 0 auto;
-            width: 100%;
-            display: flex;
-            margin-top: 0px;
-            align-items: stretch;
-            flex-direction: column;
-            justify-content: space-between;
+            height: 175px;
+            display: none;
+            min-width: 370px;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: bottom;
           }
           .solucao-varejo-text15 {
             width: 100%;
@@ -323,7 +444,7 @@ const SolucaoVarejo = (props) => {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-varejo-text-solution02 {
+          .solucao-varejo-text-solution1 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -332,15 +453,23 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text40 {
+          .solucao-varejo-image02 {
+            width: 100%;
+            height: 311.11px;
+            display: none;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-varejo-text30 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text41 {
+          .solucao-varejo-text31 {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-varejo-text-solution03 {
+          .solucao-varejo-text-solution2 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -349,11 +478,47 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text49 {
+          .solucao-varejo-image03 {
+            width: 100%;
+            height: 311.11px;
+            display: none;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-varejo-text55 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text50 {
+          .solucao-varejo-text56 {
+            width: 100%;
+            line-height: 1.5;
+          }
+          .solucao-varejo-text-solution3 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            margin-top: 0px;
+            align-items: stretch;
+            flex-direction: column;
+            justify-content: space-between;
+          }
+          .solucao-varejo-image04 {
+            width: 100%;
+            height: 175px;
+            display: none;
+            min-width: 370px;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: bottom;
+          }
+          .solucao-varejo-text64 {
+            width: 100%;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .solucao-varejo-text65 {
             width: 100%;
             line-height: 1.5;
           }
@@ -364,13 +529,12 @@ const SolucaoVarejo = (props) => {
             display: flex;
             flex-wrap: wrap;
             min-width: 370px;
-            align-self: center;
-            margin-top: var(--dl-space-space-twounits);
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-twounits);
+            align-self: stretch;
+            align-items: stretch;
             flex-direction: row;
+            justify-content: space-between;
           }
-          .solucao-varejo-image {
+          .solucao-varejo-image05 {
             width: 100%;
             height: 175px;
             align-self: flex-start;
@@ -379,68 +543,68 @@ const SolucaoVarejo = (props) => {
             object-position: 0 -170px;
           }
           .solucao-varejo-left-images {
+            width: 48%;
             display: flex;
             align-items: flex-start;
-            margin-right: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .solucao-varejo-image1 {
-            width: 177px;
+          .solucao-varejo-image06 {
+            width: 100%;
             height: 311.11px;
             margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucao-varejo-image2 {
-            width: 177px;
+          .solucao-varejo-image07 {
+            width: 100%;
             height: 311.11px;
             margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
             object-position: -060px;
           }
-          .solucao-varejo-image3 {
-            width: 177px;
+          .solucao-varejo-image08 {
+            width: 100%;
             height: 177px;
             margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
           }
           .solucao-varejo-right-images {
+            width: 48%;
             display: flex;
             align-items: flex-start;
             flex-direction: column;
           }
-          .solucao-varejo-image4 {
-            width: 177px;
+          .solucao-varejo-image09 {
+            width: 100%;
             height: 177px;
             margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucao-varejo-image5 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image6 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image7 {
+          .solucao-varejo-image10 {
             width: 100%;
-            height: 175px;
+            height: 311.11px;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-varejo-image11 {
+            width: 100%;
+            height: 311.11px;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-varejo-image12 {
+            width: 100%;
             min-width: 370px;
             align-self: flex-start;
             margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
-            object-position: 0 -300px;
+            object-position: bottom;
           }
           .solucao-varejo-text-right {
             flex: 0 0 auto;
@@ -448,15 +612,11 @@ const SolucaoVarejo = (props) => {
             height: auto;
             display: flex;
             align-self: stretch;
-            margin-top: var(--dl-space-space-twounits);
             align-items: stretch;
-            margin-left: var(--dl-space-space-twounits);
-            margin-right: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text-solution04 {
+          .solucao-varejo-text-solution4 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -466,15 +626,24 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text51 {
+          .solucao-varejo-image13 {
+            width: 100%;
+            height: 175px;
+            display: none;
+            align-self: flex-start;
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: 0 -170px;
+          }
+          .solucao-varejo-text66 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text52 {
+          .solucao-varejo-text67 {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-varejo-text-solution05 {
+          .solucao-varejo-text-solution5 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -484,15 +653,23 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text53 {
+          .solucao-varejo-image14 {
+            width: 100%;
+            height: 177px;
+            display: none;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-varejo-text68 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text54 {
+          .solucao-varejo-text69 {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-varejo-text-solution06 {
+          .solucao-varejo-text-solution6 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -502,15 +679,32 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text55 {
+          .solucao-varejo-image15 {
+            width: 100%;
+            height: 311.11px;
+            display: none;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+          }
+          .solucao-varejo-text70 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text56 {
+          .solucao-varejo-text71 {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-varejo-text-solution07 {
+          .solucao-varejo-image16 {
+            width: 100%;
+            height: 311.11px;
+            display: none;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: 0 -50;
+          }
+          .solucao-varejo-text-solution7 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -520,15 +714,15 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text57 {
+          .solucao-varejo-text72 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text58 {
+          .solucao-varejo-text73 {
             width: 100%;
             line-height: 1.5;
           }
-          .solucao-varejo-text-solution08 {
+          .solucao-varejo-text-solution8 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
@@ -538,29 +732,22 @@ const SolucaoVarejo = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-text59 {
+          .solucao-varejo-image17 {
+            width: 100%;
+            height: 175px;
+            display: none;
+            min-width: 370px;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-unit);
+            object-fit: cover;
+            border-radius: 16px;
+            object-position: bottom;
+          }
+          .solucao-varejo-text74 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-varejo-text60 {
-            width: 100%;
-            line-height: 1.5;
-          }
-          .solucao-varejo-text-solution09 {
-            flex: 0 0 auto;
-            display: flex;
-            align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
-          .solucao-varejo-text61 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .solucao-varejo-text62 {
+          .solucao-varejo-text75 {
             width: 100%;
             line-height: 1.5;
           }
@@ -572,11 +759,11 @@ const SolucaoVarejo = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .solucao-varejo-text63 {
+          .solucao-varejo-text76 {
             font-size: 3rem;
             margin-bottom: 0px;
           }
-          .solucao-varejo-container2 {
+          .solucao-varejo-container4 {
             width: 100%;
             position: relative;
             align-self: center;
@@ -592,6 +779,60 @@ const SolucaoVarejo = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
+            .solucao-varejo-image {
+              top: 0px;
+              left: 0px;
+              right: 0px;
+              width: 100%;
+              margin: auto;
+              position: absolute;
+            }
+            .solucao-varejo-container1 {
+              width: 100%;
+              height: 100%;
+              z-index: 100;
+              align-items: center;
+              padding-left: 0;
+              padding-right: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-heading {
+              color: #ffffff;
+              text-align: center;
+            }
+            .solucao-varejo-text {
+              color: #ffffff;
+              margin-top: var(--dl-space-space-fourunits);
+              text-align: center;
+              margin-bottom: var(--dl-space-space-fourunits);
+            }
+            .solucao-varejo-text-left {
+              width: 30%;
+              height: auto;
+              align-self: stretch;
+            }
+            .solucao-varejo-image01 {
+              width: 100%;
+              height: 175px;
+              min-width: 0px;
+            }
+            .solucao-varejo-image02 {
+              width: 100%;
+              height: 175px;
+              margin-top: 0px;
+              margin-bottom: 0px;
+            }
+            .solucao-varejo-image03 {
+              width: 100%;
+              height: 175px;
+              margin-top: 0px;
+              margin-bottom: 0px;
+            }
+            .solucao-varejo-image04 {
+              width: 100%;
+              height: 175px;
+              min-width: 0px;
+            }
             .solucao-varejo-images {
               width: 30%;
               height: 1719px;
@@ -601,7 +842,7 @@ const SolucaoVarejo = (props) => {
               flex-direction: column;
               justify-content: space-between;
             }
-            .solucao-varejo-image {
+            .solucao-varejo-image05 {
               height: fit-content;
               max-height: 175px;
               object-position: center;
@@ -612,20 +853,20 @@ const SolucaoVarejo = (props) => {
               align-items: center;
               justify-content: space-between;
             }
-            .solucao-varejo-image1 {
+            .solucao-varejo-image06 {
               width: 100%;
               height: 175px;
               margin-top: 0px;
               margin-bottom: 0px;
             }
-            .solucao-varejo-image2 {
+            .solucao-varejo-image07 {
               width: 100%;
               height: 170px;
               margin-top: 0px;
               margin-bottom: 0px;
               object-position: 0;
             }
-            .solucao-varejo-image3 {
+            .solucao-varejo-image08 {
               width: 100%;
               height: 170px;
               margin-top: 0px;
@@ -638,42 +879,260 @@ const SolucaoVarejo = (props) => {
               align-items: center;
               justify-content: space-between;
             }
-            .solucao-varejo-image4 {
+            .solucao-varejo-image09 {
               width: 100%;
               height: 170px;
               margin-bottom: 0px;
             }
-            .solucao-varejo-image5 {
+            .solucao-varejo-image10 {
               width: 100%;
               height: 170px;
               margin-bottom: 0px;
             }
-            .solucao-varejo-image6 {
+            .solucao-varejo-image11 {
               width: 100%;
               height: 170px;
               margin-bottom: 0px;
             }
-            .solucao-varejo-image7 {
+            .solucao-varejo-image12 {
               width: 100%;
               height: 175px;
               min-width: 0px;
-              object-fit: cover;
+            }
+            .solucao-varejo-image13 {
+              height: fit-content;
+              max-height: 175px;
               object-position: center;
             }
-            .solucao-varejo-text63 {
+            .solucao-varejo-image14 {
+              width: 100%;
+              height: 170px;
+              margin-bottom: 0px;
+            }
+            .solucao-varejo-image15 {
+              width: 100%;
+              height: 170px;
+              margin-bottom: 0px;
+            }
+            .solucao-varejo-image16 {
+              width: 100%;
+              height: 170px;
+              margin-bottom: 0px;
+            }
+            .solucao-varejo-image17 {
+              width: 100%;
+              height: 175px;
+              min-width: 0px;
+            }
+            .solucao-varejo-text76 {
               text-align: center;
             }
           }
           @media (max-width: 767px) {
+            .solucao-varejo-container1 {
+              width: 100%;
+              margin-right: 0px;
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              justify-content: center;
+            }
+            .solucao-varejo-container2 {
+              align-items: center;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .solucao-varejo-container3 {
+              align-items: flex-start;
+              flex-direction: column;
+              justify-content: flex-start;
+            }
+            .solucao-varejo-text-left {
+              order: 2;
+              width: auto;
+              align-self: center;
+              align-items: center;
+              justify-content: center;
+            }
+            .solucao-varejo-text-solution {
+              order: 2;
+            }
+            .solucao-varejo-image01 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              min-width: 0px;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              margin-bottom: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-text15 {
+              align-self: center;
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-text-solution1 {
+              order: 2;
+            }
+            .solucao-varejo-image02 {
+              width: 70%;
+              display: flex;
+              align-self: center;
+            }
+            .solucao-varejo-text30 {
+              align-self: center;
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-text-solution2 {
+              order: 2;
+            }
+            .solucao-varejo-image03 {
+              width: 70%;
+              display: flex;
+              align-self: center;
+            }
+            .solucao-varejo-text55 {
+              align-self: center;
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-image04 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              min-width: 0px;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              margin-bottom: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-text64 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-images {
+              display: none;
+            }
+            .solucao-varejo-text-right {
+              width: auto;
+            }
+            .solucao-varejo-image13 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              margin-bottom: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-text66 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-image14 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              justify-content: center;
+            }
+            .solucao-varejo-text68 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-image15 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              margin-bottom: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-text70 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-image16 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              margin-bottom: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-text72 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
+            .solucao-varejo-image17 {
+              width: 70%;
+              height: 200px;
+              display: flex;
+              min-width: 0px;
+              align-self: center;
+              margin-top: 0px;
+              max-height: auto;
+              align-items: center;
+              margin-bottom: 0px;
+              justify-content: center;
+            }
+            .solucao-varejo-text74 {
+              margin-top: var(--dl-space-space-unit);
+              text-align: center;
+            }
             .solucao-varejo-features {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .solucao-varejo-text63 {
+            .solucao-varejo-text76 {
               text-align: center;
             }
           }
           @media (max-width: 479px) {
+            .solucao-varejo-container1 {
+              width: 459px;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .solucao-varejo-image01 {
+              width: 70%;
+              min-width: 0px;
+            }
+            .solucao-varejo-image04 {
+              width: 70%;
+              min-width: 0px;
+            }
+            .solucao-varejo-image13 {
+              width: 70%;
+            }
+            .solucao-varejo-image14 {
+              width: 70%;
+            }
+            .solucao-varejo-image15 {
+              width: 70%;
+            }
+            .solucao-varejo-image16 {
+              width: 70%;
+            }
+            .solucao-varejo-image17 {
+              width: 70%;
+              min-width: 0px;
+            }
             .solucao-varejo-features {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
