@@ -122,7 +122,7 @@ const Home = (props) => {
                 <SolucoesRIGHT
                   title="Fiscal"
                   image_alt="Fiscal"
-                  image_src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNjgxMjI0ODg0&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="solucoes-right-root-class-name"
                   className="home-component6"
