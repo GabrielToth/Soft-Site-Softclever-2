@@ -31,6 +31,8 @@ const LogoIcone = (props) => {
             height: 36px;
             position: relative;
             object-fit: cover;
+            margin-left: auto;
+            margin-right: auto;
             text-decoration: none;
           }
           .logo-icone-root-class-name {
@@ -95,6 +97,45 @@ const LogoIcone = (props) => {
             right: 0px;
             margin: var(--dl-space-space-unit);
             position: absolute;
+          }
+          @media (max-width: 991px) {
+            .logo-icone-root-class-name {
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
+            .logo-icone-root-class-name6 {
+              top: 0px;
+              right: 0px;
+              margin: auto;
+            }
+            .logo-icone-root-class-name7 {
+              top: var(--dl-space-space-unit);
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
+            .logo-icone-root-class-name9 {
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
+          }
+          @media (max-width: 767px) {
+            .logo-icone-image {
+              margin-left: auto;
+              margin-right: auto;
+            }
+            .logo-icone-root-class-name {
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
+            .logo-icone-root-class-name9 {
+              top: var(--dl-space-space-unit);
+              left: 0px;
+              position: absolute;
+            }
           }
         `}
       </style>

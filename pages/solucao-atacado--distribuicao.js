@@ -31,7 +31,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
         <div className="solucao-atacado--distribuicao-hero-right">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHx0cnVja3xlbnwwfHx8fDE2ODEzMTkxMzc&amp;ixlib=rb-4.0.3&amp;w=1400"
+            src="https://i.pinimg.com/originals/f7/05/48/f70548a9271bf9df31196e0dd267281b.png"
             loading="eager"
             className="solucao-atacado--distribuicao-image"
           />
@@ -171,7 +171,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               <div className="solucao-atacado--distribuicao-left-images">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1654263736203-a289f57c0d82?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGludm9pY2V8ZW58MHx8fHwxNjgxNDEzMTA4&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;h=1500"
                   loading="lazy"
                   className="solucao-atacado--distribuicao-image06"
                 />
@@ -182,7 +182,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                 />
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1654263747281-94ad38019d32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDl8fGludm9pY2V8ZW58MHx8fHwxNjgxNDEzMTA4&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;w=500"
                   className="solucao-atacado--distribuicao-image08"
                 />
               </div>
@@ -205,7 +205,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               </div>
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;w=500"
+                src="/playground_assets/assistencia-tecnica-1%20%5B1%5D-200h.jpg"
                 className="solucao-atacado--distribuicao-image12"
               />
             </div>
@@ -342,7 +342,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNjgxMjI0ODg0&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName3"
                   className="solucao-atacado--distribuicao-component4"
@@ -374,6 +374,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             align-items: stretch;
             flex-direction: row;
             justify-content: space-between;
+            background-color: #d9d9d9;
           }
           .solucao-atacado--distribuicao-image {
             width: 50%;
@@ -789,16 +790,19 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               left: 0px;
               right: 0px;
               width: 100%;
+              height: 100%;
               margin: auto;
               position: absolute;
             }
             .solucao-atacado--distribuicao-container1 {
               width: 100%;
-              height: 100%;
+              height: auto;
               z-index: 100;
               align-items: center;
-              padding-left: 0;
-              padding-right: 0px;
+              padding-top: var(--dl-space-space-fourunits);
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-fourunits);
               justify-content: center;
             }
             .solucao-atacado--distribuicao-text {

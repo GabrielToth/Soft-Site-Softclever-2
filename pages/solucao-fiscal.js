@@ -29,7 +29,7 @@ const SolucaoFiscal = (props) => {
         <div className="solucao-fiscal-hero-right">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGp1c3RpY2V8ZW58MHx8fHwxNjgxMzE5NjYy&amp;ixlib=rb-4.0.3&amp;w=1400"
+            src="/playground_assets/solucoes-fiscais-11-1500h.jpg"
             loading="eager"
             className="solucao-fiscal-image"
           />
@@ -182,7 +182,7 @@ const SolucaoFiscal = (props) => {
             <div className="solucao-fiscal-images">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;w=500"
+                src="https://erpsistema.net/wp-content/uploads/2021/01/sirius_ERP.jpg"
                 loading="lazy"
                 className="solucao-fiscal-image4"
               />
@@ -327,18 +327,19 @@ const SolucaoFiscal = (props) => {
           }
           .solucao-fiscal-hero-right {
             width: 100%;
-            height: 1000px;
+            height: auto;
             display: flex;
             position: relative;
             max-width: var(--dl-size-size-maxwidth);
-            align-items: center;
+            min-height: 80vh;
+            align-items: stretch;
             flex-direction: row;
             justify-content: center;
           }
           .solucao-fiscal-image {
             width: 50%;
-            height: 100%;
-            align-self: flex-start;
+            height: auto;
+            align-self: stretch;
             object-fit: cover;
           }
           .solucao-fiscal-container1 {
@@ -347,12 +348,15 @@ const SolucaoFiscal = (props) => {
             display: flex;
             align-self: center;
             align-items: flex-start;
+            padding-top: var(--dl-space-space-fourunits);
             padding-left: 5%;
             padding-right: 24px;
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-fourunits);
             justify-content: center;
           }
           .solucao-fiscal-text {
+            color: #000000;
             font-size: 3rem;
           }
           .solucao-fiscal-text03 {
@@ -574,14 +578,13 @@ const SolucaoFiscal = (props) => {
               left: 0px;
               right: 0px;
               width: 100%;
-              height: auto;
+              height: 100%;
               margin: auto;
               position: absolute;
             }
             .solucao-fiscal-container1 {
               width: 100%;
               height: 100%;
-              padding: var(--dl-space-space-twounits);
               z-index: 100;
               align-items: center;
               padding-left: 0;
@@ -589,18 +592,23 @@ const SolucaoFiscal = (props) => {
               justify-content: center;
             }
             .solucao-fiscal-text {
-              color: #ffffff;
-              text-align: center;
+              padding: var(--dl-space-space-unit);
+              padding-top: var(--dl-space-space-unit);
+              border-radius: var(--dl-radius-radius-radius8);
+              padding-bottom: var(--dl-space-space-unit);
+              background-color: rgba(0, 0, 0, 0.75);
             }
             .solucao-fiscal-text01 {
               color: #ffffff;
               text-align: center;
             }
             .solucao-fiscal-text03 {
-              color: #ffffff;
-              margin-top: var(--dl-space-space-fourunits);
+              color: #000000;
+              padding: var(--dl-space-space-twounits);
+              margin-top: var(--dl-space-space-twounits);
               text-align: center;
-              margin-bottom: var(--dl-space-space-fourunits);
+              margin-bottom: var(--dl-space-space-twounits);
+              background-color: rgba(255, 255, 255, 0.3);
             }
             .solucao-fiscal-container2 {
               height: fit-content;
@@ -684,9 +692,11 @@ const SolucaoFiscal = (props) => {
           @media (max-width: 767px) {
             .solucao-fiscal-container1 {
               width: 100%;
-              margin-right: 0px;
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
+              height: auto;
+              padding-top: var(--dl-space-space-fourunits);
+              padding-left: 0px;
+              padding-right: 0px;
+              padding-bottom: var(--dl-space-space-fourunits);
               justify-content: center;
             }
             .solucao-fiscal-container2 {
@@ -830,8 +840,7 @@ const SolucaoFiscal = (props) => {
               height: var(--dl-size-size-maxwidth);
             }
             .solucao-fiscal-container1 {
-              width: 459px;
-              margin-bottom: var(--dl-space-space-unit);
+              width: 100%;
             }
             .solucao-fiscal-container3 {
               padding: 0px;

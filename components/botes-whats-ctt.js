@@ -87,6 +87,12 @@ const BotesWHATSCTT = (props) => {
             align-self: center;
             margin-bottom: var(--dl-space-space-twounits);
           }
+
+          @media (max-width: 767px) {
+            .botes-whats-ctt-root-class-name1 {
+              align-self: center;
+            }
+          }
           @media (max-width: 479px) {
             .botes-whats-ctt-link1 {
               margin-top: 0px;

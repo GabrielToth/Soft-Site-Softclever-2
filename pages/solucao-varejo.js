@@ -109,7 +109,7 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution1">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;w=500"
                   loading="lazy"
                   className="solucao-varejo-image02"
                 />
@@ -145,7 +145,7 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution2">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=500"
                   loading="lazy"
                   className="solucao-varejo-image03"
                 />
@@ -187,13 +187,13 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-left-images">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA1Nw&amp;ixlib=rb-4.0.3&amp;h=1500"
                   loading="lazy"
                   className="solucao-varejo-image06"
                 />
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1634733988138-bf2c3a2a13fa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  src="https://images.unsplash.com/photo-1616179054043-7570cd0d47d6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDU3fHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA3NA&amp;ixlib=rb-4.0.3&amp;h=1500"
                   className="solucao-varejo-image07"
                 />
                 <img
@@ -215,13 +215,13 @@ const SolucaoVarejo = (props) => {
                 />
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;h=1500"
+                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA1Nw&amp;ixlib=rb-4.0.3&amp;h=1500"
                   className="solucao-varejo-image11"
                 />
               </div>
               <img
                 alt="image"
-                src="https://uploads.metropoles.com/wp-content/uploads/2021/07/07140330/Design-sem-nome-60-1-600x400.jpg"
+                src="https://images.unsplash.com/photo-1459499362902-55a20553e082?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ5fHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA3NA&amp;ixlib=rb-4.0.3&amp;w=500"
                 className="solucao-varejo-image12"
               />
             </div>
@@ -338,7 +338,7 @@ const SolucaoVarejo = (props) => {
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNjgxMjI0ODg0&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName1"
                   className="solucao-varejo-component4"
@@ -569,7 +569,6 @@ const SolucaoVarejo = (props) => {
             margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
-            object-position: -060px;
           }
           .solucao-varejo-image08 {
             width: 100%;
@@ -937,11 +936,17 @@ const SolucaoVarejo = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .solucao-varejo-hero-right {
+              height: auto;
+              min-height: 80vh;
+            }
             .solucao-varejo-container1 {
               width: 100%;
-              margin-right: 0px;
+              height: auto;
+              padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-fourunits);
               justify-content: center;
             }
             .solucao-varejo-container2 {
@@ -963,6 +968,7 @@ const SolucaoVarejo = (props) => {
             }
             .solucao-varejo-text-solution {
               order: 2;
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .solucao-varejo-image01 {
               width: 70%;
@@ -983,6 +989,7 @@ const SolucaoVarejo = (props) => {
             }
             .solucao-varejo-text-solution1 {
               order: 2;
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .solucao-varejo-image02 {
               width: 70%;
@@ -1007,6 +1014,9 @@ const SolucaoVarejo = (props) => {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
+            .solucao-varejo-text-solution3 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
             .solucao-varejo-image04 {
               width: 70%;
               height: 200px;
@@ -1029,6 +1039,9 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-text-right {
               width: auto;
             }
+            .solucao-varejo-text-solution4 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
             .solucao-varejo-image13 {
               width: 70%;
               height: 200px;
@@ -1044,6 +1057,9 @@ const SolucaoVarejo = (props) => {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
+            .solucao-varejo-text-solution5 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
             .solucao-varejo-image14 {
               width: 70%;
               height: 200px;
@@ -1057,6 +1073,9 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-text68 {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
+            }
+            .solucao-varejo-text-solution6 {
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .solucao-varejo-image15 {
               width: 70%;
@@ -1084,9 +1103,15 @@ const SolucaoVarejo = (props) => {
               margin-bottom: 0px;
               justify-content: center;
             }
+            .solucao-varejo-text-solution7 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
             .solucao-varejo-text72 {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
+            }
+            .solucao-varejo-text-solution8 {
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .solucao-varejo-image17 {
               width: 70%;
@@ -1115,31 +1140,52 @@ const SolucaoVarejo = (props) => {
           @media (max-width: 479px) {
             .solucao-varejo-container1 {
               width: 459px;
-              margin-bottom: var(--dl-space-space-unit);
+              margin-bottom: 0px;
             }
             .solucao-varejo-image01 {
-              width: 70%;
-              min-width: 0px;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
+            }
+            .solucao-varejo-image02 {
+              width: 100%;
+              height: 200px;
+              max-height: auto;
+            }
+            .solucao-varejo-image03 {
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-image04 {
-              width: 70%;
-              min-width: 0px;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-image13 {
-              width: 70%;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-image14 {
-              width: 70%;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-image15 {
-              width: 70%;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-image16 {
-              width: 70%;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-image17 {
-              width: 70%;
-              min-width: 0px;
+              width: 100%;
+              height: 200px;
+              max-height: auto;
             }
             .solucao-varejo-features {
               padding-top: var(--dl-space-space-twounits);

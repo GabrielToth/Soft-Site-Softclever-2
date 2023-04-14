@@ -51,9 +51,11 @@ const Videos = (props) => {
           }
           .videos-text {
             color: #ffffff;
+            text-align: center;
           }
           .videos-text1 {
             color: #ffffff;
+            text-align: center;
             padding-top: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
           }
@@ -70,10 +72,12 @@ const Videos = (props) => {
           }
           .videos-text2 {
             color: #ffffff;
+            text-align: center;
             padding-top: var(--dl-space-space-unit);
           }
           .videos-text3 {
             color: #ffffff;
+            text-align: center;
             padding-top: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-unit);
           }
@@ -117,8 +121,11 @@ const Videos = (props) => {
               justify-content: center;
             }
             .videos-iframe {
+              width: 426.6px;
+              height: 200px;
               max-width: 100%;
-              max-height: 100%;
+              align-self: stretch;
+              max-height: auto;
             }
             .videos-container1 {
               height: 48%;
@@ -135,9 +142,11 @@ const Videos = (props) => {
               text-align: center;
             }
             .videos-iframe1 {
-              width: 100%;
-              height: auto;
+              width: 426.6px;
+              height: 200px;
+              max-width: 100%;
               align-self: stretch;
+              max-height: auto;
             }
           }
         `}

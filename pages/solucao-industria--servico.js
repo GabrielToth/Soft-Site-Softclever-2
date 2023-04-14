@@ -80,7 +80,7 @@ const SolucaoIndustriaEServico = (props) => {
                 />
               </span>
             </span>
-            <BotesWHATSCTT></BotesWHATSCTT>
+            <BotesWHATSCTT rootClassName="botes-whatsctt-root-class-name1"></BotesWHATSCTT>
           </div>
         </div>
         <Videos></Videos>
@@ -130,7 +130,7 @@ const SolucaoIndustriaEServico = (props) => {
             <div className="solucao-industria--servico-text-solution2">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ1fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=1400"
+                src="https://images.unsplash.com/photo-1516216628859-9bccecab13ca?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTQ4NzQ0MQ&amp;ixlib=rb-4.0.3&amp;w=1400"
                 className="solucao-industria--servico-image3"
               />
               <div className="solucao-industria--servico-container5">
@@ -183,7 +183,7 @@ const SolucaoIndustriaEServico = (props) => {
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGNhbGN1bGF0b3J8ZW58MHx8fHwxNjgxMjI0ODg0&amp;ixlib=rb-4.0.3&amp;h=200"
+                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName4"
                   className="solucao-industria--servico-component4"
@@ -207,31 +207,34 @@ const SolucaoIndustriaEServico = (props) => {
           }
           .solucao-industria--servico-hero-right {
             width: 100%;
-            height: 80vh;
+            height: auto;
             display: flex;
             position: relative;
             max-width: var(--dl-size-size-maxwidth);
-            min-height: 700px;
-            align-items: center;
+            align-self: stretch;
+            min-height: 80vh;
+            align-items: stretch;
             flex-direction: row;
-            justify-content: center;
           }
           .solucao-industria--servico-image {
             width: 50%;
-            height: 100%;
-            align-self: flex-start;
+            height: auto;
+            align-self: stretch;
             object-fit: cover;
           }
           .solucao-industria--servico-container1 {
             width: 50%;
-            height: 100%;
+            height: auto;
             display: flex;
-            align-self: center;
-            align-items: flex-start;
+            align-self: stretch;
+            min-height: 80vh;
+            align-items: stretch;
+            padding-top: var(--dl-space-space-fourunits);
             padding-left: 5%;
             padding-right: 24px;
             flex-direction: column;
-            justify-content: center;
+            padding-bottom: var(--dl-space-space-fourunits);
+            justify-content: space-between;
           }
           .solucao-industria--servico-text {
             font-size: 3rem;
@@ -419,21 +422,28 @@ const SolucaoIndustriaEServico = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
+            .solucao-industria--servico-hero-right {
+              height: auto;
+              min-height: 80vh;
+            }
             .solucao-industria--servico-image {
               top: 0px;
               left: 0px;
               right: 0px;
               width: 100%;
-              margin: auto;
+              height: 100%;
               position: absolute;
             }
             .solucao-industria--servico-container1 {
               width: 100%;
-              height: 100%;
+              height: auto;
               z-index: 100;
+              align-self: center;
               align-items: center;
-              padding-left: 0;
-              padding-right: 0px;
+              padding-top: var(--dl-space-space-fourunits);
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-fourunits);
               justify-content: center;
             }
             .solucao-industria--servico-text {
@@ -466,12 +476,16 @@ const SolucaoIndustriaEServico = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .solucao-industria--servico-hero-right {
+              height: auto;
+              min-height: 80vh;
+            }
             .solucao-industria--servico-container1 {
               width: 100%;
-              margin-right: 0px;
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-              justify-content: center;
+              height: auto;
+              align-self: center;
+              align-items: center;
+              justify-content: flex-start;
             }
             .solucao-industria--servico-container2 {
               align-items: center;
@@ -502,7 +516,6 @@ const SolucaoIndustriaEServico = (props) => {
               justify-content: center;
             }
             .solucao-industria--servico-text10 {
-              margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
             .solucao-industria--servico-text11 {
@@ -524,7 +537,6 @@ const SolucaoIndustriaEServico = (props) => {
               justify-content: center;
             }
             .solucao-industria--servico-text12 {
-              margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
             .solucao-industria--servico-text13 {
@@ -545,7 +557,6 @@ const SolucaoIndustriaEServico = (props) => {
               justify-content: center;
             }
             .solucao-industria--servico-text14 {
-              margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
             .solucao-industria--servico-text15 {
@@ -560,9 +571,13 @@ const SolucaoIndustriaEServico = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .solucao-industria--servico-hero-right {
+              height: auto;
+              min-height: 80vh;
+            }
             .solucao-industria--servico-container1 {
-              width: 459px;
-              margin-bottom: var(--dl-space-space-unit);
+              width: auto;
+              height: auto;
             }
             .solucao-industria--servico-text-solution {
               width: 100%;
