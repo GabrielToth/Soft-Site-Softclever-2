@@ -2,27 +2,29 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-const SolucoesLEFT = (props) => {
+const CategoriaSolucaoVarejo = (props) => {
   return (
     <>
-      <div className={`solucoes-left-feature-card ${props.rootClassName} `}>
+      <div
+        className={`categoria-solucao-varejo-categoria-solucao-varejo ${props.rootClassName} `}
+      >
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.Image_alt}
+          src={props.Image_src}
           loading="lazy"
-          className="solucoes-left-image"
+          className="categoria-solucao-varejo-image"
         />
-        <div className="solucoes-left-container">
-          <h2 className="solucoes-left-text">{props.title}</h2>
-          <span className="solucoes-left-text1">{props.description}</span>
-          <button className="solucoes-left-button button">
+        <div className="categoria-solucao-varejo-container">
+          <h2 className="categoria-solucao-varejo-text">{props.heading}</h2>
+          <span className="categoria-solucao-varejo-text1">{props.text}</span>
+          <button className="categoria-solucao-varejo-button button">
             {props.button}
           </button>
         </div>
       </div>
       <style jsx>
         {`
-          .solucoes-left-feature-card {
+          .categoria-solucao-varejo-categoria-solucao-varejo {
             width: 100%;
             display: flex;
             position: relative;
@@ -31,7 +33,7 @@ const SolucoesLEFT = (props) => {
             flex-direction: row;
             background-color: var(--dl-color-gray-white);
           }
-          .solucoes-left-image {
+          .categoria-solucao-varejo-image {
             width: 320px;
             height: 180px;
             min-width: 320px;
@@ -40,7 +42,7 @@ const SolucoesLEFT = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucoes-left-container {
+          .categoria-solucao-varejo-container {
             height: 180px;
             display: flex;
             align-self: stretch;
@@ -52,7 +54,7 @@ const SolucoesLEFT = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .solucoes-left-text {
+          .categoria-solucao-varejo-text {
             color: var(--dl-color-gray-000000);
             text-align: left;
             transition: 150;
@@ -62,10 +64,10 @@ const SolucoesLEFT = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .solucoes-left-text:hover {
+          .categoria-solucao-varejo-text:hover {
             text-decoration: underline;
           }
-          .solucoes-left-text1 {
+          .categoria-solucao-varejo-text1 {
             color: var(--dl-color-gray-000000);
             text-align: left;
             transition: 150ms;
@@ -75,80 +77,45 @@ const SolucoesLEFT = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-left-text1:hover {
+          .categoria-solucao-varejo-text1:hover {
             text-decoration: underline;
           }
-          .solucoes-left-button {
+          .categoria-solucao-varejo-button {
             display: none;
             margin-top: var(--dl-space-space-unit);
             border-width: 0px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-left-root-class-name1 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name2 {
-            width: 80vw;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-left-root-class-name3 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name4 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name6 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-left-root-class-name7 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name8 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-left-root-class-name9 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-left-root-class-name10 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-left-root-class-name11 {
-            width: 100%;
+          .categoria-solucao-varejo-root-class-name {
             margin-bottom: var(--dl-space-space-twounits);
           }
           @media (max-width: 991px) {
-            .solucoes-left-image {
+            .categoria-solucao-varejo-image {
               margin-bottom: 0px;
             }
-            .solucoes-left-container {
+            .categoria-solucao-varejo-container {
               margin-right: 0px;
             }
-            .solucoes-left-text {
+            .categoria-solucao-varejo-text {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 0px;
             }
-            .solucoes-left-text1 {
+            .categoria-solucao-varejo-text1 {
               padding-top: 0px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 767px) {
-            .solucoes-left-feature-card {
+            .categoria-solucao-varejo-categoria-solucao-varejo {
               width: var(--dl-size-size-xxlarge);
+              box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.05);
               align-items: center;
-              border-radius: 16px;
               flex-direction: column;
               justify-content: flex-start;
             }
-            .solucoes-left-image {
+            .categoria-solucao-varejo-image {
               width: 100%;
               height: var(--dl-size-size-large);
               min-width: 0px;
@@ -157,28 +124,26 @@ const SolucoesLEFT = (props) => {
               border-bottom-left-radius: 0;
               border-bottom-right-radius: 0;
             }
-            .solucoes-left-container {
+            .categoria-solucao-varejo-container {
               height: auto;
               align-items: center;
               margin-left: 0px;
               padding-top: 0px;
               padding-bottom: 0px;
             }
-            .solucoes-left-text {
+            .categoria-solucao-varejo-text {
               margin-top: var(--dl-space-space-unit);
-              text-align: center;
               padding-top: 0px;
               margin-bottom: var(--dl-space-space-unit);
-              padding-bottom: 0px;
             }
-            .solucoes-left-text1 {
+            .categoria-solucao-varejo-text1 {
               text-align: justify;
               padding-top: 0px;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               padding-bottom: 0px;
             }
-            .solucoes-left-button {
+            .categoria-solucao-varejo-button {
               color: #ffffff;
               display: flex;
               font-size: 12px;
@@ -188,46 +153,12 @@ const SolucoesLEFT = (props) => {
               border-radius: 20px;
               background-color: var(--dl-color-gray-222222);
             }
-            .solucoes-left-root-class-name1 {
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .solucoes-left-root-class-name3 {
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .solucoes-left-root-class-name4 {
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .solucoes-left-root-class-name7 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name8 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name9 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name10 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name11 {
-              margin-left: auto;
-              margin-right: auto;
+            .categoria-solucao-varejo-root-class-name {
               margin-bottom: var(--dl-space-space-twounits);
             }
           }
           @media (max-width: 479px) {
-            .solucoes-left-image {
+            .categoria-solucao-varejo-image {
               min-width: 0px;
             }
           }
@@ -237,22 +168,22 @@ const SolucoesLEFT = (props) => {
   )
 }
 
-SolucoesLEFT.defaultProps = {
-  image_src: '/playground_assets/comercio-varejista-1500w.webp',
+CategoriaSolucaoVarejo.defaultProps = {
   button: 'SAIBA MAIS',
+  heading: 'Varejo',
+  text: 'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.',
+  Image_alt: 'image',
+  Image_src: '/playground_assets/comercio-varejista-1500w.webp',
   rootClassName: '',
-  title: 'Lorem ipsum',
-  image_alt: 'image',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
 }
 
-SolucoesLEFT.propTypes = {
-  image_src: PropTypes.string,
+CategoriaSolucaoVarejo.propTypes = {
   button: PropTypes.string,
+  heading: PropTypes.string,
+  text: PropTypes.string,
+  Image_alt: PropTypes.string,
+  Image_src: PropTypes.string,
   rootClassName: PropTypes.string,
-  title: PropTypes.string,
-  image_alt: PropTypes.string,
-  description: PropTypes.string,
 }
 
-export default SolucoesLEFT
+export default CategoriaSolucaoVarejo

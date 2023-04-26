@@ -25,7 +25,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           />
           <meta
             property="og:description"
-            content="A solução para a gestão empresarial do seu negócio."
+            content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
         <div className="solucao-atacado--distribuicao-hero-right">
@@ -77,7 +77,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               <div className="solucao-atacado--distribuicao-text-solution">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
                   className="solucao-atacado--distribuicao-image01"
                 />
@@ -164,49 +164,9 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             <div className="solucao-atacado--distribuicao-images">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
+                src="/playground_assets/mulher-com-tablet-trabalhando-perto-das-prateleiras-do-armazem-com-carga-2-500w.jpg"
                 loading="lazy"
                 className="solucao-atacado--distribuicao-image05"
-              />
-              <div className="solucao-atacado--distribuicao-left-images">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1542744173-05336fcc7ad4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  loading="lazy"
-                  className="solucao-atacado--distribuicao-image06"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGludm9pY2V8ZW58MHx8fHwxNjgxNDEzMTA4&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  className="solucao-atacado--distribuicao-image07"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;w=500"
-                  className="solucao-atacado--distribuicao-image08"
-                />
-              </div>
-              <div className="solucao-atacado--distribuicao-right-images">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;w=500"
-                  className="solucao-atacado--distribuicao-image09"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxleGNlbHxlbnwwfHx8fDE2ODE0MTM5NTQ&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  className="solucao-atacado--distribuicao-image10"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  className="solucao-atacado--distribuicao-image11"
-                />
-              </div>
-              <img
-                alt="image"
-                src="/playground_assets/assistencia-tecnica-1%20%5B1%5D-200h.jpg"
-                className="solucao-atacado--distribuicao-image12"
               />
             </div>
             <div className="solucao-atacado--distribuicao-text-right">
@@ -215,7 +175,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                   alt="image"
                   src="https://images.unsplash.com/photo-1654263736203-a289f57c0d82?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGludm9pY2V8ZW58MHx8fHwxNjgxNDEzMTA4&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
-                  className="solucao-atacado--distribuicao-image13"
+                  className="solucao-atacado--distribuicao-image06"
                 />
                 <h1 className="solucao-atacado--distribuicao-text17">
                   Nota Fiscal de Produtos
@@ -236,7 +196,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                   alt="image"
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
-                  className="solucao-atacado--distribuicao-image14"
+                  className="solucao-atacado--distribuicao-image07"
                 />
                 <h1 className="solucao-atacado--distribuicao-text19">
                   Relatórios Gerenciais
@@ -256,7 +216,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                   alt="image"
                   src="https://images.unsplash.com/photo-1654263937085-48fb17a63d66?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGludm9pY2V8ZW58MHx8fHwxNjgxNDEzMTA4&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
-                  className="solucao-atacado--distribuicao-image15"
+                  className="solucao-atacado--distribuicao-image08"
                 />
                 <h1 className="solucao-atacado--distribuicao-text21">
                   Nota Fiscal de Serviços
@@ -273,7 +233,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                   alt="image"
                   src="https://images.unsplash.com/photo-1649209979970-f01d950cc5ed?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGludm9pY2V8ZW58MHx8fHwxNjgxNDEzMTA4&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
-                  className="solucao-atacado--distribuicao-image16"
+                  className="solucao-atacado--distribuicao-image09"
                 />
                 <h1 className="solucao-atacado--distribuicao-text23">
                   Orçamentos
@@ -291,7 +251,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                   alt="image"
                   src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
-                  className="solucao-atacado--distribuicao-image17"
+                  className="solucao-atacado--distribuicao-image10"
                 />
                 <h1 className="solucao-atacado--distribuicao-text25">
                   Tabelas Auxiliares
@@ -365,21 +325,19 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             justify-content: center;
           }
           .solucao-atacado--distribuicao-hero-right {
-            width: 100%;
             display: flex;
             position: relative;
             max-width: var(--dl-size-size-maxwidth);
             align-self: stretch;
             min-height: 80vh;
-            align-items: stretch;
+            align-items: center;
             flex-direction: row;
-            justify-content: space-between;
-            background-color: #d9d9d9;
+            justify-content: center;
           }
           .solucao-atacado--distribuicao-image {
-            width: 50%;
+            width: 35%;
             height: auto;
-            align-self: stretch;
+            align-self: flex-end;
             object-fit: cover;
           }
           .solucao-atacado--distribuicao-container1 {
@@ -388,7 +346,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             align-self: center;
             align-items: flex-start;
             padding-top: var(--dl-space-space-twounits);
-            padding-left: 5%;
+            padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-twounits);
@@ -400,6 +358,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           .solucao-atacado--distribuicao-text01 {
             width: 100%;
             margin-top: var(--dl-space-space-twounits);
+            text-align: justify;
             line-height: 2;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -411,7 +370,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
-            background-color: var(--dl-color-gray-eeeeee);
+            background-color: var(--dl-color-bgpastel-begebg);
           }
           .solucao-atacado--distribuicao-container3 {
             height: auto;
@@ -438,6 +397,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             margin-top: 0px;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
@@ -456,6 +416,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text10 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution1 {
@@ -464,6 +425,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             margin-top: 0px;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
@@ -482,6 +444,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text12 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution2 {
@@ -489,6 +452,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             align-self: center;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
@@ -507,6 +471,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text14 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution3 {
@@ -532,15 +497,15 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text16 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-images {
             flex: 0 0 auto;
-            width: 30%;
+            width: 35%;
             height: auto;
             display: flex;
             flex-wrap: wrap;
-            min-width: 370px;
             align-self: stretch;
             align-items: stretch;
             flex-direction: row;
@@ -548,72 +513,8 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-image05 {
             width: 100%;
-            height: 175px;
+            height: 100%;
             align-self: flex-start;
-            object-fit: cover;
-            border-radius: 16px;
-            object-position: 0 -170px;
-          }
-          .solucao-atacado--distribuicao-left-images {
-            display: flex;
-            align-items: flex-start;
-            margin-right: var(--dl-space-space-unit);
-            flex-direction: column;
-          }
-          .solucao-atacado--distribuicao-image06 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-atacado--distribuicao-image07 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-            object-position: -060px;
-          }
-          .solucao-atacado--distribuicao-image08 {
-            width: 177px;
-            height: 177px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-atacado--distribuicao-right-images {
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .solucao-atacado--distribuicao-image09 {
-            width: 177px;
-            height: 177px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-atacado--distribuicao-image10 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-atacado--distribuicao-image11 {
-            width: 177px;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-atacado--distribuicao-image12 {
-            width: 100%;
-            height: 175px;
-            min-width: 370px;
-            align-self: flex-start;
-            margin-top: var(--dl-space-space-unit);
             object-fit: cover;
             border-radius: 16px;
           }
@@ -633,10 +534,11 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             margin-top: 0px;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-atacado--distribuicao-image13 {
+          .solucao-atacado--distribuicao-image06 {
             width: 100%;
             height: 175px;
             display: none;
@@ -650,6 +552,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text18 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution5 {
@@ -658,10 +561,11 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             margin-top: 0px;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-atacado--distribuicao-image14 {
+          .solucao-atacado--distribuicao-image07 {
             width: 100%;
             height: 175px;
             display: none;
@@ -676,6 +580,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text20 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution6 {
@@ -683,10 +588,11 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             align-self: center;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-atacado--distribuicao-image15 {
+          .solucao-atacado--distribuicao-image08 {
             width: 100%;
             height: 175px;
             display: none;
@@ -701,6 +607,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text22 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution7 {
@@ -708,10 +615,11 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             display: flex;
             align-self: center;
             align-items: stretch;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-atacado--distribuicao-image16 {
+          .solucao-atacado--distribuicao-image09 {
             width: 100%;
             height: 175px;
             display: none;
@@ -726,6 +634,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text24 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-text-solution8 {
@@ -736,7 +645,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-atacado--distribuicao-image17 {
+          .solucao-atacado--distribuicao-image10 {
             width: 100%;
             height: 175px;
             display: none;
@@ -751,6 +660,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-text26 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-atacado--distribuicao-features {
@@ -760,6 +670,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-bgpastel-bgcreme);
           }
           .solucao-atacado--distribuicao-text27 {
             font-size: 3rem;
@@ -782,22 +693,18 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           @media (max-width: 991px) {
             .solucao-atacado--distribuicao-hero-right {
-              height: auto;
-              padding: var(--dl-space-space-twounits);
+              align-items: stretch;
+              justify-content: space-between;
             }
             .solucao-atacado--distribuicao-image {
-              top: 0px;
-              left: 0px;
-              right: 0px;
-              width: 100%;
-              height: 100%;
-              margin: auto;
-              position: absolute;
+              width: 30%;
+              align-self: flex-end;
             }
             .solucao-atacado--distribuicao-container1 {
-              width: 100%;
+              width: 70%;
               height: auto;
               z-index: 100;
+              align-self: stretch;
               align-items: center;
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
@@ -806,14 +713,17 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               justify-content: center;
             }
             .solucao-atacado--distribuicao-text {
-              color: #ffffff;
               text-align: center;
             }
             .solucao-atacado--distribuicao-text01 {
-              color: #ffffff;
+              align-self: flex-start;
               margin-top: var(--dl-space-space-fourunits);
-              text-align: center;
+              text-align: left;
               margin-bottom: var(--dl-space-space-fourunits);
+            }
+            .solucao-atacado--distribuicao-text-left {
+              width: 50%;
+              padding: var(--dl-space-space-twounits);
             }
             .solucao-atacado--distribuicao-image01 {
               height: fit-content;
@@ -838,92 +748,38 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-images {
               width: 30%;
               height: auto;
+              display: none;
               min-width: auto;
               align-self: stretch;
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
             }
-            .solucao-atacado--distribuicao-image05 {
-              height: fit-content;
-              max-height: 175px;
-              object-position: center;
-            }
-            .solucao-atacado--distribuicao-left-images {
-              width: 100%;
-              height: 37, 5%;
-              align-items: center;
-              justify-content: space-between;
+            .solucao-atacado--distribuicao-text-right {
+              width: 50%;
+              padding: var(--dl-space-space-twounits);
             }
             .solucao-atacado--distribuicao-image06 {
-              width: 100%;
-              height: 175px;
-              margin-top: 0px;
-              margin-bottom: 0px;
+              height: fit-content;
+              max-height: 175px;
+              object-position: center;
             }
             .solucao-atacado--distribuicao-image07 {
-              width: 100%;
-              height: 170px;
-              margin-top: 0px;
-              margin-bottom: 0px;
-              object-position: 0;
+              height: fit-content;
+              max-height: 175px;
+              object-position: center;
             }
             .solucao-atacado--distribuicao-image08 {
-              width: 100%;
-              height: 170px;
-              margin-top: 0px;
-              margin-bottom: 0px;
-            }
-            .solucao-atacado--distribuicao-right-images {
-              width: 100%;
-              height: 37, 5%;
-              align-self: flex-start;
-              align-items: center;
-              justify-content: space-between;
+              height: fit-content;
+              max-height: 175px;
+              object-position: center;
             }
             .solucao-atacado--distribuicao-image09 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
+              height: fit-content;
+              max-height: 175px;
+              object-position: center;
             }
             .solucao-atacado--distribuicao-image10 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-atacado--distribuicao-image11 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-atacado--distribuicao-image12 {
-              width: 100%;
-              height: 175px;
-              min-width: 0px;
-              object-fit: cover;
-              object-position: center;
-            }
-            .solucao-atacado--distribuicao-image13 {
-              height: fit-content;
-              max-height: 175px;
-              object-position: center;
-            }
-            .solucao-atacado--distribuicao-image14 {
-              height: fit-content;
-              max-height: 175px;
-              object-position: center;
-            }
-            .solucao-atacado--distribuicao-image15 {
-              height: fit-content;
-              max-height: 175px;
-              object-position: center;
-            }
-            .solucao-atacado--distribuicao-image16 {
-              height: fit-content;
-              max-height: 175px;
-              object-position: center;
-            }
-            .solucao-atacado--distribuicao-image17 {
               height: fit-content;
               max-height: 175px;
               object-position: center;
@@ -933,16 +789,21 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .solucao-atacado--distribuicao-hero-right {
-              height: auto;
+            .solucao-atacado--distribuicao-image {
+              display: none;
             }
             .solucao-atacado--distribuicao-container1 {
               width: 100%;
               height: auto;
+              padding-top: var(--dl-space-space-threeunits);
               margin-right: 0px;
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-fourunits);
+              padding-right: var(--dl-space-space-fourunits);
+              padding-bottom: var(--dl-space-space-threeunits);
               justify-content: center;
+            }
+            .solucao-atacado--distribuicao-text01 {
+              text-align: justify;
             }
             .solucao-atacado--distribuicao-container3 {
               flex-direction: column;
@@ -1034,7 +895,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-text-solution4 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-atacado--distribuicao-image13 {
+            .solucao-atacado--distribuicao-image06 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1053,7 +914,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-text-solution5 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-atacado--distribuicao-image14 {
+            .solucao-atacado--distribuicao-image07 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1074,7 +935,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-text-solution6 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-atacado--distribuicao-image15 {
+            .solucao-atacado--distribuicao-image08 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1095,7 +956,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-text-solution7 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-atacado--distribuicao-image16 {
+            .solucao-atacado--distribuicao-image09 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1110,7 +971,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
-            .solucao-atacado--distribuicao-image17 {
+            .solucao-atacado--distribuicao-image10 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1134,9 +995,11 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .solucao-atacado--distribuicao-container1 {
-              width: 459px;
-              margin-bottom: var(--dl-space-space-unit);
+            .solucao-atacado--distribuicao-text01 {
+              margin-top: var(--dl-space-space-twounits);
+              text-align: justify;
+              line-height: 1.5;
+              margin-bottom: var(--dl-space-space-twounits);
             }
             .solucao-atacado--distribuicao-image01 {
               width: 70%;
@@ -1150,20 +1013,20 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-image04 {
               width: 70%;
             }
-            .solucao-atacado--distribuicao-image13 {
+            .solucao-atacado--distribuicao-image06 {
               width: 70%;
               object-position: 0 -50px;
             }
-            .solucao-atacado--distribuicao-image14 {
+            .solucao-atacado--distribuicao-image07 {
               width: 70%;
             }
-            .solucao-atacado--distribuicao-image15 {
+            .solucao-atacado--distribuicao-image08 {
               width: 70%;
             }
-            .solucao-atacado--distribuicao-image16 {
+            .solucao-atacado--distribuicao-image09 {
               width: 70%;
             }
-            .solucao-atacado--distribuicao-image17 {
+            .solucao-atacado--distribuicao-image10 {
               width: 70%;
             }
             .solucao-atacado--distribuicao-features {

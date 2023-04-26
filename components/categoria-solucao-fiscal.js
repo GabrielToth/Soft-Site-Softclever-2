@@ -2,27 +2,27 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-const SolucoesRIGHT = (props) => {
+const CategoriaSolucaoFiscal = (props) => {
   return (
     <>
-      <div className={`solucoes-right-feature-card ${props.rootClassName} `}>
-        <div className="solucoes-right-container">
-          <h2 className="solucoes-right-text">{props.title}</h2>
-          <span className="solucoes-right-text1">{props.description}</span>
-          <button className="solucoes-right-button button">
+      <div className="categoria-solucao-fiscal-categoria-solucao-fiscal">
+        <div className="categoria-solucao-fiscal-container">
+          <h2 className="categoria-solucao-fiscal-text">{props.heading}</h2>
+          <span className="categoria-solucao-fiscal-text1">{props.text}</span>
+          <button className="categoria-solucao-fiscal-button button">
             {props.button}
           </button>
         </div>
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.Image_alt}
+          src={props.Image_src}
           loading="lazy"
-          className="solucoes-right-image"
+          className="categoria-solucao-fiscal-image"
         />
       </div>
       <style jsx>
         {`
-          .solucoes-right-feature-card {
+          .categoria-solucao-fiscal-categoria-solucao-fiscal {
             width: 100%;
             display: flex;
             position: relative;
@@ -32,11 +32,11 @@ const SolucoesRIGHT = (props) => {
             justify-content: flex-end;
             background-color: var(--dl-color-gray-white);
           }
-          .solucoes-right-container {
+          .categoria-solucao-fiscal-container {
             height: 180px;
             display: flex;
             align-self: stretch;
-            align-items: flex-start;
+            align-items: flex-end;
             margin-left: var(--dl-space-space-unit);
             padding-top: var(--dl-space-space-unit);
             margin-right: var(--dl-space-space-unit);
@@ -44,7 +44,7 @@ const SolucoesRIGHT = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .solucoes-right-text {
+          .categoria-solucao-fiscal-text {
             color: var(--dl-color-gray-000000);
             align-self: flex-end;
             text-align: left;
@@ -55,12 +55,13 @@ const SolucoesRIGHT = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .solucoes-right-text:hover {
+          .categoria-solucao-fiscal-text:hover {
             text-decoration: underline;
           }
-          .solucoes-right-text1 {
+          .categoria-solucao-fiscal-text1 {
             color: var(--dl-color-gray-000000);
-            text-align: left;
+            align-self: flex-end;
+            text-align: right;
             transition: 150ms;
             line-height: 1.5;
             padding-top: var(--dl-space-space-unit);
@@ -68,16 +69,16 @@ const SolucoesRIGHT = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-right-text1:hover {
+          .categoria-solucao-fiscal-text1:hover {
             text-decoration: underline;
           }
-          .solucoes-right-button {
+          .categoria-solucao-fiscal-button {
             display: none;
             margin-top: var(--dl-space-space-unit);
             border-width: 0px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-right-image {
+          .categoria-solucao-fiscal-image {
             width: 320px;
             height: 180px;
             min-width: 320px;
@@ -86,69 +87,33 @@ const SolucoesRIGHT = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucoes-right-root-class-name2 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name3 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name4 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-right-root-class-name5 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-right-root-class-name6 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-right-root-class-name8 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-right-root-class-name10 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-right-root-class-name13 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
           @media (max-width: 991px) {
-            .solucoes-right-container {
+            .categoria-solucao-fiscal-container {
               margin-right: 0px;
             }
-            .solucoes-right-text {
+            .categoria-solucao-fiscal-text {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 0px;
             }
-            .solucoes-right-text1 {
+            .categoria-solucao-fiscal-text1 {
               padding-top: 0px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .solucoes-right-image {
+            .categoria-solucao-fiscal-image {
               margin-bottom: 0px;
             }
           }
           @media (max-width: 767px) {
-            .solucoes-right-feature-card {
+            .categoria-solucao-fiscal-categoria-solucao-fiscal {
               width: var(--dl-size-size-xxlarge);
+              box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.05);
               align-items: center;
-              border-radius: 16px;
               flex-direction: column;
               justify-content: flex-start;
             }
-            .solucoes-right-container {
+            .categoria-solucao-fiscal-container {
               order: 1;
               height: auto;
               align-items: center;
@@ -156,21 +121,22 @@ const SolucoesRIGHT = (props) => {
               padding-top: 0px;
               padding-bottom: 0px;
             }
-            .solucoes-right-text {
+            .categoria-solucao-fiscal-text {
               align-self: center;
               margin-top: var(--dl-space-space-unit);
               text-align: center;
               padding-top: 0px;
               margin-bottom: var(--dl-space-space-unit);
+              padding-bottom: 0px;
             }
-            .solucoes-right-text1 {
+            .categoria-solucao-fiscal-text1 {
               text-align: justify;
               padding-top: 0px;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               padding-bottom: 0px;
             }
-            .solucoes-right-button {
+            .categoria-solucao-fiscal-button {
               color: #ffffff;
               display: flex;
               font-size: 12px;
@@ -180,32 +146,12 @@ const SolucoesRIGHT = (props) => {
               border-radius: 20px;
               background-color: var(--dl-color-gray-222222);
             }
-            .solucoes-right-image {
+            .categoria-solucao-fiscal-image {
               width: 100%;
               height: var(--dl-size-size-large);
               min-width: auto;
               align-self: center;
               min-height: auto;
-            }
-            .solucoes-right-root-class-name4 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-right-root-class-name5 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-right-root-class-name6 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-right-root-class-name8 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
             }
           }
         `}
@@ -214,22 +160,21 @@ const SolucoesRIGHT = (props) => {
   )
 }
 
-SolucoesRIGHT.defaultProps = {
-  image_alt: 'image',
-  title: 'Lorem ipsum',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+CategoriaSolucaoFiscal.defaultProps = {
+  text: 'Sped ICMS, IPI, Pis e Cofins e Bloco K completo.',
+  heading: 'Fiscal',
+  Image_alt: 'Fiscal',
+  Image_src:
+    'https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp',
   button: 'SAIBA MAIS',
-  image_src: '/playground_assets/comercio-varejista-1500w.webp',
-  rootClassName: '',
 }
 
-SolucoesRIGHT.propTypes = {
-  image_alt: PropTypes.string,
-  title: PropTypes.string,
-  description: PropTypes.string,
+CategoriaSolucaoFiscal.propTypes = {
+  text: PropTypes.string,
+  heading: PropTypes.string,
+  Image_alt: PropTypes.string,
+  Image_src: PropTypes.string,
   button: PropTypes.string,
-  image_src: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
-export default SolucoesRIGHT
+export default CategoriaSolucaoFiscal

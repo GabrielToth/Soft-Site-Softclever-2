@@ -7,7 +7,6 @@ import BotesWHATSCTT from '../components/botes-whats-ctt'
 import Videos from '../components/videos'
 import SolucoesLEFT from '../components/solucoes-left'
 import SolucoesRIGHT from '../components/solucoes-right'
-import SolucoesLEFT1 from '../components/solucoes-left1'
 import Footer from '../components/footer'
 
 const SolucaoFiscal = (props) => {
@@ -23,7 +22,7 @@ const SolucaoFiscal = (props) => {
           <meta property="og:title" content="SolucaoFiscal - Soft Clever" />
           <meta
             property="og:description"
-            content="A solução para a gestão empresarial do seu negócio."
+            content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
         <div className="solucao-fiscal-hero-right">
@@ -35,11 +34,11 @@ const SolucaoFiscal = (props) => {
           />
           <LogoIcone rootClassName="logo-icone-root-class-name7"></LogoIcone>
           <div className="solucao-fiscal-container1">
-            <h1 className="solucao-fiscal-text">
-              <span className="solucao-fiscal-text01">Fiscal</span>
+            <h1 className="solucao-fiscal-heading">
+              <span className="solucao-fiscal-text">Fiscal</span>
               <br></br>
             </h1>
-            <span className="solucao-fiscal-text03">
+            <span className="solucao-fiscal-text02">
               <span>
                 Sistema completo, simples e prático para emissão de qualquer
                 tipo de documentos fiscais, tais como; Nota Fiscal Eletrônica
@@ -103,8 +102,8 @@ const SolucaoFiscal = (props) => {
                   loading="lazy"
                   className="solucao-fiscal-image1"
                 />
-                <h1 className="solucao-fiscal-text19">Sírius NF-e</h1>
-                <span className="solucao-fiscal-text20">
+                <h1 className="solucao-fiscal-text18">Sírius NF-e</h1>
+                <span className="solucao-fiscal-text19">
                   <span>
                     Emissão de Nota Fiscal Eletrônica (NF-e) com envio e
                     autorização junto a SEFAZ. Rotinas de cancelamento e
@@ -149,8 +148,8 @@ const SolucaoFiscal = (props) => {
                   loading="lazy"
                   className="solucao-fiscal-image2"
                 />
-                <h1 className="solucao-fiscal-text40">Sírius CT-e</h1>
-                <span className="solucao-fiscal-text41">
+                <h1 className="solucao-fiscal-text39">Sírius CT-e</h1>
+                <span className="solucao-fiscal-text40">
                   Emissão de Conhecimento de Transporte Eletrônico (CT-e) com
                   envio e autorização junto a SEFAZ. Diversos processos
                   automatizados. Filtros e relatórios gerenciais. Cadastros de
@@ -166,8 +165,8 @@ const SolucaoFiscal = (props) => {
                   loading="lazy"
                   className="solucao-fiscal-image3"
                 />
-                <h1 className="solucao-fiscal-text42">Sírius MDF-e</h1>
-                <span className="solucao-fiscal-text43">
+                <h1 className="solucao-fiscal-text41">Sírius MDF-e</h1>
+                <span className="solucao-fiscal-text42">
                   Emissão de Manifestação de Documentos Fiscais com a finalidade
                   de atender empresas prestadoras de serviço cujo transporte
                   seja realizado em veículos próprios, arrendados, ou mediante a
@@ -182,27 +181,9 @@ const SolucaoFiscal = (props) => {
             <div className="solucao-fiscal-images">
               <img
                 alt="image"
-                src="https://erpsistema.net/wp-content/uploads/2021/01/sirius_ERP.jpg"
+                src="/playground_assets/fiscal-1-500w.jpg"
                 loading="lazy"
                 className="solucao-fiscal-image4"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=500"
-                loading="lazy"
-                className="solucao-fiscal-image5"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=500"
-                loading="lazy"
-                className="solucao-fiscal-image6"
-              />
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=500"
-                loading="lazy"
-                className="solucao-fiscal-image7"
               />
             </div>
             <div className="solucao-fiscal-text-right">
@@ -211,12 +192,12 @@ const SolucaoFiscal = (props) => {
                   alt="image"
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=1400"
                   loading="lazy"
-                  className="solucao-fiscal-image8"
+                  className="solucao-fiscal-image5"
                 />
-                <h1 className="solucao-fiscal-text44">
+                <h1 className="solucao-fiscal-text43">
                   Sírius Sped Fiscal e Bloco K
                 </h1>
-                <span className="solucao-fiscal-text45">
+                <span className="solucao-fiscal-text44">
                   <span>
                     O Sirius Sped Fiscal e Bloco K pode ser utilizado
                     separadamente ou de forma integrada ao seu sistema. Além
@@ -240,7 +221,7 @@ const SolucaoFiscal = (props) => {
                     e integrado ao seu sistema. Você não precisa substituir
                     todos os sistemas de sua empresa.
                   </span>
-                  <br className="solucao-fiscal-text52"></br>
+                  <br className="solucao-fiscal-text51"></br>
                   <br></br>
                   <span>
                     • Bloco K - Totalmente integrado com as compras, estoque e
@@ -263,14 +244,14 @@ const SolucaoFiscal = (props) => {
                     com rotinas automáticas que minimizam processos manuais e
                     possíveis erros que interferem no resultado final.
                   </span>
-                  <br className="solucao-fiscal-text58"></br>
+                  <br className="solucao-fiscal-text57"></br>
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="solucao-fiscal-features">
-          <h1 className="solucao-fiscal-text59">
+          <h1 className="solucao-fiscal-text58">
             <span>Conheça nossos Serviços</span>
             <br></br>
           </h1>
@@ -298,18 +279,14 @@ const SolucaoFiscal = (props) => {
                 ></SolucoesRIGHT>
               </a>
             </Link>
-            <Link href="/solucao-industria--servico">
-              <a>
-                <SolucoesLEFT1
-                  title="Indústria e Serviço"
-                  action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&amp;ixlib=rb-4.0.3&amp;h=200"
-                  description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
-                  rootClassName="rootClassName1"
-                  className="solucao-fiscal-component4"
-                ></SolucoesLEFT1>
-              </a>
-            </Link>
+            <SolucoesLEFT
+              title="Indústria e Serviço"
+              action="VEJA MAIS"
+              image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=400"
+              description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
+              rootClassName="rootClassName7"
+              className="solucao-fiscal-component4"
+            ></SolucoesLEFT>
           </div>
         </div>
         <Footer rootClassName="footer-root-class-name4"></Footer>
@@ -355,15 +332,15 @@ const SolucaoFiscal = (props) => {
             padding-bottom: var(--dl-space-space-fourunits);
             justify-content: center;
           }
-          .solucao-fiscal-text {
-            color: #000000;
+          .solucao-fiscal-heading {
             font-size: 3rem;
           }
-          .solucao-fiscal-text03 {
+          .solucao-fiscal-text02 {
             width: 100%;
-            margin-top: var(--dl-space-space-twounits);
+            text-align: justify;
             line-height: 2;
-            margin-bottom: var(--dl-space-space-twounits);
+            padding-top: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-twounits);
           }
           .solucao-fiscal-container2 {
             width: 100%;
@@ -373,7 +350,7 @@ const SolucaoFiscal = (props) => {
             align-self: center;
             align-items: center;
             justify-content: center;
-            background-color: var(--dl-color-gray-eeeeee);
+            background-color: var(--dl-color-bgpastel-begebg);
           }
           .solucao-fiscal-container3 {
             width: 100%;
@@ -384,7 +361,7 @@ const SolucaoFiscal = (props) => {
           }
           .solucao-fiscal-text-left {
             flex: 0 0 auto;
-            width: 25%;
+            width: 30%;
             height: 95%;
             display: flex;
             align-self: flex-start;
@@ -396,9 +373,9 @@ const SolucaoFiscal = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 0px;
             align-items: stretch;
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
           .solucao-fiscal-image1 {
@@ -409,21 +386,22 @@ const SolucaoFiscal = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucao-fiscal-text19 {
+          .solucao-fiscal-text18 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-fiscal-text20 {
+          .solucao-fiscal-text19 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-fiscal-text-solution1 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 0px;
             align-items: stretch;
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
           .solucao-fiscal-image2 {
@@ -434,12 +412,13 @@ const SolucaoFiscal = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucao-fiscal-text40 {
+          .solucao-fiscal-text39 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-fiscal-text41 {
+          .solucao-fiscal-text40 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-fiscal-text-solution2 {
@@ -460,12 +439,13 @@ const SolucaoFiscal = (props) => {
             border-radius: 16px;
             object-position: 0 -170px;
           }
-          .solucao-fiscal-text42 {
+          .solucao-fiscal-text41 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-fiscal-text43 {
+          .solucao-fiscal-text42 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-fiscal-images {
@@ -473,7 +453,6 @@ const SolucaoFiscal = (props) => {
             width: 30%;
             height: 100%;
             display: flex;
-            min-width: 370px;
             align-self: stretch;
             align-items: flex-start;
             flex-direction: column;
@@ -481,28 +460,7 @@ const SolucaoFiscal = (props) => {
           }
           .solucao-fiscal-image4 {
             width: 100%;
-            height: 20%;
-            align-self: center;
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-fiscal-image5 {
-            width: 100%;
-            height: 20%;
-            align-self: center;
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-fiscal-image6 {
-            width: 100%;
-            height: 20%;
-            align-self: center;
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-fiscal-image7 {
-            width: 100%;
-            height: 20%;
+            height: 100%;
             align-self: center;
             object-fit: cover;
             border-radius: 16px;
@@ -528,7 +486,7 @@ const SolucaoFiscal = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-fiscal-image8 {
+          .solucao-fiscal-image5 {
             width: 100%;
             height: 175px;
             display: none;
@@ -537,12 +495,13 @@ const SolucaoFiscal = (props) => {
             border-radius: 16px;
             object-position: 0 -170px;
           }
-          .solucao-fiscal-text44 {
+          .solucao-fiscal-text43 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucao-fiscal-text45 {
+          .solucao-fiscal-text44 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-fiscal-features {
@@ -552,8 +511,9 @@ const SolucaoFiscal = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-bgpastel-bgcreme);
           }
-          .solucao-fiscal-text59 {
+          .solucao-fiscal-text58 {
             font-size: 3rem;
             margin-bottom: 0px;
           }
@@ -573,6 +533,9 @@ const SolucaoFiscal = (props) => {
             text-decoration: none;
           }
           @media (max-width: 991px) {
+            .solucao-fiscal-hero-right {
+              min-height: 0px;
+            }
             .solucao-fiscal-image {
               top: 0px;
               left: 0px;
@@ -580,34 +543,32 @@ const SolucaoFiscal = (props) => {
               width: 100%;
               height: 100%;
               margin: auto;
+              display: none;
               position: absolute;
             }
             .solucao-fiscal-container1 {
               width: 100%;
               height: 100%;
-              z-index: 100;
               align-items: center;
               padding-left: 0;
               padding-right: 0px;
-              justify-content: center;
+              justify-content: flex-start;
+            }
+            .solucao-fiscal-heading {
+              text-align: center;
             }
             .solucao-fiscal-text {
-              padding: var(--dl-space-space-unit);
-              padding-top: var(--dl-space-space-unit);
-              border-radius: var(--dl-radius-radius-radius8);
-              padding-bottom: var(--dl-space-space-unit);
-              background-color: rgba(0, 0, 0, 0.75);
-            }
-            .solucao-fiscal-text01 {
-              color: #ffffff;
               text-align: center;
             }
-            .solucao-fiscal-text03 {
+            .solucao-fiscal-text02 {
               color: #000000;
-              padding: var(--dl-space-space-twounits);
               margin-top: var(--dl-space-space-twounits);
-              text-align: center;
+              text-align: justify;
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-fourunits);
               margin-bottom: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-fourunits);
+              padding-bottom: var(--dl-space-space-twounits);
               background-color: rgba(255, 255, 255, 0.3);
             }
             .solucao-fiscal-container2 {
@@ -638,58 +599,28 @@ const SolucaoFiscal = (props) => {
               max-height: 175px;
               object-position: center;
             }
-            .solucao-fiscal-images {
-              width: 30%;
-              height: auto;
-              min-width: 0px;
-              align-self: stretch;
-              margin-top: 0px;
-              max-height: 1950px;
-              min-height: var(--dl-size-size-maxwidth);
-              align-items: center;
-              margin-bottom: 0px;
-              flex-direction: column;
-              justify-content: space-between;
-            }
-            .solucao-fiscal-image4 {
-              width: 100%;
-              height: 24%;
-              margin-top: 0px;
-            }
             .solucao-fiscal-image5 {
-              width: 100%;
-              height: 24%;
-              margin-top: 0px;
-            }
-            .solucao-fiscal-image6 {
-              height: 24%;
-              margin-top: 0px;
-              object-position: center;
-            }
-            .solucao-fiscal-image7 {
-              height: 24%;
-              margin-top: 0px;
-              object-position: center;
-            }
-            .solucao-fiscal-image8 {
               height: fit-content;
               max-height: 175px;
               object-position: center;
             }
-            .solucao-fiscal-text45 {
+            .solucao-fiscal-text44 {
               line-height: 1.5;
             }
-            .solucao-fiscal-text52 {
+            .solucao-fiscal-text51 {
+              line-height: 1.5;
+            }
+            .solucao-fiscal-text57 {
               line-height: 1.5;
             }
             .solucao-fiscal-text58 {
-              line-height: 1.5;
-            }
-            .solucao-fiscal-text59 {
               text-align: center;
             }
           }
           @media (max-width: 767px) {
+            .solucao-fiscal-hero-right {
+              min-height: 0px;
+            }
             .solucao-fiscal-container1 {
               width: 100%;
               height: auto;
@@ -733,7 +664,7 @@ const SolucaoFiscal = (props) => {
               align-self: center;
               justify-content: center;
             }
-            .solucao-fiscal-text19 {
+            .solucao-fiscal-text18 {
               align-self: center;
               margin-top: var(--dl-space-space-unit);
               text-align: center;
@@ -748,7 +679,7 @@ const SolucaoFiscal = (props) => {
               align-self: center;
               justify-content: center;
             }
-            .solucao-fiscal-text40 {
+            .solucao-fiscal-text39 {
               align-self: center;
               margin-top: var(--dl-space-space-unit);
               text-align: center;
@@ -765,45 +696,13 @@ const SolucaoFiscal = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .solucao-fiscal-text42 {
+            .solucao-fiscal-text41 {
               align-self: center;
               margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
             .solucao-fiscal-images {
               display: none;
-            }
-            .solucao-fiscal-image4 {
-              width: 70%;
-              height: 200px;
-              display: flex;
-              align-self: center;
-              justify-content: center;
-            }
-            .solucao-fiscal-image5 {
-              width: 70%;
-              height: 200px;
-              display: flex;
-              align-self: center;
-              justify-content: center;
-            }
-            .solucao-fiscal-image6 {
-              width: 70%;
-              height: 200px;
-              display: flex;
-              align-self: center;
-              max-height: auto;
-              align-items: center;
-              justify-content: center;
-            }
-            .solucao-fiscal-image7 {
-              width: 70%;
-              height: 200px;
-              display: flex;
-              align-self: center;
-              max-height: auto;
-              align-items: center;
-              justify-content: center;
             }
             .solucao-fiscal-text-right {
               width: 100%;
@@ -814,7 +713,7 @@ const SolucaoFiscal = (props) => {
               margin-bottom: 0px;
               justify-content: space-between;
             }
-            .solucao-fiscal-image8 {
+            .solucao-fiscal-image5 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -823,7 +722,7 @@ const SolucaoFiscal = (props) => {
               align-items: center;
               justify-content: center;
             }
-            .solucao-fiscal-text44 {
+            .solucao-fiscal-text43 {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
@@ -831,16 +730,18 @@ const SolucaoFiscal = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .solucao-fiscal-text59 {
+            .solucao-fiscal-text58 {
               text-align: center;
             }
           }
           @media (max-width: 479px) {
             .solucao-fiscal-hero-right {
-              height: var(--dl-size-size-maxwidth);
+              height: auto;
+              min-height: auto;
             }
             .solucao-fiscal-container1 {
               width: 100%;
+              align-self: flex-start;
             }
             .solucao-fiscal-container3 {
               padding: 0px;
@@ -854,13 +755,7 @@ const SolucaoFiscal = (props) => {
             .solucao-fiscal-image3 {
               width: 100%;
             }
-            .solucao-fiscal-image6 {
-              width: 70%;
-            }
-            .solucao-fiscal-image7 {
-              width: 70%;
-            }
-            .solucao-fiscal-image8 {
+            .solucao-fiscal-image5 {
               width: 100%;
             }
             .solucao-fiscal-features {

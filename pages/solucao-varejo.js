@@ -22,7 +22,7 @@ const SolucaoVarejo = (props) => {
           <meta property="og:title" content="SolucaoVarejo - Soft Clever" />
           <meta
             property="og:description"
-            content="A solução para a gestão empresarial do seu negócio."
+            content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
         <div className="solucao-varejo-hero-right">
@@ -82,7 +82,7 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&amp;ixlib=rb-4.0.3&amp;w=700"
                   className="solucao-varejo-image01"
                 />
                 <h1 className="solucao-varejo-text15">
@@ -109,7 +109,7 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution1">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&amp;ixlib=rb-4.0.3&amp;w=700"
                   loading="lazy"
                   className="solucao-varejo-image02"
                 />
@@ -145,7 +145,7 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution2">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&amp;ixlib=rb-4.0.3&amp;w=700"
                   loading="lazy"
                   className="solucao-varejo-image03"
                 />
@@ -165,7 +165,7 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution3">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG9wdGljc3xlbnwwfHx8fDE2ODE0MDYzMzI&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG9wdGljc3xlbnwwfHx8fDE2ODE0MDYzMzI&amp;ixlib=rb-4.0.3&amp;w=700"
                   className="solucao-varejo-image04"
                 />
                 <h1 className="solucao-varejo-text64">Sírius Óticas</h1>
@@ -180,58 +180,18 @@ const SolucaoVarejo = (props) => {
             <div className="solucao-varejo-images">
               <img
                 alt="image"
-                src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
+                src="/playground_assets/feliz-modernos-mulher-com-bolsas-para-compras-vertical-2-500w.jpg"
                 loading="lazy"
                 className="solucao-varejo-image05"
-              />
-              <div className="solucao-varejo-left-images">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA1Nw&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  loading="lazy"
-                  className="solucao-varejo-image06"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1616179054043-7570cd0d47d6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDU3fHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA3NA&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  className="solucao-varejo-image07"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG9wdGljfGVufDB8fHx8MTY4MTMxMzg5NA&amp;ixlib=rb-4.0.3&amp;w=500"
-                  className="solucao-varejo-image08"
-                />
-              </div>
-              <div className="solucao-varejo-right-images">
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=500"
-                  className="solucao-varejo-image09"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1618007625018-51cbd56c0520?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDMzfHxkZWxpdmVyeXxlbnwwfHx8fDE2ODEzMTMzNTY&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  className="solucao-varejo-image10"
-                />
-                <img
-                  alt="image"
-                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA1Nw&amp;ixlib=rb-4.0.3&amp;h=1500"
-                  className="solucao-varejo-image11"
-                />
-              </div>
-              <img
-                alt="image"
-                src="https://images.unsplash.com/photo-1459499362902-55a20553e082?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ5fHxlbnRlcnByaXNlfGVufDB8fHx8MTY4MTQ4NDA3NA&amp;ixlib=rb-4.0.3&amp;w=500"
-                className="solucao-varejo-image12"
               />
             </div>
             <div className="solucao-varejo-text-right">
               <div className="solucao-varejo-text-solution4">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=500"
+                  src="https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&amp;ixlib=rb-4.0.3&amp;w=700"
                   loading="lazy"
-                  className="solucao-varejo-image13"
+                  className="solucao-varejo-image06"
                 />
                 <h1 className="solucao-varejo-text66">
                   Sírius Pré Venda / Balcão – Lojas em geral
@@ -246,8 +206,8 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution5">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=500"
-                  className="solucao-varejo-image14"
+                  src="https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&amp;ixlib=rb-4.0.3&amp;w=700"
+                  className="solucao-varejo-image07"
                 />
                 <h1 className="solucao-varejo-text68">
                   Sírius Comanda / Mesas – Alimentação em Geral
@@ -262,8 +222,8 @@ const SolucaoVarejo = (props) => {
               <div className="solucao-varejo-text-solution6">
                 <img
                   alt="image"
-                  src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;w=500"
-                  className="solucao-varejo-image15"
+                  src="https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&amp;ixlib=rb-4.0.3&amp;w=700"
+                  className="solucao-varejo-image08"
                 />
                 <h1 className="solucao-varejo-text70">Sírius Pizzarias</h1>
                 <span className="solucao-varejo-text71">
@@ -274,12 +234,12 @@ const SolucaoVarejo = (props) => {
                   através do Sírius SAT.
                 </span>
               </div>
-              <img
-                alt="image"
-                src="https://static.poder360.com.br/2020/05/Delivery-Ifood-Motoboy-Bike-Ciclista-Entregadores-5-1.jpg"
-                className="solucao-varejo-image16"
-              />
               <div className="solucao-varejo-text-solution7">
+                <img
+                  alt="image"
+                  src="https://static.poder360.com.br/2020/05/Delivery-Ifood-Motoboy-Bike-Ciclista-Entregadores-5-1.jpg"
+                  className="solucao-varejo-image09"
+                />
                 <h1 className="solucao-varejo-text72">Sírius iFood</h1>
                 <span className="solucao-varejo-text73">
                   Captura os pedidos do iFood, monta o pedido de venda e executa
@@ -291,7 +251,7 @@ const SolucaoVarejo = (props) => {
                 <img
                   alt="image"
                   src="https://uploads.metropoles.com/wp-content/uploads/2021/07/07140330/Design-sem-nome-60-1-600x400.jpg"
-                  className="solucao-varejo-image17"
+                  className="solucao-varejo-image10"
                 />
                 <h1 className="solucao-varejo-text74">Sírius Pet Shop</h1>
                 <span className="solucao-varejo-text75">
@@ -394,6 +354,7 @@ const SolucaoVarejo = (props) => {
           .solucao-varejo-text {
             width: 100%;
             margin-top: var(--dl-space-space-twounits);
+            text-align: justify;
             line-height: 2;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -404,6 +365,7 @@ const SolucaoVarejo = (props) => {
             align-self: center;
             align-items: stretch;
             justify-content: center;
+            background-color: var(--dl-color-bgpastel-begebg);
           }
           .solucao-varejo-container3 {
             width: 100%;
@@ -416,8 +378,7 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text-left {
             flex: 0 0 auto;
-            width: 25%;
-            height: 100%;
+            width: 30%;
             display: flex;
             align-self: stretch;
             align-items: stretch;
@@ -428,7 +389,6 @@ const SolucaoVarejo = (props) => {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 0px;
             align-items: stretch;
             flex-direction: column;
             justify-content: space-between;
@@ -450,15 +410,17 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text16 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-text-solution1 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 0px;
             align-items: stretch;
+            padding-top: var(--dl-space-space-unit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
           }
           .solucao-varejo-image02 {
@@ -475,15 +437,17 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text31 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-text-solution2 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 0px;
             align-items: stretch;
+            padding-top: var(--dl-space-space-unit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
           }
           .solucao-varejo-image03 {
@@ -500,14 +464,15 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text56 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-text-solution3 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
-            margin-top: 0px;
             align-items: stretch;
+            padding-top: var(--dl-space-space-unit);
             flex-direction: column;
             justify-content: space-between;
           }
@@ -528,15 +493,15 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text65 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-images {
             flex: 0 0 auto;
-            width: 30%;
+            width: 35%;
             height: auto;
             display: flex;
             flex-wrap: wrap;
-            min-width: 370px;
             align-self: stretch;
             align-items: stretch;
             flex-direction: row;
@@ -544,79 +509,14 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-image05 {
             width: 100%;
-            height: 175px;
+            height: 100%;
             align-self: flex-start;
             object-fit: cover;
             border-radius: 16px;
-            object-position: 0 -170px;
-          }
-          .solucao-varejo-left-images {
-            width: 48%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .solucao-varejo-image06 {
-            width: 100%;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image07 {
-            width: 100%;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image08 {
-            width: 100%;
-            height: 177px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-right-images {
-            width: 48%;
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .solucao-varejo-image09 {
-            width: 100%;
-            height: 177px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image10 {
-            width: 100%;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image11 {
-            width: 100%;
-            height: 311.11px;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-          }
-          .solucao-varejo-image12 {
-            width: 100%;
-            min-width: 370px;
-            align-self: flex-start;
-            margin-top: var(--dl-space-space-unit);
-            object-fit: cover;
-            border-radius: 16px;
-            object-position: bottom;
           }
           .solucao-varejo-text-right {
             flex: 0 0 auto;
             width: 30%;
-            height: auto;
             display: flex;
             align-self: stretch;
             align-items: stretch;
@@ -627,13 +527,13 @@ const SolucaoVarejo = (props) => {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
-            margin-top: 0px;
             align-items: stretch;
-            margin-bottom: 0px;
+            padding-top: 0px;
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
           }
-          .solucao-varejo-image13 {
+          .solucao-varejo-image06 {
             width: 100%;
             height: 175px;
             display: none;
@@ -648,19 +548,20 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text67 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-text-solution5 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
-            margin-top: 0px;
             align-items: stretch;
-            margin-bottom: 0px;
+            padding-top: var(--dl-space-space-unit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
           }
-          .solucao-varejo-image14 {
+          .solucao-varejo-image07 {
             width: 100%;
             height: 177px;
             display: none;
@@ -674,19 +575,20 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text69 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-text-solution6 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
-            margin-top: 0px;
             align-items: stretch;
-            margin-bottom: 0px;
+            padding-top: var(--dl-space-space-unit);
             flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
           }
-          .solucao-varejo-image15 {
+          .solucao-varejo-image08 {
             width: 100%;
             height: 311.11px;
             display: none;
@@ -700,9 +602,20 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text71 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
-          .solucao-varejo-image16 {
+          .solucao-varejo-text-solution7 {
+            flex: 0 0 auto;
+            display: flex;
+            align-self: center;
+            align-items: stretch;
+            padding-top: var(--dl-space-space-unit);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: space-between;
+          }
+          .solucao-varejo-image09 {
             width: 100%;
             height: 311.11px;
             display: none;
@@ -711,35 +624,25 @@ const SolucaoVarejo = (props) => {
             border-radius: 16px;
             object-position: 0 -50;
           }
-          .solucao-varejo-text-solution7 {
-            flex: 0 0 auto;
-            display: flex;
-            align-self: center;
-            margin-top: 0px;
-            align-items: stretch;
-            margin-bottom: 0px;
-            flex-direction: column;
-            justify-content: space-between;
-          }
           .solucao-varejo-text72 {
             width: 100%;
             margin-bottom: var(--dl-space-space-unit);
           }
           .solucao-varejo-text73 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-text-solution8 {
             flex: 0 0 auto;
             display: flex;
             align-self: center;
-            margin-top: 0px;
             align-items: stretch;
-            margin-bottom: 0px;
+            padding-top: var(--dl-space-space-unit);
             flex-direction: column;
             justify-content: space-between;
           }
-          .solucao-varejo-image17 {
+          .solucao-varejo-image10 {
             width: 100%;
             height: 175px;
             display: none;
@@ -756,6 +659,7 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-text75 {
             width: 100%;
+            text-align: justify;
             line-height: 1.5;
           }
           .solucao-varejo-features {
@@ -765,6 +669,7 @@ const SolucaoVarejo = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             flex-direction: column;
+            background-color: var(--dl-color-bgpastel-bgcreme);
           }
           .solucao-varejo-text76 {
             font-size: 3rem;
@@ -787,46 +692,51 @@ const SolucaoVarejo = (props) => {
           }
           @media (max-width: 991px) {
             .solucao-varejo-image {
-              top: 0px;
-              left: 0px;
-              right: 0px;
-              width: 100%;
-              margin: auto;
-              position: absolute;
+              width: 30%;
             }
             .solucao-varejo-container1 {
-              width: 100%;
+              width: 70%;
               height: 100%;
               z-index: 100;
               align-items: center;
-              padding-left: 0;
-              padding-right: 0px;
+              padding-top: var(--dl-space-space-fourunits);
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-fourunits);
               justify-content: center;
             }
             .solucao-varejo-heading {
-              color: #ffffff;
               text-align: center;
             }
             .solucao-varejo-text {
-              color: #ffffff;
               margin-top: var(--dl-space-space-fourunits);
-              text-align: center;
+              text-align: left;
               margin-bottom: var(--dl-space-space-fourunits);
             }
             .solucao-varejo-text-left {
-              width: 30%;
+              width: 50%;
               height: auto;
+              padding: var(--dl-space-space-twounits);
               align-self: stretch;
+            }
+            .solucao-varejo-text-solution {
+              margin-bottom: 0px;
             }
             .solucao-varejo-image01 {
               width: 100%;
               height: 175px;
               min-width: 0px;
             }
+            .solucao-varejo-text-solution1 {
+              margin-bottom: 0px;
+            }
             .solucao-varejo-image02 {
               width: 100%;
               height: 175px;
               margin-top: 0px;
+              margin-bottom: 0px;
+            }
+            .solucao-varejo-text-solution2 {
               margin-bottom: 0px;
             }
             .solucao-varejo-image03 {
@@ -843,6 +753,7 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-images {
               width: 30%;
               height: 1719px;
+              display: none;
               min-width: 0px;
               align-self: flex-start;
               align-items: center;
@@ -854,37 +765,24 @@ const SolucaoVarejo = (props) => {
               max-height: 175px;
               object-position: center;
             }
-            .solucao-varejo-left-images {
-              width: 100%;
-              height: 37, 5%;
-              align-items: center;
-              justify-content: space-between;
+            .solucao-varejo-text-right {
+              width: 50%;
+              padding: var(--dl-space-space-twounits);
             }
             .solucao-varejo-image06 {
-              width: 100%;
-              height: 175px;
-              margin-top: 0px;
-              margin-bottom: 0px;
+              height: fit-content;
+              max-height: 175px;
+              object-position: center;
             }
             .solucao-varejo-image07 {
               width: 100%;
               height: 170px;
-              margin-top: 0px;
               margin-bottom: 0px;
-              object-position: 0;
             }
             .solucao-varejo-image08 {
               width: 100%;
               height: 170px;
-              margin-top: 0px;
               margin-bottom: 0px;
-            }
-            .solucao-varejo-right-images {
-              width: 100%;
-              height: 37, 5%;
-              align-self: flex-start;
-              align-items: center;
-              justify-content: space-between;
             }
             .solucao-varejo-image09 {
               width: 100%;
@@ -892,41 +790,6 @@ const SolucaoVarejo = (props) => {
               margin-bottom: 0px;
             }
             .solucao-varejo-image10 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-varejo-image11 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-varejo-image12 {
-              width: 100%;
-              height: 175px;
-              min-width: 0px;
-            }
-            .solucao-varejo-image13 {
-              height: fit-content;
-              max-height: 175px;
-              object-position: center;
-            }
-            .solucao-varejo-image14 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-varejo-image15 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-varejo-image16 {
-              width: 100%;
-              height: 170px;
-              margin-bottom: 0px;
-            }
-            .solucao-varejo-image17 {
               width: 100%;
               height: 175px;
               min-width: 0px;
@@ -939,6 +802,10 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-hero-right {
               height: auto;
               min-height: 80vh;
+              align-items: flex-start;
+            }
+            .solucao-varejo-image {
+              display: none;
             }
             .solucao-varejo-container1 {
               width: 100%;
@@ -1042,7 +909,7 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-text-solution4 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-varejo-image13 {
+            .solucao-varejo-image06 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1060,7 +927,7 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-text-solution5 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-varejo-image14 {
+            .solucao-varejo-image07 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1077,7 +944,7 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-text-solution6 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-varejo-image15 {
+            .solucao-varejo-image08 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1092,7 +959,10 @@ const SolucaoVarejo = (props) => {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
             }
-            .solucao-varejo-image16 {
+            .solucao-varejo-text-solution7 {
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .solucao-varejo-image09 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1103,9 +973,6 @@ const SolucaoVarejo = (props) => {
               margin-bottom: 0px;
               justify-content: center;
             }
-            .solucao-varejo-text-solution7 {
-              margin-bottom: var(--dl-space-space-twounits);
-            }
             .solucao-varejo-text72 {
               margin-top: var(--dl-space-space-unit);
               text-align: center;
@@ -1113,7 +980,7 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-text-solution8 {
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .solucao-varejo-image17 {
+            .solucao-varejo-image10 {
               width: 70%;
               height: 200px;
               display: flex;
@@ -1162,27 +1029,27 @@ const SolucaoVarejo = (props) => {
               height: 200px;
               max-height: auto;
             }
-            .solucao-varejo-image13 {
+            .solucao-varejo-image06 {
               width: 100%;
               height: 200px;
               max-height: auto;
             }
-            .solucao-varejo-image14 {
+            .solucao-varejo-image07 {
               width: 100%;
               height: 200px;
               max-height: auto;
             }
-            .solucao-varejo-image15 {
+            .solucao-varejo-image08 {
               width: 100%;
               height: 200px;
               max-height: auto;
             }
-            .solucao-varejo-image16 {
+            .solucao-varejo-image09 {
               width: 100%;
               height: 200px;
               max-height: auto;
             }
-            .solucao-varejo-image17 {
+            .solucao-varejo-image10 {
               width: 100%;
               height: 200px;
               max-height: auto;

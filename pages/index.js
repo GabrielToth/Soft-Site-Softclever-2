@@ -5,8 +5,10 @@ import Head from 'next/head'
 import BotesWHATSCTT from '../components/botes-whats-ctt'
 import LogoIcone from '../components/logo-icone'
 import Videos from '../components/videos'
-import SolucoesLEFT from '../components/solucoes-left'
-import SolucoesRIGHT from '../components/solucoes-right'
+import CategoriaSolucaoVarejo from '../components/categoria-solucao-varejo'
+import CategoriaSolucaoAtacado from '../components/categoria-solucao-atacado'
+import CategoriaSolucaoIndustria from '../components/categoria-solucao-industria'
+import CategoriaSolucaoFiscal from '../components/categoria-solucao-fiscal'
 import Footer from '../components/footer'
 
 const Home = (props) => {
@@ -22,7 +24,7 @@ const Home = (props) => {
           <meta property="og:title" content="Soft Clever" />
           <meta
             property="og:description"
-            content="A solução para a gestão empresarial do seu negócio."
+            content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
         <div className="home-hero">
@@ -84,49 +86,34 @@ const Home = (props) => {
           <div className="home-container3">
             <Link href="/solucao-varejo">
               <a>
-                <SolucoesLEFT
-                  title="Varejo"
-                  action="VEJA MAIS"
-                  description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
-                  rootClassName="rootClassName"
+                <CategoriaSolucaoVarejo
+                  rootClassName="categoria-solucao-varejo-root-class-name"
                   className="home-component3"
-                ></SolucoesLEFT>
+                ></CategoriaSolucaoVarejo>
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
               <a>
-                <SolucoesRIGHT
-                  title="Atacado e Distribuição"
-                  image_alt="Atacado e Distribuição"
-                  image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
-                  description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
-                  rootClassName="solucoes-right-root-class-name1"
+                <CategoriaSolucaoAtacado
+                  rootClassName="categoria-solucao-atacado-root-class-name"
                   className="home-component4"
-                ></SolucoesRIGHT>
+                ></CategoriaSolucaoAtacado>
               </a>
             </Link>
             <Link href="/solucao-industria--servico">
               <a>
-                <SolucoesLEFT
-                  title="Indústria e Serviço"
-                  action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&amp;ixlib=rb-4.0.3&amp;h=200"
-                  description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
-                  rootClassName="rootClassName5"
+                <CategoriaSolucaoIndustria
+                  rootClassName="categoria-solucao-industria-root-class-name"
                   className="home-component5"
-                ></SolucoesLEFT>
+                ></CategoriaSolucaoIndustria>
               </a>
             </Link>
             <Link href="/solucao-fiscal">
               <a>
-                <SolucoesRIGHT
-                  title="Fiscal"
-                  image_alt="Fiscal"
-                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
-                  description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
-                  rootClassName="solucoes-right-root-class-name"
+                <CategoriaSolucaoFiscal
+                  Image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
                   className="home-component6"
-                ></SolucoesRIGHT>
+                ></CategoriaSolucaoFiscal>
               </a>
             </Link>
           </div>
@@ -252,6 +239,7 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             flex-direction: column;
+            background-color: #f9f7f2;
           }
           .home-text14 {
             font-size: 3rem;
@@ -366,9 +354,13 @@ const Home = (props) => {
             .home-features {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              padding-bottom: var(--dl-space-space-unit);
             }
             .home-text14 {
               text-align: center;
+            }
+            .home-container3 {
+              width: auto;
             }
           }
           @media (max-width: 479px) {

@@ -24,10 +24,6 @@
   --dl-color-gray-cccccc: #ccccccff;
   --dl-color-gray-dddddd: #ddddddff;
   --dl-color-gray-eeeeee: #eeeeeeff;
-  --dl-color-primary-100: #003EB3;
-  --dl-color-primary-300: #0074F0;
-  --dl-color-primary-500: #14A9FF;
-  --dl-color-primary-700: #85DCFF;
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
@@ -37,11 +33,13 @@
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
+  --dl-color-bgpastel-begebg: #f1efe5ff;
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
   --dl-radius-radius-radius8: 8px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
+  --dl-color-bgpastel-bgcreme: #f9f7f2ff;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
 }

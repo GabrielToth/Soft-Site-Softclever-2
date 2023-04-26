@@ -19,7 +19,7 @@ const PoliticaDePrivacidade = (props) => {
           />
           <meta
             property="og:description"
-            content="A solução para a gestão empresarial do seu negócio."
+            content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
         <span className="Heading">Políticas de Privacidade</span>

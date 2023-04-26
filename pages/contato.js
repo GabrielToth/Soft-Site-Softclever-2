@@ -18,7 +18,7 @@ const Contato = (props) => {
           <meta property="og:title" content="Contato - Soft Clever" />
           <meta
             property="og:description"
-            content="A solução para a gestão empresarial do seu negócio."
+            content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
         <div className="contato-hero">

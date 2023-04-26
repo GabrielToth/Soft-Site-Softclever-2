@@ -116,9 +116,8 @@ const LogoIcone = (props) => {
               margin: auto;
             }
             .logo-icone-root-class-name9 {
-              left: 0px;
               right: 0px;
-              margin: auto;
+              margin: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 767px) {
@@ -131,8 +130,14 @@ const LogoIcone = (props) => {
               right: 0px;
               margin: auto;
             }
-            .logo-icone-root-class-name9 {
+            .logo-icone-root-class-name5 {
               top: var(--dl-space-space-unit);
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
+            .logo-icone-root-class-name9 {
+              top: 0px;
               left: 0px;
               position: absolute;
             }

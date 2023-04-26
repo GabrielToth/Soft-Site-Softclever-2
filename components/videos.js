@@ -38,16 +38,19 @@ const Videos = (props) => {
             height: 400px;
             display: flex;
             position: relative;
-            align-items: center;
+            align-items: stretch;
+            padding-top: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-twounits);
             justify-content: center;
             background-color: #222222;
           }
           .videos-container {
+            height: 100%;
             display: flex;
             align-items: center;
             margin-right: var(--dl-space-space-twounits);
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
           }
           .videos-text {
             color: #ffffff;
@@ -65,15 +68,15 @@ const Videos = (props) => {
             border-radius: 16px;
           }
           .videos-container1 {
+            height: 100%;
             display: flex;
             align-items: center;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
           }
           .videos-text2 {
             color: #ffffff;
             text-align: center;
-            padding-top: var(--dl-space-space-unit);
           }
           .videos-text3 {
             color: #ffffff;

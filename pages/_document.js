@@ -48,7 +48,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                '<!-- Your body code here -->\n<!-- <script type="text/javascript"> ... </script> -->',
+                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    <script data-section-id='header' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
             }}
           ></div>
         </body>

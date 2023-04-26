@@ -2,27 +2,31 @@ import React from 'react'
 
 import PropTypes from 'prop-types'
 
-const SolucoesLEFT = (props) => {
+const CategoriaSolucaoIndustria = (props) => {
   return (
     <>
-      <div className={`solucoes-left-feature-card ${props.rootClassName} `}>
+      <div
+        className={`categoria-solucao-industria-categoria-solucao-industria ${props.rootClassName} `}
+      >
         <img
-          alt={props.image_alt}
-          src={props.image_src}
+          alt={props.Image_alt}
+          src={props.Image_src}
           loading="lazy"
-          className="solucoes-left-image"
+          className="categoria-solucao-industria-image"
         />
-        <div className="solucoes-left-container">
-          <h2 className="solucoes-left-text">{props.title}</h2>
-          <span className="solucoes-left-text1">{props.description}</span>
-          <button className="solucoes-left-button button">
+        <div className="categoria-solucao-industria-container">
+          <h2 className="categoria-solucao-industria-text">{props.heading}</h2>
+          <span className="categoria-solucao-industria-text1">
+            {props.text}
+          </span>
+          <button className="categoria-solucao-industria-button button">
             {props.button}
           </button>
         </div>
       </div>
       <style jsx>
         {`
-          .solucoes-left-feature-card {
+          .categoria-solucao-industria-categoria-solucao-industria {
             width: 100%;
             display: flex;
             position: relative;
@@ -31,7 +35,7 @@ const SolucoesLEFT = (props) => {
             flex-direction: row;
             background-color: var(--dl-color-gray-white);
           }
-          .solucoes-left-image {
+          .categoria-solucao-industria-image {
             width: 320px;
             height: 180px;
             min-width: 320px;
@@ -40,7 +44,7 @@ const SolucoesLEFT = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucoes-left-container {
+          .categoria-solucao-industria-container {
             height: 180px;
             display: flex;
             align-self: stretch;
@@ -52,7 +56,7 @@ const SolucoesLEFT = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .solucoes-left-text {
+          .categoria-solucao-industria-text {
             color: var(--dl-color-gray-000000);
             text-align: left;
             transition: 150;
@@ -62,10 +66,10 @@ const SolucoesLEFT = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-halfunit);
           }
-          .solucoes-left-text:hover {
+          .categoria-solucao-industria-text:hover {
             text-decoration: underline;
           }
-          .solucoes-left-text1 {
+          .categoria-solucao-industria-text1 {
             color: var(--dl-color-gray-000000);
             text-align: left;
             transition: 150ms;
@@ -75,80 +79,45 @@ const SolucoesLEFT = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-left-text1:hover {
+          .categoria-solucao-industria-text1:hover {
             text-decoration: underline;
           }
-          .solucoes-left-button {
+          .categoria-solucao-industria-button {
             display: none;
             margin-top: var(--dl-space-space-unit);
             border-width: 0px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .solucoes-left-root-class-name1 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name2 {
-            width: 80vw;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-left-root-class-name3 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name4 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name6 {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-          }
-          .solucoes-left-root-class-name7 {
-            width: 100%;
-          }
-          .solucoes-left-root-class-name8 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-left-root-class-name9 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-left-root-class-name10 {
-            width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .solucoes-left-root-class-name11 {
-            width: 100%;
+          .categoria-solucao-industria-root-class-name {
             margin-bottom: var(--dl-space-space-twounits);
           }
           @media (max-width: 991px) {
-            .solucoes-left-image {
+            .categoria-solucao-industria-image {
               margin-bottom: 0px;
             }
-            .solucoes-left-container {
+            .categoria-solucao-industria-container {
               margin-right: 0px;
             }
-            .solucoes-left-text {
+            .categoria-solucao-industria-text {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: 0px;
             }
-            .solucoes-left-text1 {
+            .categoria-solucao-industria-text1 {
               padding-top: 0px;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 767px) {
-            .solucoes-left-feature-card {
+            .categoria-solucao-industria-categoria-solucao-industria {
               width: var(--dl-size-size-xxlarge);
+              box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.05);
               align-items: center;
-              border-radius: 16px;
               flex-direction: column;
               justify-content: flex-start;
             }
-            .solucoes-left-image {
+            .categoria-solucao-industria-image {
               width: 100%;
               height: var(--dl-size-size-large);
               min-width: 0px;
@@ -157,28 +126,27 @@ const SolucoesLEFT = (props) => {
               border-bottom-left-radius: 0;
               border-bottom-right-radius: 0;
             }
-            .solucoes-left-container {
+            .categoria-solucao-industria-container {
               height: auto;
               align-items: center;
               margin-left: 0px;
               padding-top: 0px;
               padding-bottom: 0px;
             }
-            .solucoes-left-text {
+            .categoria-solucao-industria-text {
               margin-top: var(--dl-space-space-unit);
-              text-align: center;
               padding-top: 0px;
               margin-bottom: var(--dl-space-space-unit);
               padding-bottom: 0px;
             }
-            .solucoes-left-text1 {
+            .categoria-solucao-industria-text1 {
               text-align: justify;
               padding-top: 0px;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               padding-bottom: 0px;
             }
-            .solucoes-left-button {
+            .categoria-solucao-industria-button {
               color: #ffffff;
               display: flex;
               font-size: 12px;
@@ -188,46 +156,12 @@ const SolucoesLEFT = (props) => {
               border-radius: 20px;
               background-color: var(--dl-color-gray-222222);
             }
-            .solucoes-left-root-class-name1 {
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .solucoes-left-root-class-name3 {
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .solucoes-left-root-class-name4 {
-              margin-left: auto;
-              margin-right: auto;
-            }
-            .solucoes-left-root-class-name7 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name8 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name9 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name10 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name11 {
-              margin-left: auto;
-              margin-right: auto;
+            .categoria-solucao-industria-root-class-name {
               margin-bottom: var(--dl-space-space-twounits);
             }
           }
           @media (max-width: 479px) {
-            .solucoes-left-image {
+            .categoria-solucao-industria-image {
               min-width: 0px;
             }
           }
@@ -237,22 +171,23 @@ const SolucoesLEFT = (props) => {
   )
 }
 
-SolucoesLEFT.defaultProps = {
-  image_src: '/playground_assets/comercio-varejista-1500w.webp',
-  button: 'SAIBA MAIS',
+CategoriaSolucaoIndustria.defaultProps = {
+  text: 'Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica.',
   rootClassName: '',
-  title: 'Lorem ipsum',
-  image_alt: 'image',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+  heading: 'Indústria e Serviço',
+  Image_alt: 'image',
+  button: 'SAIBA MAIS',
+  Image_src:
+    'https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&ixlib=rb-4.0.3&h=200',
 }
 
-SolucoesLEFT.propTypes = {
-  image_src: PropTypes.string,
-  button: PropTypes.string,
+CategoriaSolucaoIndustria.propTypes = {
+  text: PropTypes.string,
   rootClassName: PropTypes.string,
-  title: PropTypes.string,
-  image_alt: PropTypes.string,
-  description: PropTypes.string,
+  heading: PropTypes.string,
+  Image_alt: PropTypes.string,
+  button: PropTypes.string,
+  Image_src: PropTypes.string,
 }
 
-export default SolucoesLEFT
+export default CategoriaSolucaoIndustria
