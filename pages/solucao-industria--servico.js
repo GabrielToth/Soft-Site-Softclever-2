@@ -33,9 +33,9 @@ const SolucaoIndustriaEServico = (props) => {
           data-role="Header"
           className="solucao-industria--servico-header"
         >
-          <LogoIcone rootClassName="logo-icone-root-class-name5"></LogoIcone>
+          <LogoIcone rootClassName="logo-icone-root-class-name19"></LogoIcone>
           <div className="solucao-industria--servico-nav">
-            <NavigationLinks2 rootClassName="rootClassName12"></NavigationLinks2>
+            <NavigationLinks2 rootClassName="rootClassName20"></NavigationLinks2>
           </div>
           <div
             data-role="BurgerMenu"
@@ -54,7 +54,7 @@ const SolucaoIndustriaEServico = (props) => {
           >
             <div className="solucao-industria--servico-nav1">
               <div className="solucao-industria--servico-container1">
-                <LogoIcone rootClassName="logo-icone-root-class-name6"></LogoIcone>
+                <LogoIcone rootClassName="logo-icone-root-class-name20"></LogoIcone>
                 <div
                   data-role="CloseMobileMenu"
                   className="solucao-industria--servico-close-mobile-menu"
@@ -67,7 +67,7 @@ const SolucaoIndustriaEServico = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks2 rootClassName="rootClassName13"></NavigationLinks2>
+              <NavigationLinks2 rootClassName="rootClassName21"></NavigationLinks2>
             </div>
             <div className="solucao-industria--servico-icon-group">
               <a
@@ -312,6 +312,7 @@ const SolucaoIndustriaEServico = (props) => {
           }
           .solucao-industria--servico-burger-menu {
             display: none;
+            z-index: 100;
           }
           .solucao-industria--servico-icon {
             width: var(--dl-size-size-xsmall);
@@ -329,12 +330,13 @@ const SolucaoIndustriaEServico = (props) => {
             position: absolute;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #fff;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-industria--servico-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-industria--servico-container1 {
             width: 100%;
@@ -358,6 +360,7 @@ const SolucaoIndustriaEServico = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-industria--servico-link {
             display: contents;

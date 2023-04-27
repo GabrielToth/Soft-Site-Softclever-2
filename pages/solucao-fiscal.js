@@ -27,9 +27,9 @@ const SolucaoFiscal = (props) => {
           />
         </Head>
         <header data-role="Header" className="solucao-fiscal-header">
-          <LogoIcone rootClassName="logo-icone-root-class-name7"></LogoIcone>
+          <LogoIcone rootClassName="logo-icone-root-class-name21"></LogoIcone>
           <div className="solucao-fiscal-nav">
-            <NavigationLinks2 rootClassName="rootClassName14"></NavigationLinks2>
+            <NavigationLinks2 rootClassName="rootClassName22"></NavigationLinks2>
           </div>
           <div data-role="BurgerMenu" className="solucao-fiscal-burger-menu">
             <svg viewBox="0 0 1024 1024" className="solucao-fiscal-icon">
@@ -39,7 +39,7 @@ const SolucaoFiscal = (props) => {
           <div data-role="MobileMenu" className="solucao-fiscal-mobile-menu">
             <div className="solucao-fiscal-nav1">
               <div className="solucao-fiscal-container1">
-                <LogoIcone rootClassName="logo-icone-root-class-name16"></LogoIcone>
+                <LogoIcone rootClassName="logo-icone-root-class-name22"></LogoIcone>
                 <div
                   data-role="CloseMobileMenu"
                   className="solucao-fiscal-close-mobile-menu"
@@ -52,7 +52,7 @@ const SolucaoFiscal = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks2 rootClassName="rootClassName15"></NavigationLinks2>
+              <NavigationLinks2 rootClassName="rootClassName23"></NavigationLinks2>
             </div>
             <div className="solucao-fiscal-icon-group">
               <a
@@ -398,6 +398,7 @@ const SolucaoFiscal = (props) => {
           }
           .solucao-fiscal-burger-menu {
             display: none;
+            z-index: 100;
           }
           .solucao-fiscal-icon {
             width: var(--dl-size-size-xsmall);
@@ -415,12 +416,13 @@ const SolucaoFiscal = (props) => {
             position: absolute;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #fff;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-fiscal-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-fiscal-container1 {
             width: 100%;
@@ -444,6 +446,7 @@ const SolucaoFiscal = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-fiscal-link {
             display: contents;

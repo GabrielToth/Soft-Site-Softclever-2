@@ -33,9 +33,9 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           data-role="Header"
           className="solucao-atacado--distribuicao-header"
         >
-          <LogoIcone rootClassName="logo-icone-root-class-name13"></LogoIcone>
+          <LogoIcone rootClassName="logo-icone-root-class-name23"></LogoIcone>
           <div className="solucao-atacado--distribuicao-nav">
-            <NavigationLinks2 rootClassName="rootClassName8"></NavigationLinks2>
+            <NavigationLinks2 rootClassName="rootClassName24"></NavigationLinks2>
           </div>
           <div
             data-role="BurgerMenu"
@@ -54,7 +54,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           >
             <div className="solucao-atacado--distribuicao-nav1">
               <div className="solucao-atacado--distribuicao-container1">
-                <LogoIcone rootClassName="logo-icone-root-class-name14"></LogoIcone>
+                <LogoIcone rootClassName="logo-icone-root-class-name24"></LogoIcone>
                 <div
                   data-role="CloseMobileMenu"
                   className="solucao-atacado--distribuicao-close-mobile-menu"
@@ -67,7 +67,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks2 rootClassName="rootClassName9"></NavigationLinks2>
+              <NavigationLinks2 rootClassName="rootClassName25"></NavigationLinks2>
             </div>
             <div className="solucao-atacado--distribuicao-icon-group">
               <a
@@ -431,6 +431,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
           }
           .solucao-atacado--distribuicao-burger-menu {
             display: none;
+            z-index: 100;
           }
           .solucao-atacado--distribuicao-icon {
             width: var(--dl-size-size-xsmall);
@@ -448,12 +449,13 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             position: absolute;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #fff;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-atacado--distribuicao-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-atacado--distribuicao-container1 {
             width: 100%;
@@ -477,6 +479,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-atacado--distribuicao-link {
             display: contents;

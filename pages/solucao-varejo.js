@@ -27,9 +27,9 @@ const SolucaoVarejo = (props) => {
           />
         </Head>
         <header data-role="Header" className="solucao-varejo-header">
-          <LogoIcone rootClassName="logo-icone-root-class-name9"></LogoIcone>
+          <LogoIcone rootClassName="logo-icone-root-class-name17"></LogoIcone>
           <div className="solucao-varejo-nav">
-            <NavigationLinks2 rootClassName="rootClassName10"></NavigationLinks2>
+            <NavigationLinks2 rootClassName="rootClassName16"></NavigationLinks2>
           </div>
           <div data-role="BurgerMenu" className="solucao-varejo-burger-menu">
             <svg viewBox="0 0 1024 1024" className="solucao-varejo-icon">
@@ -39,7 +39,7 @@ const SolucaoVarejo = (props) => {
           <div data-role="MobileMenu" className="solucao-varejo-mobile-menu">
             <div className="solucao-varejo-nav1">
               <div className="solucao-varejo-container1">
-                <LogoIcone rootClassName="logo-icone-root-class-name15"></LogoIcone>
+                <LogoIcone rootClassName="logo-icone-root-class-name18"></LogoIcone>
                 <div
                   data-role="CloseMobileMenu"
                   className="solucao-varejo-close-mobile-menu"
@@ -52,7 +52,7 @@ const SolucaoVarejo = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks2 rootClassName="rootClassName11"></NavigationLinks2>
+              <NavigationLinks2 rootClassName="rootClassName19"></NavigationLinks2>
             </div>
             <div className="solucao-varejo-icon-group">
               <a
@@ -412,6 +412,7 @@ const SolucaoVarejo = (props) => {
           }
           .solucao-varejo-burger-menu {
             display: none;
+            z-index: 100;
           }
           .solucao-varejo-icon {
             width: var(--dl-size-size-xsmall);
@@ -429,12 +430,13 @@ const SolucaoVarejo = (props) => {
             position: absolute;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #fff;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-varejo-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-varejo-container1 {
             width: 100%;
@@ -458,6 +460,7 @@ const SolucaoVarejo = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
           .solucao-varejo-link {
             display: contents;
