@@ -35,6 +35,11 @@ const LogoIcone = (props) => {
             margin-right: auto;
             text-decoration: none;
           }
+          .logo-icone-root-class-name {
+            top: var(--dl-space-space-unit);
+            left: var(--dl-space-space-unit);
+            position: static;
+          }
           .logo-icone-root-class-name1 {
             top: 0px;
             right: 0px;
@@ -97,12 +102,16 @@ const LogoIcone = (props) => {
             left: var(--dl-space-space-unit);
             position: static;
           }
-          .logo-icone-root-class-name {
-            top: var(--dl-space-space-unit);
-            left: var(--dl-space-space-unit);
+          .logo-icone-root-class-name11 {
+            top: 0px;
+            right: 0px;
             position: static;
           }
           @media (max-width: 991px) {
+            .logo-icone-root-class-name {
+              left: 0px;
+              right: 0px;
+            }
             .logo-icone-root-class-name6 {
               top: 0px;
               right: 0px;
@@ -122,15 +131,15 @@ const LogoIcone = (props) => {
               left: 0px;
               right: 0px;
             }
-            .logo-icone-root-class-name {
-              left: 0px;
-              right: 0px;
-            }
           }
           @media (max-width: 767px) {
             .logo-icone-image {
               margin-left: auto;
               margin-right: auto;
+            }
+            .logo-icone-root-class-name {
+              left: 0px;
+              right: 0px;
             }
             .logo-icone-root-class-name5 {
               top: var(--dl-space-space-unit);
@@ -147,9 +156,11 @@ const LogoIcone = (props) => {
               left: 0px;
               right: 0px;
             }
-            .logo-icone-root-class-name {
+            .logo-icone-root-class-name11 {
+              top: var(--dl-space-space-unit);
               left: 0px;
               right: 0px;
+              margin: auto;
             }
           }
         `}

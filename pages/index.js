@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import LogoIcone from '../components/logo-icone'
-import NavigationLinks1 from '../components/navigation-links1'
+import NavigationLinks2 from '../components/navigation-links2'
 import BotesWHATSCTT from '../components/botes-whats-ctt'
 import Videos from '../components/videos'
 import CategoriaSolucaoVarejo from '../components/categoria-solucao-varejo'
@@ -29,29 +29,9 @@ const Home = (props) => {
           />
         </Head>
         <header data-role="Header" className="home-header">
-          <Link href="/">
-            <a className="home-link">
-              <LogoIcone
-                rootClassName="logo-icone-root-class-name10"
-                className="home-icone"
-              ></LogoIcone>
-            </a>
-          </Link>
+          <LogoIcone rootClassName="logo-icone-root-class-name11"></LogoIcone>
           <div className="home-nav">
-            <nav className="home-nav1">
-              <Link href="/solucao-varejo">
-                <a className="home-link01">Varejo</a>
-              </Link>
-              <Link href="/solucao-atacado--distribuicao">
-                <a className="home-link02">Atacado e Distribuição</a>
-              </Link>
-              <Link href="/solucao-industria--servico">
-                <a className="home-link03">Indústria e Serviço</a>
-              </Link>
-              <Link href="/solucao-fiscal">
-                <a className="home-link04">Fiscal</a>
-              </Link>
-            </nav>
+            <NavigationLinks2 rootClassName="rootClassName17"></NavigationLinks2>
           </div>
           <div data-role="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -59,12 +39,13 @@ const Home = (props) => {
             </svg>
           </div>
           <div data-role="MobileMenu" className="home-mobile-menu">
-            <div className="home-nav2">
+            <div className="home-nav1">
               <div className="home-container1">
-                <LogoIcone
-                  rootClassName="logo-icone-root-class-name"
-                  className="home-icone1"
-                ></LogoIcone>
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  className="home-image"
+                />
                 <div
                   data-role="CloseMobileMenu"
                   className="home-close-mobile-menu"
@@ -74,20 +55,14 @@ const Home = (props) => {
                   </svg>
                 </div>
               </div>
-              <NavigationLinks1
-                rootClassName="rootClassName18"
-                text1="Varejo"
-                text2="Atacado e Distribuição"
-                text3="Indústria e Serviço"
-                text4="Fiscal"
-              ></NavigationLinks1>
+              <NavigationLinks2 rootClassName="rootClassName18"></NavigationLinks2>
             </div>
             <div className="home-icon-group">
               <a
                 href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link05"
+                className="home-link"
               >
                 <svg viewBox="0 0 1024 1024" className="home-icon04">
                   <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
@@ -97,7 +72,7 @@ const Home = (props) => {
                 href="https://www.instagram.com/soft.clever"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link06"
+                className="home-link1"
               >
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
@@ -110,7 +85,7 @@ const Home = (props) => {
                 href="https://www.facebook.com/softcleverinformatica"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link07"
+                className="home-link2"
               >
                 <svg
                   viewBox="0 0 602.2582857142856 1024"
@@ -139,7 +114,7 @@ const Home = (props) => {
             alt="image"
             src="https://img.freepik.com/free-photo/man-with-laptop-sitting-table_23-2147800022.jpg"
             loading="eager"
-            className="home-image"
+            className="home-image1"
           />
         </div>
         <div className="home-gallery-card">
@@ -168,7 +143,7 @@ const Home = (props) => {
             alt="image"
             src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1c2luZXNzcGVyc29ufGVufDB8fHx8MTY4MTEzMzU1MQ&amp;ixlib=rb-4.0.3&amp;h=1500"
             loading="lazy"
-            className="home-image1"
+            className="home-image2"
           />
         </div>
         <Videos></Videos>
@@ -179,34 +154,34 @@ const Home = (props) => {
           </h1>
           <div className="home-container4">
             <Link href="/solucao-varejo">
-              <a className="home-link08">
+              <a className="home-link3">
                 <CategoriaSolucaoVarejo
                   rootClassName="categoria-solucao-varejo-root-class-name"
-                  className="home-component4"
+                  className="home-component05"
                 ></CategoriaSolucaoVarejo>
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
-              <a className="home-link09">
+              <a className="home-link4">
                 <CategoriaSolucaoAtacado
                   rootClassName="categoria-solucao-atacado-root-class-name"
-                  className="home-component5"
+                  className="home-component06"
                 ></CategoriaSolucaoAtacado>
               </a>
             </Link>
             <Link href="/solucao-industria--servico">
-              <a className="home-link10">
+              <a className="home-link5">
                 <CategoriaSolucaoIndustria
                   rootClassName="categoria-solucao-industria-root-class-name"
-                  className="home-component6"
+                  className="home-component07"
                 ></CategoriaSolucaoIndustria>
               </a>
             </Link>
             <Link href="/solucao-fiscal">
-              <a className="home-link11">
+              <a className="home-link6">
                 <CategoriaSolucaoFiscal
                   Image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
-                  className="home-component7"
+                  className="home-component08"
                 ></CategoriaSolucaoFiscal>
               </a>
             </Link>
@@ -234,46 +209,18 @@ const Home = (props) => {
             position: absolute;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-top: var(--dl-space-space-unit);
+            padding-top: var(--dl-space-space-twounits);
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
-          }
-          .home-link {
-            display: contents;
-          }
-          .home-icone {
-            text-decoration: none;
           }
           .home-nav {
             flex: 0 0 auto;
             display: flex;
             align-items: center;
             flex-direction: row;
-          }
-          .home-nav1 {
-            flex: 0 0 auto;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-          }
-          .home-link01 {
-            margin-left: var(--dl-space-space-twounits);
-            text-decoration: none;
-          }
-          .home-link02 {
-            margin-left: var(--dl-space-space-twounits);
-            text-decoration: none;
-          }
-          .home-link03 {
-            margin-left: var(--dl-space-space-twounits);
-            text-decoration: none;
-          }
-          .home-link04 {
-            margin-left: var(--dl-space-space-twounits);
-            text-decoration: none;
           }
           .home-burger-menu {
             display: none;
@@ -296,7 +243,7 @@ const Home = (props) => {
             justify-content: space-between;
             background-color: #fff;
           }
-          .home-nav2 {
+          .home-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -308,8 +255,8 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .home-icone1 {
-            text-decoration: none;
+          .home-image {
+            height: 2rem;
           }
           .home-close-mobile-menu {
             display: flex;
@@ -324,8 +271,10 @@ const Home = (props) => {
             gap: var(--dl-space-space-twounits);
             display: flex;
             align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
           }
-          .home-link05 {
+          .home-link {
             display: contents;
           }
           .home-icon04 {
@@ -333,7 +282,7 @@ const Home = (props) => {
             height: 24px;
             text-decoration: none;
           }
-          .home-link06 {
+          .home-link1 {
             display: contents;
           }
           .home-icon06 {
@@ -341,7 +290,7 @@ const Home = (props) => {
             height: var(--dl-size-size-xsmall);
             text-decoration: none;
           }
-          .home-link07 {
+          .home-link2 {
             display: contents;
           }
           .home-icon08 {
@@ -381,7 +330,7 @@ const Home = (props) => {
             line-height: 2;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-image {
+          .home-image1 {
             width: 50%;
             height: 100%;
             align-self: center;
@@ -440,7 +389,7 @@ const Home = (props) => {
             margin-bottom: 0px;
             padding-bottom: var(--dl-space-space-twounits);
           }
-          .home-image1 {
+          .home-image2 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -472,33 +421,36 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .home-link08 {
+          .home-link3 {
             display: contents;
           }
-          .home-component4 {
+          .home-component05 {
             text-decoration: none;
           }
-          .home-link09 {
+          .home-link4 {
             display: contents;
           }
-          .home-component5 {
+          .home-component06 {
             text-decoration: none;
           }
-          .home-link10 {
+          .home-link5 {
             display: contents;
           }
-          .home-component6 {
+          .home-component07 {
             text-decoration: none;
           }
-          .home-link11 {
+          .home-link6 {
             display: contents;
           }
-          .home-component7 {
+          .home-component08 {
             text-decoration: none;
           }
           @media (max-width: 991px) {
             .home-container {
               justify-content: flex-start;
+            }
+            .home-icon-group {
+              margin-top: var(--dl-space-space-unit);
             }
             .home-hero {
               width: 100%;
@@ -525,7 +477,7 @@ const Home = (props) => {
               text-align: center;
               margin-bottom: var(--dl-space-space-fourunits);
             }
-            .home-image {
+            .home-image1 {
               top: 0px;
               left: 0px;
               right: 0px;
@@ -571,33 +523,10 @@ const Home = (props) => {
             .home-nav {
               display: none;
             }
-            .home-nav1 {
-              align-items: flex-start;
-              flex-direction: column;
-            }
-            .home-link01 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-link02 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-link03 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .home-link04 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
             .home-burger-menu {
               display: flex;
               align-items: center;
               justify-content: center;
-            }
-            .home-mobile-menu {
-              display: none;
             }
             .home-hero {
               width: 100%;
@@ -635,6 +564,10 @@ const Home = (props) => {
             }
             .home-mobile-menu {
               padding: 16px;
+            }
+            .home-icon-group {
+              align-self: flex-start;
+              justify-content: center;
             }
             .home-hero {
               padding-top: 0px;

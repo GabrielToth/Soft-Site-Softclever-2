@@ -3,66 +3,64 @@ import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
-const NavigationLinks1 = (props) => {
+const NavigationLinks2 = (props) => {
   return (
     <>
-      <nav className={`navigation-links1-nav ${props.rootClassName} `}>
+      <nav className={`navigation-links2-nav ${props.rootClassName} `}>
         <Link href="/solucao-varejo">
-          <a className="navigation-links1-link">{props.text1}</a>
+          <a className="navigation-links2-link">{props.text}</a>
         </Link>
         <Link href="/solucao-atacado--distribuicao">
-          <a className="navigation-links1-link1">{props.text2}</a>
+          <a className="navigation-links2-link1">{props.text1}</a>
         </Link>
         <Link href="/solucao-industria--servico">
-          <a className="navigation-links1-link2">{props.text3}</a>
+          <a className="navigation-links2-link2">{props.text2}</a>
         </Link>
         <Link href="/solucao-fiscal">
-          <a className="navigation-links1-link3">{props.text4}</a>
+          <a className="navigation-links2-link3">{props.text3}</a>
         </Link>
       </nav>
       <style jsx>
         {`
-          .navigation-links1-nav {
+          .navigation-links2-nav {
             flex: 0 0 auto;
             display: flex;
             align-items: center;
             flex-direction: row;
           }
-          .navigation-links1-link {
+          .navigation-links2-link {
+            text-decoration: none;
+          }
+          .navigation-links2-link1 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .navigation-links1-link1 {
+          .navigation-links2-link2 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
-          .navigation-links1-link2 {
-            margin-left: var(--dl-space-space-twounits);
-            text-decoration: none;
-          }
-          .navigation-links1-link3 {
+          .navigation-links2-link3 {
             margin-left: var(--dl-space-space-twounits);
             text-decoration: none;
           }
 
           @media (max-width: 767px) {
-            .navigation-links1-nav {
+            .navigation-links2-nav {
               align-items: flex-start;
               flex-direction: column;
             }
-            .navigation-links1-link {
+            .navigation-links2-link {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .navigation-links2-link1 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links1-link1 {
+            .navigation-links2-link2 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .navigation-links1-link2 {
-              margin-left: 0;
-              margin-bottom: var(--dl-space-space-unit);
-            }
-            .navigation-links1-link3 {
+            .navigation-links2-link3 {
               margin-left: 0;
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -73,22 +71,20 @@ const NavigationLinks1 = (props) => {
   )
 }
 
-NavigationLinks1.defaultProps = {
-  text1: 'Features',
-  text4: 'Blog',
-  text2: 'Pricing',
-  text3: 'Team',
+NavigationLinks2.defaultProps = {
+  text: 'Varejo',
+  text3: 'Fiscal',
+  text1: 'Atacado e Distribuição',
   rootClassName: '',
-  text: 'About',
+  text2: 'Indústria e Serviços',
 }
 
-NavigationLinks1.propTypes = {
-  text1: PropTypes.string,
-  text4: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
-  rootClassName: PropTypes.string,
+NavigationLinks2.propTypes = {
   text: PropTypes.string,
+  text3: PropTypes.string,
+  text1: PropTypes.string,
+  rootClassName: PropTypes.string,
+  text2: PropTypes.string,
 }
 
-export default NavigationLinks1
+export default NavigationLinks2
