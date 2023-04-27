@@ -245,6 +245,7 @@ const SolucaoIndustriaEServico = (props) => {
                   action="VEJA MAIS"
                   description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
                   rootClassName="rootClassName10"
+                  image_src="https://www.datatilsynet.dk/Media/637939916318739371/Shopping.jpg?width=600"
                   className="solucao-industria--servico-component4"
                 ></SolucoesLEFT>
               </a>

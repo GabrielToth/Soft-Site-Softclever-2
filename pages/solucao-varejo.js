@@ -354,7 +354,7 @@ const SolucaoVarejo = (props) => {
                 <SolucoesRIGHT
                   title="Indústria e Serviço"
                   image_alt="Fiscal"
-                  image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=400"
+                  image_src="https://www.ezelogs.com/blog/blogs-16.webp"
                   description="Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica."
                   rootClassName="solucoes-right-root-class-name8"
                   className="solucao-varejo-component5"

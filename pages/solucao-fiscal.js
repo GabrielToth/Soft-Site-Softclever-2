@@ -331,6 +331,7 @@ const SolucaoFiscal = (props) => {
                   action="VEJA MAIS"
                   description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
                   rootClassName="rootClassName9"
+                  image_src="https://www.datatilsynet.dk/Media/637939916318739371/Shopping.jpg?width=600"
                   className="solucao-fiscal-component4"
                 ></SolucoesLEFT>
               </a>
@@ -352,7 +353,7 @@ const SolucaoFiscal = (props) => {
                 <SolucoesLEFT
                   title="Indústria e Serviço"
                   action="VEJA MAIS"
-                  image_src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTMxOTI5MA&amp;ixlib=rb-4.0.3&amp;w=400"
+                  image_src="https://www.ezelogs.com/blog/blogs-16.webp"
                   description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
                   rootClassName="rootClassName7"
                   className="solucao-fiscal-component6"

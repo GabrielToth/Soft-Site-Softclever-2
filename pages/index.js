@@ -153,6 +153,7 @@ const Home = (props) => {
               <a className="home-link3">
                 <CategoriaSolucaoVarejo
                   rootClassName="categoria-solucao-varejo-root-class-name"
+                  Image_src="https://www.datatilsynet.dk/Media/637939916318739371/Shopping.jpg?width=600"
                   className="home-component05"
                 ></CategoriaSolucaoVarejo>
               </a>
@@ -169,6 +170,7 @@ const Home = (props) => {
               <a className="home-link5">
                 <CategoriaSolucaoIndustria
                   rootClassName="categoria-solucao-industria-root-class-name"
+                  Image_src="https://www.ezelogs.com/blog/blogs-16.webp"
                   className="home-component07"
                 ></CategoriaSolucaoIndustria>
               </a>
