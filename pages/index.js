@@ -220,6 +220,7 @@ const Home = (props) => {
           }
           .home-burger-menu {
             display: none;
+            z-index: 100;
           }
           .home-icon {
             width: var(--dl-size-size-xsmall);
@@ -237,12 +238,13 @@ const Home = (props) => {
             position: absolute;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #fff;
+            background-color: var(--dl-color-gray-white);
           }
           .home-nav1 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
+            background-color: var(--dl-color-gray-white);
           }
           .home-container1 {
             width: 100%;
@@ -266,6 +268,7 @@ const Home = (props) => {
             align-items: center;
             flex-direction: row;
             justify-content: flex-start;
+            background-color: var(--dl-color-gray-white);
           }
           .home-link {
             display: contents;
