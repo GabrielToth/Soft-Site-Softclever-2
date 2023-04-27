@@ -849,6 +849,7 @@ const SolucaoVarejo = (props) => {
             position: relative;
             align-self: center;
             margin-top: var(--dl-space-space-twounits);
+            align-items: center;
             flex-direction: column;
           }
           .solucao-varejo-link3 {

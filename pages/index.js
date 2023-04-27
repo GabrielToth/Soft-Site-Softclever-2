@@ -177,6 +177,7 @@ const Home = (props) => {
               <a className="home-link6">
                 <CategoriaSolucaoFiscal
                   Image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
+                  rootClassName="categoria-solucao-fiscal-root-class-name"
                   className="home-component08"
                 ></CategoriaSolucaoFiscal>
               </a>

@@ -155,7 +155,7 @@ const CategoriaSolucaoIndustria = (props) => {
               background-color: var(--dl-color-gray-222222);
             }
             .categoria-solucao-industria-root-class-name {
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
           }
           @media (max-width: 479px) {

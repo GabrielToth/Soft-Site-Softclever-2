@@ -184,24 +184,13 @@ const SolucoesRIGHT = (props) => {
               min-height: auto;
             }
             .solucoes-right-root-class-name4 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
             .solucoes-right-root-class-name5 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
             .solucoes-right-root-class-name6 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-right-root-class-name8 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
           }
         `}

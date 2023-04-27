@@ -5,7 +5,9 @@ import PropTypes from 'prop-types'
 const CategoriaSolucaoFiscal = (props) => {
   return (
     <>
-      <div className="categoria-solucao-fiscal-categoria-solucao-fiscal">
+      <div
+        className={`categoria-solucao-fiscal-categoria-solucao-fiscal ${props.rootClassName} `}
+      >
         <div className="categoria-solucao-fiscal-container">
           <h2 className="categoria-solucao-fiscal-text">{props.heading}</h2>
           <span className="categoria-solucao-fiscal-text1">{props.text}</span>
@@ -87,6 +89,7 @@ const CategoriaSolucaoFiscal = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
+
           @media (max-width: 991px) {
             .categoria-solucao-fiscal-container {
               margin-right: 0px;
@@ -153,6 +156,9 @@ const CategoriaSolucaoFiscal = (props) => {
               align-self: center;
               min-height: auto;
             }
+            .categoria-solucao-fiscal-root-class-name {
+              align-self: center;
+            }
           }
         `}
       </style>
@@ -167,6 +173,7 @@ CategoriaSolucaoFiscal.defaultProps = {
   Image_src:
     'https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp',
   button: 'SAIBA MAIS',
+  rootClassName: '',
 }
 
 CategoriaSolucaoFiscal.propTypes = {
@@ -175,6 +182,7 @@ CategoriaSolucaoFiscal.propTypes = {
   Image_alt: PropTypes.string,
   Image_src: PropTypes.string,
   button: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default CategoriaSolucaoFiscal

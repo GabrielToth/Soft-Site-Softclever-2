@@ -184,47 +184,31 @@ const SolucoesLEFT = (props) => {
               border-radius: 20px;
               background-color: var(--dl-color-gray-222222);
             }
-            .solucoes-left-root-class-name1 {
-              margin-left: auto;
-              margin-right: auto;
-            }
             .solucoes-left-root-class-name3 {
-              margin-left: auto;
-              margin-right: auto;
+              align-self: center;
             }
             .solucoes-left-root-class-name4 {
-              margin-left: auto;
-              margin-right: auto;
+              align-self: center;
             }
             .solucoes-left-root-class-name7 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
             .solucoes-left-root-class-name8 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
             .solucoes-left-root-class-name9 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
             .solucoes-left-root-class-name10 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .solucoes-left-root-class-name11 {
-              margin-left: auto;
-              margin-right: auto;
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
             .solucoes-left-image {
               min-width: 0px;
+            }
+            .solucoes-left-root-class-name11 {
+              margin-bottom: 0px;
             }
           }
         `}

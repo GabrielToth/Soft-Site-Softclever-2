@@ -155,7 +155,7 @@ const CategoriaSolucaoAtacado = (props) => {
               min-height: auto;
             }
             .categoria-solucao-atacado-root-class-name {
-              margin-bottom: var(--dl-space-space-twounits);
+              align-self: center;
             }
           }
         `}
