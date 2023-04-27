@@ -29,16 +29,29 @@ const Home = (props) => {
           />
         </Head>
         <header data-role="Header" className="home-header">
-          <LogoIcone rootClassName="logo-icone-root-class-name10"></LogoIcone>
+          <Link href="/">
+            <a className="home-link">
+              <LogoIcone
+                rootClassName="logo-icone-root-class-name10"
+                className="home-icone"
+              ></LogoIcone>
+            </a>
+          </Link>
           <div className="home-nav">
-            <NavigationLinks1
-              rootClassName="rootClassName17"
-              text="Home"
-              text3="Indústria e Serviço"
-              text1="Varejo"
-              text2="Atacado e Distribuição"
-              text4="Fiscal"
-            ></NavigationLinks1>
+            <nav className="home-nav1">
+              <Link href="/solucao-varejo">
+                <a className="home-link01">Varejo</a>
+              </Link>
+              <Link href="/solucao-atacado--distribuicao">
+                <a className="home-link02">Atacado e Distribuição</a>
+              </Link>
+              <Link href="/solucao-industria--servico">
+                <a className="home-link03">Indústria e Serviço</a>
+              </Link>
+              <Link href="/solucao-fiscal">
+                <a className="home-link04">Fiscal</a>
+              </Link>
+            </nav>
           </div>
           <div data-role="BurgerMenu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
@@ -46,7 +59,7 @@ const Home = (props) => {
             </svg>
           </div>
           <div data-role="MobileMenu" className="home-mobile-menu">
-            <div className="home-nav1">
+            <div className="home-nav2">
               <div className="home-container1">
                 <img
                   alt="image"
@@ -75,7 +88,7 @@ const Home = (props) => {
                 href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link"
+                className="home-link05"
               >
                 <svg viewBox="0 0 1024 1024" className="home-icon04">
                   <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
@@ -85,7 +98,7 @@ const Home = (props) => {
                 href="https://www.instagram.com/soft.clever"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link1"
+                className="home-link06"
               >
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
@@ -98,7 +111,7 @@ const Home = (props) => {
                 href="https://www.facebook.com/softcleverinformatica"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link2"
+                className="home-link07"
               >
                 <svg
                   viewBox="0 0 602.2582857142856 1024"
@@ -167,34 +180,34 @@ const Home = (props) => {
           </h1>
           <div className="home-container4">
             <Link href="/solucao-varejo">
-              <a className="home-link3">
+              <a className="home-link08">
                 <CategoriaSolucaoVarejo
                   rootClassName="categoria-solucao-varejo-root-class-name"
-                  className="home-component05"
+                  className="home-component4"
                 ></CategoriaSolucaoVarejo>
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
-              <a className="home-link4">
+              <a className="home-link09">
                 <CategoriaSolucaoAtacado
                   rootClassName="categoria-solucao-atacado-root-class-name"
-                  className="home-component06"
+                  className="home-component5"
                 ></CategoriaSolucaoAtacado>
               </a>
             </Link>
             <Link href="/solucao-industria--servico">
-              <a className="home-link5">
+              <a className="home-link10">
                 <CategoriaSolucaoIndustria
                   rootClassName="categoria-solucao-industria-root-class-name"
-                  className="home-component07"
+                  className="home-component6"
                 ></CategoriaSolucaoIndustria>
               </a>
             </Link>
             <Link href="/solucao-fiscal">
-              <a className="home-link6">
+              <a className="home-link11">
                 <CategoriaSolucaoFiscal
                   Image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
-                  className="home-component08"
+                  className="home-component7"
                 ></CategoriaSolucaoFiscal>
               </a>
             </Link>
@@ -224,11 +237,39 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
           }
+          .home-link {
+            display: contents;
+          }
+          .home-icone {
+            text-decoration: none;
+          }
           .home-nav {
             flex: 0 0 auto;
             display: flex;
             align-items: center;
             flex-direction: row;
+          }
+          .home-nav1 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+          }
+          .home-link01 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .home-link02 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .home-link03 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .home-link04 {
+            margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
           .home-burger-menu {
             display: none;
@@ -251,7 +292,7 @@ const Home = (props) => {
             justify-content: space-between;
             background-color: #fff;
           }
-          .home-nav1 {
+          .home-nav2 {
             display: flex;
             align-items: flex-start;
             flex-direction: column;
@@ -280,7 +321,7 @@ const Home = (props) => {
             display: flex;
             align-items: center;
           }
-          .home-link {
+          .home-link05 {
             display: contents;
           }
           .home-icon04 {
@@ -288,7 +329,7 @@ const Home = (props) => {
             height: 24px;
             text-decoration: none;
           }
-          .home-link1 {
+          .home-link06 {
             display: contents;
           }
           .home-icon06 {
@@ -296,7 +337,7 @@ const Home = (props) => {
             height: var(--dl-size-size-xsmall);
             text-decoration: none;
           }
-          .home-link2 {
+          .home-link07 {
             display: contents;
           }
           .home-icon08 {
@@ -427,28 +468,28 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .home-link3 {
+          .home-link08 {
             display: contents;
           }
-          .home-component05 {
+          .home-component4 {
             text-decoration: none;
           }
-          .home-link4 {
+          .home-link09 {
             display: contents;
           }
-          .home-component06 {
+          .home-component5 {
             text-decoration: none;
           }
-          .home-link5 {
+          .home-link10 {
             display: contents;
           }
-          .home-component07 {
+          .home-component6 {
             text-decoration: none;
           }
-          .home-link6 {
+          .home-link11 {
             display: contents;
           }
-          .home-component08 {
+          .home-component7 {
             text-decoration: none;
           }
           @media (max-width: 991px) {
@@ -525,6 +566,26 @@ const Home = (props) => {
             }
             .home-nav {
               display: none;
+            }
+            .home-nav1 {
+              align-items: flex-start;
+              flex-direction: column;
+            }
+            .home-link01 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-link02 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-link03 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-link04 {
+              margin-left: 0;
+              margin-bottom: var(--dl-space-space-unit);
             }
             .home-burger-menu {
               display: flex;
