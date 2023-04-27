@@ -900,7 +900,6 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             .solucao-atacado--distribuicao-container2 {
               width: 70%;
               height: auto;
-              z-index: 100;
               align-self: stretch;
               align-items: center;
               padding-top: var(--dl-space-space-fourunits);

@@ -195,7 +195,6 @@ const LogoIcone = (props) => {
               top: var(--dl-space-space-unit);
               left: 0px;
               right: 0px;
-              margin: auto;
             }
             .logo-icone-root-class-name12 {
               top: var(--dl-space-space-unit);

@@ -639,7 +639,6 @@ const SolucaoIndustriaEServico = (props) => {
             .solucao-industria--servico-container2 {
               width: 100%;
               height: auto;
-              z-index: 100;
               align-self: center;
               min-height: auto;
               align-items: center;

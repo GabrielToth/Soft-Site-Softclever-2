@@ -879,7 +879,6 @@ const SolucaoVarejo = (props) => {
             .solucao-varejo-container2 {
               width: 70%;
               height: 100%;
-              z-index: 100;
               align-items: center;
               padding-top: var(--dl-space-space-fourunits);
               padding-left: var(--dl-space-space-twounits);
