@@ -27,7 +27,6 @@ const CategoriaSolucaoAtacado = (props) => {
           .categoria-solucao-atacado-categoria-solucao-atacado {
             width: 100%;
             display: flex;
-            z-index: 100;
             position: relative;
             align-items: stretch;
             border-radius: 16px;
