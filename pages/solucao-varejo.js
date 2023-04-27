@@ -394,7 +394,7 @@ const SolucaoVarejo = (props) => {
             width: 100%;
             display: flex;
             z-index: 100;
-            position: absolute;
+            position: fixed;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             padding-top: var(--dl-space-space-unit);
