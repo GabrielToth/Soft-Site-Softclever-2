@@ -41,11 +41,7 @@ const Home = (props) => {
           <div data-role="MobileMenu" className="home-mobile-menu">
             <div className="home-nav1">
               <div className="home-container1">
-                <img
-                  alt="image"
-                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  className="home-image"
-                />
+                <LogoIcone rootClassName="logo-icone-root-class-name12"></LogoIcone>
                 <div
                   data-role="CloseMobileMenu"
                   className="home-close-mobile-menu"
@@ -114,7 +110,7 @@ const Home = (props) => {
             alt="image"
             src="https://img.freepik.com/free-photo/man-with-laptop-sitting-table_23-2147800022.jpg"
             loading="eager"
-            className="home-image1"
+            className="home-image"
           />
         </div>
         <div className="home-gallery-card">
@@ -143,7 +139,7 @@ const Home = (props) => {
             alt="image"
             src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1c2luZXNzcGVyc29ufGVufDB8fHx8MTY4MTEzMzU1MQ&amp;ixlib=rb-4.0.3&amp;h=1500"
             loading="lazy"
-            className="home-image2"
+            className="home-image1"
           />
         </div>
         <Videos></Videos>
@@ -209,10 +205,10 @@ const Home = (props) => {
             position: absolute;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-top: var(--dl-space-space-twounits);
+            padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
-            padding-bottom: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
           }
@@ -254,9 +250,6 @@ const Home = (props) => {
             align-items: center;
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
-          }
-          .home-image {
-            height: 2rem;
           }
           .home-close-mobile-menu {
             display: flex;
@@ -305,6 +298,7 @@ const Home = (props) => {
             position: relative;
             max-width: var(--dl-size-size-maxwidth);
             align-self: center;
+            margin-top: var(--dl-space-space-fiveunits);
             min-height: auto;
             align-items: center;
             flex-direction: row;
@@ -330,7 +324,7 @@ const Home = (props) => {
             line-height: 2;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-image1 {
+          .home-image {
             width: 50%;
             height: 100%;
             align-self: center;
@@ -389,7 +383,7 @@ const Home = (props) => {
             margin-bottom: 0px;
             padding-bottom: var(--dl-space-space-twounits);
           }
-          .home-image2 {
+          .home-image1 {
             top: 0px;
             left: 0px;
             right: auto;
@@ -477,7 +471,7 @@ const Home = (props) => {
               text-align: center;
               margin-bottom: var(--dl-space-space-fourunits);
             }
-            .home-image1 {
+            .home-image {
               top: 0px;
               left: 0px;
               right: 0px;

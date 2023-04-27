@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 import LogoIcone from '../components/logo-icone'
+import NavigationLinks2 from '../components/navigation-links2'
 import BotesWHATSCTT from '../components/botes-whats-ctt'
 import Videos from '../components/videos'
 import SolucoesLEFT from '../components/solucoes-left'
@@ -28,6 +29,89 @@ const SolucaoIndustriaEServico = (props) => {
             content="A solução ideal para a gestão empresarial do seu negócio."
           />
         </Head>
+        <header
+          data-role="Header"
+          className="solucao-industria--servico-header"
+        >
+          <LogoIcone rootClassName="logo-icone-root-class-name5"></LogoIcone>
+          <div className="solucao-industria--servico-nav">
+            <NavigationLinks2 rootClassName="rootClassName12"></NavigationLinks2>
+          </div>
+          <div
+            data-role="BurgerMenu"
+            className="solucao-industria--servico-burger-menu"
+          >
+            <svg
+              viewBox="0 0 1024 1024"
+              className="solucao-industria--servico-icon"
+            >
+              <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+            </svg>
+          </div>
+          <div
+            data-role="MobileMenu"
+            className="solucao-industria--servico-mobile-menu"
+          >
+            <div className="solucao-industria--servico-nav1">
+              <div className="solucao-industria--servico-container1">
+                <LogoIcone rootClassName="logo-icone-root-class-name6"></LogoIcone>
+                <div
+                  data-role="CloseMobileMenu"
+                  className="solucao-industria--servico-close-mobile-menu"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    className="solucao-industria--servico-icon02"
+                  >
+                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                  </svg>
+                </div>
+              </div>
+              <NavigationLinks2 rootClassName="rootClassName13"></NavigationLinks2>
+            </div>
+            <div className="solucao-industria--servico-icon-group">
+              <a
+                href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="solucao-industria--servico-link"
+              >
+                <svg
+                  viewBox="0 0 1024 1024"
+                  className="solucao-industria--servico-icon04"
+                >
+                  <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.instagram.com/soft.clever"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="solucao-industria--servico-link1"
+              >
+                <svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  className="solucao-industria--servico-icon06"
+                >
+                  <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.facebook.com/softcleverinformatica"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="solucao-industria--servico-link2"
+              >
+                <svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  className="solucao-industria--servico-icon08"
+                >
+                  <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </header>
         <div className="solucao-industria--servico-hero-right">
           <img
             alt="image"
@@ -35,8 +119,7 @@ const SolucaoIndustriaEServico = (props) => {
             loading="eager"
             className="solucao-industria--servico-image"
           />
-          <LogoIcone rootClassName="logo-icone-root-class-name6"></LogoIcone>
-          <div className="solucao-industria--servico-container1">
+          <div className="solucao-industria--servico-container2">
             <h1 className="solucao-industria--servico-text">
               Indústria e Serviço
             </h1>
@@ -84,7 +167,7 @@ const SolucaoIndustriaEServico = (props) => {
           </div>
         </div>
         <Videos></Videos>
-        <div className="solucao-industria--servico-container2">
+        <div className="solucao-industria--servico-container3">
           <div className="solucao-industria--servico-text-right">
             <div className="solucao-industria--servico-text-solution">
               <img
@@ -93,7 +176,7 @@ const SolucaoIndustriaEServico = (props) => {
                 loading="lazy"
                 className="solucao-industria--servico-image1"
               />
-              <div className="solucao-industria--servico-container3">
+              <div className="solucao-industria--servico-container4">
                 <h1 className="solucao-industria--servico-text10">Produção</h1>
               </div>
               <span className="solucao-industria--servico-text11">
@@ -112,7 +195,7 @@ const SolucaoIndustriaEServico = (props) => {
                 src="/playground_assets/industria-2-1400w.jpg"
                 className="solucao-industria--servico-image2"
               />
-              <div className="solucao-industria--servico-container4">
+              <div className="solucao-industria--servico-container5">
                 <h1 className="solucao-industria--servico-text12">
                   Entrada para Beneficiamento
                 </h1>
@@ -133,7 +216,7 @@ const SolucaoIndustriaEServico = (props) => {
                 src="/playground_assets/industria-3-1400w.jpg"
                 className="solucao-industria--servico-image3"
               />
-              <div className="solucao-industria--servico-container5">
+              <div className="solucao-industria--servico-container6">
                 <h1 className="solucao-industria--servico-text14">
                   Ordens de Serviços
                 </h1>
@@ -154,39 +237,39 @@ const SolucaoIndustriaEServico = (props) => {
             <span>Conheça nossos Serviços</span>
             <br></br>
           </h1>
-          <div className="solucao-industria--servico-container6">
+          <div className="solucao-industria--servico-container7">
             <Link href="/solucao-varejo">
-              <a className="solucao-industria--servico-link">
+              <a className="solucao-industria--servico-link3">
                 <SolucoesLEFT
                   title="Varejo"
                   action="VEJA MAIS"
                   description="Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF."
                   rootClassName="rootClassName10"
-                  className="solucao-industria--servico-component2"
+                  className="solucao-industria--servico-component4"
                 ></SolucoesLEFT>
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
-              <a className="solucao-industria--servico-link1">
+              <a className="solucao-industria--servico-link4">
                 <SolucoesRIGHT
                   title="Atacado e Distribuição"
                   image_alt="Atacado e Distribuição"
                   image_src="/playground_assets/atacado-e-distribuicao-200h.webp"
                   description="NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais."
                   rootClassName="solucoes-right-root-class-name6"
-                  className="solucao-industria--servico-component3"
+                  className="solucao-industria--servico-component5"
                 ></SolucoesRIGHT>
               </a>
             </Link>
             <Link href="/solucao-fiscal">
-              <a className="solucao-industria--servico-link2">
+              <a className="solucao-industria--servico-link5">
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
                   image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName4"
-                  className="solucao-industria--servico-component4"
+                  className="solucao-industria--servico-component6"
                 ></SolucoesLEFT>
               </a>
             </Link>
@@ -205,6 +288,101 @@ const SolucaoIndustriaEServico = (props) => {
             flex-direction: column;
             justify-content: center;
           }
+          .solucao-industria--servico-header {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            display: flex;
+            z-index: 100;
+            position: absolute;
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: center;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            padding-bottom: var(--dl-space-space-unit);
+            justify-content: space-between;
+            background-color: var(--dl-color-gray-white);
+          }
+          .solucao-industria--servico-nav {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+          }
+          .solucao-industria--servico-burger-menu {
+            display: none;
+          }
+          .solucao-industria--servico-icon {
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+            display: flex;
+          }
+          .solucao-industria--servico-mobile-menu {
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100vh;
+            display: none;
+            padding: 32px;
+            z-index: 100;
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #fff;
+          }
+          .solucao-industria--servico-nav1 {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
+          .solucao-industria--servico-container1 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--dl-space-space-threeunits);
+            justify-content: space-between;
+          }
+          .solucao-industria--servico-close-mobile-menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .solucao-industria--servico-icon02 {
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+          }
+          .solucao-industria--servico-icon-group {
+            gap: var(--dl-space-space-twounits);
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .solucao-industria--servico-link {
+            display: contents;
+          }
+          .solucao-industria--servico-icon04 {
+            width: 18px;
+            height: 24px;
+            text-decoration: none;
+          }
+          .solucao-industria--servico-link1 {
+            display: contents;
+          }
+          .solucao-industria--servico-icon06 {
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+            text-decoration: none;
+          }
+          .solucao-industria--servico-link2 {
+            display: contents;
+          }
+          .solucao-industria--servico-icon08 {
+            width: var(--dl-size-size-xsmall);
+            height: var(--dl-size-size-xsmall);
+            text-decoration: none;
+          }
           .solucao-industria--servico-hero-right {
             width: 100%;
             height: auto;
@@ -212,6 +390,7 @@ const SolucaoIndustriaEServico = (props) => {
             position: relative;
             max-width: var(--dl-size-size-maxwidth);
             align-self: stretch;
+            margin-top: var(--dl-space-space-fiveunits);
             min-height: 80vh;
             align-items: stretch;
             flex-direction: row;
@@ -222,7 +401,7 @@ const SolucaoIndustriaEServico = (props) => {
             align-self: stretch;
             object-fit: cover;
           }
-          .solucao-industria--servico-container1 {
+          .solucao-industria--servico-container2 {
             width: 50%;
             height: auto;
             display: flex;
@@ -265,7 +444,7 @@ const SolucaoIndustriaEServico = (props) => {
           .solucao-industria--servico-text08 {
             font-size: 14px;
           }
-          .solucao-industria--servico-container2 {
+          .solucao-industria--servico-container3 {
             width: 100%;
             height: auto;
             display: flex;
@@ -304,7 +483,7 @@ const SolucaoIndustriaEServico = (props) => {
             border-radius: 16px;
             object-position: right top;
           }
-          .solucao-industria--servico-container3 {
+          .solucao-industria--servico-container4 {
             width: 100%;
             height: 70px;
             display: flex;
@@ -340,7 +519,7 @@ const SolucaoIndustriaEServico = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucao-industria--servico-container4 {
+          .solucao-industria--servico-container5 {
             width: 100%;
             height: 70px;
             display: flex;
@@ -376,7 +555,7 @@ const SolucaoIndustriaEServico = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .solucao-industria--servico-container5 {
+          .solucao-industria--servico-container6 {
             width: 100%;
             height: 70px;
             display: flex;
@@ -410,7 +589,7 @@ const SolucaoIndustriaEServico = (props) => {
             font-size: 3rem;
             margin-bottom: 0px;
           }
-          .solucao-industria--servico-container6 {
+          .solucao-industria--servico-container7 {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
@@ -419,25 +598,28 @@ const SolucaoIndustriaEServico = (props) => {
             margin-top: var(--dl-space-space-twounits);
             flex-direction: column;
           }
-          .solucao-industria--servico-link {
-            display: contents;
-          }
-          .solucao-industria--servico-component2 {
-            text-decoration: none;
-          }
-          .solucao-industria--servico-link1 {
-            display: contents;
-          }
-          .solucao-industria--servico-component3 {
-            text-decoration: none;
-          }
-          .solucao-industria--servico-link2 {
+          .solucao-industria--servico-link3 {
             display: contents;
           }
           .solucao-industria--servico-component4 {
             text-decoration: none;
           }
+          .solucao-industria--servico-link4 {
+            display: contents;
+          }
+          .solucao-industria--servico-component5 {
+            text-decoration: none;
+          }
+          .solucao-industria--servico-link5 {
+            display: contents;
+          }
+          .solucao-industria--servico-component6 {
+            text-decoration: none;
+          }
           @media (max-width: 991px) {
+            .solucao-industria--servico-icon-group {
+              margin-top: var(--dl-space-space-unit);
+            }
             .solucao-industria--servico-hero-right {
               height: auto;
               min-height: auto;
@@ -451,7 +633,7 @@ const SolucaoIndustriaEServico = (props) => {
               display: none;
               position: absolute;
             }
-            .solucao-industria--servico-container1 {
+            .solucao-industria--servico-container2 {
               width: 100%;
               height: auto;
               z-index: 100;
@@ -486,18 +668,30 @@ const SolucaoIndustriaEServico = (props) => {
             }
           }
           @media (max-width: 767px) {
+            .solucao-industria--servico-header {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .solucao-industria--servico-nav {
+              display: none;
+            }
+            .solucao-industria--servico-burger-menu {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
             .solucao-industria--servico-hero-right {
               height: auto;
               min-height: 80vh;
             }
-            .solucao-industria--servico-container1 {
+            .solucao-industria--servico-container2 {
               width: 100%;
               height: auto;
               align-self: center;
               align-items: center;
               justify-content: flex-start;
             }
-            .solucao-industria--servico-container2 {
+            .solucao-industria--servico-container3 {
               align-items: center;
               flex-direction: column;
               justify-content: flex-start;
@@ -573,11 +767,21 @@ const SolucaoIndustriaEServico = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .solucao-industria--servico-header {
+              padding: var(--dl-space-space-unit);
+            }
+            .solucao-industria--servico-mobile-menu {
+              padding: 16px;
+            }
+            .solucao-industria--servico-icon-group {
+              align-self: flex-start;
+              justify-content: center;
+            }
             .solucao-industria--servico-hero-right {
               height: auto;
               min-height: 80vh;
             }
-            .solucao-industria--servico-container1 {
+            .solucao-industria--servico-container2 {
               width: auto;
               height: auto;
             }
