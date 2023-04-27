@@ -88,9 +88,7 @@ const CategoriaSolucaoIndustria = (props) => {
             border-width: 0px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .categoria-solucao-industria-root-class-name {
-            margin-bottom: var(--dl-space-space-twounits);
-          }
+
           @media (max-width: 991px) {
             .categoria-solucao-industria-image {
               margin-bottom: 0px;

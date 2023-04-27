@@ -86,9 +86,7 @@ const CategoriaSolucaoVarejo = (props) => {
             border-width: 0px;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .categoria-solucao-varejo-root-class-name {
-            margin-bottom: var(--dl-space-space-twounits);
-          }
+
           @media (max-width: 991px) {
             .categoria-solucao-varejo-image {
               margin-bottom: 0px;

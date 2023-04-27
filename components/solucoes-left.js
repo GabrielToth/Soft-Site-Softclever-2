@@ -108,19 +108,15 @@ const SolucoesLEFT = (props) => {
           }
           .solucoes-left-root-class-name8 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-left-root-class-name9 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-left-root-class-name10 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-left-root-class-name11 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           @media (max-width: 991px) {
             .solucoes-left-image {

@@ -89,9 +89,7 @@ const CategoriaSolucaoAtacado = (props) => {
             object-fit: cover;
             border-radius: 16px;
           }
-          .categoria-solucao-atacado-root-class-name {
-            margin-bottom: var(--dl-space-space-twounits);
-          }
+
           @media (max-width: 991px) {
             .categoria-solucao-atacado-container {
               margin-right: 0px;

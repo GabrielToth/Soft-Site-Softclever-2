@@ -257,7 +257,7 @@ const SolucaoFiscal = (props) => {
           </h1>
           <div className="solucao-fiscal-container4">
             <Link href="/solucao-varejo">
-              <a>
+              <a className="solucao-fiscal-link">
                 <SolucoesLEFT
                   title="Varejo"
                   action="VEJA MAIS"
@@ -268,7 +268,7 @@ const SolucaoFiscal = (props) => {
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
-              <a>
+              <a className="solucao-fiscal-link1">
                 <SolucoesRIGHT
                   title="Atacado e Distribuição"
                   image_alt="Atacado e Distribuição"
@@ -280,7 +280,7 @@ const SolucaoFiscal = (props) => {
               </a>
             </Link>
             <Link href="/solucao-industria--servico">
-              <a>
+              <a className="solucao-fiscal-link2">
                 <SolucoesLEFT
                   title="Indústria e Serviço"
                   action="VEJA MAIS"
@@ -522,16 +522,28 @@ const SolucaoFiscal = (props) => {
             margin-bottom: 0px;
           }
           .solucao-fiscal-container4 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
+            display: flex;
             position: relative;
             align-self: center;
             margin-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+          }
+          .solucao-fiscal-link {
+            display: contents;
           }
           .solucao-fiscal-component2 {
             text-decoration: none;
           }
+          .solucao-fiscal-link1 {
+            display: contents;
+          }
           .solucao-fiscal-component3 {
             text-decoration: none;
+          }
+          .solucao-fiscal-link2 {
+            display: contents;
           }
           .solucao-fiscal-component4 {
             text-decoration: none;

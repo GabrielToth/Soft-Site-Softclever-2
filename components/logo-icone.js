@@ -28,18 +28,12 @@ const LogoIcone = (props) => {
           }
           .logo-icone-image {
             width: auto;
-            height: 36px;
+            height: var(--dl-size-size-small);
             position: relative;
             object-fit: cover;
             margin-left: auto;
             margin-right: auto;
             text-decoration: none;
-          }
-          .logo-icone-root-class-name {
-            top: var(--dl-space-space-unit);
-            left: var(--dl-space-space-unit);
-            margin: auto;
-            position: absolute;
           }
           .logo-icone-root-class-name1 {
             top: 0px;
@@ -98,12 +92,12 @@ const LogoIcone = (props) => {
             margin: var(--dl-space-space-unit);
             position: absolute;
           }
+          .logo-icone-root-class-name10 {
+            top: var(--dl-space-space-unit);
+            left: var(--dl-space-space-unit);
+            position: static;
+          }
           @media (max-width: 991px) {
-            .logo-icone-root-class-name {
-              left: 0px;
-              right: 0px;
-              margin: auto;
-            }
             .logo-icone-root-class-name6 {
               top: 0px;
               right: 0px;
@@ -119,16 +113,16 @@ const LogoIcone = (props) => {
               right: 0px;
               margin: var(--dl-space-space-unit);
             }
+            .logo-icone-root-class-name10 {
+              left: 0px;
+              right: 0px;
+              margin: auto;
+            }
           }
           @media (max-width: 767px) {
             .logo-icone-image {
               margin-left: auto;
               margin-right: auto;
-            }
-            .logo-icone-root-class-name {
-              left: 0px;
-              right: 0px;
-              margin: auto;
             }
             .logo-icone-root-class-name5 {
               top: var(--dl-space-space-unit);
@@ -140,6 +134,11 @@ const LogoIcone = (props) => {
               top: 0px;
               left: 0px;
               position: absolute;
+            }
+            .logo-icone-root-class-name10 {
+              left: 0px;
+              right: 0px;
+              margin: auto;
             }
           }
         `}

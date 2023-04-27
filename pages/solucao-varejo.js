@@ -270,7 +270,7 @@ const SolucaoVarejo = (props) => {
           </h1>
           <div className="solucao-varejo-container4">
             <Link href="/solucao-atacado--distribuicao">
-              <a>
+              <a className="solucao-varejo-link">
                 <SolucoesLEFT
                   title="Atacado e Distribuição"
                   action="VEJA MAIS"
@@ -282,7 +282,7 @@ const SolucaoVarejo = (props) => {
               </a>
             </Link>
             <Link href="/solucao-industria--servico">
-              <a>
+              <a className="solucao-varejo-link1">
                 <SolucoesRIGHT
                   title="Indústria e Serviço"
                   image_alt="Fiscal"
@@ -294,11 +294,11 @@ const SolucaoVarejo = (props) => {
               </a>
             </Link>
             <Link href="/solucao-fiscal">
-              <a>
+              <a className="solucao-varejo-link2">
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
-                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
+                  image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName1"
                   className="solucao-varejo-component4"
@@ -676,16 +676,28 @@ const SolucaoVarejo = (props) => {
             margin-bottom: 0px;
           }
           .solucao-varejo-container4 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
+            display: flex;
             position: relative;
             align-self: center;
             margin-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+          }
+          .solucao-varejo-link {
+            display: contents;
           }
           .solucao-varejo-component2 {
             text-decoration: none;
           }
+          .solucao-varejo-link1 {
+            display: contents;
+          }
           .solucao-varejo-component3 {
             text-decoration: none;
+          }
+          .solucao-varejo-link2 {
+            display: contents;
           }
           .solucao-varejo-component4 {
             text-decoration: none;

@@ -156,7 +156,7 @@ const SolucaoIndustriaEServico = (props) => {
           </h1>
           <div className="solucao-industria--servico-container6">
             <Link href="/solucao-varejo">
-              <a>
+              <a className="solucao-industria--servico-link">
                 <SolucoesLEFT
                   title="Varejo"
                   action="VEJA MAIS"
@@ -167,7 +167,7 @@ const SolucaoIndustriaEServico = (props) => {
               </a>
             </Link>
             <Link href="/solucao-atacado--distribuicao">
-              <a>
+              <a className="solucao-industria--servico-link1">
                 <SolucoesRIGHT
                   title="Atacado e Distribuição"
                   image_alt="Atacado e Distribuição"
@@ -179,11 +179,11 @@ const SolucaoIndustriaEServico = (props) => {
               </a>
             </Link>
             <Link href="/solucao-fiscal">
-              <a>
+              <a className="solucao-industria--servico-link2">
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
-                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
+                  image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName4"
                   className="solucao-industria--servico-component4"
@@ -411,16 +411,28 @@ const SolucaoIndustriaEServico = (props) => {
             margin-bottom: 0px;
           }
           .solucao-industria--servico-container6 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
+            display: flex;
             position: relative;
             align-self: center;
             margin-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+          }
+          .solucao-industria--servico-link {
+            display: contents;
           }
           .solucao-industria--servico-component2 {
             text-decoration: none;
           }
+          .solucao-industria--servico-link1 {
+            display: contents;
+          }
           .solucao-industria--servico-component3 {
             text-decoration: none;
+          }
+          .solucao-industria--servico-link2 {
+            display: contents;
           }
           .solucao-industria--servico-component4 {
             text-decoration: none;

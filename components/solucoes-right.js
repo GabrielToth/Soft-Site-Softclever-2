@@ -98,19 +98,15 @@ const SolucoesRIGHT = (props) => {
           }
           .solucoes-right-root-class-name4 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-right-root-class-name5 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-right-root-class-name6 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-right-root-class-name8 {
             width: 100%;
-            margin-bottom: var(--dl-space-space-twounits);
           }
           .solucoes-right-root-class-name10 {
             width: 100%;

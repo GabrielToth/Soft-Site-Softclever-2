@@ -273,9 +273,9 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             <span>Conheça nossos Serviços</span>
             <br></br>
           </h1>
-          <div className="solucao-atacado--distribuicao-container4">
+          <nav className="solucao-atacado--distribuicao-container4">
             <Link href="/solucao-varejo">
-              <a>
+              <a className="solucao-atacado--distribuicao-link">
                 <SolucoesLEFT
                   title="Varejo"
                   action="VEJA MAIS"
@@ -286,7 +286,7 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               </a>
             </Link>
             <Link href="/solucao-industria--servico">
-              <a>
+              <a className="solucao-atacado--distribuicao-link1">
                 <SolucoesRIGHT
                   title="Indústria e Serviço"
                   image_alt="Fiscal"
@@ -298,18 +298,18 @@ const SolucaoAtacadoEDistribuicao = (props) => {
               </a>
             </Link>
             <Link href="/solucao-fiscal">
-              <a>
+              <a className="solucao-atacado--distribuicao-link2">
                 <SolucoesLEFT
                   title="Fiscal"
                   action="VEJA MAIS"
-                  image_src="https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp"
+                  image_src="https://images.unsplash.com/photo-1579444741963-5ae219cfe27c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1N3x8ZmluYW5jZXxlbnwwfHx8fDE2ODI0MzM2MjQ&amp;ixlib=rb-4.0.3&amp;w=1500"
                   description="Sped ICMS, IPI, Pis e Cofins e Bloco K completo."
                   rootClassName="rootClassName3"
                   className="solucao-atacado--distribuicao-component4"
                 ></SolucoesLEFT>
               </a>
             </Link>
-          </div>
+          </nav>
         </div>
         <Footer rootClassName="footer-root-class-name2"></Footer>
       </div>
@@ -677,16 +677,28 @@ const SolucaoAtacadoEDistribuicao = (props) => {
             margin-bottom: 0px;
           }
           .solucao-atacado--distribuicao-container4 {
+            gap: var(--dl-space-space-twounits);
             width: 100%;
+            display: flex;
             position: relative;
             align-self: center;
             margin-top: var(--dl-space-space-twounits);
+            flex-direction: column;
+          }
+          .solucao-atacado--distribuicao-link {
+            display: contents;
           }
           .solucao-atacado--distribuicao-component2 {
             text-decoration: none;
           }
+          .solucao-atacado--distribuicao-link1 {
+            display: contents;
+          }
           .solucao-atacado--distribuicao-component3 {
             text-decoration: none;
+          }
+          .solucao-atacado--distribuicao-link2 {
+            display: contents;
           }
           .solucao-atacado--distribuicao-component4 {
             text-decoration: none;
