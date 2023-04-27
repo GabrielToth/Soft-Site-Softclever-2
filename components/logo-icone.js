@@ -97,6 +97,11 @@ const LogoIcone = (props) => {
             left: var(--dl-space-space-unit);
             position: static;
           }
+          .logo-icone-root-class-name {
+            top: var(--dl-space-space-unit);
+            left: var(--dl-space-space-unit);
+            position: static;
+          }
           @media (max-width: 991px) {
             .logo-icone-root-class-name6 {
               top: 0px;
@@ -116,7 +121,10 @@ const LogoIcone = (props) => {
             .logo-icone-root-class-name10 {
               left: 0px;
               right: 0px;
-              margin: auto;
+            }
+            .logo-icone-root-class-name {
+              left: 0px;
+              right: 0px;
             }
           }
           @media (max-width: 767px) {
@@ -138,7 +146,10 @@ const LogoIcone = (props) => {
             .logo-icone-root-class-name10 {
               left: 0px;
               right: 0px;
-              margin: auto;
+            }
+            .logo-icone-root-class-name {
+              left: 0px;
+              right: 0px;
             }
           }
         `}
