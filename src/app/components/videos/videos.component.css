@@ -1,0 +1,123 @@
+:host { 
+  display: contents; 
+}
+.videos-videos {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: stretch;
+  padding-top: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: #222222;
+}
+.videos-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.videos-text {
+  color: #ffffff;
+  text-align: center;
+}
+.videos-text1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.videos-iframe {
+  width: 426.66px;
+  height: 240px;
+  border-radius: 16px;
+}
+.videos-container1 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.videos-text2 {
+  color: #ffffff;
+  text-align: center;
+}
+.videos-text3 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.videos-iframe1 {
+  width: 426.66px;
+  height: 240px;
+  border-radius: 16px;
+}
+.videos-root-class-name {
+  max-width: auto;
+}
+@media(max-width: 991px) {
+  .videos-videos {
+    height: auto;
+    padding-top: var(--dl-space-space-twounits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .videos-container {
+    height: auto;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .videos-container1 {
+    height: auto;
+  }
+}
+@media(max-width: 767px) {
+  .videos-videos {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .videos-container1 {
+    height: 48%;
+  }
+}
+@media(max-width: 479px) {
+  .videos-videos {
+    justify-content: center;
+  }
+  .videos-iframe {
+    width: 426.6px;
+    height: 200px;
+    max-width: 100%;
+    align-self: stretch;
+    max-height: auto;
+  }
+  .videos-container1 {
+    height: 48%;
+    align-self: center;
+    align-items: flex-start;
+  }
+  .videos-text2 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .videos-text3 {
+    text-align: center;
+  }
+  .videos-iframe1 {
+    width: 426.6px;
+    height: 200px;
+    max-width: 100%;
+    align-self: stretch;
+    max-height: auto;
+  }
+}
