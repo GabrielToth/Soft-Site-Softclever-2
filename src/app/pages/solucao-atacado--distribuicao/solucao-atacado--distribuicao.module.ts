@@ -7,7 +7,7 @@ import { SolucaoAtacadoEDistribuicao } from './solucao-atacado--distribuicao.com
 
 const routes = [
   {
-    path: 'solucao/AtacadoEDistribuicao',
+    path: '',
     component: SolucaoAtacadoEDistribuicao,
   },
 ]

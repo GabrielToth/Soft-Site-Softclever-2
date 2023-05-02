@@ -22,15 +22,6 @@
   left: var(--dl-space-space-unit);
   position: static;
 }
-.logo-icone-root-class-name1 {
-  top: 0px;
-  right: 0px;
-  position: absolute;
-  margin-top: var(--dl-space-space-unit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-unit);
-  margin-bottom: auto;
-}
 .logo-icone-root-class-name2 {
   top: var(--dl-space-space-unit);
   left: var(--dl-space-space-unit);
@@ -146,6 +137,16 @@
   position: static;
 }
 .logo-icone-root-class-name24 {
+  top: 0px;
+  right: 0px;
+  position: static;
+}
+.logo-icone-root-class-name1 {
+  top: 0px;
+  right: 0px;
+  position: static;
+}
+.logo-icone-root-class-name25 {
   top: 0px;
   right: 0px;
   position: static;
@@ -275,6 +276,17 @@
     margin: auto;
   }
   .logo-icone-root-class-name24 {
+    top: var(--dl-space-space-unit);
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .logo-icone-root-class-name1 {
+    top: var(--dl-space-space-unit);
+    left: 0px;
+    right: 0px;
+  }
+  .logo-icone-root-class-name25 {
     top: var(--dl-space-space-unit);
     left: 0px;
     right: 0px;

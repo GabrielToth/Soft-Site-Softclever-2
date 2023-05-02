@@ -256,6 +256,10 @@
   .home-container {
     justify-content: flex-start;
   }
+  .home-header {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
   .home-icon-group {
     margin-top: var(--dl-space-space-unit);
   }

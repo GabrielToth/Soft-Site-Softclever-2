@@ -7,7 +7,7 @@ import { SolucaoFiscal } from './solucao-fiscal.component'
 
 const routes = [
   {
-    path: 'solucao/fiscal',
+    path: '',
     component: SolucaoFiscal,
   },
 ]

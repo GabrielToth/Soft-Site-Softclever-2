@@ -10,7 +10,5 @@ export class CampoFORMS {
   Placeholder: string = 'placeholder'
   @Input()
   rootClassName: string = ''
-  @Input()
-  label: string = 'label'
   constructor() {}
 }

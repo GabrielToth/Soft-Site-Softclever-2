@@ -7,7 +7,7 @@ import { SolucaoIndustriaEServico } from './solucao-industria--servico.component
 
 const routes = [
   {
-    path: 'solucao/IndustriaEServico',
+    path: '',
     component: SolucaoIndustriaEServico,
   },
 ]

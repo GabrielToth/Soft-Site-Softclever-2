@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser'
 
 import { ComponentsModule } from './components/components.module'
 import { AppComponent } from './app.component'
-import { SolucaoFiscalModule } from './pages/solucao-fiscal/solucao-fiscal.module'
 
 const routes = [
   {
@@ -13,6 +12,13 @@ const routes = [
       import(
         './pages/solucao-industria--servico/solucao-industria--servico.module'
       ).then((m) => m.SolucaoIndustriaServicoModule),
+  },
+  {
+    path: 'solucao-fiscal',
+    loadChildren: () =>
+      import('./pages/solucao-fiscal/solucao-fiscal.module').then(
+        (m) => m.SolucaoFiscalModule
+      ),
   },
   {
     path: 'politica-de-privacidade',
@@ -49,7 +55,7 @@ const routes = [
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule, SolucaoFiscalModule],
+  imports: [BrowserModule, RouterModule.forRoot(routes), ComponentsModule],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

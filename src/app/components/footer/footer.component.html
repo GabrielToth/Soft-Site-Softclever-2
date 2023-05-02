@@ -1,7 +1,11 @@
 <footer class="footer-footer" [ngClass]="rootClassName">
   <div class="footer-container">
     <div class="footer-logo">
-      <img [attr.alt]="image_alt" [attr.src]="image_src" class="footer-image" />
+      <img
+        alt="logo"
+        src="9842fe7a-22e5-4788-afe4-03540ff143e6"
+        class="footer-image"
+      />
       <a
         href="https://www.google.com/maps/place/R.+Jo%C3%A3o+Alves+Pimenta,+880+-+Vila+Miriam,+S%C3%A3o+Paulo+-+SP,+02967-000/@-23.4786996,-46.7053878,3a,75y,107.33h,106.54t/data=!3m6!1e1!3m4!1s8JspaB8DzuCwzO8e6V8kow!2e0!7i16384!8i8192!4m7!3m6!1s0x94cef9a193f0d75b:0x34a6ae4920c15e8e!8m2!3d-23.4787368!4d-46.7052318!10e5!16s%2Fg%2F11bw449f15"
         target="_blank"
@@ -19,24 +23,22 @@
     <div class="footer-links-container">
       <div class="footer-container1">
         <div class="footer-product-container">
-          <span class="footer-text06">{{ text2 }}</span>
-          <a routerLink="/solucao-varejo" class="footer-navlink">{{ text3 }}</a>
+          <span class="footer-text06">Para quem?</span>
+          <a routerLink="/solucao-varejo" class="footer-navlink">Varejo</a>
           <a
             routerLink="/solucao-atacado--distribuicao"
             class="footer-navlink1"
           >
-            {{ text4 }}
+            Atacado e Distribuição
           </a>
           <a routerLink="/solucao-industria--servico" class="footer-navlink2">
-            {{ text5 }}
+            Industria e Serviço
           </a>
-          <a routerLink="/solucao-fiscal" class="footer-navlink3">
-            {{ text6 }}
-          </a>
+          <a routerLink="/solucao-fiscal" class="footer-navlink3">Fiscal</a>
         </div>
       </div>
       <div class="footer-company-container">
-        <span class="footer-text07">{{ text1 }}</span>
+        <span class="footer-text07">Legal</span>
         <a routerLink="/politica-de-privacidade" class="footer-navlink4">
           <span>Politica de</span>
           <br />
@@ -45,22 +47,29 @@
       </div>
       <div class="footer-container2">
         <div class="footer-contact">
-          <span class="footer-text11">{{ text7 }}</span>
+          <span class="footer-text11">Entre em Contato</span>
           <a
             href="mailto:softclever@softclever.com.br?subject=Tenho uma dúvida"
             class="footer-link1"
           >
-            {{ text8 }}
+            softclever@softclever.com.br
           </a>
-          <a href="tel:+55 (11) 3991-3923" class="footer-link2">{{ text9 }}</a>
-          <a href="tel:+55 (11) 2361-8334" class="footer-link3">{{ text10 }}</a>
+          <a href="tel:+55 (11) 3991-3923" class="footer-link2">
+            +55 (11) 9 9281-0253
+          </a>
+          <a href="tel:+55 (11) 3991-3923" class="footer-link3">
+            +55 (11) 3991-3923
+          </a>
+          <a href="tel:+55 (11) 2361-8334" class="footer-link4">
+            +55 (11) 2361-8334
+          </a>
         </div>
         <div class="footer-icon-group">
           <a
             href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw"
             target="_blank"
             rel="noreferrer noopener"
-            class="footer-link4"
+            class="footer-link5"
           >
             <svg filter="invert(1)" viewBox="0 0 1024 1024" class="footer-icon">
               <path
@@ -72,7 +81,7 @@
             href="https://www.instagram.com/soft.clever"
             target="_blank"
             rel="noreferrer noopener"
-            class="footer-link5"
+            class="footer-link6"
           >
             <svg
               filter="invert(1)"
@@ -88,7 +97,7 @@
             href="https://www.facebook.com/softcleverinformatica"
             target="_blank"
             rel="noreferrer noopener"
-            class="footer-link6"
+            class="footer-link7"
           >
             <svg
               filter="invert(1)"
@@ -105,5 +114,7 @@
     </div>
   </div>
   <div class="footer-separator"></div>
-  <span class="footer-text12">{{ text }}</span>
+  <span class="footer-text12">
+    © 1994 Soft Clever Informática ERP, All Rights Reserved.
+  </span>
 </footer>

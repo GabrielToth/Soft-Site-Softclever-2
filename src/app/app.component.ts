@@ -8,8 +8,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'teleport-project-template-angular';
-
-  onActivate(event) {
-    window.scrollTo(0, 0);  
-  }
 }

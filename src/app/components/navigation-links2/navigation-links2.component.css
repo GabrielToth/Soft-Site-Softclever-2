@@ -8,19 +8,41 @@
   flex-direction: row;
 }
 .navigation-links2-navlink {
+  padding: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .navigation-links2-navlink1 {
-  margin-left: var(--dl-space-space-twounits);
+  padding: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .navigation-links2-navlink2 {
-  margin-left: var(--dl-space-space-twounits);
+  padding: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .navigation-links2-navlink3 {
-  margin-left: var(--dl-space-space-twounits);
+  padding: var(--dl-space-space-unit);
   text-decoration: none;
+}
+.navigation-links2-navlink4 {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: var(--dl-space-space-halfunit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(34, 34, 34);
+}
+.navigation-links2-navlink4:hover {
+  border-color: var(--dl-color-gray-000000);
+  background-color: #000000;
+}
+.navigation-links2-text1:hover {
+  border-color: var(--dl-color-gray-000000);
 }
 
 
@@ -46,6 +68,26 @@
 
 
 
+
+
+@media(max-width: 991px) {
+  .navigation-links2-navlink {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .navigation-links2-navlink1 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .navigation-links2-navlink2 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+  .navigation-links2-navlink3 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
+}
 @media(max-width: 767px) {
   .navigation-links2-nav {
     align-items: flex-start;
@@ -65,5 +107,14 @@
   .navigation-links2-navlink3 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .navigation-links2-navlink4 {
+    margin-top: 0px;
+  }
+  .navigation-links2-text1 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
   }
 }
