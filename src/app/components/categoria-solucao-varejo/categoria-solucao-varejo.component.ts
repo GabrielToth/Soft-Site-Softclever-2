@@ -7,12 +7,16 @@ import { Component, Input } from '@angular/core'
 })
 export class CategoriaSolucaoVarejo {
   @Input()
+  link_text1: string = 'https://example.com'
+  @Input()
+  text2: string =
+    'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.'
+  @Input()
+  link_text: string = 'https://example.com'
+  @Input()
   button: string = 'SAIBA MAIS'
   @Input()
-  heading: string = 'Varejo'
-  @Input()
-  text: string =
-    'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.'
+  text1: string = 'Varejo'
   @Input()
   Image_alt: string = 'image'
   @Input()
