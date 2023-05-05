@@ -143,7 +143,6 @@
 .landing-sat-conteudo-images {
   flex: 0 0 auto;
   width: 35%;
-  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-self: stretch;
@@ -306,6 +305,7 @@
   text-align: justify;
   line-height: 1.5;
 }
+
 @media(max-width: 991px) {
   .landing-sat-conteudo-text-left {
     width: 50%;

@@ -6,107 +6,9 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   justify-content: flex-start;
-}
-.contato-header {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  display: flex;
-  z-index: 100;
-  position: fixed;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-unit);
-  justify-content: space-between;
-  background-color: var(--dl-color-gray-white);
-}
-.contato-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.contato-burger-menu {
-  display: none;
-  z-index: 100;
-}
-.contato-icon {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  display: flex;
-}
-.contato-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: 32px;
-  z-index: 100;
-  position: absolute;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--dl-color-gray-white);
-}
-.contato-nav1 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--dl-color-gray-white);
-}
-.contato-container01 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.contato-close-mobile-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contato-icon02 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
-.contato-icon-group {
-  gap: var(--dl-space-space-twounits);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: var(--dl-color-gray-white);
-}
-.contato-link {
-  display: contents;
-}
-.contato-icon04 {
-  width: 18px;
-  height: 24px;
-  text-decoration: none;
-}
-.contato-link1 {
-  display: contents;
-}
-.contato-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  text-decoration: none;
-}
-.contato-link2 {
-  display: contents;
-}
-.contato-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  text-decoration: none;
 }
 .contato-hero {
   width: 100%;
@@ -121,7 +23,7 @@
   justify-content: center;
   background-color: #00bfff;
 }
-.contato-container02 {
+.contato-container01 {
   gap: var(--dl-space-space-unit);
   width: 40%;
   height: 100%;
@@ -135,13 +37,32 @@
   flex-direction: column;
   justify-content: center;
 }
-.contato-container03 {
+.contato-container02 {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
   justify-content: center;
+}
+.contato-container03 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: flex-end;
+}
+.contato-icon {
+  width: 24px;
+  filter: invert(100%);
+  height: 24px;
+}
+.contato-text {
+  color: var(--dl-color-gray-white);
+  text-align: right;
 }
 .contato-container04 {
   gap: var(--dl-space-space-unit);
@@ -153,12 +74,12 @@
   align-items: center;
   justify-content: flex-end;
 }
-.contato-icon10 {
+.contato-icon02 {
   width: 24px;
   filter: invert(100%);
   height: 24px;
 }
-.contato-text {
+.contato-text1 {
   color: var(--dl-color-gray-white);
   text-align: right;
 }
@@ -172,12 +93,12 @@
   align-items: center;
   justify-content: flex-end;
 }
-.contato-icon12 {
+.contato-icon04 {
   width: 24px;
   filter: invert(100%);
   height: 24px;
 }
-.contato-text01 {
+.contato-text2 {
   color: var(--dl-color-gray-white);
   text-align: right;
 }
@@ -191,12 +112,7 @@
   align-items: center;
   justify-content: flex-end;
 }
-.contato-icon14 {
-  width: 24px;
-  filter: invert(100%);
-  height: 24px;
-}
-.contato-text02 {
+.contato-text3 {
   color: var(--dl-color-gray-white);
   text-align: right;
 }
@@ -210,7 +126,12 @@
   align-items: center;
   justify-content: flex-end;
 }
-.contato-text03 {
+.contato-icon06 {
+  width: 24px;
+  filter: invert(100%);
+  height: 24px;
+}
+.contato-text4 {
   color: var(--dl-color-gray-white);
   text-align: right;
 }
@@ -224,36 +145,17 @@
   align-items: center;
   justify-content: flex-end;
 }
-.contato-icon16 {
-  width: 24px;
-  filter: invert(100%);
-  height: 24px;
-}
-.contato-text04 {
-  color: var(--dl-color-gray-white);
-  text-align: right;
-}
-.contato-container09 {
-  gap: var(--dl-space-space-unit);
-  flex: 0 0 auto;
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-self: flex-end;
-  align-items: center;
-  justify-content: flex-end;
-}
-.contato-icon18 {
+.contato-icon08 {
   width: 32px;
   filter: invert(100%);
   height: 32px;
   align-self: flex-start;
 }
-.contato-text05 {
+.contato-text5 {
   color: var(--dl-color-gray-white);
   text-align: right;
 }
-.contato-container10 {
+.contato-container09 {
   flex: 0 0 auto;
   width: 60%;
   height: auto;
@@ -262,23 +164,24 @@
   flex-direction: column;
   justify-content: center;
 }
-.contato-text06 {
+.contato-text6 {
   font-size: 2rem;
   margin-bottom: var(--dl-space-space-twounits);
 }
+
 .contato-form {
-  gap: var(--dl-space-space-twounits);
   width: a;
   height: a;
   display: flex;
   align-items: stretch;
   flex-direction: column;
+  gap: 32px;
 }
 .contato-container11 {
-  gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: stretch;
   flex-direction: row;
+  gap: 32px;
 }
 .contato-container12 {
   display: flex;
@@ -286,20 +189,23 @@
   flex-direction: column;
 }
 .contato-textinput {
-  border-color: var(--dl-color-gray-aaaaaa);
+  border-color: #aaaaaa;
   border-radius: 20px;
+  padding: 16px;
 }
 .contato-container13 {
   display: flex;
   position: relative;
   flex-direction: column;
+  gap: 32px;
 }
 .contato-textinput1 {
-  border-color: var(--dl-color-gray-aaaaaa);
+  border-color: #aaaaaa;
   border-radius: 20px;
+  padding: 16px;
 }
 .contato-container14 {
-  gap: var(--dl-space-space-twounits);
+  gap: 32px;
   display: flex;
   align-items: stretch;
   flex-direction: row;
@@ -310,8 +216,9 @@
   flex-direction: column;
 }
 .contato-textinput2 {
-  border-color: var(--dl-color-gray-aaaaaa);
+  border-color: #aaaaaa;
   border-radius: 20px;
+  padding: 16px;
 }
 .contato-container16 {
   display: flex;
@@ -319,8 +226,9 @@
   flex-direction: column;
 }
 .contato-textinput3 {
-  border-color: var(--dl-color-gray-aaaaaa);
+  border-color: #aaaaaa;
   border-radius: 20px;
+  padding: 16px;
 }
 .contato-container17 {
   display: flex;
@@ -329,28 +237,26 @@
 }
 .contato-textarea {
   height: 100px;
-  border-color: var(--dl-color-gray-aaaaaa);
+  border-color: #aaaaaa;
   border-radius: 20px;
+  padding: 16px;
 }
 .contato-button {
-  padding: var(--dl-space-space-unit);
+  padding: 16px;
   align-self: center;
   border-width: 0px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 8px;
+  background-color: #ffffff;
+  border-color: #aaaaaa;
+  border-radius: 20px;
 }
 .contato-text07 {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
 }
+
 @media(max-width: 991px) {
-  .contato-header {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-  }
-  .contato-icon-group {
-    margin-top: var(--dl-space-space-unit);
-  }
   .contato-hero {
     width: 100%;
     height: auto;
@@ -359,7 +265,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .contato-container02 {
+  .contato-container01 {
     width: 100%;
     height: auto;
     padding: var(--dl-space-space-twounits);
@@ -367,9 +273,12 @@
     align-items: center;
     justify-content: center;
   }
-  .contato-container03 {
+  .contato-container02 {
     align-items: center;
     flex-direction: row;
+  }
+  .contato-container03 {
+    width: auto;
   }
   .contato-container04 {
     width: auto;
@@ -378,22 +287,19 @@
     width: auto;
   }
   .contato-container06 {
-    width: auto;
-  }
-  .contato-container07 {
     align-self: center;
     justify-content: center;
   }
-  .contato-text03 {
+  .contato-text3 {
     text-align: center;
+  }
+  .contato-container07 {
+    justify-content: center;
   }
   .contato-container08 {
     justify-content: center;
   }
   .contato-container09 {
-    justify-content: center;
-  }
-  .contato-container10 {
     order: 3;
     width: auto;
     height: auto;
@@ -402,27 +308,18 @@
   }
 }
 @media(max-width: 767px) {
-  .contato-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .contato-nav {
-    display: none;
-  }
-  .contato-burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   .contato-hero {
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
   }
-  .contato-container02 {
+  .contato-container01 {
     width: 100%;
     margin-right: 0px;
     justify-content: center;
+  }
+  .contato-container02 {
+    gap: var(--dl-space-space-halfunit);
   }
   .contato-container03 {
     gap: var(--dl-space-space-halfunit);
@@ -433,50 +330,37 @@
   .contato-container05 {
     gap: var(--dl-space-space-halfunit);
   }
-  .contato-container06 {
-    gap: var(--dl-space-space-halfunit);
-  }
-  .contato-container10 {
+  .contato-container09 {
     width: auto;
   }
-  .contato-text06 {
+  .contato-text6 {
     width: a;
   }
 }
 @media(max-width: 479px) {
-  .contato-header {
-    padding: var(--dl-space-space-unit);
-  }
-  .contato-mobile-menu {
-    padding: 16px;
-  }
-  .contato-icon-group {
-    align-self: flex-start;
-    justify-content: center;
-  }
   .contato-hero {
     padding-top: 0px;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0px;
   }
-  .contato-container02 {
+  .contato-container01 {
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .contato-container03 {
+  .contato-container02 {
     align-self: center;
     flex-direction: column;
+  }
+  .contato-container03 {
+    align-self: center;
+    justify-content: center;
   }
   .contato-container04 {
     align-self: center;
     justify-content: center;
   }
   .contato-container05 {
-    align-self: center;
-    justify-content: center;
-  }
-  .contato-container06 {
     align-self: center;
     justify-content: center;
   }

@@ -92,5 +92,7 @@ export class LandingSATConteudo {
   @Input()
   image_src1: string =
     'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&ixlib=rb-4.0.3&w=700'
+  @Input()
+  rootClassName: string = ''
   constructor() {}
 }
