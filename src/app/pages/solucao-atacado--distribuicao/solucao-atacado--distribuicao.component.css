@@ -350,46 +350,6 @@
   text-align: justify;
   line-height: 1.5;
 }
-.solucao-atacado--distribuicao-features {
-  width: 100%;
-  display: flex;
-  padding: var(--dl-space-space-threeunits);
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  flex-direction: column;
-  background-color: var(--dl-color-bgpastel-bgcreme);
-}
-.solucao-atacado--distribuicao-text27 {
-  font-size: 3rem;
-  margin-bottom: 0px;
-}
-.solucao-atacado--distribuicao-container4 {
-  gap: var(--dl-space-space-twounits);
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-twounits);
-  flex-direction: column;
-}
-.solucao-atacado--distribuicao-navlink {
-  display: contents;
-}
-.solucao-atacado--distribuicao-component3 {
-  text-decoration: none;
-}
-.solucao-atacado--distribuicao-navlink1 {
-  display: contents;
-}
-.solucao-atacado--distribuicao-component4 {
-  text-decoration: none;
-}
-.solucao-atacado--distribuicao-navlink2 {
-  display: contents;
-}
-.solucao-atacado--distribuicao-component5 {
-  text-decoration: none;
-}
 @media(max-width: 991px) {
   .solucao-atacado--distribuicao-hero-right {
     align-items: stretch;
@@ -481,9 +441,6 @@
     height: fit-content;
     max-height: 175px;
     object-position: center;
-  }
-  .solucao-atacado--distribuicao-text27 {
-    text-align: center;
   }
 }
 @media(max-width: 767px) {
@@ -684,13 +641,6 @@
     margin-top: var(--dl-space-space-unit);
     text-align: center;
   }
-  .solucao-atacado--distribuicao-features {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .solucao-atacado--distribuicao-text27 {
-    text-align: center;
-  }
 }
 @media(max-width: 479px) {
   .solucao-atacado--distribuicao-text01 {
@@ -726,11 +676,5 @@
   }
   .solucao-atacado--distribuicao-image10 {
     width: 70%;
-  }
-  .solucao-atacado--distribuicao-features {
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
-    padding-bottom: var(--dl-space-space-twounits);
   }
 }

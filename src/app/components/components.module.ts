@@ -24,6 +24,7 @@ import { LandingFiscal } from './landing-fiscal/landing-fiscal.component'
 import { Header } from './header/header.component'
 import { CategoriaSolucaoIndustria } from './categoria-solucao-industria/categoria-solucao-industria.component'
 import { NavigationLinks } from './navigation-links/navigation-links.component'
+import { LandingAtacadoServicos } from './landing-atacado-servicos/landing-atacado-servicos.component'
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { NavigationLinks } from './navigation-links/navigation-links.component'
     Header,
     CategoriaSolucaoIndustria,
     NavigationLinks,
+    LandingAtacadoServicos,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -74,6 +76,7 @@ import { NavigationLinks } from './navigation-links/navigation-links.component'
     Header,
     CategoriaSolucaoIndustria,
     NavigationLinks,
+    LandingAtacadoServicos,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

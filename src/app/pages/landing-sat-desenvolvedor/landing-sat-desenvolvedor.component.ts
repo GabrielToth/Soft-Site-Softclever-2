@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-sat-desenvolvedor.component.css'],
 })
 export class LandingSATDesenvolvedor {
-  rawl40k: string = ' '
+  rawdjd6: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-SAT-Desenvolvedor - Soft Clever')
     this.meta.addTags([
