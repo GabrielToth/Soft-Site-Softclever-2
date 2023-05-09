@@ -7,7 +7,6 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['solucao-fiscal.component.css'],
 })
 export class SolucaoFiscal {
-  rawslgq: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('SolucaoFiscal - Soft Clever')
     this.meta.addTags([

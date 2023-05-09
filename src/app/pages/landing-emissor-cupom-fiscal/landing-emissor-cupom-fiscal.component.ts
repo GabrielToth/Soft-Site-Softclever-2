@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-emissor-cupom-fiscal.component.css'],
 })
 export class LandingEmissorCupomFiscal {
-  raw52yv: string = ' '
+  rawrl8z: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-Emissor-Cupom-Fiscal - Soft Clever')
     this.meta.addTags([

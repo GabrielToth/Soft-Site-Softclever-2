@@ -7,10 +7,9 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-sistema-sat-fiscal-gratuito.component.css'],
 })
 export class LandingSistemaSATFiscalGratuito {
-  rawwps5: string = ' '
-  rawh3zo: string = ' '
-  rawrqqk: string = ' '
-  raw191n: string = ' '
+  raw49bx: string = ' '
+  rawihdi: string = ' '
+  raw58tg: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-Sistema-SAT-Fiscal-Gratuito - Soft Clever')
     this.meta.addTags([

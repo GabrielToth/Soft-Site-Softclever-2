@@ -7,7 +7,7 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-sistema-para-cupom-fiscal-eletronico.component.css'],
 })
 export class LandingSistemaParaCupomFiscalEletronico {
-  rawa2w8: string = ' '
+  rawwe81: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle(
       'Landing-Sistema-para-Cupom-Fiscal-Eletronico - Soft Clever'
