@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core'
 })
 export class LandingFiscalHeroSection {
   @Input()
-  title: string = 'Fiscal'
-  rawp5mh: string = ' '
+  titulo: string = 'Fiscal'
+  rawdcdl: string = ' '
   constructor() {}
 }

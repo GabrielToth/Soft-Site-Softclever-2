@@ -29,6 +29,20 @@ const routes = [
       ).then((m) => m.LandingSistemaRetaguardaSatModule),
   },
   {
+    path: 'sistema-erp-para-empresa',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-erp-para-empresa/landing-sistema-erp-para-empresa.module'
+      ).then((m) => m.LandingSistemaErpParaEmpresaModule),
+  },
+  {
+    path: 'software-de-gestao-para-industria',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-de-gestao-para-industria/landing-software-de-gestao-para-industria.module'
+      ).then((m) => m.LandingSoftwareDeGestaoParaIndustriaModule),
+  },
+  {
     path: 'solucao-industria--servico',
     loadChildren: () =>
       import(
@@ -43,11 +57,39 @@ const routes = [
       ).then((m) => m.LandingEquipamentoSatModule),
   },
   {
+    path: 'software-emissor-nfe',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-emissor-nfe/landing-software-emissor-nfe.module'
+      ).then((m) => m.LandingSoftwareEmissorNfeModule),
+  },
+  {
+    path: 'sistema-para-empresa',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-para-empresa/landing-sistema-para-empresa.module'
+      ).then((m) => m.LandingSistemaParaEmpresaModule),
+  },
+  {
     path: 'solucao-fiscal',
     loadChildren: () =>
       import('./pages/solucao-fiscal/solucao-fiscal.module').then(
         (m) => m.SolucaoFiscalModule
       ),
+  },
+  {
+    path: 'erp-sistema',
+    loadChildren: () =>
+      import('./pages/landing-erp-sistema/landing-erp-sistema.module').then(
+        (m) => m.LandingErpSistemaModule
+      ),
+  },
+  {
+    path: 'emissor-nfe-sefaz',
+    loadChildren: () =>
+      import(
+        './pages/landing-emissor-nfe-sefaz/landing-emissor-nfe-sefaz.module'
+      ).then((m) => m.LandingEmissorNfeSefazModule),
   },
   {
     path: 'sat-desenvolvedor',
@@ -57,11 +99,32 @@ const routes = [
       ).then((m) => m.LandingSatDesenvolvedorModule),
   },
   {
+    path: 'emissor-nfe-online',
+    loadChildren: () =>
+      import(
+        './pages/landing-emissor-nfe-online/landing-emissor-nfe-online.module'
+      ).then((m) => m.LandingEmissorNfeOnlineModule),
+  },
+  {
     path: 'sat-cupom-fiscal',
     loadChildren: () =>
       import(
         './pages/landing-sat-cupom-fiscal/landing-sat-cupom-fiscal.module'
       ).then((m) => m.LandingSatCupomFiscalModule),
+  },
+  {
+    path: 'software-empresarial',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-empresarial/landing-software-empresarial.module'
+      ).then((m) => m.LandingSoftwareEmpresarialModule),
+  },
+  {
+    path: 'sistema-de-gestao-erp',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-de-gestao-erp/landing-sistema-de-gestao-erp.module'
+      ).then((m) => m.LandingSistemaDeGestaoErpModule),
   },
   {
     path: 'politica-de-privacidade',
@@ -71,11 +134,32 @@ const routes = [
       ).then((m) => m.PoliticaDePrivacidadeModule),
   },
   {
+    path: 'sistema-de-gestao-empresarial',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-de-gestao-empresarial/landing-sistema-de-gestao-empresarial.module'
+      ).then((m) => m.LandingSistemaDeGestaoEmpresarialModule),
+  },
+  {
+    path: 'sistema-nfe-em-sp',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-nfe-em-sp/landing-sistema-nfe-em-sp.module'
+      ).then((m) => m.LandingSistemaNfeEmSpModule),
+  },
+  {
     path: 'sistema-para-cupom-fiscal-eletronico',
     loadChildren: () =>
       import(
         './pages/landing-sistema-para-cupom-fiscal-eletronico/landing-sistema-para-cupom-fiscal-eletronico.module'
       ).then((m) => m.LandingSistemaParaCupomFiscalEletronicoModule),
+  },
+  {
+    path: 'sistema-erp',
+    loadChildren: () =>
+      import('./pages/landing-sistema-erp/landing-sistema-erp.module').then(
+        (m) => m.LandingSistemaErpModule
+      ),
   },
   {
     path: 'integracao-de-sistema-sat',
@@ -92,6 +176,41 @@ const routes = [
       ),
   },
   {
+    path: 'nota-fiscal-eletronica',
+    loadChildren: () =>
+      import(
+        './pages/landing-nota-fiscal-eletronica/landing-nota-fiscal-eletronica.module'
+      ).then((m) => m.LandingNotaFiscalEletronicaModule),
+  },
+  {
+    path: 'software-de-gestao-empresarial',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-de-gestao-empresarial/landing-software-de-gestao-empresarial.module'
+      ).then((m) => m.LandingSoftwareDeGestaoEmpresarialModule),
+  },
+  {
+    path: 'emissor-nfe-sp',
+    loadChildren: () =>
+      import(
+        './pages/landing-emissor-nfe-sp/landing-emissor-nfe-sp.module'
+      ).then((m) => m.LandingEmissorNfeSpModule),
+  },
+  {
+    path: 'sistema-emissor-de-nota-fiscal-eletronica',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-emissor-de-nota-fiscal-eletronica/landing-sistema-emissor-de-nota-fiscal-eletronica.module'
+      ).then((m) => m.LandingSistemaEmissorDeNotaFiscalEletronicaModule),
+  },
+  {
+    path: 'software-nota-fiscal-eletronica',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-nota-fiscal-eletronica/landing-software-nota-fiscal-eletronica.module'
+      ).then((m) => m.LandingSoftwareNotaFiscalEletronicaModule),
+  },
+  {
     path: 'sistema-pdv-sat',
     loadChildren: () =>
       import(
@@ -106,11 +225,25 @@ const routes = [
       ),
   },
   {
+    path: 'sistema-nfe-sefaz-em-sp',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-nfe-sefaz-em-sp/landing-sistema-nfe-sefaz-em-sp.module'
+      ).then((m) => m.LandingSistemaNfeSefazEmSpModule),
+  },
+  {
     path: 'solucao-varejo',
     loadChildren: () =>
       import('./pages/solucao-varejo/solucao-varejo.module').then(
         (m) => m.SolucaoVarejoModule
       ),
+  },
+  {
+    path: 'sistema-de-gestao',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-de-gestao/landing-sistema-de-gestao.module'
+      ).then((m) => m.LandingSistemaDeGestaoModule),
   },
   {
     path: 'emissor-cupom-fiscal',
@@ -120,11 +253,32 @@ const routes = [
       ).then((m) => m.LandingEmissorCupomFiscalModule),
   },
   {
+    path: 'sistema-erp-de-gestao',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-erp-de-gestao/landing-sistema-erp-de-gestao.module'
+      ).then((m) => m.LandingSistemaErpDeGestaoModule),
+  },
+  {
     path: 'sistema-sat',
     loadChildren: () =>
       import('./pages/landing-sistema-sat/landing-sistema-sat.module').then(
         (m) => m.LandingSistemaSatModule
       ),
+  },
+  {
+    path: 'emissor-nfe',
+    loadChildren: () =>
+      import('./pages/landing-emissor-nfe/landing-emissor-nfe.module').then(
+        (m) => m.LandingEmissorNfeModule
+      ),
+  },
+  {
+    path: 'software-erp-de-gestao',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-erp-de-gestao/landing-software-erp-de-gestao.module'
+      ).then((m) => m.LandingSoftwareErpDeGestaoModule),
   },
   {
     path: 'sat-fiscal',
@@ -160,50 +314,17 @@ const routes = [
       ).then((m) => m.LandingCupomFiscalSatModule),
   },
   {
-    path: 'solucao-atacado--distribuicao',
+    path: 'software-erp-de-gestao-empresarial',
     loadChildren: () =>
       import(
-        './pages/solucao-atacado--distribuicao/solucao-atacado--distribuicao.module'
-      ).then((m) => m.SolucaoAtacadoDistribuicaoModule),
+        './pages/landing-software-erp-de-gestao-empresarial/landing-software-erp-de-gestao-empresarial.module'
+      ).then((m) => m.LandingSoftwareErpDeGestaoEmpresarialModule),
   },
   {
-    path: 'contato',
+    path: 'erp',
     loadChildren: () =>
-      import('./pages/contato/contato.module').then((m) => m.ContatoModule),
-  },
-  {
-    path: 'emissor-nfe-online',
-    loadChildren: () =>
-      import(
-        './pages/landing-emissor-nfe-online/landing-emissor-nfe-online.module'
-      ).then((m) => m.LandingEmissorNfeOnlineModule),
-  },
-  {
-    path: 'emissor-nfe-sefaz',
-    loadChildren: () =>
-      import(
-        './pages/landing-emissor-nfe-sefaz/landing-emissor-nfe-sefaz.module'
-      ).then((m) => m.LandingEmissorNfeSefazModule),
-  },
-  {
-    path: 'emissor-nfe-sefaz-em-sp',
-    loadChildren: () =>
-      import(
-        './pages/landing-emissor-nfe-sefaz-em-sp/landing-emissor-nfe-sefaz-em-sp.module'
-      ).then((m) => m.LandingEmissorNfeSefazEmSpModule),
-  },
-  {
-    path: 'emissor-nfe-sp',
-    loadChildren: () =>
-      import(
-        './pages/landing-emissor-nfe-sp/landing-emissor-nfe-sp.module'
-      ).then((m) => m.LandingEmissorNfeSpModule),
-  },
-  {
-    path: 'emissor-nfe',
-    loadChildren: () =>
-      import('./pages/landing-emissor-nfe/landing-emissor-nfe.module').then(
-        (m) => m.LandingEmissorNfeModule
+      import('./pages/landing-erp/landing-erp.module').then(
+        (m) => m.LandingErpModule
       ),
   },
   {
@@ -214,32 +335,18 @@ const routes = [
       ).then((m) => m.LandingEmitirNotaFiscalEletronicaModule),
   },
   {
-    path: 'nota-fiscal-eletronica',
+    path: 'sistema-erp-para-varejo',
     loadChildren: () =>
       import(
-        './pages/landing-nota-fiscal-eletronica/landing-nota-fiscal-eletronica.module'
-      ).then((m) => m.LandingNotaFiscalEletronicaModule),
+        './pages/landing-sistema-erp-para-varejo/landing-sistema-erp-para-varejo.module'
+      ).then((m) => m.LandingSistemaErpParaVarejoModule),
   },
   {
-    path: 'sistema-emissor-de-nota-fiscal-eletronica',
+    path: 'sistema-erp-de-gestao-empresarial',
     loadChildren: () =>
       import(
-        './pages/landing-sistema-emissor-de-nota-fiscal-eletronica/landing-sistema-emissor-de-nota-fiscal-eletronica.module'
-      ).then((m) => m.LandingSistemaEmissorDeNotaFiscalEletronicaModule),
-  },
-  {
-    path: 'sistema-nfe-em-sp',
-    loadChildren: () =>
-      import(
-        './pages/landing-sistema-nfe-em-sp/landing-sistema-nfe-em-sp.module'
-      ).then((m) => m.LandingSistemaNfeEmSpModule),
-  },
-  {
-    path: 'sistema-nfe-sefaz-em-sp',
-    loadChildren: () =>
-      import(
-        './pages/landing-sistema-nfe-sefaz-em-sp/landing-sistema-nfe-sefaz-em-sp.module'
-      ).then((m) => m.LandingSistemaNfeSefazEmSpModule),
+        './pages/landing-sistema-erp-de-gestao-empresarial/landing-sistema-erp-de-gestao-empresarial.module'
+      ).then((m) => m.LandingSistemaErpDeGestaoEmpresarialModule),
   },
   {
     path: 'sistema-nfe-sefaz',
@@ -249,18 +356,51 @@ const routes = [
       ).then((m) => m.LandingSistemaNfeSefazModule),
   },
   {
-    path: 'software-emissor-nfe',
+    path: 'software-erp',
     loadChildren: () =>
-      import(
-        './pages/landing-software-emissor-nfe/landing-software-emissor-nfe.module'
-      ).then((m) => m.LandingSoftwareEmissorNfeModule),
+      import('./pages/landing-software-erp/landing-software-erp.module').then(
+        (m) => m.LandingSoftwareErpModule
+      ),
   },
   {
-    path: 'software-nota-fiscal-eletronica',
+    path: 'sistema-empresarial',
     loadChildren: () =>
       import(
-        './pages/landing-software-nota-fiscal-eletronica/landing-software-nota-fiscal-eletronica.module'
-      ).then((m) => m.LandingSoftwareNotaFiscalEletronicaModule),
+        './pages/landing-sistema-empresarial/landing-sistema-empresarial.module'
+      ).then((m) => m.LandingSistemaEmpresarialModule),
+  },
+  {
+    path: 'sistema-erp-comercial',
+    loadChildren: () =>
+      import(
+        './pages/landing-sistema-erp-comercial/landing-sistema-erp-comercial.module'
+      ).then((m) => m.LandingSistemaErpComercialModule),
+  },
+  {
+    path: 'emissor-nfe-sefaz-em-sp',
+    loadChildren: () =>
+      import(
+        './pages/landing-emissor-nfe-sefaz-em-sp/landing-emissor-nfe-sefaz-em-sp.module'
+      ).then((m) => m.LandingEmissorNfeSefazEmSpModule),
+  },
+  {
+    path: 'solucao-atacado-e-distribuicao',
+    loadChildren: () =>
+      import(
+        './pages/solucao-atacado--distribuicao/solucao-atacado--distribuicao.module'
+      ).then((m) => m.SolucaoAtacadoDistribuicaoModule),
+  },
+  {
+    path: 'software-de-gestao',
+    loadChildren: () =>
+      import(
+        './pages/landing-software-de-gestao/landing-software-de-gestao.module'
+      ).then((m) => m.LandingSoftwareDeGestaoModule),
+  },
+  {
+    path: 'contato',
+    loadChildren: () =>
+      import('./pages/contato/contato.module').then((m) => m.ContatoModule),
   },
 ]
 

@@ -7,10 +7,10 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-sistema-nfe-sefaz-em-sp.component.css'],
 })
 export class LandingSistemaNFESefazEmSP {
-  rawh7qh: string = ' '
-  raw5nnv: string = ' '
-  raw9h8c: string = ' '
-  rawiutj: string = ' '
+  rawnqbh: string = ' '
+  rawdhwk: string = ' '
+  rawh371: string = ' '
+  rawihwk: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-Sistema-NFE-Sefaz-em-SP - Soft Clever')
     this.meta.addTags([
