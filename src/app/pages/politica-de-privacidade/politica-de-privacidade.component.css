@@ -9,3 +9,17 @@
   align-items: center;
   flex-direction: column;
 }
+.politica-de-privacidade-container1 {
+  display: flex;
+  margin-top: var(--dl-space-space-fiveunits);
+  align-items: center;
+  flex-direction: column;
+}
+.politica-de-privacidade-title {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}

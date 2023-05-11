@@ -20,13 +20,14 @@ import { CategoriaSolucaoVarejo } from './categoria-solucao-varejo/categoria-sol
 import { NavigationLinks2 } from './navigation-links2/navigation-links2.component'
 import { CategoriaSolucaoFiscal } from './categoria-solucao-fiscal/categoria-solucao-fiscal.component'
 import { LandingFiscalHeroSection } from './landing-fiscal-hero-section/landing-fiscal-hero-section.component'
-import { AppComponent } from './component/component.component'
+import { LandingAtacadoConteudo } from './landing-atacado-conteudo/landing-atacado-conteudo.component'
 import { LandingSATHeroSection } from './landing-sat-hero-section/landing-sat-hero-section.component'
 import { CampoFORMS } from './campo-forms/campo-forms.component'
 import { LandingFiscal } from './landing-fiscal/landing-fiscal.component'
 import { Header } from './header/header.component'
 import { CategoriaSolucaoIndustria } from './categoria-solucao-industria/categoria-solucao-industria.component'
 import { NavigationLinks } from './navigation-links/navigation-links.component'
+import { HomeServicos } from './home-servicos/home-servicos.component'
 
 @NgModule({
   declarations: [
@@ -48,13 +49,14 @@ import { NavigationLinks } from './navigation-links/navigation-links.component'
     NavigationLinks2,
     CategoriaSolucaoFiscal,
     LandingFiscalHeroSection,
-    AppComponent,
+    LandingAtacadoConteudo,
     LandingSATHeroSection,
     CampoFORMS,
     LandingFiscal,
     Header,
     CategoriaSolucaoIndustria,
     NavigationLinks,
+    HomeServicos,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -76,13 +78,14 @@ import { NavigationLinks } from './navigation-links/navigation-links.component'
     NavigationLinks2,
     CategoriaSolucaoFiscal,
     LandingFiscalHeroSection,
-    AppComponent,
+    LandingAtacadoConteudo,
     LandingSATHeroSection,
     CampoFORMS,
     LandingFiscal,
     Header,
     CategoriaSolucaoIndustria,
     NavigationLinks,
+    HomeServicos,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
