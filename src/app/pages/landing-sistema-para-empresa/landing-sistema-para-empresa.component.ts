@@ -7,8 +7,8 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-sistema-para-empresa.component.css'],
 })
 export class LandingSistemaParaEmpresa {
-  rawlguh: string = ' '
-  rawqbiz: string = ' '
+  rawayfs: string = ' '
+  rawyvjk: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-Sistema-para-Empresa - Soft Clever')
     this.meta.addTags([

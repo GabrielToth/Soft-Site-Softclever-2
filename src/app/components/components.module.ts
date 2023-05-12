@@ -23,11 +23,11 @@ import { LandingFiscalHeroSection } from './landing-fiscal-hero-section/landing-
 import { LandingAtacadoConteudo } from './landing-atacado-conteudo/landing-atacado-conteudo.component'
 import { LandingSATHeroSection } from './landing-sat-hero-section/landing-sat-hero-section.component'
 import { CampoFORMS } from './campo-forms/campo-forms.component'
+import { HomeServicos } from './home-servicos/home-servicos.component'
 import { LandingFiscal } from './landing-fiscal/landing-fiscal.component'
 import { Header } from './header/header.component'
 import { CategoriaSolucaoIndustria } from './categoria-solucao-industria/categoria-solucao-industria.component'
 import { NavigationLinks } from './navigation-links/navigation-links.component'
-import { HomeServicos } from './home-servicos/home-servicos.component'
 
 @NgModule({
   declarations: [
@@ -52,11 +52,11 @@ import { HomeServicos } from './home-servicos/home-servicos.component'
     LandingAtacadoConteudo,
     LandingSATHeroSection,
     CampoFORMS,
+    HomeServicos,
     LandingFiscal,
     Header,
     CategoriaSolucaoIndustria,
     NavigationLinks,
-    HomeServicos,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -81,11 +81,11 @@ import { HomeServicos } from './home-servicos/home-servicos.component'
     LandingAtacadoConteudo,
     LandingSATHeroSection,
     CampoFORMS,
+    HomeServicos,
     LandingFiscal,
     Header,
     CategoriaSolucaoIndustria,
     NavigationLinks,
-    HomeServicos,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

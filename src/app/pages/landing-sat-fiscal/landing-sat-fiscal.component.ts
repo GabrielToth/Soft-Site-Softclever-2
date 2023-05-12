@@ -7,12 +7,12 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-sat-fiscal.component.css'],
 })
 export class LandingSATFiscal {
-  rawr689: string = ' '
-  rawhrmm: string = ' '
-  rawfcd5: string = ' '
-  rawvw0v: string = ' '
-  rawi84p: string = ' '
-  raw1g0v: string = ' '
+  raw1os6: string = ' '
+  rawmlw3: string = ' '
+  rawdopa: string = ' '
+  raw191h: string = ' '
+  rawbjdm: string = ' '
+  raw2ki9: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-SAT-Fiscal - Soft Clever')
     this.meta.addTags([
