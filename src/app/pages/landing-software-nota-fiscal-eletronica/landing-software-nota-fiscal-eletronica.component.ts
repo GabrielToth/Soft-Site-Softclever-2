@@ -7,8 +7,8 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-software-nota-fiscal-eletronica.component.css'],
 })
 export class LandingSoftwareNotaFiscalEletronica {
-  rawo1vt: string = ' '
-  rawljc6: string = ' '
+  rawri04: string = ' '
+  rawl6d7: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-Software-Nota-Fiscal-Eletronica - Soft Clever')
     this.meta.addTags([

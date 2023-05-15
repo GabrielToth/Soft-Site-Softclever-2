@@ -9,21 +9,16 @@
   align-items: center;
   flex-direction: column;
 }
-.politica-de-privacidade-container01 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  margin-top: var(--dl-space-space-fiveunits);
-  align-items: center;
-  flex-direction: column;
-}
 .politica-de-privacidade-policy {
   width: 90%;
   display: flex;
   align-self: center;
+  margin-top: var(--dl-space-space-fiveunits);
   align-items: flex-start;
+  margin-bottom: var(--dl-space-space-fiveunits);
   flex-direction: column;
 }
-.politica-de-privacidade-container02 {
+.politica-de-privacidade-container01 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -39,7 +34,7 @@
   text-indent: 3rem;
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.politica-de-privacidade-container03 {
+.politica-de-privacidade-container02 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -63,7 +58,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container04 {
+.politica-de-privacidade-container03 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -181,7 +176,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container05 {
+.politica-de-privacidade-container04 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -331,7 +326,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container06 {
+.politica-de-privacidade-container05 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -401,7 +396,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container07 {
+.politica-de-privacidade-container06 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -443,7 +438,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container08 {
+.politica-de-privacidade-container07 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -521,7 +516,7 @@
 .politica-de-privacidade-text059 {
   line-height: 1.5;
 }
-.politica-de-privacidade-container09 {
+.politica-de-privacidade-container08 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -571,7 +566,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container10 {
+.politica-de-privacidade-container09 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -589,7 +584,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container11 {
+.politica-de-privacidade-container10 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -623,7 +618,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container12 {
+.politica-de-privacidade-container11 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -641,7 +636,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container13 {
+.politica-de-privacidade-container12 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -659,7 +654,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container14 {
+.politica-de-privacidade-container13 {
   display: flex;
   align-self: flex-start;
   align-items: center;
@@ -826,7 +821,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container15 {
+.politica-de-privacidade-container14 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -844,7 +839,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container16 {
+.politica-de-privacidade-container15 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -864,6 +859,7 @@
 }
 .politica-de-privacidade-ul7 {
   width: 90%;
+  align-self: center;
   padding-left: 0px;
 }
 .politica-de-privacidade-li47 {
@@ -954,7 +950,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container17 {
+.politica-de-privacidade-container16 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -972,7 +968,7 @@
   text-indent: 3rem;
   padding-bottom: 0px;
 }
-.politica-de-privacidade-container18 {
+.politica-de-privacidade-container17 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;

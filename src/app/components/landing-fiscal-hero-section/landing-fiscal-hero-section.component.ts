@@ -8,6 +8,6 @@ import { Component, Input } from '@angular/core'
 export class LandingFiscalHeroSection {
   @Input()
   titulo: string = 'Fiscal'
-  raw8rk3: string = ' '
+  raw0436: string = ' '
   constructor() {}
 }

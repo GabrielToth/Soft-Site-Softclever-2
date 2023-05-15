@@ -7,9 +7,9 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['landing-emissor-nfe.component.css'],
 })
 export class LandingEmissorNFE {
-  rawu1t0: string = ' '
-  rawsbi5: string = ' '
-  rawrk8c: string = ' '
+  rawshm6: string = ' '
+  rawuv82: string = ' '
+  raw7xip: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Landing-Emissor-NFE - Soft Clever')
     this.meta.addTags([
