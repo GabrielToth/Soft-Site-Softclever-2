@@ -16,6 +16,7 @@ import { Component } from '@angular/core'
        email: new FormControl(''),
        telefone: new FormControl(''),
        mensagem: new FormControl(''),
+       quem_enviou: new FormControl('www.sirius.inf.br'),
    })
 
    constructor(private title: Title, private meta: Meta, private http: HttpClient) {
@@ -44,7 +45,8 @@ import { Component } from '@angular/core'
 
      this.http
        .post(
-         'https://www.api.emissorsatfiscal.net.br/send',
+        // 'https://www.api.emissorsatfiscal.net.br/send',
+         'https://www.api.emissorsatfiscal.net.br/email?token=S0ftCL5vEr!Td4iN70rm@t!CA',
          this.formClient.value,
          { headers }
        )
