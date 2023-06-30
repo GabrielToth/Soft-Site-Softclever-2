@@ -1,16 +1,16 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { CommonModule } from "@angular/common";
 
-import { ComponentsModule } from '../../components/components.module'
-import { LandingEmissorNFE } from './landing-emissor-nfe.component'
+import { ComponentsModule } from "../../components/components.module";
+import { LandingEmissorNFE } from "./landing-emissor-nfe.component";
 
 const routes = [
   {
-    path: '',
+    path: "",
     component: LandingEmissorNFE,
   },
-]
+];
 
 @NgModule({
   declarations: [LandingEmissorNFE],

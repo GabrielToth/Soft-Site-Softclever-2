@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .solucoes-right-feature-card {
   width: 100%;
@@ -148,7 +148,7 @@
 .solucoes-right-root-class-name24 {
   width: 100%;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .solucoes-right-container {
     margin-right: 0px;
   }
@@ -166,7 +166,7 @@
     margin-bottom: 0px;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .solucoes-right-feature-card {
     width: var(--dl-size-size-xxlarge);
     align-items: center;

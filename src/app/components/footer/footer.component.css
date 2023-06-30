@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .footer-footer {
   width: 100%;
@@ -204,120 +204,14 @@
   height: 1px;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 .footer-text12 {
   color: var(--dl-color-gray-white);
   align-self: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .footer-footer {
     flex-direction: column;
   }
@@ -350,7 +244,7 @@
     margin-top: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .footer-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -412,7 +306,7 @@
     margin-bottom: 0px;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .footer-footer {
     padding: var(--dl-space-space-unit);
   }

@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .component-container {
   width: 100%;
@@ -303,7 +303,7 @@
   text-align: justify;
   line-height: 1.5;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .component-text-left {
     width: 50%;
     padding: var(--dl-space-space-twounits);
@@ -368,7 +368,7 @@
     object-position: center;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .component-container1 {
     flex-direction: column;
   }
@@ -551,7 +551,7 @@
     text-align: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .component-image {
     width: 70%;
   }

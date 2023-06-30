@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .categoria-solucao-industria-categoria-solucao-industria {
   width: 100%;
@@ -64,7 +64,7 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .categoria-solucao-industria-image {
     margin-bottom: 0px;
   }
@@ -82,7 +82,7 @@
     padding-right: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .categoria-solucao-industria-categoria-solucao-industria {
     width: var(--dl-size-size-xxlarge);
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.05);
@@ -133,7 +133,7 @@
     align-self: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .categoria-solucao-industria-image {
     min-width: 0px;
   }

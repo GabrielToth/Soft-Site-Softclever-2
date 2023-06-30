@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .contato-container {
   width: 100%;
@@ -257,7 +257,7 @@
   font-weight: 700;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .contato-hero {
     width: 100%;
     height: auto;
@@ -307,7 +307,7 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .contato-hero {
     width: 100%;
     padding-left: 0px;
@@ -340,17 +340,21 @@
   .contato-form {
     width: 95%;
   }
-  .contato-container11, .contato-container14 {
+  .contato-container11,
+  .contato-container14 {
     width: 100%;
     display: flex;
     gap: 0;
     justify-content: space-between;
   }
-  .contato-container12, .contato-container13, .contato-container15, .contato-container16 {
+  .contato-container12,
+  .contato-container13,
+  .contato-container15,
+  .contato-container16 {
     width: 48%;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .contato-hero {
     padding-top: 0px;
     padding-left: 0;
@@ -377,11 +381,15 @@
     align-self: center;
     justify-content: center;
   }
-  .contato-container11, .contato-container14 {
+  .contato-container11,
+  .contato-container14 {
     flex-direction: column;
     gap: 32px;
   }
-  .contato-container12, .contato-container13, .contato-container15, .contato-container16 {
+  .contato-container12,
+  .contato-container13,
+  .contato-container15,
+  .contato-container16 {
     width: 100%;
   }
 }

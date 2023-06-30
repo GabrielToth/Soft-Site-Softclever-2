@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .botes-whats-ctt-btn-group {
   display: flex;
@@ -60,12 +60,12 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .botes-whats-ctt-root-class-name1 {
     align-self: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .botes-whats-ctt-navlink {
     margin-top: 0px;
   }

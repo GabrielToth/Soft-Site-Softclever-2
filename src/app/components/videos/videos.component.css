@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .videos-videos {
   flex: 0 0 auto;
@@ -112,7 +112,7 @@
 .videos-root-class-name17 {
   max-width: auto;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .videos-videos {
     height: auto;
     padding-top: var(--dl-space-space-twounits);
@@ -128,7 +128,7 @@
     height: auto;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .videos-videos {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-twounits);
@@ -139,7 +139,7 @@
     height: 48%;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .videos-videos {
     justify-content: center;
   }

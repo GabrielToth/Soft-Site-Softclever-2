@@ -1,16 +1,16 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { CommonModule } from "@angular/common";
 
-import { ComponentsModule } from '../../components/components.module'
-import { LandingSistemaParaCupomFiscalEletronico } from './landing-sistema-para-cupom-fiscal-eletronico.component'
+import { ComponentsModule } from "../../components/components.module";
+import { LandingSistemaParaCupomFiscalEletronico } from "./landing-sistema-para-cupom-fiscal-eletronico.component";
 
 const routes = [
   {
-    path: '',
+    path: "",
     component: LandingSistemaParaCupomFiscalEletronico,
   },
-]
+];
 
 @NgModule({
   declarations: [LandingSistemaParaCupomFiscalEletronico],

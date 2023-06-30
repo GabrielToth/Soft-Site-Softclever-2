@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .categoria-solucao-fiscal-categoria-solucao-fiscal {
   width: 100%;
@@ -67,7 +67,7 @@
   border-radius: 16px;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .categoria-solucao-fiscal-container {
     margin-right: 0px;
   }
@@ -85,7 +85,7 @@
     margin-bottom: 0px;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .categoria-solucao-fiscal-categoria-solucao-fiscal {
     width: var(--dl-size-size-xxlarge);
     box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.05);

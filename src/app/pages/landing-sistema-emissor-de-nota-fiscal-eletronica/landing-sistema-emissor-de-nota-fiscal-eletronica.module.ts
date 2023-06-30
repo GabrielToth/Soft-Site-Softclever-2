@@ -1,16 +1,16 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { CommonModule } from "@angular/common";
 
-import { ComponentsModule } from '../../components/components.module'
-import { LandingSistemaEmissorDeNotaFiscalEletronica } from './landing-sistema-emissor-de-nota-fiscal-eletronica.component'
+import { ComponentsModule } from "../../components/components.module";
+import { LandingSistemaEmissorDeNotaFiscalEletronica } from "./landing-sistema-emissor-de-nota-fiscal-eletronica.component";
 
 const routes = [
   {
-    path: '',
+    path: "",
     component: LandingSistemaEmissorDeNotaFiscalEletronica,
   },
-]
+];
 
 @NgModule({
   declarations: [LandingSistemaEmissorDeNotaFiscalEletronica],

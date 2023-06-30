@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .contato-container {
   width: 100%;
@@ -257,7 +257,7 @@
   font-weight: 700;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .contato-hero {
     width: 100%;
     height: auto;
@@ -308,7 +308,7 @@
     margin-bottom: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .contato-hero {
     width: 100%;
     padding-left: 0px;
@@ -338,7 +338,7 @@
     width: a;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .contato-hero {
     padding-top: 0px;
     padding-left: 0;

@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .landing-fiscal-servicos-features {
   width: 100%;
@@ -42,12 +42,12 @@
 .landing-fiscal-servicos-component2 {
   text-decoration: none;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .landing-fiscal-servicos-text {
     text-align: center;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .landing-fiscal-servicos-features {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -56,7 +56,7 @@
     text-align: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .landing-fiscal-servicos-features {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

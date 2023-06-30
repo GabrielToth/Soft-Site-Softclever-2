@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .navigation-links1-nav {
   flex: 0 0 auto;
@@ -24,14 +24,7 @@
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .navigation-links1-nav {
     align-items: flex-start;
     flex-direction: column;

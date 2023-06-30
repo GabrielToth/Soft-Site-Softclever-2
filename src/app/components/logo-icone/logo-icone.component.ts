@@ -1,17 +1,17 @@
-import { Component, Input } from '@angular/core'
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'logo-icone',
-  templateUrl: 'logo-icone.component.html',
-  styleUrls: ['logo-icone.component.css'],
+  selector: "logo-icone",
+  templateUrl: "logo-icone.component.html",
+  styleUrls: ["logo-icone.component.css"],
 })
 export class LogoIcone {
   @Input()
-  rootClassName: string = ''
+  rootClassName: string = "";
   @Input()
   image_src: string =
-    '/assets/playground_assets/logo%20soft%20clever%20png-200h.png'
+    "/assets/playground_assets/logo%20soft%20clever%20png-200h.png";
   @Input()
-  image_alt: string = 'image'
+  image_alt: string = "image";
   constructor() {}
 }

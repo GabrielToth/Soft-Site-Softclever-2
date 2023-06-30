@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .header-header {
   top: 0px;
@@ -107,68 +107,12 @@
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .header-icon-group {
     margin-top: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -182,7 +126,7 @@
     justify-content: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .header-header {
     padding: var(--dl-space-space-unit);
   }

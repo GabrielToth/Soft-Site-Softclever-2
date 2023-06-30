@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .logo-icone-container {
   display: flex;
@@ -321,7 +321,7 @@
   right: 0px;
   position: static;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .logo-icone-root-class-name {
     left: 0px;
     right: 0px;
@@ -331,7 +331,7 @@
     right: 0px;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .logo-icone-image {
     margin-left: auto;
     margin-right: auto;

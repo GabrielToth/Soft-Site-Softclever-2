@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .solucao-industria--servico-container {
   width: 100%;
@@ -203,7 +203,7 @@
   text-align: justify;
   line-height: 1.5;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .solucao-industria--servico-hero-right {
     height: auto;
     min-height: auto;
@@ -247,7 +247,7 @@
     margin-bottom: 0px;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .solucao-industria--servico-hero-right {
     height: auto;
     min-height: 80vh;
@@ -326,7 +326,7 @@
     line-height: 1.5;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .solucao-industria--servico-hero-right {
     height: auto;
     min-height: 80vh;

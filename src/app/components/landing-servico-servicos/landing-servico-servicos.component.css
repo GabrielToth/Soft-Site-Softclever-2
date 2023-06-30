@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .landing-servico-servicos-features {
   width: 100%;
@@ -42,12 +42,12 @@
 .landing-servico-servicos-component2 {
   text-decoration: none;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .landing-servico-servicos-text {
     text-align: center;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .landing-servico-servicos-features {
     position: relative;
     padding-left: var(--dl-space-space-twounits);
@@ -57,7 +57,7 @@
     text-align: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .landing-servico-servicos-features {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .solucoes-left-feature-card {
   width: 100%;
@@ -199,7 +199,7 @@
 .solucoes-left-root-class-name43 {
   width: 100%;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .solucoes-left-image {
     margin-bottom: 0px;
   }
@@ -217,7 +217,7 @@
     padding-right: var(--dl-space-space-unit);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .solucoes-left-feature-card {
     width: var(--dl-size-size-xxlarge);
     align-items: center;
@@ -284,7 +284,7 @@
     align-self: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .solucoes-left-image {
     min-width: 0px;
   }

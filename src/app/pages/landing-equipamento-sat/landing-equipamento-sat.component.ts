@@ -1,28 +1,28 @@
-import { Component } from '@angular/core'
-import { Title, Meta } from '@angular/platform-browser'
+import { Component } from "@angular/core";
+import { Title, Meta } from "@angular/platform-browser";
 
 @Component({
-  selector: 'landing-equipamento-sat',
-  templateUrl: 'landing-equipamento-sat.component.html',
-  styleUrls: ['landing-equipamento-sat.component.css'],
+  selector: "landing-equipamento-sat",
+  templateUrl: "landing-equipamento-sat.component.html",
+  styleUrls: ["landing-equipamento-sat.component.css"],
 })
 export class LandingEquipamentoSAT {
-  rawd6md: string = ' '
+  rawd6md: string = " ";
   constructor(private title: Title, private meta: Meta) {
-    this.title.setTitle('Landing-Equipamento-SAT - Soft Clever')
+    this.title.setTitle("Landing-Equipamento-SAT - Soft Clever");
     this.meta.addTags([
       {
-        name: 'description',
-        content: 'A solução para a gestão empresarial do seu negócio.',
+        name: "description",
+        content: "A solução para a gestão empresarial do seu negócio.",
       },
       {
-        property: 'og:title',
-        content: 'Landing-Equipamento-SAT - Soft Clever',
+        property: "og:title",
+        content: "Landing-Equipamento-SAT - Soft Clever",
       },
       {
-        property: 'og:description',
-        content: 'A solução ideal para a gestão empresarial do seu negócio.',
+        property: "og:description",
+        content: "A solução ideal para a gestão empresarial do seu negócio.",
       },
-    ])
+    ]);
   }
 }

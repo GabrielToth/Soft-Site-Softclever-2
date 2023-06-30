@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .home-servicos-features {
   width: 100%;
@@ -48,12 +48,12 @@
 .home-servicos-component3 {
   text-decoration: none;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .home-servicos-text {
     text-align: center;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .home-servicos-features {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -63,7 +63,7 @@
     text-align: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .home-servicos-features {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

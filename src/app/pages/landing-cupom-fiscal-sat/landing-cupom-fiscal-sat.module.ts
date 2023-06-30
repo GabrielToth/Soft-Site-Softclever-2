@@ -1,16 +1,16 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { CommonModule } from "@angular/common";
 
-import { ComponentsModule } from '../../components/components.module'
-import { LandingCupomFiscalSAT } from './landing-cupom-fiscal-sat.component'
+import { ComponentsModule } from "../../components/components.module";
+import { LandingCupomFiscalSAT } from "./landing-cupom-fiscal-sat.component";
 
 const routes = [
   {
-    path: '',
+    path: "",
     component: LandingCupomFiscalSAT,
   },
-]
+];
 
 @NgModule({
   declarations: [LandingCupomFiscalSAT],

@@ -56,64 +56,64 @@
     <div class="contato-container09">
       <h1 class="contato-text6">Entre em contato</h1>
       <form
-        class='contato-form'
-        (ngSubmit)='onSubmit($event)'
-        [formGroup]='formClient'
+        class="contato-form"
+        (ngSubmit)="onSubmit($event)"
+        [formGroup]="formClient"
       >
-        <div class='contato-container11'>
-          <div class='contato-container12'>
+        <div class="contato-container11">
+          <div class="contato-container12">
             <input
-              type='text'
-              placeholder='Nome'
-              class='contato-textinput input'
+              type="text"
+              placeholder="Nome"
+              class="contato-textinput input"
               required
-              formControlName='nome'
+              formControlName="nome"
             />
           </div>
-          <div class='contato-container13'>
+          <div class="contato-container13">
             <input
-              type='text'
-              placeholder='Empresa'
-              class='contato-textinput1 input'
-              name='empresa'
+              type="text"
+              placeholder="Empresa"
+              class="contato-textinput1 input"
+              name="empresa"
               required
-              formControlName='empresa'
-            />
-          </div>
-        </div>
-        <div class='contato-container14'>
-          <div class='contato-container15'>
-            <input
-              type='text'
-              placeholder='Email'
-              class='contato-textinput2 input'
-              name='email'
-              required
-              formControlName='email'
-            />
-          </div>
-          <div class='contato-container16'>
-            <input
-              type='text'
-              placeholder='Telefone'
-              class='contato-textinput3 input'
-              name='telefone'
-              required
-              formControlName='telefone'
+              formControlName="empresa"
             />
           </div>
         </div>
-        <div class='contato-container17'>
+        <div class="contato-container14">
+          <div class="contato-container15">
+            <input
+              type="text"
+              placeholder="Email"
+              class="contato-textinput2 input"
+              name="email"
+              required
+              formControlName="email"
+            />
+          </div>
+          <div class="contato-container16">
+            <input
+              type="text"
+              placeholder="Telefone"
+              class="contato-textinput3 input"
+              name="telefone"
+              required
+              formControlName="telefone"
+            />
+          </div>
+        </div>
+        <div class="contato-container17">
           <textarea
-            placeholder='Escreva sua mensagem'
-            class='contato-textarea textarea'
-            name='mensagem'
+            placeholder="Escreva sua mensagem"
+            class="contato-textarea textarea"
+            name="mensagem"
             required
-            formControlName='mensagem'
+            formControlName="mensagem"
           ></textarea>
         </div>
-        <button type='submit' class='contato-button button'>
-          <span class='contato-text07'>
+        <button type="submit" class="contato-button button">
+          <span class="contato-text07">
             <span>Enviar</span>
             <br />
           </span>

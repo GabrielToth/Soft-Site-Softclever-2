@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .landing-atacado-hero-section-hero-right {
   display: flex;
@@ -40,7 +40,7 @@
   line-height: 2;
   margin-bottom: var(--dl-space-space-twounits);
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .landing-atacado-hero-section-hero-right {
     align-items: stretch;
     justify-content: space-between;
@@ -70,7 +70,7 @@
     margin-bottom: var(--dl-space-space-fourunits);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .landing-atacado-hero-section-image {
     display: none;
   }
@@ -88,7 +88,7 @@
     text-align: justify;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .landing-atacado-hero-section-text1 {
     margin-top: var(--dl-space-space-twounits);
     text-align: justify;

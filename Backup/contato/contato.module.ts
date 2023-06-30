@@ -1,21 +1,26 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
-import { ReactiveFormsModule } from '@angular/forms';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { CommonModule } from "@angular/common";
+import { ReactiveFormsModule } from "@angular/forms";
 
-import { ComponentsModule } from '../../components/components.module'
-import { Contato } from './contato.component'
+import { ComponentsModule } from "../../components/components.module";
+import { Contato } from "./contato.component";
 
 const routes = [
   {
-    path: '',
+    path: "",
     component: Contato,
   },
-]
+];
 
 @NgModule({
   declarations: [Contato],
-  imports: [CommonModule, ComponentsModule, ReactiveFormsModule, RouterModule.forChild(routes)],
+  imports: [
+    CommonModule,
+    ComponentsModule,
+    ReactiveFormsModule,
+    RouterModule.forChild(routes),
+  ],
   exports: [Contato],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })

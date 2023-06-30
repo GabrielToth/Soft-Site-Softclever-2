@@ -1,16 +1,16 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core'
-import { RouterModule } from '@angular/router'
-import { CommonModule } from '@angular/common'
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
+import { RouterModule } from "@angular/router";
+import { CommonModule } from "@angular/common";
 
-import { ComponentsModule } from '../../components/components.module'
-import { LandingSistemaERPDeGestao } from './landing-sistema-erp-de-gestao.component'
+import { ComponentsModule } from "../../components/components.module";
+import { LandingSistemaERPDeGestao } from "./landing-sistema-erp-de-gestao.component";
 
 const routes = [
   {
-    path: '',
+    path: "",
     component: LandingSistemaERPDeGestao,
   },
-]
+];
 
 @NgModule({
   declarations: [LandingSistemaERPDeGestao],

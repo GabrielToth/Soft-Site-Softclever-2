@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .landing-sat-hero-section-hero-right {
   width: 100%;
@@ -41,23 +41,7 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .landing-sat-hero-section-image {
     width: 30%;
   }
@@ -80,7 +64,7 @@
     margin-bottom: var(--dl-space-space-fourunits);
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .landing-sat-hero-section-hero-right {
     height: auto;
     min-height: 80vh;
@@ -99,7 +83,7 @@
     justify-content: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .landing-sat-hero-section-container {
     width: 459px;
     margin-bottom: 0px;

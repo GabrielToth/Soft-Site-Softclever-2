@@ -1,10 +1,10 @@
 :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
-  --dl-color-danger-300: #A22020;
-  --dl-color-danger-500: #BF2626;
-  --dl-color-danger-700: #E14747;
-  --dl-color-gray-white: #FFFFFF;
+  --dl-color-danger-300: #a22020;
+  --dl-color-danger-500: #bf2626;
+  --dl-color-danger-700: #e14747;
+  --dl-color-gray-white: #ffffff;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
@@ -25,8 +25,8 @@
   --dl-color-gray-dddddd: #ddddddff;
   --dl-color-gray-eeeeee: #eeeeeeff;
   --dl-color-success-300: #199033;
-  --dl-color-success-500: #32A94C;
-  --dl-color-success-700: #4CC366;
+  --dl-color-success-500: #32a94c;
+  --dl-color-success-700: #4cc366;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
   --dl-radius-radius-round: 50%;

@@ -1,5 +1,5 @@
-:host { 
-  display: contents; 
+:host {
+  display: contents;
 }
 .landing-fiscal-container {
   width: 100%;
@@ -164,7 +164,7 @@
   text-align: justify;
   line-height: 1.5;
 }
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .landing-fiscal-container {
     height: fit-content;
   }
@@ -208,7 +208,7 @@
     line-height: 1.5;
   }
 }
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .landing-fiscal-container {
     height: auto;
     align-items: center;
@@ -306,7 +306,7 @@
     text-align: center;
   }
 }
-@media(max-width: 479px) {
+@media (max-width: 479px) {
   .landing-fiscal-container1 {
     padding: 0px;
   }
