@@ -1,3 +1,1 @@
-# SoftClever-Website
-
-Website 2023 - Soft Clever
+https://sirius-inf-br.vercel.app/
