@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { Title, Meta } from "@angular/platform-browser";
+import { TitleService } from "./title.service";
 
 @Component({
   selector: "solucao-varejo",
@@ -7,7 +8,7 @@ import { Title, Meta } from "@angular/platform-browser";
   styleUrls: ["solucao-varejo.component.css"],
 })
 export class SolucaoVarejo {
-  constructor(private title: Title, private meta: Meta) {
+  constructor(private title: Title, private meta: Meta, private titleService: TitleService) {
     this.title.setTitle("SolucaoVarejo - Soft Clever");
     this.meta.addTags([
       {
@@ -23,5 +24,6 @@ export class SolucaoVarejo {
         content: "A solução ideal para a gestão empresarial do seu negócio.",
       },
     ]);
+    this.titleService.addScript('https://www.googletagmanager.com/gtm.js?id=GTM-WPTFDXDG');
   }
 }

@@ -5,6 +5,7 @@ import { CommonModule } from "@angular/common";
 import { ComponentsModule } from "../../components/components.module";
 import { SolucaoVarejo } from "./solucao-varejo.component";
 
+
 const routes = [
   {
     path: "",
