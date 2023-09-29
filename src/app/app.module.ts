@@ -5,6 +5,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { ComponentsModule } from "./components/components.module";
 import { AppComponent } from "./app.component";
 import { HttpClientModule } from "@angular/common/http";
+import { ReactiveFormsModule } from "@angular/forms";
 
 const routes = [
   {
@@ -411,6 +412,7 @@ const routes = [
     RouterModule.forRoot(routes),
     ComponentsModule,
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

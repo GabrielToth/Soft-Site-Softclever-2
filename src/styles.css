@@ -42,6 +42,25 @@
   --dl-color-bgpastel-bgcreme: #f9f7f2ff;
   --dl-space-space-threeunits: 48px;
   --dl-space-space-oneandhalfunits: 24px;
+
+  --max-width: 1328px;
+  --padding: 0 64px;
+
+  --blue-color: #0d2137;
+  --blue-light-color: #2e77ae;
+  --blue-ligther-color: #E0EAF5;
+  --blue-market: #0073e6;
+  --orage-color: #ff8e2b;
+
+  --box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  
+  --gray-333: #333;
+  --gray-50: #505050;
+  --gray-60: #606060;
+  --gray-ccc: #ccc;
+  --gray-f1: #f1f1f1;
+
 }
 .button {
   color: var(--dl-color-gray-000000);
