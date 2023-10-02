@@ -3,83 +3,119 @@
 <div class="contact">
     <div class="contact-container main-content">
         <h1>CONTATO</h1>
-    
-        <img class="loading-image" src="/assets/images/gif/loading.gif">
-    
-        <div class="contact-email-send-success">
-            <h1>Obrigado</h1>
-    
-            <p>Seu contato foi recebido com sucesso, em breve retornaremos lhe respondendo.</p>
-        </div>
-    
-        <div class="contact-email-send-fail">
+
+        <img class="loading-image" src="assets/images/gif/loading.gif" *ngIf="showOverlay">
+
+        <div class="contact-email-send-fail" *ngIf="showFail">
             <h1>Falha ao enviar o email, tente novamente mais tarde.</h1>
         </div>
-    
-        <div class="contact-form show">
+
+        <div class="contact-form">
             <form class="contact-form-layout" (ngSubmit)="onSubmit($event)" [formGroup]="formClient">
-    
-                <input data-form-input="nome" class="contact-form-input" type="text" placeholder="Nome" name="name" id="name"
-                    required formControlName="nome" />
-    
-    
-                <input data-form-input="empresa" class="contact-form-input" type="text" placeholder="Empresa" name="company" id="company"
-                    required formControlName="empresa" />
-    
-    
-                <input data-form-input="email" class="contact-form-input" type="email" placeholder="Email" name="email" id="email"
-                    required formControlName="email" />
-    
-    
-                <input data-form-input="telefone" class="contact-form-input telefone" type="text" placeholder="(99) 99999-9999"
-                    pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" name="phone" id="phone" maxlength="15" required
-                    formControlName="telefone" />
-    
-    
-                <textarea data-form-input="mensagem" id="message" name="message" placeholder="Message" rows="3"
-                    class="contact-form-input double-span" required formControlName="mensagem"></textarea>
-    
+                <!-- Campo de Nome -->
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input class="contact-form-input" type="text" placeholder="Nome" formControlName="nome" id="nome"
+                        aria-labelledby="nome-label" aria-describedby="nome-error">
+                    <div id="nome-error" *ngIf="nomeError" class="error-message">
+                        {{ nomeError }}
+                    </div>
+                </div>
+
+                <!-- Campo de Empresa -->
+                <div class="form-group">
+                    <label for="empresa">Empresa:</label>
+                    <input class="contact-form-input" type="text" placeholder="Empresa" formControlName="empresa"
+                        id="empresa" aria-labelledby="empresa-label" aria-describedby="empresa-error">
+                    <div id="empresa-error" *ngIf="empresaError" class="error-message">
+                        {{ empresaError }}
+                    </div>
+                </div>
+
+                <!-- Campo de Email -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input class="contact-form-input" type="email" placeholder="Email" formControlName="email"
+                        id="email" aria-labelledby="email-label" aria-describedby="email-error">
+                    <div id="email-error" *ngIf="emailError" class="error-message">
+                        {{ emailError }}
+                    </div>
+                    <div id="email-error" *ngIf="formClient.get('email').hasError('email')" class="error-message">
+                        Email não é válido.
+                    </div>
+                </div>
+
+                <!-- Campo de Telefone -->
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input class="contact-form-input telefone" type="text" placeholder="(99) 99999-9999"
+                        pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}" formControlName="telefone" id="telefone"
+                        aria-labelledby="telefone-label" aria-describedby="telefone-error" maxlength="15">
+                    <div id="telefone-error"
+                        *ngIf="telefoneError || (formClient.get('telefone').touched && formClient.get('telefone').hasError('pattern'))"
+                        class="error-message">
+                        {{ telefoneError || 'Preencha o telefone corretamente.' }}
+                    </div>
+                </div>
+
+                <!-- Campo de Mensagem -->
+                <div class="form-group double-span">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Message" rows="3"
+                        class="contact-form-input" formControlName="mensagem"
+                        aria-labelledby="mensagem-label" aria-describedby="mensagem-error"></textarea>
+                    <div id="mensagem-error" *ngIf="mensagemError" class="error-message">
+                        {{ mensagemError }}
+                    </div>
+                </div>
+
+                <!-- Checkbox 1 -->
                 <div class="input-group">
-                    <input type="checkbox" id="checkbox1" name="checkbox1" formControlName="checkbox1">
-                    <label for="checkbox1">Experimente Grátis - Não precisa do cartão de crédito.</label>
+                    <input type="checkbox" id="checkbox1" name="checkbox1" formControlName="checkbox1"
+                        aria-labelledby="checkbox1-label">
+                    <label for="checkbox1" id="checkbox1-label">Experimente Grátis - Não precisa do cartão de
+                        crédito.</label>
                 </div>
-    
+
+                <!-- Checkbox 2 -->
                 <div class="input-group">
-                    <input type="checkbox" id="checkbox2" name="checkbox2" formControlName="checkbox2">
-                    <label for="checkbox2">Contato ou agendamento de demonstração remota.</label>
+                    <input type="checkbox" id="checkbox2" name="checkbox2" formControlName="checkbox2"
+                        aria-labelledby="checkbox2-label">
+                    <label for="checkbox2" id="checkbox2-label">Contato ou agendamento de demonstração remota.</label>
                 </div>
-    
-                <div class="double-span">
-                    <button class="button" type="submit" [disabled]="!formClient.valid">Entre em contato</button>
-                </div>
+
+                <!-- Botão de envio -->
+                <button class="button double-span" type="submit">Entre em contato</button>
             </form>
-    
-    
-    
+
+
+
+
+
             <h2 class="contact-info-cellphone-title">Ou entre em contato</h2>
             <div class="contact-info-cellphones">
                 <div class="contact-info-item contact-link">
-                    <img src="/assets/images/png/whatsapp-icon.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/whatsapp-icon.png" alt="" class="contact-info-item-icon">
                     <a class="contact-info-cellphone" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511992810253"
                         target="_blank">(11) 9 9281-0253</a>
                 </div>
                 <div class="contact-info-item">
-                    <img src="/assets/images/png/phone.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon">
                     <span>(11) 9 9281-0253</span>
                 </div>
                 <div class="contact-info-item">
-                    <img src="/assets/images/png/phone.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon">
                     <span>(11) 3991-3923</span>
                 </div>
                 <div class="contact-info-item">
-                    <img src="/assets/images/png/phone.png" alt="" class="contact-info-item-icon">
-    
+                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon">
+
                     <span>(11) 2361-8334</span>
                 </div>
             </div>
         </div>
-    
-    
+
+
     </div>
 </div>
 

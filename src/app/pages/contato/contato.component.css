@@ -30,7 +30,10 @@
 
 /* Estilo para o cabeçalho */
 .contact-container h1 {
+    margin: 0;
+
     text-align: center;
+    
     color: var(--gray-333);
 }
 
@@ -75,16 +78,9 @@
     color: var(--gray-333);
 }
 
-/* Estilo para o formulário de contato */
-.contact-form,
-.loading-image,
-.contact-email-send-success,
-.contact-email-send-fail {
-    display: none;
-}
-
 .contact-form {
     display: flex;
+    flex-direction: column;
 }
 
 .contact-form h2 {
@@ -97,9 +93,10 @@
 
 .contact-form-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; /* Três colunas, a terceira com o dobro de espaço */
     gap: 10px;
 }
+
 
 
 .contact-form-input,
@@ -140,10 +137,10 @@ label {
 
 .double-span {
     grid-column: span 2;
-
-    justify-self: center;
 }
-
+.contact-form-input::placeholder {
+    font-family: Inter;
+}
 @media screen and (max-width: 600px) {
     .contact {
         padding: 16px;
@@ -159,6 +156,7 @@ label {
 }
 
 .contact-info-cellphone-title {
+    margin: 0;
     padding: 16px 0;
 }
 
@@ -166,9 +164,12 @@ label {
     width: 64px;
     height: 64px;
 
-    display: none;
+    display: flex;
 }
 
-.show {
-    display: block;
-}
+/* Estilo para mensagens de erro */
+.error-message {
+    color: red;
+    font-size: 0.875rem; /* Tamanho de fonte desejado */
+    margin-top: 0.25rem; /* Espaço superior opcional */
+  }

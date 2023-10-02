@@ -403,6 +403,11 @@ const routes = [
     loadChildren: () =>
       import("./pages/contato/contato.module").then((m) => m.ContatoModule),
   },
+  {
+    path: "obrigado",
+    loadChildren: () =>
+      import("./pages/obrigado/obrigado.module").then((m) => m.ObrigadoModule),
+  },
 ];
 
 @NgModule({

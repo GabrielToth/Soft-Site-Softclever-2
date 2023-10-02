@@ -9,13 +9,9 @@ export class Menu {
     @Input()
     rootClassName: string = "";
 
-    isMobileOpen: boolean = true;
+    isMobileOpen: boolean = false;
 
     constructor() { }
-
-    handleClick(): void {
-        this.setOpen(!this.isMobileOpen);
-    }
 
     setOpen(mobile: boolean): void {
         this.isMobileOpen = mobile;
