@@ -25,7 +25,7 @@ import { LandingSATHeroSection } from "./landing-sat-hero-section/landing-sat-he
 import { CampoFORMS } from "./campo-forms/campo-forms.component";
 import { HomeServicos } from "./home-servicos/home-servicos.component";
 import { LandingFiscal } from "./landing-fiscal/landing-fiscal.component";
-import { Header } from "./header/header.component";
+import { Menu } from "./menu/menu.component";
 import { CategoriaSolucaoIndustria } from "./categoria-solucao-industria/categoria-solucao-industria.component";
 import { NavigationLinks } from "./navigation-links/navigation-links.component";
 
@@ -54,7 +54,7 @@ import { NavigationLinks } from "./navigation-links/navigation-links.component";
     CampoFORMS,
     HomeServicos,
     LandingFiscal,
-    Header,
+    Menu,
     CategoriaSolucaoIndustria,
     NavigationLinks,
   ],
@@ -83,7 +83,7 @@ import { NavigationLinks } from "./navigation-links/navigation-links.component";
     CampoFORMS,
     HomeServicos,
     LandingFiscal,
-    Header,
+    Menu,
     CategoriaSolucaoIndustria,
     NavigationLinks,
   ],

@@ -20,7 +20,7 @@ export class CategoriaSolucaoVarejo {
   @Input()
   Image_alt: string = "image";
   @Input()
-  Image_src: string = "/assets/playground_assets/comercio-varejista-1500w.webp";
+  Image_src: string = "/assets/images/comercio-varejista-1500w.webp";
   @Input()
   rootClassName: string = "";
   constructor() {}

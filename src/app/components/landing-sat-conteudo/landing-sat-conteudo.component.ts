@@ -74,7 +74,7 @@ export class LandingSATConteudo {
     "https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&ixlib=rb-4.0.3&w=700";
   @Input()
   image_src: string =
-    "/assets/playground_assets/feliz-modernos-mulher-com-bolsas-para-compras-vertical-2-500w.jpg";
+    "/assets/images/feliz-modernos-mulher-com-bolsas-para-compras-vertical-2-500w.jpg";
   @Input()
   heading5: string = "Sírius Comanda / Mesas – Alimentação em Geral";
   @Input()

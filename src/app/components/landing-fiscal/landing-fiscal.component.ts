@@ -40,7 +40,7 @@ export class LandingFiscal {
   @Input()
   heading3: string = "Sírius Sped Fiscal e Bloco K";
   @Input()
-  image_src: string = "/assets/playground_assets/fiscal-1-500w.jpg";
+  image_src: string = "/assets/images/fiscal-1-500w.jpg";
   @Input()
   text: string =
     "Emissão de Conhecimento de Transporte Eletrônico (CT-e) com envio e autorização junto a SEFAZ. Diversos processos automatizados. Filtros e relatórios gerenciais. Cadastros de emitente, remetente, consignatário, redespacho, tomador, expedidor, recebedor e destinatário. Pré-visualização e impressão do Conhecimento de Transporte.";

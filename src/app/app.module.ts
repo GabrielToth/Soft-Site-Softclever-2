@@ -44,11 +44,11 @@ const routes = [
       ).then((m) => m.LandingSoftwareDeGestaoParaIndustriaModule),
   },
   {
-    path: "solucao-industria--servico",
+    path: "solucao-industria-e-servico",
     loadChildren: () =>
       import(
-        "./pages/solucao-industria--servico/solucao-industria--servico.module"
-      ).then((m) => m.SolucaoIndustriaServicoModule),
+        "./pages/solucao-industria-e-servico/solucao-industria-e-servico.module"
+      ).then((m) => m.SolucaoIndustriaEServicoModule),
   },
   {
     path: "equipamento-sat",

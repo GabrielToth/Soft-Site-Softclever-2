@@ -7,7 +7,7 @@ import { Component, Input } from "@angular/core";
 })
 export class SolucoesLEFT {
   @Input()
-  image_src: string = "/assets/playground_assets/comercio-varejista-1500w.webp";
+  image_src: string = "/assets/images/comercio-varejista-1500w.webp";
   @Input()
   button: string = "SAIBA MAIS";
   @Input()

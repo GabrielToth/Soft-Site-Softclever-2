@@ -2,9 +2,9 @@ import { Component } from "@angular/core";
 import { Title, Meta } from "@angular/platform-browser";
 
 @Component({
-  selector: "solucao-industria--servico",
-  templateUrl: "solucao-industria--servico.component.html",
-  styleUrls: ["solucao-industria--servico.component.css"],
+  selector: "solucao-industria-servico",
+  templateUrl: "solucao-industria-e-servico.component.html",
+  styleUrls: ["solucao-industria-e-servico.component.css"],
 })
 export class SolucaoIndustriaEServico {
   rawr0ca: string = " ";

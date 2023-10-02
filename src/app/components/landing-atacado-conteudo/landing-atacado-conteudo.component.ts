@@ -68,7 +68,7 @@ export class LandingAtacadoConteudo {
     "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&ixlib=rb-4.0.3&w=1400";
   @Input()
   image_src: string =
-    "/assets/playground_assets/mulher-com-tablet-trabalhando-perto-das-prateleiras-do-armazem-com-carga-2-500w.jpg";
+    "/assets/images/mulher-com-tablet-trabalhando-perto-das-prateleiras-do-armazem-com-carga-2-500w.jpg";
   @Input()
   image_alt1: string = "image";
   @Input()

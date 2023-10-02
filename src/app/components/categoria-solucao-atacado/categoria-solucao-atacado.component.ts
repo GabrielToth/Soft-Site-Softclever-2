@@ -8,7 +8,7 @@ import { Component, Input } from "@angular/core";
 export class CategoriaSolucaoAtacado {
   @Input()
   Image_src: string =
-    "/assets/playground_assets/atacado-e-distribuicao-1500w.webp";
+    "/assets/images/atacado-e-distribuicao-1500w.webp";
   @Input()
   text: string =
     "NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais.";

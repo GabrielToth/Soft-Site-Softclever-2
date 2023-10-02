@@ -7,7 +7,7 @@
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
-  margin-top: var(--dl-space-space-fiveunits);
+  margin-top: 64px;
   min-height: 700px;
   align-items: center;
   flex-direction: row;

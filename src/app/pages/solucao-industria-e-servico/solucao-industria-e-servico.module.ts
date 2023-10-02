@@ -3,7 +3,7 @@ import { RouterModule } from "@angular/router";
 import { CommonModule } from "@angular/common";
 
 import { ComponentsModule } from "../../components/components.module";
-import { SolucaoIndustriaEServico } from "./solucao-industria--servico.component";
+import { SolucaoIndustriaEServico } from "./solucao-industria-e-servico.component";
 
 const routes = [
   {
@@ -18,4 +18,4 @@ const routes = [
   exports: [SolucaoIndustriaEServico],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class SolucaoIndustriaServicoModule {}
+export class SolucaoIndustriaEServicoModule {}
