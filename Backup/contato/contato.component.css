@@ -366,3 +366,23 @@
     justify-content: center;
   }
 }
+
+
+.input {
+  color: var(--dl-color-gray-000000);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-000000);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-000000);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-000000);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}

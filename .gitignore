@@ -48,3 +48,6 @@ Thumbs.db
 
 # Angular webpacks
 /.angular
+
+# PSD
+/src/assets/images/psd/*

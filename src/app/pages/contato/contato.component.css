@@ -139,7 +139,7 @@ label {
     grid-column: span 2;
 }
 .contact-form-input::placeholder {
-    font-family: Inter;
+    font-family: Roboto;
 }
 @media screen and (max-width: 600px) {
     .contact {
