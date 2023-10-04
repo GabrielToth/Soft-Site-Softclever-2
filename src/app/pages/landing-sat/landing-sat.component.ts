@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sat",
   templateUrl: "landing-sat.component.html",
-  styleUrls: ["landing-sat.component.css"],
+  styleUrls: ["landing-sat.component.scss"],
 })
 export class LandingSAT {
   constructor(private title: Title, private meta: Meta) {

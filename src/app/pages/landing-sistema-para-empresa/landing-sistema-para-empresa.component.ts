@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sistema-para-empresa",
   templateUrl: "landing-sistema-para-empresa.component.html",
-  styleUrls: ["landing-sistema-para-empresa.component.css"],
+  styleUrls: ["landing-sistema-para-empresa.component.scss"],
 })
 export class LandingSistemaParaEmpresa {
   raw6og2: string = " ";

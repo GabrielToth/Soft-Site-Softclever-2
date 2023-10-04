@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "landing-atacado-conteudo",
   templateUrl: "landing-atacado-conteudo.component.html",
-  styleUrls: ["landing-atacado-conteudo.component.css"],
+  styleUrls: ["landing-atacado-conteudo.component.scss"],
 })
 export class LandingAtacadoConteudo {
   @Input()

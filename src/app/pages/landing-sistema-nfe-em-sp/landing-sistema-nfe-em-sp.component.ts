@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sistema-nf-em-sp",
   templateUrl: "landing-sistema-nfe-em-sp.component.html",
-  styleUrls: ["landing-sistema-nfe-em-sp.component.css"],
+  styleUrls: ["landing-sistema-nfe-em-sp.component.scss"],
 })
 export class LandingSistemaNFEEmSP {
   rawa15x: string = " ";

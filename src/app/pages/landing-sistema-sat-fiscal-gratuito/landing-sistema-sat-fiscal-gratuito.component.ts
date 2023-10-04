@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sistema-sa-fiscal-gratuito",
   templateUrl: "landing-sistema-sat-fiscal-gratuito.component.html",
-  styleUrls: ["landing-sistema-sat-fiscal-gratuito.component.css"],
+  styleUrls: ["landing-sistema-sat-fiscal-gratuito.component.scss"],
 })
 export class LandingSistemaSATFiscalGratuito {
   rawhg7f: string = " ";

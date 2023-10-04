@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-software-nota-fiscal-eletronica",
   templateUrl: "landing-software-nota-fiscal-eletronica.component.html",
-  styleUrls: ["landing-software-nota-fiscal-eletronica.component.css"],
+  styleUrls: ["landing-software-nota-fiscal-eletronica.component.scss"],
 })
 export class LandingSoftwareNotaFiscalEletronica {
   rawri04: string = " ";

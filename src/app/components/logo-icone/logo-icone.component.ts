@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "logo-icone",
   templateUrl: "logo-icone.component.html",
-  styleUrls: ["logo-icone.component.css"],
+  styleUrls: ["logo-icone.component.scss"],
 })
 export class LogoIcone {
   @Input()

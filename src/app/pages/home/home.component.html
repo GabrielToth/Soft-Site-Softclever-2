@@ -1,51 +1,38 @@
-<div class="home-container">
-  <app-menu rootClassName="header-root-class-name16"></app-menu>
-  <div class="home-hero">
-    <div class="home-container1">
-      <h1 class="home-text">Soft Clever</h1>
-      <span class="home-text01">
-        <span>Mais de 12.000 usuários atendidos.</span>
-        <br />
-        <span>Desenvolvemos soluções desde 1994.</span>
-        <br />
-        <span>Somos indicados por centenas de contadores.</span>
-        <br />
-      </span>
-      <botes-whatsctt></botes-whatsctt>
+<div class="home">
+    <app-menu></app-menu>
+    <div class="home-hero">
+        <div class="home-hero-container">
+            <div class="home-hero-container-content">
+                <h1>Soft Clever</h1>
+                <p class="home-text">Mais de 12.000 usuários atendidos.</p>
+                <p class="home-text">Desenvolvemos soluções desde 1994.</p>
+                <p class="home-text">Somos indicados por centenas de contadores.</p>
+                <botes-whatsctt></botes-whatsctt>
+            </div>
+        </div>
+        <img alt="image" src="assets/images/jpg/home - hero.jpg" loading="eager" class="home-image" />
     </div>
-    <img
-      alt="image"
-      src="assets/images/jpg/home - hero.jpg"
-      loading="eager"
-      class="home-image"
-    />
-  </div>
-  <div class="home-gallery-card">
-    <div class="home-container2">
-      <h1 class="home-heading">
-        <span>
-          Desenvolvido para
-          <span [innerHTML]="rawu8gf"></span>
-        </span>
-        <span class="home-text09">você</span>
-      </h1>
-      <span class="home-text10">
-        <span>A gestão empresarial para seu negócio nunca foi tão fácil.</span>
-        <br />
-        <span>Temos sistemas para micro, pequena e média empresa.</span>
-      </span>
-      <botes-whatsctt
-        rootClassName="botes-whatsctt-root-class-name"
-      ></botes-whatsctt>
+    <div class="home-gallery-card">
+        <div class="home-container2">
+            <h1 class="home-heading">
+                <span>
+                    Desenvolvido para
+                    <span [innerHTML]="rawu8gf"></span>
+                </span>
+                <span class="home-text09">você</span>
+            </h1>
+            <span class="home-text10">
+                <span>A gestão empresarial para seu negócio nunca foi tão fácil.</span>
+                <br />
+                <span>Temos sistemas para micro, pequena e média empresa.</span>
+            </span>
+            <botes-whatsctt></botes-whatsctt>
+        </div>
+        <img alt="image"
+            src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1c2luZXNzcGVyc29ufGVufDB8fHx8MTY4MTEzMzU1MQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+            loading="lazy" class="home-image1" />
     </div>
-    <img
-      alt="image"
-      src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1c2luZXNzcGVyc29ufGVufDB8fHx8MTY4MTEzMzU1MQ&amp;ixlib=rb-4.0.3&amp;h=1500"
-      loading="lazy"
-      class="home-image1"
-    />
-  </div>
-  <app-videos></app-videos>
-  <home-servicos></home-servicos>
-  <app-footer></app-footer>
+    <app-videos></app-videos>
+    <home-servicos></home-servicos>
+    <app-footer></app-footer>
 </div>

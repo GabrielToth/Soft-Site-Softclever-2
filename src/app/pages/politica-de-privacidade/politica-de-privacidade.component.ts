@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "politica-de-privacidade",
   templateUrl: "politica-de-privacidade.component.html",
-  styleUrls: ["politica-de-privacidade.component.css"],
+  styleUrls: ["politica-de-privacidade.component.scss"],
 })
 export class PoliticaDePrivacidade {
   constructor(private title: Title, private meta: Meta) {

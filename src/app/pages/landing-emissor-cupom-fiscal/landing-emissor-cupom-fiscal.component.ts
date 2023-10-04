@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-emissor-cupom-fiscal",
   templateUrl: "landing-emissor-cupom-fiscal.component.html",
-  styleUrls: ["landing-emissor-cupom-fiscal.component.css"],
+  styleUrls: ["landing-emissor-cupom-fiscal.component.scss"],
 })
 export class LandingEmissorCupomFiscal {
   rawsoki: string = " ";

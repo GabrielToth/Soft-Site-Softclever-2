@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-equipamento-sat",
   templateUrl: "landing-equipamento-sat.component.html",
-  styleUrls: ["landing-equipamento-sat.component.css"],
+  styleUrls: ["landing-equipamento-sat.component.scss"],
 })
 export class LandingEquipamentoSAT {
   rawd6md: string = " ";

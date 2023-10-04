@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-emissor-nf-sefaz",
   templateUrl: "landing-emissor-nfe-sefaz.component.html",
-  styleUrls: ["landing-emissor-nfe-sefaz.component.css"],
+  styleUrls: ["landing-emissor-nfe-sefaz.component.scss"],
 })
 export class LandingEmissorNFESefaz {
   raw3yrm: string = " ";

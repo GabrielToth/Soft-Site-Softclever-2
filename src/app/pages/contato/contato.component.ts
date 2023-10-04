@@ -7,7 +7,7 @@ import { Router } from "@angular/router";
 @Component({
     selector: "app-contato",
     templateUrl: "contato.component.html",
-    styleUrls: ["contato.component.css", "../../../assets/css/button.css"],
+    styleUrls: ["contato.component.scss", "../../../assets/css/button.css"],
 })
 export class Contato {
     formClient: FormGroup;

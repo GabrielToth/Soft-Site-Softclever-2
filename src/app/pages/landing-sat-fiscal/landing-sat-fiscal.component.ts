@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sa-fiscal",
   templateUrl: "landing-sat-fiscal.component.html",
-  styleUrls: ["landing-sat-fiscal.component.css"],
+  styleUrls: ["landing-sat-fiscal.component.scss"],
 })
 export class LandingSATFiscal {
   rawksoz: string = " ";

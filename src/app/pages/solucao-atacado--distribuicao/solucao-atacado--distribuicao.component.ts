@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "solucao-atacado--distribuicao",
   templateUrl: "solucao-atacado--distribuicao.component.html",
-  styleUrls: ["solucao-atacado--distribuicao.component.css"],
+  styleUrls: ["solucao-atacado--distribuicao.component.scss"],
 })
 export class SolucaoAtacadoEDistribuicao {
   constructor(private title: Title, private meta: Meta) {

@@ -5,7 +5,7 @@ import { TitleService } from "./title.service";
 @Component({
   selector: "solucao-varejo",
   templateUrl: "solucao-varejo.component.html",
-  styleUrls: ["solucao-varejo.component.css"],
+  styleUrls: ["solucao-varejo.component.scss"],
 })
 export class SolucaoVarejo {
   constructor(private title: Title, private meta: Meta, private titleService: TitleService) {

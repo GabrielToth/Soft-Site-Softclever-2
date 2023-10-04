@@ -6,7 +6,7 @@ import { Title, Meta } from "@angular/platform-browser";
   templateUrl:
     "landing-sistema-emissor-de-nota-fiscal-eletronica.component.html",
   styleUrls: [
-    "landing-sistema-emissor-de-nota-fiscal-eletronica.component.css",
+    "landing-sistema-emissor-de-nota-fiscal-eletronica.component.scss",
   ],
 })
 export class LandingSistemaEmissorDeNotaFiscalEletronica {

@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-software-er-de-gestao-empresarial",
   templateUrl: "landing-software-erp-de-gestao-empresarial.component.html",
-  styleUrls: ["landing-software-erp-de-gestao-empresarial.component.css"],
+  styleUrls: ["landing-software-erp-de-gestao-empresarial.component.scss"],
 })
 export class LandingSoftwareERPDeGestaoEmpresarial {
   constructor(private title: Title, private meta: Meta) {

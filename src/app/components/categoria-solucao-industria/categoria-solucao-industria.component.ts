@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "categoria-solucao-industria",
   templateUrl: "categoria-solucao-industria.component.html",
-  styleUrls: ["categoria-solucao-industria.component.css"],
+  styleUrls: ["categoria-solucao-industria.component.scss"],
 })
 export class CategoriaSolucaoIndustria {
   @Input()

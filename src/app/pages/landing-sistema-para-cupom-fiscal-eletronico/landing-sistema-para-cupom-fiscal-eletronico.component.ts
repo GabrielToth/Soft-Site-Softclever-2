@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sistema-para-cupom-fiscal-eletronico",
   templateUrl: "landing-sistema-para-cupom-fiscal-eletronico.component.html",
-  styleUrls: ["landing-sistema-para-cupom-fiscal-eletronico.component.css"],
+  styleUrls: ["landing-sistema-para-cupom-fiscal-eletronico.component.scss"],
 })
 export class LandingSistemaParaCupomFiscalEletronico {
   raw4gp8: string = " ";

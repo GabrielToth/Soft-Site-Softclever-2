@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "navigation-links2",
   templateUrl: "navigation-links2.component.html",
-  styleUrls: ["navigation-links2.component.css"],
+  styleUrls: ["navigation-links2.component.scss"],
 })
 export class NavigationLinks2 {
   @Input()

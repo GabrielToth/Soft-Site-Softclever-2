@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "solucoes-right",
   templateUrl: "solucoes-right.component.html",
-  styleUrls: ["solucoes-right.component.css"],
+  styleUrls: ["solucoes-right.component.scss"],
 })
 export class SolucoesRIGHT {
   @Input()

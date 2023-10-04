@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-software-emissor-nfe",
   templateUrl: "landing-software-emissor-nfe.component.html",
-  styleUrls: ["landing-software-emissor-nfe.component.css"],
+  styleUrls: ["landing-software-emissor-nfe.component.scss"],
 })
 export class LandingSoftwareEmissorNFE {
   raw59g0: string = " ";

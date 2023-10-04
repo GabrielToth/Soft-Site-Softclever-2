@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "landing-sa-conteudo",
   templateUrl: "landing-sat-conteudo.component.html",
-  styleUrls: ["landing-sat-conteudo.component.css"],
+  styleUrls: ["landing-sat-conteudo.component.scss"],
 })
 export class LandingSATConteudo {
   @Input()

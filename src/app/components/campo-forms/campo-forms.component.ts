@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "campo-forms",
   templateUrl: "campo-forms.component.html",
-  styleUrls: ["campo-forms.component.css"],
+  styleUrls: ["campo-forms.component.scss"],
 })
 export class CampoFORMS {
   @Input()

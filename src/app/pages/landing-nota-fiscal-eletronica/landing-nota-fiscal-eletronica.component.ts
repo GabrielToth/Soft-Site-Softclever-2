@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-nota-fiscal-eletronica",
   templateUrl: "landing-nota-fiscal-eletronica.component.html",
-  styleUrls: ["landing-nota-fiscal-eletronica.component.css"],
+  styleUrls: ["landing-nota-fiscal-eletronica.component.scss"],
 })
 export class LandingNotaFiscalEletronica {
   rawgjdx: string = " ";

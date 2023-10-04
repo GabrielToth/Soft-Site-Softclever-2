@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
   selector: "landing-fiscal",
   templateUrl: "landing-fiscal.component.html",
-  styleUrls: ["landing-fiscal.component.css"],
+  styleUrls: ["landing-fiscal.component.scss"],
 })
 export class LandingFiscal {
   @Input()

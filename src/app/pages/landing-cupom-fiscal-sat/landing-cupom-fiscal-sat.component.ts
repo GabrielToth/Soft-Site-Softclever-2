@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-cupom-fiscal-sat",
   templateUrl: "landing-cupom-fiscal-sat.component.html",
-  styleUrls: ["landing-cupom-fiscal-sat.component.css"],
+  styleUrls: ["landing-cupom-fiscal-sat.component.scss"],
 })
 export class LandingCupomFiscalSAT {
   raw5ygm: string = " ";

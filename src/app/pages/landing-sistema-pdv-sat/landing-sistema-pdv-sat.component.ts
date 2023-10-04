@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sistema-pdvsat",
   templateUrl: "landing-sistema-pdv-sat.component.html",
-  styleUrls: ["landing-sistema-pdv-sat.component.css"],
+  styleUrls: ["landing-sistema-pdv-sat.component.scss"],
 })
 export class LandingSistemaPDVSAT {
   raw9zej: string = " ";

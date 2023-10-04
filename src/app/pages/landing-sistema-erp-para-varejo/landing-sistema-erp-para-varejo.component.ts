@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sistema-er-para-varejo",
   templateUrl: "landing-sistema-erp-para-varejo.component.html",
-  styleUrls: ["landing-sistema-erp-para-varejo.component.css"],
+  styleUrls: ["landing-sistema-erp-para-varejo.component.scss"],
 })
 export class LandingSistemaERPParaVarejo {
   rawpihg: string = " ";

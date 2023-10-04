@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-emitir-nota-fiscal-eletronica",
   templateUrl: "landing-emitir-nota-fiscal-eletronica.component.html",
-  styleUrls: ["landing-emitir-nota-fiscal-eletronica.component.css"],
+  styleUrls: ["landing-emitir-nota-fiscal-eletronica.component.scss"],
 })
 export class LandingEmitirNotaFiscalEletronica {
   constructor(private title: Title, private meta: Meta) {

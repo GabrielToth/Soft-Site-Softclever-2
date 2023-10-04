@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-software-sa-fiscal",
   templateUrl: "landing-software-sat-fiscal.component.html",
-  styleUrls: ["landing-software-sat-fiscal.component.css"],
+  styleUrls: ["landing-software-sat-fiscal.component.scss"],
 })
 export class LandingSoftwareSATFiscal {
   rawiq3k: string = " ";

@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-sa-desenvolvedor",
   templateUrl: "landing-sat-desenvolvedor.component.html",
-  styleUrls: ["landing-sat-desenvolvedor.component.css"],
+  styleUrls: ["landing-sat-desenvolvedor.component.scss"],
 })
 export class LandingSATDesenvolvedor {
   rawtect: string = " ";

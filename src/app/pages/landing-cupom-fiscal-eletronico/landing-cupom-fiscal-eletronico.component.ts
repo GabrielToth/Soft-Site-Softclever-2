@@ -4,7 +4,7 @@ import { Title, Meta } from "@angular/platform-browser";
 @Component({
   selector: "landing-cupom-fiscal-eletronico",
   templateUrl: "landing-cupom-fiscal-eletronico.component.html",
-  styleUrls: ["landing-cupom-fiscal-eletronico.component.css"],
+  styleUrls: ["landing-cupom-fiscal-eletronico.component.scss"],
 })
 export class LandingCupomFiscalEletronico {
   constructor(private title: Title, private meta: Meta) {
