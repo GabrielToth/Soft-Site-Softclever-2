@@ -1,0 +1,97 @@
+.solution {
+    max-width: 320px;
+    height: 415px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+    justify-content: flex-end;
+    
+    border-radius: var(--border-radius);
+
+    box-shadow: var(--box-shadow);
+
+    background-color: var(--dl-color-gray-white);
+
+    overflow: hidden;
+}
+
+.solution-container {
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-self: stretch;
+    justify-content: center;
+}
+
+.solution-container-heading {
+    color: var(--dl-color-gray-000000);
+    text-align: left;
+    transition: 150;
+    line-height: 1.5;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
+}
+
+.solution-container-heading:hover {
+    text-decoration: underline;
+}
+
+.solution-container-text {
+    color: var(--dl-color-gray-000000);
+    transition: 150ms;
+    line-height: 1.5;
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-unit);
+}
+
+.solution-container-text:hover {
+    text-decoration: underline;
+}
+
+.solution-container-button {
+    display: none;
+    margin-top: var(--dl-space-space-unit);
+    border-width: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.categoria-solucao-atacado-image {
+    width: 320px;
+    height: 180px;
+    min-width: 320px;
+    align-self: flex-start;
+    min-height: 180px;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .solution-container {
+        margin-right: 0px;
+    }
+
+    .solution-container-heading {
+        padding-left: var(--dl-space-space-unit);
+        padding-right: var(--dl-space-space-unit);
+        padding-bottom: 0px;
+    }
+
+    .solution-container-text {
+        padding-top: 0px;
+        padding-left: var(--dl-space-space-unit);
+        padding-right: var(--dl-space-space-unit);
+    }
+
+    .categoria-solucao-atacado-image {
+        margin-bottom: 0px;
+    }
+}

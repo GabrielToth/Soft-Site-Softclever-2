@@ -46,8 +46,6 @@
                 .video {
                     width: 100%;
 
-                    border-radius: 5px;
-
                     iframe {
                         height: 100%;
                         width: 100%;
@@ -113,8 +111,6 @@
                         width: 100%;
                     }
                 }
-
-
             }
         }
     }
@@ -138,6 +134,16 @@
         .video-card {
             .video-card-container {
                 padding: 32px 0;
+
+                .video-card-content {
+                    padding: 0 32px;
+                }
+
+                .video-container {
+                    .youtube {
+                        border-radius: 0;
+                    }
+                }
             }
         }
     }

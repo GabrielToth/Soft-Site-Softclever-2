@@ -16,16 +16,25 @@
   margin-bottom: 0px;
 }
 .home-servicos-container {
-  gap: var(--dl-space-space-twounits);
   width: 100%;
-  display: flex;
+  
+  max-width: var(--max-width);
+
+  padding: var(--padding);
+  
   position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-twounits);
-  flex-direction: column;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+  
+  gap: var(--dl-space-space-twounits);
 }
 .home-servicos-navlink {
   display: contents;
+  height: 400px;
 }
 .home-servicos-component {
   text-decoration: none;
