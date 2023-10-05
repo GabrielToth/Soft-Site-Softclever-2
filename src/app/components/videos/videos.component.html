@@ -1,25 +1,31 @@
-<div class="videos-videos" [ngClass]="rootClassName">
-  <div class="videos-container">
-    <h1 class="videos-text">{{ heading }}</h1>
-    <span class="videos-text1">{{ text }}</span>
-    <iframe
-      src="https://player.vimeo.com/video/352070241?h=4c714b5957"
-      allow="autoplay; fullscreen; picture-in-picture"
-      frameborder="0"
-      allowfullscreen
-      allowfullscreen
-      class="videos-iframe"
-    ></iframe>
-  </div>
-  <div class="videos-container1">
-    <h1 class="videos-text2">{{ heading1 }}</h1>
-    <span class="videos-text3">{{ text1 }}</span>
-    <iframe
-      src="https://www.youtube.com/embed/GwttGRBPf1M"
-      allow="autoplay; picture-in-picture"
-      frameborder="0"
-      allowfullscreen
-      class="videos-iframe1"
-    ></iframe>
-  </div>
+<div class="videos">
+    <div class="video-card">
+        <div class="video-card-container">
+            <div class="video-card-content">
+                <h3>Soft Clever na mídia</h3>
+                <p>Reportagem exibida na Band News.</p>
+            </div>
+            <div class="video-container">
+                <div class="youtube video" data-embed="83Pxy3TwN2w">
+                    <div class="play-button"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <div class="video-card-container">
+            <div class="video-card-content">
+                <h3>Produtos e Serviços</h3>
+                <p>Conheça em apenas um minuto nossos produtos e serviços.</p>
+            </div>
+            <div class="video-container">
+                <div class="youtube video" data-embed="GwttGRBPf1M">
+                    <div class="play-button"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
