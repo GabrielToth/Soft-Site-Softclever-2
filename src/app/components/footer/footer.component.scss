@@ -9,7 +9,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--blue-color);
+    background-color: var(--gray-background-color);
 
     .footer-container {
         width: 100%;
@@ -22,7 +22,7 @@ footer {
         flex-wrap: wrap;
 
         justify-content: space-between;
-        align-items: start;
+        align-items: flex-start;
 
         .footer-section {
             min-width: 200px;
@@ -40,7 +40,7 @@ footer {
                     font-size: 24px;
                     font-weight: 700;
 
-                    color: var(--orage-color);
+                    color: var(--red-color);
                 }
             }
 
@@ -57,7 +57,7 @@ footer {
 
                         align-items: flex-start;
 
-                        color: var(--gray-f1);
+                        color: black;
                     }
                 }
 
