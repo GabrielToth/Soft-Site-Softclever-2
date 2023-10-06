@@ -1,7 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from "@angular/core";
 import { RouterModule } from "@angular/router";
 import { CommonModule } from "@angular/common";
-import { ReactiveFormsModule } from "@angular/forms";
 
 import { ComponentsModule } from "../../components/components.module";
 import { Contato } from "./contato.component";
@@ -18,7 +17,6 @@ const routes = [
   imports: [
     CommonModule,
     ComponentsModule,
-    ReactiveFormsModule,
     RouterModule.forChild(routes),
   ],
   exports: [Contato],

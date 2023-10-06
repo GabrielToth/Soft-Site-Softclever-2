@@ -9,7 +9,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--gray-background-color);
+    background-color: var(--gray-f1);
 
     .footer {
         width: 100%;
@@ -96,12 +96,23 @@ footer {
             }
         }
     }
+
+    .footer-text {
+        padding: 0 64px;
+
+        text-align: center;
+        
+        font-size: 0.75rem;
+    }
     
     .footer-development {
-        padding: 16px 0 8px;
-
+        padding: 16px 64px 8px;
+        
         text-decoration: none;
+        text-align: center;
 
+        font-size: 1rem;
+        
         color: black;
     }
 }
