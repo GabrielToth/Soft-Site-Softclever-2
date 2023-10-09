@@ -22,6 +22,7 @@ export class ContactFormComponent implements OnInit {
 
     isSubmitted = false;
 
+
     constructor(
         private formBuilder: FormBuilder,
         private http: HttpClient,
@@ -41,6 +42,8 @@ export class ContactFormComponent implements OnInit {
             ],
             mensagem: [null, Validators.required],
             quem_enviou: "www.softclever.com.br",
+            checkbox1: false, // Adicione esses dois controles para os checkboxes
+            checkbox2: false,
         });
     }
 
@@ -84,6 +87,20 @@ export class ContactFormComponent implements OnInit {
             headers.set("Content-Type", "application/x-www-form-urlencoded");
 
             this.showOverlay = true;
+
+            // Verifique o estado dos checkboxes e atualize o prefixo da mensagem
+            let mensagemPrefixo = '';
+
+            if (this.formClient.get('checkbox1').value) {
+                mensagemPrefixo += 'EXPERIMENTE GRÁTIS - ';
+            }
+
+            if (this.formClient.get('checkbox2').value) {
+                mensagemPrefixo += 'CONTATO - ';
+            }
+
+            // Atualize o valor da mensagem no formulário com o prefixo
+            this.formClient.patchValue({ mensagem: mensagemPrefixo + this.formClient.value.mensagem });
 
             this.http
                 .post(

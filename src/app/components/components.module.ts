@@ -15,7 +15,7 @@ import { LandingFiscal } from "./landing-fiscal/landing-fiscal.component";
 import { Menu } from "./menu/menu.component";
 import { SolutionCardComponent } from "./solution-card/solution-card.component";
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { ReactiveFormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
     declarations: [
@@ -33,7 +33,7 @@ import { ReactiveFormsModule } from "@angular/forms";
         SolutionCardComponent,
         ContactFormComponent
     ],
-    imports: [CommonModule, ReactiveFormsModule, RouterModule],
+    imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterModule],
     exports: [
         LandingAtacadoHeroSection,
         Videos,

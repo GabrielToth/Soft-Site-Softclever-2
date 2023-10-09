@@ -2,7 +2,7 @@
     <div class="contact-container main-content">
         <h1>CONTATO</h1>
 
-        <img class="loading-image" src="assets/images/gif/loading.gif" *ngIf="showOverlay">
+        <img class="loading-image" src="assets/images/gif/loading.gif" *ngIf="showOverlay"/>
 
         <div class="contact-email-send-fail" *ngIf="showFail">
             <h1>Falha ao enviar o email, tente novamente mais tarde.</h1>
@@ -10,7 +10,7 @@
 
         <div class="contact-form">
             <form class="contact-form-layout" (ngSubmit)="onSubmit($event)" [formGroup]="formClient">
-                <!-- Campo de Nome -->
+                
                 <div class="form-group">
                     <label for="nome">Nome:</label>
                     <input class="contact-form-input" type="text" placeholder="Nome" formControlName="nome" id="nome"
@@ -20,7 +20,7 @@
                     </div>
                 </div>
 
-                <!-- Campo de Empresa -->
+                
                 <div class="form-group">
                     <label for="empresa">Empresa:</label>
                     <input class="contact-form-input" type="text" placeholder="Empresa" formControlName="empresa"
@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                <!-- Campo de Email -->
+                
                 <div class="form-group">
                     <label for="email">Email:</label>
                     <input class="contact-form-input" type="email" placeholder="Email" formControlName="email"
@@ -43,7 +43,7 @@
                     </div>
                 </div>
 
-                <!-- Campo de Telefone -->
+                
                 <div class="form-group">
                     <label for="telefone">Telefone:</label>
                     <input class="contact-form-input telefone" type="text" placeholder="(99) 99999-9999"
@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <!-- Campo de Mensagem -->
+                
                 <div class="form-group double-span">
                     <label for="mensagem">Mensagem:</label>
                     <textarea id="mensagem" name="mensagem" placeholder="Message" rows="3" class="contact-form-input"
@@ -67,7 +67,7 @@
                     </div>
                 </div>
 
-                <!-- Checkbox 1 -->
+                
                 <div class="input-group">
                     <input type="checkbox" id="checkbox1" name="checkbox1" formControlName="checkbox1"
                         aria-labelledby="checkbox1-label">
@@ -75,34 +75,34 @@
                         crédito.</label>
                 </div>
 
-                <!-- Checkbox 2 -->
+                
                 <div class="input-group">
                     <input type="checkbox" id="checkbox2" name="checkbox2" formControlName="checkbox2"
                         aria-labelledby="checkbox2-label">
                     <label for="checkbox2" id="checkbox2-label">Contato ou agendamento de demonstração remota.</label>
                 </div>
 
-                <!-- Botão de envio -->
+                
                 <button class="button double-span" type="submit">Entre em contato</button>
             </form>
 
             <h2>Ou entre em contato</h2>
             <div class="contact-info-cellphones">
                 <div class="contact-info-item contact-link">
-                    <img src="assets/images/png/whatsapp-icon.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/whatsapp-icon.png" alt="" class="contact-info-item-icon"/>
                     <a class="contact-info-cellphone" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511992810253"
                         target="_blank">(11) 9 9281-0253</a>
                 </div>
                 <div class="contact-info-item">
-                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon"/>
                     <span>(11) 9 9281-0253</span>
                 </div>
                 <div class="contact-info-item">
-                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon"/>
                     <span>(11) 3991-3923</span>
                 </div>
                 <div class="contact-info-item">
-                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon">
+                    <img src="assets/images/png/phone.png" alt="" class="contact-info-item-icon"/>
 
                     <span>(11) 2361-8334</span>
                 </div>
