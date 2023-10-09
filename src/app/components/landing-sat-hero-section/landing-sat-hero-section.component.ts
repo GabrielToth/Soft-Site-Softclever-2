@@ -7,6 +7,6 @@ import { Component, Input } from "@angular/core";
 })
 export class LandingSATHeroSection {
   @Input()
-  Heading: string = "Software SAT Fiscal";
+  heading: string = "Software SAT Fiscal";
   constructor() {}
 }
