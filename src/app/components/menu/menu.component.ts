@@ -6,8 +6,6 @@ import { Component, Input, Renderer2, ElementRef } from "@angular/core";
     styleUrls: ["menu.component.scss"],
 })
 export class Menu {
-    @Input()
-    rootClassName: string = "";
 
     isMobileOpen: boolean = false;
 

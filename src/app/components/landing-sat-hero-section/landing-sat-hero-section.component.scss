@@ -6,8 +6,8 @@
   height: 80vh;
   display: flex;
   position: relative;
-  max-width: var(--dl-size-size-maxwidth);
-  margin-top: 64px;
+  max-width: var(--max-width);
+  margin: 0 auto;
   min-height: 700px;
   align-items: center;
   flex-direction: row;

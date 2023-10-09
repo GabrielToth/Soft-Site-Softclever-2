@@ -6,7 +6,4 @@ import { Component, Input } from "@angular/core";
   styleUrls: ["footer.component.scss"],
 })
 export class Footer {
-  @Input()
-  rootClassName: string = "";
-  constructor() {}
 }

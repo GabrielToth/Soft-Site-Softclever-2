@@ -388,7 +388,7 @@ const routes = [
     path: "solucao-atacado-e-distribuicao",
     loadChildren: () =>
       import(
-        "./pages/solucao-atacado--distribuicao/solucao-atacado--distribuicao.module"
+        "./pages/solucao-atacado-distribuicao/solucao-atacado-distribuicao.module"
       ).then((m) => m.SolucaoAtacadoDistribuicaoModule),
   },
   {

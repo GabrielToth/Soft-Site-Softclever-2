@@ -65,8 +65,6 @@ export class LandingSATConteudo {
   @Input()
   heading1: string = "Sírius Nf-e";
   @Input()
-  rootClassName: string = "";
-  @Input()
   text5: string =
     "Controle de raça, tipo de pelagem, tutor, vacinação, agendamentos, atendimentos e muito mais. Gera o cupom fiscal de forma automatizada através do Sírius SAT.";
   @Input()

@@ -2,9 +2,9 @@ import { Component } from "@angular/core";
 import { Title, Meta } from "@angular/platform-browser";
 
 @Component({
-  selector: "solucao-atacado--distribuicao",
-  templateUrl: "solucao-atacado--distribuicao.component.html",
-  styleUrls: ["solucao-atacado--distribuicao.component.scss"],
+  selector: "solucao-atacado-distribuicao",
+  templateUrl: "solucao-atacado-distribuicao.component.html",
+  styleUrls: ["solucao-atacado-distribuicao.component.scss"],
 })
 export class SolucaoAtacadoEDistribuicao {
   constructor(private title: Title, private meta: Meta) {

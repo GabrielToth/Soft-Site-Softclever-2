@@ -3,7 +3,7 @@ import { RouterModule } from "@angular/router";
 import { CommonModule } from "@angular/common";
 
 import { ComponentsModule } from "../../components/components.module";
-import { SolucaoAtacadoEDistribuicao } from "./solucao-atacado--distribuicao.component";
+import { SolucaoAtacadoEDistribuicao } from "./solucao-atacado-distribuicao.component";
 
 const routes = [
   {
