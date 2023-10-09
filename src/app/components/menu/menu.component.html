@@ -1,27 +1,27 @@
 <div class="safe-margin">
     <div class="menu">
         <nav class="menu-container">
-            <a routerLink="https://sirius.inf.br/">
+            <a routerLink="/">
                 <img class="menu-logo" src="assets/images/jpg/logo-Soft-Clever.jpg" alt="logo da empresa Soft Clever">
             </a>
     
             <nav class="menu-pages">
-                <a class="menu-page" routerLink="/solucao-varejo">Varejo</a>
-                <a class="menu-page" routerLink="/solucao-atacado-e-distribuicao">Atacado e Distribuição</a>
-                <a class="menu-page" routerLink="/solucao-industria-e-servico">Industria e Serviço</a>
-                <a class="menu-page" routerLink="/solucao-fiscal">Fiscal</a>
-                <a class="menu-page" routerLink="/contato">Contato</a>
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-varejo">Varejo</a>
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-atacado-e-distribuicao">Atacado e Distribuição</a>
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-industria-e-servico">Industria e Serviço</a>
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-fiscal">Fiscal</a>
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/contato">Contato</a>
             </nav>
     
             <div class="mobile-menu-container" *ngIf="isMobileOpen">
                 <img class="mobile-menu-close-buttom" src="assets/images/png/x.png" alt="" (click)="setOpen(false)">
     
                 <nav class="mobile-menu-pages">
-                    <a class="menu-page" routerLink="/solucao-varejo">Varejo</a>
-                    <a class="menu-page" routerLink="/solucao-atacado-e-distribuicao">Atacado e Distribuição</a>
-                    <a class="menu-page" routerLink="/solucao-industria-e-servico">Industria e Serviço</a>
-                    <a class="menu-page" routerLink="/solucao-fiscal">Fiscal</a>
-                    <a class="menu-page" routerLink="/contato">Contato</a>
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-varejo">Varejo</a>
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-atacado-e-distribuicao">Atacado e Distribuição</a>
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-industria-e-servico">Industria e Serviço</a>
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-fiscal">Fiscal</a>
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/contato">Contato</a>
     
                 </nav>
     
