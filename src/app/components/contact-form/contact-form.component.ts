@@ -41,7 +41,7 @@ export class ContactFormComponent implements OnInit {
                 ],
             ],
             mensagem: [null, Validators.required],
-            quem_enviou: "www.softclever.com.br",
+            quem_enviou: "www.sirius.inf.br",
             checkbox1: false, // Adicione esses dois controles para os checkboxes
             checkbox2: false,
         });
