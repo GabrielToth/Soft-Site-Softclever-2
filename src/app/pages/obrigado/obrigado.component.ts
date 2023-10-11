@@ -8,13 +8,15 @@ declare const gtag: Function;
     styleUrls: ['./obrigado.component.scss'],
 })
 export class ObrigadoComponent implements OnInit {
-    constructor() { }
+    constructor() {}
 
     ngOnInit(): void {
         // Configurar o Google Analytics (substitua 'GA_MEASUREMENT_ID' pelo seu ID de acompanhamento)
         gtag('config', 'G-KDN1VFL478');
 
         // Disparar o evento de conversão
-        gtag('event', 'conversion', {'send_to': 'AW-1024274254/Nz-MCL-2xOgYEM7etOgD'});
+        gtag('event', 'conversion', {
+            send_to: 'AW-1024274254/Nz-MCL-2xOgYEM7etOgD',
+        });
     }
 }

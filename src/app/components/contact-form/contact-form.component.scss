@@ -34,7 +34,6 @@
             color: var(--gray-333);
         }
 
-
         .contact-form {
             display: flex;
             flex-direction: column;
@@ -64,8 +63,6 @@
 
                 padding: 10px;
 
-
-
                 border: 1px solid #ccc;
                 border-radius: 5px;
             }
@@ -86,7 +83,7 @@
                 gap: 8px;
 
                 /* Estilo para os checkboxes e labels */
-                [type="checkbox"] {
+                [type='checkbox'] {
                     width: auto;
                     /* Redefinir a largura dos checkboxes para o tamanho padrão */
                     padding-right: 5px;
@@ -133,9 +130,7 @@
         }
     }
 
-
     @media screen and (max-width: 600px) {
-
         padding: 102px 0 64px 0;
 
         .contact-container {
@@ -149,8 +144,6 @@
                 }
             }
         }
-
-
     }
 }
 
@@ -163,8 +156,6 @@ label {
 .double-span {
     grid-column: span 2;
 }
-
-
 
 .loading-image {
     width: 64px;

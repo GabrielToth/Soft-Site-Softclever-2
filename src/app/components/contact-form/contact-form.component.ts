@@ -1,15 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Validators, FormBuilder, FormGroup } from "@angular/forms";
-import { HttpClient, HttpHeaders } from "@angular/common/http";
-import { first } from "rxjs/operators";
-import { Router } from "@angular/router";
+import { Validators, FormBuilder, FormGroup } from '@angular/forms';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { first } from 'rxjs/operators';
+import { Router } from '@angular/router';
 @Component({
     selector: 'app-contact-form',
     templateUrl: './contact-form.component.html',
-    styleUrls: ['./contact-form.component.scss', "../../../assets/css/button.css"]
+    styleUrls: ['./contact-form.component.scss', '../../../assets/css/button.css'],
 })
 export class ContactFormComponent implements OnInit {
-
     formClient: FormGroup;
     nomeError: string;
     empresaError: string;
@@ -22,12 +21,7 @@ export class ContactFormComponent implements OnInit {
 
     isSubmitted = false;
 
-
-    constructor(
-        private formBuilder: FormBuilder,
-        private http: HttpClient,
-        private router: Router
-    ) {
+    constructor(private formBuilder: FormBuilder, private http: HttpClient, private router: Router) {
         this.formClient = this.formBuilder.group({
             nome: [null, Validators.required],
             empresa: [null, Validators.required],
@@ -41,7 +35,7 @@ export class ContactFormComponent implements OnInit {
                 ],
             ],
             mensagem: [null, Validators.required],
-            quem_enviou: "www.sirius.inf.br",
+            quem_enviou: 'www.sirius.inf.br',
             checkbox1: false, // Adicione esses dois controles para os checkboxes
             checkbox2: false,
         });
@@ -49,10 +43,10 @@ export class ContactFormComponent implements OnInit {
 
     ngOnInit() {
         // Vincule o método formatTelefone ao evento input do campo de telefone
-        this.formClient.controls["telefone"].valueChanges.subscribe((value) => {
-            console.log("digitei no telefone");
+        this.formClient.controls['telefone'].valueChanges.subscribe(value => {
+            console.log('digitei no telefone');
             if (value) {
-                console.log("Recebi valor ao digitar: " + value);
+                console.log('Recebi valor ao digitar: ' + value);
                 this.formatTelefone(value);
             }
         });
@@ -60,21 +54,21 @@ export class ContactFormComponent implements OnInit {
 
     formatTelefone(value: string) {
         // Remova todos os caracteres não numéricos
-        value = value.replace(/\D/g, "");
+        value = value.replace(/\D/g, '');
 
         // Formata o número no formato desejado
         if (value.length <= 7) {
-            value = value.replace(/(\d{2})/, "($1) ");
+            value = value.replace(/(\d{2})/, '($1) ');
         } else if (value.length <= 9) {
-            value = value.replace(/(\d{2})(\d{5})(\d{1})/, "($1) $2-$3");
+            value = value.replace(/(\d{2})(\d{5})(\d{1})/, '($1) $2-$3');
         } else if (value.length <= 10) {
-            value = value.replace(/(\d{2})(\d{4})(\d{4})/, "($1) $2-$3");
+            value = value.replace(/(\d{2})(\d{4})(\d{4})/, '($1) $2-$3');
         } else {
-            value = value.replace(/(\d{2})(\d{5})(\d{4})/, "($1) $2-$3");
+            value = value.replace(/(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
         }
 
         // Atualize o valor do campo de telefone no formulário
-        this.formClient.controls["telefone"].setValue(value, {
+        this.formClient.controls['telefone'].setValue(value, {
             emitEvent: false,
         });
     }
@@ -84,7 +78,7 @@ export class ContactFormComponent implements OnInit {
 
         if (this.formClient.valid) {
             const headers = new HttpHeaders();
-            headers.set("Content-Type", "application/x-www-form-urlencoded");
+            headers.set('Content-Type', 'application/x-www-form-urlencoded');
 
             this.showOverlay = true;
 
@@ -100,29 +94,31 @@ export class ContactFormComponent implements OnInit {
             }
 
             // Atualize o valor da mensagem no formulário com o prefixo
-            this.formClient.patchValue({ mensagem: mensagemPrefixo + this.formClient.value.mensagem });
+            this.formClient.patchValue({
+                mensagem: mensagemPrefixo + this.formClient.value.mensagem,
+            });
 
             this.http
                 .post(
-                    "https://www.api.emissorsatfiscal.net.br/email?token=S0ftCL5vEr!Td4iN70rm@t!CA",
+                    'https://www.api.emissorsatfiscal.net.br/email?token=S0ftCL5vEr!Td4iN70rm@t!CA',
                     this.formClient.value,
                     { headers }
                 )
                 .pipe(first())
                 .subscribe({
-                    next: (response) => {
+                    next: response => {
                         console.log(response);
                         this.showOverlay = false;
-                        this.router.navigate(["/obrigado"]);
+                        this.router.navigate(['/obrigado']);
                     },
-                    error: (err) => {
+                    error: err => {
                         console.error(err);
                         this.showOverlay = false;
                         this.showFail = true;
                     },
                 });
         } else {
-            console.log("Não valido");
+            console.log('Não valido');
             // Coleta mensagens de erro para campos inválidos
             this.isSubmitted = true;
 
@@ -134,25 +130,12 @@ export class ContactFormComponent implements OnInit {
                 this.telefoneError = null;
             }
 
-            this.nomeError = this.formClient.get("nome").hasError("required")
-                ? "Nome é obrigatório."
-                : "";
-            this.empresaError = this.formClient.get("empresa").hasError("required")
-                ? "Empresa é obrigatória."
-                : "";
-            this.emailError = this.formClient.get("email").hasError("required")
-                ? "Email é obrigatório."
-                : "";
-            this.formClient.get("email").hasError("email")
-                ? "Email não é válido."
-                : "";
-            this.telefoneError = this.formClient.get("telefone").hasError("required")
-                ? "Telefone é obrigatório."
-                : "";
-            this.mensagemError = this.formClient.get("mensagem").hasError("required")
-                ? "Mensagem é obrigatória."
-                : "";
+            this.nomeError = this.formClient.get('nome').hasError('required') ? 'Nome é obrigatório.' : '';
+            this.empresaError = this.formClient.get('empresa').hasError('required') ? 'Empresa é obrigatória.' : '';
+            this.emailError = this.formClient.get('email').hasError('required') ? 'Email é obrigatório.' : '';
+            this.formClient.get('email').hasError('email') ? 'Email não é válido.' : '';
+            this.telefoneError = this.formClient.get('telefone').hasError('required') ? 'Telefone é obrigatório.' : '';
+            this.mensagemError = this.formClient.get('mensagem').hasError('required') ? 'Mensagem é obrigatória.' : '';
         }
     }
-
 }

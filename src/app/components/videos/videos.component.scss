@@ -88,13 +88,12 @@
                         }
 
                         .play-button:before {
-                            content: "";
+                            content: '';
                             border-style: solid;
                             margin-left: 2px;
-                            border-width: 12px 0 12px 22.0px;
+                            border-width: 12px 0 12px 22px;
                             border-color: transparent transparent transparent #ffffff;
                         }
-
 
                         img,
                         iframe,
@@ -132,16 +131,13 @@
                     }
                 }
             }
-
-            
         }
 
         @media screen and (max-width: 479px) {
-
             padding: 64px 0;
 
             .video-card {
-                box-shadow:  0 0 0;
+                box-shadow: 0 0 0;
                 .video-card-container {
                     padding: 0;
 

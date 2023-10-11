@@ -1,15 +1,12 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root',
 })
 export class TitleService {
+    constructor() {}
 
-  constructor() { }
-
-  addScript(src: string) {
-    document.head.appendChild(document.createElement('script'))
-      .src = src;
-  }
-
+    addScript(src: string) {
+        document.head.appendChild(document.createElement('script')).src = src;
+    }
 }

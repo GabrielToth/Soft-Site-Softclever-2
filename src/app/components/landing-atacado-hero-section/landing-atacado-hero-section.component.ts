@@ -1,14 +1,14 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: "landing-atacado-hero-section",
-  templateUrl: "landing-atacado-hero-section.component.html",
-  styleUrls: ["landing-atacado-hero-section.component.scss"],
+    selector: 'landing-atacado-hero-section',
+    templateUrl: 'landing-atacado-hero-section.component.html',
+    styleUrls: ['landing-atacado-hero-section.component.scss'],
 })
 export class LandingAtacadoHeroSection {
-  @Input() title!: string
+    @Input() title!: string;
 
-  @Input() image!: string
-  @Input() paragraphs!: string[]
-  constructor() {}
+    @Input() image!: string;
+    @Input() paragraphs!: string[];
+    constructor() {}
 }

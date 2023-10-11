@@ -46,24 +46,22 @@
     --max-width: 1328px;
     --padding: 64px;
 
-    --blue-lighter-color: #1F66D1;
-    --blue-light-color: #0052BF;
+    --blue-lighter-color: #1f66d1;
+    --blue-light-color: #0052bf;
     --blue-color: #0a44be;
-    --blue-dark-color: #0031B3;
-    --blue-darker-color: #0021A6;
-    --red-color: #FE2D00;
+    --blue-dark-color: #0031b3;
+    --blue-darker-color: #0021a6;
+    --red-color: #fe2d00;
 
     --border-radius: 10px;
     --box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     --hover-blue-lighter-color: rgba(35, 99, 227, 0.2);
-
 
     --gray-333: #333;
     --gray-50: #505050;
     --gray-60: #606060;
     --gray-ccc: #ccc;
     --gray-f1: #f1f1f1;
-
 }
 
 .button {
@@ -119,7 +117,6 @@ body {
     text-transform: none;
     letter-spacing: normal;
     line-height: 1.15;
-
 }
 
 ul {
@@ -127,7 +124,11 @@ ul {
     list-style-type: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Montserrat', sans-serif;
 }
 iframe {
@@ -139,7 +140,7 @@ iframe {
     width: 101%;
 
     position: absolute;
-    top: -16.8%
+    top: -16.8%;
 }
 
 .youtube-video {

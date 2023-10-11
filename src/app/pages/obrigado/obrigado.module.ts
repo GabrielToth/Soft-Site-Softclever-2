@@ -4,18 +4,16 @@ import { ObrigadoComponent } from './obrigado.component';
 import { RouterModule } from '@angular/router';
 
 const routes = [
-  {
-    path: "",
-    component: ObrigadoComponent,
-  },
+    {
+        path: '',
+        component: ObrigadoComponent,
+    },
 ];
 
 @NgModule({
-  declarations: [ObrigadoComponent],
-  imports: [
-    CommonModule, RouterModule.forChild(routes)
-  ],
-  exports: [ObrigadoComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+    declarations: [ObrigadoComponent],
+    imports: [CommonModule, RouterModule.forChild(routes)],
+    exports: [ObrigadoComponent],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class ObrigadoModule { }
+export class ObrigadoModule {}

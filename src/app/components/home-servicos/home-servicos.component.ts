@@ -1,10 +1,10 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
-  selector: "home-servicos",
-  templateUrl: "home-servicos.component.html",
-  styleUrls: ["home-servicos.component.scss"],
+    selector: 'home-servicos',
+    templateUrl: 'home-servicos.component.html',
+    styleUrls: ['home-servicos.component.scss'],
 })
 export class HomeServicos {
-  constructor() {}
+    constructor() {}
 }

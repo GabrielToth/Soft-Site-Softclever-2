@@ -2,50 +2,66 @@
     <div class="menu">
         <nav class="menu-container">
             <a routerLink="/">
-                <img class="menu-logo" src="assets/images/jpg/logo-Soft-Clever.jpg" alt="logo da empresa Soft Clever">
+                <img class="menu-logo" src="assets/images/jpg/logo-Soft-Clever.jpg" alt="logo da empresa Soft Clever" />
             </a>
-    
+
             <nav class="menu-pages">
                 <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-varejo">Varejo</a>
-                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-atacado-e-distribuicao">Atacado e Distribuição</a>
-                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-industria-e-servico">Industria e Serviço</a>
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-atacado-e-distribuicao"
+                    >Atacado e Distribuição</a
+                >
+                <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-industria-e-servico"
+                    >Industria e Serviço</a
+                >
                 <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-fiscal">Fiscal</a>
                 <a class="menu-page" (click)="setOpen(false)" routerLink="/contato">Contato</a>
             </nav>
-    
+
             <div class="mobile-menu-container" *ngIf="isMobileOpen">
-                <img class="mobile-menu-close-buttom" src="assets/images/png/x.png" alt="" (click)="setOpen(false)">
-    
+                <img class="mobile-menu-close-buttom" src="assets/images/png/x.png" alt="" (click)="setOpen(false)" />
+
                 <nav class="mobile-menu-pages">
                     <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-varejo">Varejo</a>
-                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-atacado-e-distribuicao">Atacado e Distribuição</a>
-                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-industria-e-servico">Industria e Serviço</a>
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-atacado-e-distribuicao"
+                        >Atacado e Distribuição</a
+                    >
+                    <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-industria-e-servico"
+                        >Industria e Serviço</a
+                    >
                     <a class="menu-page" (click)="setOpen(false)" routerLink="/solucao-fiscal">Fiscal</a>
                     <a class="menu-page" (click)="setOpen(false)" routerLink="/contato">Contato</a>
-    
                 </nav>
-    
+
                 <div class="menu-social-medias">
-                    <a href="https://www.facebook.com/Soft-Clever-Informatica-568803013611951" target="_blank" rel="noreferrer noopener" class="menu-social-buttom">
-                        <img src="assets/images/png/facebook.png" alt="" class="menu-social-image">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw?view_as=subscriber" target="_blank" rel="noreferrer noopener"
+                    <a
+                        href="https://www.facebook.com/Soft-Clever-Informatica-568803013611951"
+                        target="_blank"
+                        rel="noreferrer noopener"
                         class="menu-social-buttom">
-                        <img src="assets/images/png/youtube.png" alt="" class="menu-social-image">
+                        <img src="assets/images/png/facebook.png" alt="" class="menu-social-image" />
                     </a>
-                    <a href="https://www.instagram.com/soft.clever" target="_blank" rel="noreferrer noopener" class="menu-social-buttom">
-                        <img src="assets/images/png/instagram.png" alt="" class="menu-social-image">
+                    <a
+                        href="https://www.youtube.com/channel/UCd15UMZr95UzVWWKbu5khTw?view_as=subscriber"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="menu-social-buttom">
+                        <img src="assets/images/png/youtube.png" alt="" class="menu-social-image" />
+                    </a>
+                    <a
+                        href="https://www.instagram.com/soft.clever"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="menu-social-buttom">
+                        <img src="assets/images/png/instagram.png" alt="" class="menu-social-image" />
                     </a>
                 </div>
             </div>
-    
+
             <button class="menu-button">
-                <img class="menu-icon" src="assets/images/png/menu.png" alt="" (click)="setOpen(true)">
+                <img class="menu-icon" src="assets/images/png/menu.png" alt="" (click)="setOpen(true)" />
             </button>
-    
         </nav>
     </div>
 </div>
 
-<div class="menu-back" *ngIf="isMobileOpen">
-</div>
+<div class="menu-back" *ngIf="isMobileOpen"></div>
