@@ -1,350 +1,68 @@
-.solucao-industria-servico-container {
+.solution-industry {
     width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-.solucao-industria-servico-hero-right {
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: relative;
-    max-width: var(--dl-size-size-maxwidth);
-    align-self: stretch;
-    margin-top: 64px;
-    min-height: 80vh;
-    align-items: stretch;
-    flex-direction: row;
-}
-.solucao-industria-servico-image {
-    width: 50%;
-    height: auto;
-    align-self: stretch;
-    object-fit: cover;
-}
-.solucao-industria-servico-container1 {
-    width: 50%;
-    height: auto;
-    display: flex;
-    align-self: stretch;
-    min-height: 80vh;
-    align-items: stretch;
-    padding-top: var(--dl-space-space-fourunits);
-    padding-left: 5%;
-    padding-right: 24px;
-    flex-direction: column;
-    padding-bottom: var(--dl-space-space-fourunits);
-    justify-content: space-between;
-}
-.solucao-industria-servico-text {
-    font-size: 3rem;
-}
-.solucao-industria-servico-text01 {
-    width: 100%;
-    text-align: justify;
-    line-height: 2;
-}
-.solucao-industria-servico-text02 {
-    font-size: 14px;
-}
-.solucao-industria-servico-text03 {
-    font-size: 14px;
-}
-.solucao-industria-servico-text04 {
-    font-size: 14px;
-}
-.solucao-industria-servico-text05 {
-    font-size: 14px;
-}
-.solucao-industria-servico-text06 {
-    font-size: 14px;
-}
-.solucao-industria-servico-text07 {
-    font-size: 14px;
-}
-.solucao-industria-servico-text08 {
-    font-size: 14px;
-}
-.solucao-industria-servico-container2 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-self: center;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--dl-color-bgpastel-begebg);
-}
-.solucao-industria-servico-text-right {
-    flex: 0 0 auto;
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: var(--dl-space-space-twounits);
-    flex-wrap: wrap;
-    max-width: var(--dl-size-size-maxwidth);
-    align-self: stretch;
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.solucao-industria-servico-text-solution {
-    flex: 0 0 auto;
-    width: 30%;
-    display: flex;
-    align-self: flex-start;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.solucao-industria-servico-image1 {
-    width: 100%;
-    height: 200px;
-    align-self: flex-start;
-    object-fit: cover;
-    border-radius: 16px;
-    object-position: right top;
-}
-.solucao-industria-servico-container3 {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    margin-top: var(--dl-space-space-unit);
-    align-items: center;
-    margin-bottom: var(--dl-space-space-unit);
-    flex-direction: column;
-    justify-content: center;
-}
-.solucao-industria-servico-text10 {
-    width: 100%;
-    height: auto;
-    align-self: center;
-    text-align: center;
-}
-.solucao-industria-servico-text11 {
-    width: 100%;
-    text-align: justify;
-    line-height: 1.5;
-}
-.solucao-industria-servico-text-solution1 {
-    flex: 0 0 auto;
-    width: 30%;
-    display: flex;
-    align-self: flex-start;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.solucao-industria-servico-image2 {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 16px;
-}
-.solucao-industria-servico-container4 {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    margin-top: var(--dl-space-space-unit);
-    align-items: center;
-    margin-bottom: var(--dl-space-space-unit);
-    flex-direction: column;
-    justify-content: center;
-}
-.solucao-industria-servico-text12 {
-    width: 100%;
-    height: auto;
-    align-self: center;
-    text-align: center;
-}
-.solucao-industria-servico-text13 {
-    width: 100%;
-    text-align: justify;
-    line-height: 1.5;
-}
-.solucao-industria-servico-text-solution2 {
-    flex: 0 0 auto;
-    width: 30%;
-    display: flex;
-    align-self: flex-start;
-    align-items: stretch;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.solucao-industria-servico-image3 {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 16px;
-}
-.solucao-industria-servico-container5 {
-    width: 100%;
-    height: 70px;
-    display: flex;
-    margin-top: var(--dl-space-space-unit);
-    align-items: center;
-    margin-bottom: var(--dl-space-space-unit);
-    flex-direction: column;
-    justify-content: center;
-}
-.solucao-industria-servico-text14 {
-    width: 100%;
-    height: auto;
-    align-self: center;
-    text-align: center;
-}
-.solucao-industria-servico-text15 {
-    width: 100%;
-    text-align: justify;
-    line-height: 1.5;
-}
-@media (max-width: 991px) {
-    .solucao-industria-servico-hero-right {
-        height: auto;
-        min-height: auto;
-    }
-    .solucao-industria-servico-image {
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        width: 100%;
-        height: 100%;
-        display: none;
-        position: absolute;
-    }
-    .solucao-industria-servico-container1 {
-        width: 100%;
-        height: auto;
-        align-self: center;
-        min-height: auto;
-        align-items: center;
-        padding-top: var(--dl-space-space-fourunits);
-        padding-left: var(--dl-space-space-twounits);
-        padding-right: var(--dl-space-space-twounits);
-        padding-bottom: var(--dl-space-space-fourunits);
-        justify-content: center;
-    }
-    .solucao-industria-servico-text {
-        text-align: center;
-    }
-    .solucao-industria-servico-text01 {
-        padding: var(--dl-space-space-twounits);
-        text-align: justify;
-    }
-    .solucao-industria-servico-image2 {
-        width: 100%;
-        height: 170px;
-        margin-bottom: 0px;
-    }
-    .solucao-industria-servico-image3 {
-        width: 100%;
-        height: 170px;
-        margin-bottom: 0px;
-    }
-}
-@media (max-width: 767px) {
-    .solucao-industria-servico-hero-right {
-        height: auto;
-        min-height: 80vh;
-    }
-    .solucao-industria-servico-container1 {
-        width: 100%;
-        height: auto;
-        align-self: center;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    .solucao-industria-servico-container2 {
-        align-items: center;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .solucao-industria-servico-text-right {
-        width: auto;
-        height: auto;
-        align-self: center;
-        align-items: center;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .solucao-industria-servico-text-solution {
-        width: 70%;
-        align-self: center;
-        align-items: center;
-        margin-bottom: var(--dl-space-space-twounits);
-    }
-    .solucao-industria-servico-text10 {
-        text-align: center;
-    }
-    .solucao-industria-servico-text11 {
-        line-height: 1.5;
-    }
-    .solucao-industria-servico-text-solution1 {
-        width: 70%;
-        align-self: center;
-        align-items: center;
-        margin-bottom: var(--dl-space-space-twounits);
-    }
-    .solucao-industria-servico-image2 {
-        width: 80%;
-        height: 200px;
+
+    max-width: var(--max-width);
+
+    .solution-industry-container {
+        margin: 0 auto;
+        padding: 16px 64px;
+
         display: flex;
-        align-self: center;
-        max-height: auto;
-        align-items: center;
-        justify-content: center;
-    }
-    .solucao-industria-servico-text12 {
-        align-self: center;
-    }
-    .solucao-industria-servico-text13 {
-        line-height: 1.5;
-    }
-    .solucao-industria-servico-text-solution2 {
-        width: 70%;
-        align-self: center;
-        align-items: center;
-    }
-    .solucao-industria-servico-image3 {
-        width: 80%;
-        height: 200px;
-        display: flex;
-        align-self: center;
-        max-height: auto;
-        align-items: center;
-        justify-content: center;
-    }
-    .solucao-industria-servico-text14 {
-        text-align: center;
-    }
-    .solucao-industria-servico-text15 {
-        line-height: 1.5;
-    }
-}
-@media (max-width: 479px) {
-    .solucao-industria-servico-hero-right {
-        height: auto;
-        min-height: 80vh;
-    }
-    .solucao-industria-servico-container1 {
-        width: auto;
-        height: auto;
-    }
-    .solucao-industria-servico-text-solution {
-        width: 100%;
-    }
-    .solucao-industria-servico-text-solution1 {
-        width: 100%;
-    }
-    .solucao-industria-servico-image2 {
-        width: 100%;
-    }
-    .solucao-industria-servico-text-solution2 {
-        width: 100%;
-    }
-    .solucao-industria-servico-image3 {
-        width: 100%;
+        flex-direction: row;
+        
+        align-items: flex-start;
+        justify-content: space-between;
+        
+        gap: 16px;
+
+        .solution-industry-container-card {
+            width: 30%;
+            
+            display: flex;
+            flex-direction: column;
+            
+            align-items: stretch;
+            justify-content: space-between;
+
+            img {
+                height: 200px;
+                
+                border-radius: 10px;
+
+                object-fit: cover;
+            }
+
+            h1 {
+                height: 80px;
+
+                display: flex;
+
+                align-items: center;
+                justify-content: center;
+
+                font-size: 1.5rem;
+                font-weight: 900;
+
+                text-align: center;
+            }
+            
+            p {
+                width: 100%;
+                text-align: justify;
+                line-height: 1.3;
+            }
+        }
+
+        @media (max-width: 841px) {
+            flex-direction: column;
+            
+            .solution-industry-container-card {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 479px) {
+            padding: 16px 32px;
+        }
     }
 }
