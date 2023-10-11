@@ -6,7 +6,9 @@ import { Component, Input } from "@angular/core";
   styleUrls: ["landing-atacado-hero-section.component.scss"],
 })
 export class LandingAtacadoHeroSection {
-  @Input()
-  titulo: string = "Atacado e Distribuição";
+  @Input() title!: string
+
+  @Input() image!: string
+  @Input() paragraphs!: string[]
   constructor() {}
 }

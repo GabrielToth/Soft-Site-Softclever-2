@@ -1,5 +1,5 @@
 
-.landing-fiscal-hero-section-hero-right {
+.hero-section {
   width: 100%;
   height: auto;
   display: flex;
@@ -41,7 +41,7 @@
   padding-bottom: var(--dl-space-space-twounits);
 }
 @media (max-width: 991px) {
-  .landing-fiscal-hero-section-hero-right {
+  .hero-section {
     min-height: 0px;
   }
   .landing-fiscal-hero-section-image {
@@ -75,7 +75,7 @@
   }
 }
 @media (max-width: 767px) {
-  .landing-fiscal-hero-section-hero-right {
+  .hero-section {
     min-height: 0px;
   }
   .landing-fiscal-hero-section-container {
@@ -89,7 +89,7 @@
   }
 }
 @media (max-width: 479px) {
-  .landing-fiscal-hero-section-hero-right {
+  .hero-section {
     height: auto;
     min-height: auto;
   }

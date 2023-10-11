@@ -9,13 +9,13 @@ import { LandingSATConteudo } from "./landing-sat-conteudo/landing-sat-conteudo.
 import { Footer } from "./footer/footer.component";
 import { LandingFiscalHeroSection } from "./landing-fiscal-hero-section/landing-fiscal-hero-section.component";
 import { LandingAtacadoConteudo } from "./landing-atacado-conteudo/landing-atacado-conteudo.component";
-import { LandingSATHeroSection } from "./landing-sat-hero-section/landing-sat-hero-section.component";
+import { HeroSection } from "./hero-section/hero-section.component";
 import { HomeServicos } from "./home-servicos/home-servicos.component";
 import { LandingFiscal } from "./landing-fiscal/landing-fiscal.component";
 import { Menu } from "./menu/menu.component";
 import { SolutionCardComponent } from "./solution-card/solution-card.component";
 import { ContactFormComponent } from './contact-form/contact-form.component';
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
     declarations: [
@@ -26,14 +26,14 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
         Footer,
         LandingFiscalHeroSection,
         LandingAtacadoConteudo,
-        LandingSATHeroSection,
+        HeroSection,
         HomeServicos,
         LandingFiscal,
         Menu,
         SolutionCardComponent,
         ContactFormComponent
     ],
-    imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterModule],
+    imports: [CommonModule, ReactiveFormsModule, RouterModule],
     exports: [
         LandingAtacadoHeroSection,
         Videos,
@@ -42,7 +42,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
         Footer,
         LandingFiscalHeroSection,
         LandingAtacadoConteudo,
-        LandingSATHeroSection,
+        HeroSection,
         HomeServicos,
         LandingFiscal,
         Menu,

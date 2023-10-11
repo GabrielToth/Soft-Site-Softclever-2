@@ -1,5 +1,5 @@
 
-.landing-atacado-hero-section-hero-right {
+.hero-section {
   display: flex;
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
@@ -39,7 +39,7 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 @media (max-width: 991px) {
-  .landing-atacado-hero-section-hero-right {
+  .hero-section {
     align-items: stretch;
     justify-content: space-between;
   }

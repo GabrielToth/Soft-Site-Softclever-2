@@ -1,0 +1,10 @@
+<div class="hero-section">
+    <img alt="image" [attr.src]="image" loading="eager" />
+    <div class="hero-section-container">
+        <div class="hero-section-container-padding">
+            <h1>{{ title }}</h1>
+            <p *ngFor="let paragraph of paragraphs">{{ paragraph }}</p>
+            <botes-whatsctt></botes-whatsctt>
+        </div>
+    </div>
+</div>

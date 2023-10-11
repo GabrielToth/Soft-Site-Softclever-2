@@ -1,4 +1,4 @@
-.landing-sat-hero-section-hero-right {
+.hero-section {
     width: 100%;
     height: 80vh;
 
@@ -15,18 +15,18 @@
     align-items: center;
     justify-content: center;
 
-    .landing-sat-hero-section-image {
+    img {
         width: 50%;
         height: 100%;
         align-self: flex-start;
         object-fit: cover;
     }
 
-    .landing-sat-hero-section-container {
+    .hero-section-container {
         width: 50%;
         height: 100%;
 
-        .landing-sat-hero-section-container-padding {
+        .hero-section-container-padding {
             padding: 64px;
 
             display: flex;
@@ -36,7 +36,7 @@
             align-items: flex-start;
 
 
-            .landing-sat-hero-section-heading {
+            h1 {
                 font-size: 3rem;
             }
 
@@ -57,17 +57,17 @@
     }
 
     @media (max-width: 991px) {
-        .landing-sat-hero-section-image {
+        .hero-section-image {
             width: 35%;
         }
 
-        .landing-sat-hero-section-container {
+        .hero-section-container {
             width: 65%;
             height: 100%;
 
-            .landing-sat-hero-section-container {
+            .hero-section-container {
 
-                .landing-sat-hero-section-heading {
+                h1 {
                     text-align: center;
                 }
 
@@ -84,11 +84,11 @@
         min-height: 80vh;
         align-items: flex-start;
 
-        .landing-sat-hero-section-image {
+        .hero-section-image {
             display: none;
         }
 
-        .landing-sat-hero-section-container {
+        .hero-section-container {
             width: 100%;
             height: auto;
 
