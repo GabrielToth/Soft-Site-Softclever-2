@@ -1,39 +1,15 @@
 <div class="solucao-industria-servico-container">
     <app-menu></app-menu>
-    <div class="solucao-industria-servico-hero-right">
-        <img alt="image" src="assets/images/jpg/industry.jpg" loading="eager" class="solucao-industria-servico-image" />
-        <div class="solucao-industria-servico-container1">
-            <h1 class="solucao-industria-servico-text">Indústria e Serviço</h1>
-            <span class="solucao-industria-servico-text01">
-                <span class="solucao-industria-servico-text02">
-                    Sistema de gestão empresarial completo que facilita o fluxo de informações entre todos os setores da
-                    empresa, tais como; produção, compras, vendas, estoque, fiscal, financeiro, expedição, cobrança e
-                    afins. O Sírius ERP está em constante atualização e crescimento e conta com mais de 12 mil usuários
-                    atendidos desde 1994. Disponibilizamos as melhores e mais avançadas tecnologias para atender de
-                    forma prática qualquer tipo de empresa de micro, pequeno, e médio porte. Oferecemos planos mensais
-                    ou anuais com descontos e não cobramos pela cópia do sistema. O nosso contrato mensal não possui
-                    fidelidade.
-                </span>
-                <br class="solucao-industria-servico-text03" />
-                <span class="solucao-industria-servico-text04">
-                    Nosso suporte é remoto e online e atendemos em todo o território nacional.
-                </span>
-                <br class="solucao-industria-servico-text05" />
-                <span class="solucao-industria-servico-text06">
-                    O Sírius ERP Atende completamente a Legislação Fiscal exigida pela SEFAZ e centenas de
-                    contabilidades nos indicam. Na Soft Clever você pode confiar.
-                </span>
-                <br class="solucao-industria-servico-text07" />
-                <span class="solucao-industria-servico-text08">
-                    Tenha o controle de sua produção com explosão de matérias primas, saldos de estoque e lotes. Conheça
-                    abaixo alguns módulos específicos para o setor fabril e de serviços. Os módulos mencionados precisam
-                    ser utilizados em conjunto com o Sírius ERP.
-                </span>
-                <span><span [innerHTML]="rawr0ca"></span></span>
-            </span>
-            <botes-whatsctt></botes-whatsctt>
-        </div>
-    </div>
+    <hero-section
+        image="../../../assets/images/jpg/industry.jpg"
+        title="Indústria e Serviço"
+        [paragraphs]="[
+            'Sistema de gestão empresarial completo que facilita o fluxo de informações entre todos os setores da empresa, tais como; produção, compras, vendas, estoque, fiscal, financeiro, expedição, cobrança e afins. O Sírius ERP está em constante atualização e crescimento e conta com mais de 12 mil usuários atendidos desde 1994. Disponibilizamos as melhores e mais avançadas tecnologias para atender de forma prática qualquer tipo de empresa de micro, pequeno, e médio porte. Oferecemos planos mensais ou anuais com descontos e não cobramos pela cópia do sistema. O nosso contrato mensal não possui fidelidade.',
+            'Nosso suporte é remoto e online e atendemos em todo o território nacional.',
+            'O Sírius ERP Atende completamente a Legislação Fiscal exigida pela SEFAZ e centenas de contabilidades nos indicam. Na Soft Clever você pode confiar.',
+            'Tenha o controle de sua produção com explosão de matérias primas, saldos de estoque e lotes. Conheça abaixo alguns módulos específicos para o setor fabril e de serviços. Os módulos mencionados precisam ser utilizados em conjunto com o Sírius ERP.'
+        ]"
+    ></hero-section>
     <app-videos></app-videos>
     <div class="solucao-industria-servico-container2">
         <div class="solucao-industria-servico-text-right">
