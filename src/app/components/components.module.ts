@@ -7,7 +7,6 @@ import { BotesWHATSCTT } from './botes-whats-ctt/botes-whats-ctt.component';
 import { Footer } from './footer/footer.component';
 import { HeroSection } from './hero-section/hero-section.component';
 import { HomeServicos } from './home-servicos/home-servicos.component';
-import { LandingFiscal } from './landing-fiscal/landing-fiscal.component';
 import { Menu } from './menu/menu.component';
 import { SolutionCardComponent } from './solution-card/solution-card.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
@@ -22,7 +21,6 @@ import { ContentSections } from './content-sections/content-sections.component';
         Footer,
         HeroSection,
         HomeServicos,
-        LandingFiscal,
         Menu,
         SolutionCardComponent,
         ContactFormComponent,
@@ -34,7 +32,6 @@ import { ContentSections } from './content-sections/content-sections.component';
         Footer,
         HeroSection,
         HomeServicos,
-        LandingFiscal,
         Menu,
         SolutionCardComponent,
         ContactFormComponent,
