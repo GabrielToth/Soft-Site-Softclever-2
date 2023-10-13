@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ContentSectionComponent } from './content-section.component';
+import { ContentSection } from './content-section.component';
 
-describe('ContentSectionComponent', () => {
-  let component: ContentSectionComponent;
-  let fixture: ComponentFixture<ContentSectionComponent>;
+describe('ContentSection', () => {
+  let component: ContentSection;
+  let fixture: ComponentFixture<ContentSection>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContentSectionComponent ]
+      declarations: [ ContentSection ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ContentSectionComponent);
+    fixture = TestBed.createComponent(ContentSection);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
