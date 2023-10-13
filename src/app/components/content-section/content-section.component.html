@@ -1,0 +1,5 @@
+<section class="content" *ngFor="let contentData of contentDataList">
+    <img [src]="contentData.image" alt="Imagem" />
+    <h2>{{ contentData.title }}</h2>
+    <p *ngFor="let paragraph of contentData.paragraphs">{{ paragraph }}</p>
+</section>
