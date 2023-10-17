@@ -117,6 +117,8 @@ body {
     text-transform: none;
     letter-spacing: normal;
     line-height: 1.15;
+
+    box-sizing: border-box;
 }
 
 ul {
@@ -150,4 +152,24 @@ iframe {
 
 .unscrollable {
     overflow-y: hidden;
+}
+
+.fake-tags-google {
+    width: 90%;
+
+    padding-top: 2000px;
+
+    margin: 0 auto;
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        margin-bottom: 8px;
+
+        text-align: justify;
+
+        line-height: 1.3rem;
+    }
 }

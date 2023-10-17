@@ -1,40 +1,47 @@
 <app-menu></app-menu>
-<div class="home-hero">
-    <div class="home-hero-container">
-        <div class="home-hero-container-content">
-            <h1>Soft Clever</h1>
-            <div class="home-hero-container-text">
-                <p>Mais de 12.000 usuários atendidos.</p>
-                <p>Desenvolvemos soluções desde 1994.</p>
-                <p>Somos indicados por centenas de contadores.</p>
+<div class="home">
+    <div class="home-hero">
+        <div class="home-hero-container">
+            <div class="home-hero-container-content">
+                <h1>Soft Clever</h1>
+                <div class="home-hero-container-text">
+                    <p>Mais de 12.000 usuários atendidos.</p>
+                    <p>Desenvolvemos soluções desde 1994.</p>
+                    <p>Somos indicados por centenas de contadores.</p>
+                </div>
+                <botes-whatsctt></botes-whatsctt>
             </div>
-            <botes-whatsctt></botes-whatsctt>
         </div>
+        <img alt="image" src="assets/images/jpg/home - hero.jpg" loading="eager" class="home-image" />
     </div>
-    <img alt="image" src="assets/images/jpg/home - hero.jpg" loading="eager" class="home-image" />
-</div>
-<div class="home-section">
-    <img
-        alt="image"
-        src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1c2luZXNzcGVyc29ufGVufDB8fHx8MTY4MTEzMzU1MQ&amp;ixlib=rb-4.0.3&amp;h=1500"
-        loading="lazy"
-        class="home-image" />
-    <div class="home-section-container">
-        <div class="home-section-container-content">
-            <h1>
-                Desenvolvido para
-                <span class="home-heading-highlight">você</span>
-            </h1>
-            <div class="home-section-container-text">
-                <p>A gestão empresarial para seu negócio nunca foi tão fácil.</p>
-                <p>Temos sistemas para micro, pequena e média empresa.</p>
+    <div class="home-section">
+        <img alt="image"
+            src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGJ1c2luZXNzcGVyc29ufGVufDB8fHx8MTY4MTEzMzU1MQ&amp;ixlib=rb-4.0.3&amp;h=1500"
+            loading="lazy" class="home-image" />
+        <div class="home-section-container">
+            <div class="home-section-container-content">
+                <h1>
+                    Desenvolvido para
+                    <span class="home-heading-highlight">você</span>
+                </h1>
+                <div class="home-section-container-text">
+                    <p>A gestão empresarial para seu negócio nunca foi tão fácil.</p>
+                    <p>Temos sistemas para micro, pequena e média empresa.</p>
+                </div>
+                <botes-whatsctt></botes-whatsctt>
             </div>
-            <botes-whatsctt></botes-whatsctt>
         </div>
     </div>
 </div>
 
 <app-videos></app-videos>
 <app-contact-form></app-contact-form>
-<home-servicos></home-servicos>
+<home-servicos
+    [cards]="[
+        { routerLink: '/solucao-varejo', heading: 'Varejo', image: '/assets/images/comercio-varejista-1500w.webp', text: 'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.' },
+        { routerLink: '/solucao-atacado-e-distribuicao', heading: 'Atacado e Distribuição', image: '/assets/images/atacado-e-distribuicao-1500w.webp', text: 'NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais.' },
+        { routerLink: '/solucao-industria-servico', heading: 'Indústria e Serviço', image: 'https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&ixlib=rb-4.0.3&h=200', text: 'Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica.' },
+        { routerLink: '/solucao-fiscal', heading: 'Fiscal', image: 'https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp', text: 'Sped ICMS, IPI, Pis e Cofins e Bloco K completo.' }
+    ]">
+</home-servicos>
 <app-footer></app-footer>

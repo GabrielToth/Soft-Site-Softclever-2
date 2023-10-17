@@ -22,13 +22,19 @@
 
     .solutions-container {
         padding: var(--padding);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 elementos por linha */
-        gap: 32px; /* Espaçamento entre os cards (vertical e horizontal) */
 
-        .solution-link {
+
+        .solution-links {
             width: 100%;
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 elementos por linha */
+            gap: 32px; /* Espaçamento entre os cards (vertical e horizontal) */
+            .solution-link {
+                width: 100%;
+            }
         }
+        
 
         @media screen and (max-width: 767px) {
             grid-template-columns: repeat(1, 1fr); /* 2 elementos por linha */

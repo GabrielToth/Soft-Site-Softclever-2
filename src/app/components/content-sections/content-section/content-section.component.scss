@@ -1,18 +1,22 @@
 
 .content {
     width: 100%;
+
+    padding-bottom: 16px;
+
     display: flex;
-    align-items: stretch;
     flex-direction: column;
+
+    align-items: stretch;
     justify-content: space-between;
 
-    h1 {
-        margin-bottom: 16px;
-
+    h2 {
         font-size: 20px;
         font-weight: 900;
 
         text-align: justify;
+
+        line-height: 3rem;
     }
 
     p {

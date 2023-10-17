@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
     styleUrls: ['hero-section.component.scss'],
 })
 export class HeroSection {
-    @Input() title!: string;
+    @Input() heading!: string;
 
     @Input() image!: string;
     @Input() paragraphs!: string[];

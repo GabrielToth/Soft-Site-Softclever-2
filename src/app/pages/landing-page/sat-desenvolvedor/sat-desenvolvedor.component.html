@@ -1,5 +1,7 @@
 <app-menu></app-menu>
-<hero-section title="SAT Desenvolvedor" image="../../../../assets/images/webp/mulher-com-tablet-1500h.webp"
+<hero-section
+    heading="SAT Desenvolvedor"
+    image="../../../../assets/images/webp/mulher-com-tablet-1500h.webp"
     [paragraphs]="[
         'Soluções em sistemas para o varejo em geral, seja de micro, pequeno ou de médio porte.',
         'Oferecemos planos mensais ou anuais com descontos. Temos um pacote que cabe no seu bolso.',
@@ -8,84 +10,89 @@
         'O Sírius S@T Fiscal é homologado pela Sefaz-SP e é indicado por centenas de contadores.',
         'São mais de 12.000 usuários atendidos desde 1994. Na Soft Clever você pode confiar.',
         'Conheça abaixo as nossas soluções voltadas para o comércio varejista.'
-    ]"></hero-section>
+    ]">
+</hero-section>
 <app-videos></app-videos>
 <content-sections image="../../../../assets/images/feliz-modernos-mulher-com-bolsas-para-compras-vertical-2-500w.jpg"
     [leftSections]="[
-            { image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&ixlib=rb-4.0.3&w=700', title: 'Sírius S@T Fiscal / NFC-e', paragraphs: ['Geração de Cupom Fiscal Eletrônico SAT.', 'Geração de Nota Fiscal de Consumidor Eletrônica NFC-e.', 'Preparado para atender a lei da transparência.', 'Geração de Nota Fiscal Paulista.', 'Integração com TEF (cartão de crédito).', 'Rotinas de abertura e fechamento de caixa.', 'Controle de estoque.'] },
-            { image: 'https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&ixlib=rb-4.0.3&w=700', title: 'Sírius Nf-e', paragraphs: ['Geração de NFE a partir do pedido.', 'Digitação expressa de nfe de saída ou entrada.', 'Processos automatizados de:', 'Cálculos de impostos, inclusive substituição tributária.', 'Cálculos de peso e volume.', 'Envio, autorização e retorno junto a SEFAZ.', 'Impressão da Danfe.', 'Geração e envio de arquivo XML.', 'Visualização da pré-danfe.', 'Rotinas de cancelamento e inutilização.', 'Geração de notas de importação.', 'Carta de correção, nota complementar e afins.'] },
-            { image: 'https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&ixlib=rb-4.0.3&w=700', title: 'Sírius S@T Safira – Para todo o comércio varejista', paragraphs: ['Possui todos os recursos do Sírius S@T Fiscal.', 'Módulo Financeiro a pagar.', 'Módulo Financeiro a receber.', 'Pedidos de compras.'] },
-            { image: 'https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG9wdGljc3xlbnwwfHx8fDE2ODE0MDYzMzI&ixlib=rb-4.0.3&w=700', title: 'Sírius Óticas', paragraphs: ['Cadastro de laboratórios, oftalmologistas e afins.', 'Controle de lentes, armações, marcas e modelos.', 'Controle de ordens de serviços.', 'Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
-        ]" [rightSections]="[
-            { image: 'https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&ixlib=rb-4.0.3&w=700', title: 'Sírius Pré Venda / Balcão – Lojas em geral', paragraphs: ['Geração de orçamento, pedido de venda, baixa de estoque e afins. Ideal para o lojista que emite pedidos de venda e possui mais de um ponto de venda na loja. Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
-            { image: 'https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&ixlib=rb-4.0.3&w=700', title: 'Sírius Comanda / Mesas – Alimentação em Geral', paragraphs: ['Geração de orçamento, pedido de venda, baixa de estoque e afins. Ideal para o lojista que emite pedidos de venda e possui mais de um ponto de venda na loja. Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
-            { image: 'https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&ixlib=rb-4.0.3&w=700', title: 'Sírius Pizzarias', paragraphs: ['Recursos voltados exclusivamente as pizzarias como; promoção de vendas, fracionamento da pizza (2 ou mais sabores), observações enviadas a cozinha em relação a montagem da pizza e muito mias. Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
-            { image: 'https://static.poder360.com.br/2020/05/Delivery-Ifood-Motoboy-Bike-Ciclista-Entregadores-5-1.jpg', title: 'Sírius iFood', paragraphs: ['Captura os pedidos do iFood, monta o pedido de venda e executa o despacho de forma rápida e fácil.', 'Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
-            { image: 'https://uploads.metropoles.com/wp-content/uploads/2021/07/07140330/Design-sem-nome-60-1-600x400.jpg', title: 'Sírius Pet Shop', paragraphs: ['Controle de raça, tipo de pelagem, tutor, vacinação, agendamentos, atendimentos e muito mais.', 'Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] }
-        ]"></content-sections>
-<home-servicos></home-servicos>
+        { image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxmaW5hbmNlfGVufDB8fHx8MTY4MTM5OTUyMQ&ixlib=rb-4.0.3&w=700', title: 'Sírius S@T Fiscal / NFC-e', paragraphs: ['Geração de Cupom Fiscal Eletrônico SAT.', 'Geração de Nota Fiscal de Consumidor Eletrônica NFC-e.', 'Preparado para atender a lei da transparência.', 'Geração de Nota Fiscal Paulista.', 'Integração com TEF (cartão de crédito).', 'Rotinas de abertura e fechamento de caixa.', 'Controle de estoque.'] },
+        { image: 'https://images.unsplash.com/photo-1625980344922-a4df108b2bd0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJpbGx8ZW58MHx8fHwxNjgxMzEzMzE2&ixlib=rb-4.0.3&w=700', title: 'Sírius Nf-e', paragraphs: ['Geração de NFE a partir do pedido.', 'Digitação expressa de nfe de saída ou entrada.', 'Processos automatizados de:', 'Cálculos de impostos, inclusive substituição tributária.', 'Cálculos de peso e volume.', 'Envio, autorização e retorno junto a SEFAZ.', 'Impressão da Danfe.', 'Geração e envio de arquivo XML.', 'Visualização da pré-danfe.', 'Rotinas de cancelamento e inutilização.', 'Geração de notas de importação.', 'Carta de correção, nota complementar e afins.'] },
+        { image: 'https://images.unsplash.com/photo-1544377193-33dcf4d68fb5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDZ8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&ixlib=rb-4.0.3&w=700', title: 'Sírius S@T Safira – Para todo o comércio varejista', paragraphs: ['Possui todos os recursos do Sírius S@T Fiscal.', 'Módulo Financeiro a pagar.', 'Módulo Financeiro a receber.', 'Pedidos de compras.'] },
+        { image: 'https://images.unsplash.com/photo-1443934732608-9de53a872e32?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG9wdGljc3xlbnwwfHx8fDE2ODE0MDYzMzI&ixlib=rb-4.0.3&w=700', title: 'Sírius Óticas', paragraphs: ['Cadastro de laboratórios, oftalmologistas e afins.', 'Controle de lentes, armações, marcas e modelos.', 'Controle de ordens de serviços.', 'Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
+    ]" [rightSections]="[
+        { image: 'https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&ixlib=rb-4.0.3&w=700', title: 'Sírius Pré Venda / Balcão – Lojas em geral', paragraphs: ['Geração de orçamento, pedido de venda, baixa de estoque e afins. Ideal para o lojista que emite pedidos de venda e possui mais de um ponto de venda na loja. Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
+        { image: 'https://images.unsplash.com/photo-1588675646184-f5b0b0b0b2de?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHJlc3RhdXJhbnQlMjBiaWxsfGVufDB8fHx8MTY4MTMxMzM0MQ&ixlib=rb-4.0.3&w=700', title: 'Sírius Comanda / Mesas – Alimentação em Geral', paragraphs: ['Geração de orçamento, pedido de venda, baixa de estoque e afins. Ideal para o lojista que emite pedidos de venda e possui mais de um ponto de venda na loja. Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
+        { image: 'https://images.unsplash.com/photo-1638981367648-d4909c40ab16?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI3fHxwaXp6ZXJpYXxlbnwwfHx8fDE2ODEzMTM2MTc&ixlib=rb-4.0.3&w=700', title: 'Sírius Pizzarias', paragraphs: ['Recursos voltados exclusivamente as pizzarias como; promoção de vendas, fracionamento da pizza (2 ou mais sabores), observações enviadas a cozinha em relação a montagem da pizza e muito mias. Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
+        { image: 'https://static.poder360.com.br/2020/05/Delivery-Ifood-Motoboy-Bike-Ciclista-Entregadores-5-1.jpg', title: 'Sírius iFood', paragraphs: ['Captura os pedidos do iFood, monta o pedido de venda e executa o despacho de forma rápida e fácil.', 'Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] },
+        { image: 'https://uploads.metropoles.com/wp-content/uploads/2021/07/07140330/Design-sem-nome-60-1-600x400.jpg', title: 'Sírius Pet Shop', paragraphs: ['Controle de raça, tipo de pelagem, tutor, vacinação, agendamentos, atendimentos e muito mais.', 'Gera o cupom fiscal de forma automatizada através do Sírius SAT.'] }
+    ]">
+</content-sections>
+<home-servicos
+    [cards]="[
+        { routerLink: '/solucao-varejo', heading: 'Varejo', image: '/assets/images/comercio-varejista-1500w.webp', text: 'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.' },
+        { routerLink: '/solucao-atacado-e-distribuicao', heading: 'Atacado e Distribuição', image: '/assets/images/atacado-e-distribuicao-1500w.webp', text: 'NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais.' },
+        { routerLink: '/solucao-industria-servico', heading: 'Indústria e Serviço', image: 'https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&ixlib=rb-4.0.3&h=200', text: 'Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica.' },
+    ]">
+</home-servicos>
 <app-footer></app-footer>
-<div class="sa-desenvolvedor-container1">
+<div class="fake-tags-google">
     <h1>SAT Desenvolvedor</h1>
     <p>
-        <span>
-            O sistema SAT fiscal é um equipamento/sistema que transmite e autentica os cupons fiscais eletrônicos,
-            registrando todas as operações comerciais na área de varejo. Além do mais, esse sistema substitui os
-            equipamentos antigos utilizados para a mesma finalidade e garante melhor desenvolvimento e contribuição
-            para o mercado.
-        </span>
-        <br />
-        <span>
-            Com a implantação do sistema SAT fiscal, você adquire mais organização e agilidade perante essa
-            atividade, que fica responsável por encaminhar automaticamente esses cupons fiscais eletrônicos à SEFAZ,
-            sendo item obrigatório em toda a área de varejo. A Soft Clever Informática fornece esse sistema,
-            facilitando a integração com a sua empresa.
-        </span>
-        <br />
-        <span>
-            Esse sistema SAT fiscal auxilia seus usuários a localizarem qualquer que for o seu documento fiscal,
-            diminuindo também a preocupação com relação as obrigações no ramo. O sistema SAT é instalado e só existe
-            por meio digital, ou seja, é necessário que uma empresa de respeito e devidamente homologada na área
-            fique responsável por fornecer e instalar esse sistema.
-        </span>
-        <br />
-        <span>Por que utilizar o sistema SAT fiscal?</span>
-        <br />
-        <span>
-            Esse sistema armazena e transmite documentos fiscais que circulam na área de varejo e sua validade é
-            resumida no sistema SAT fiscal por meio de certificado digital. Além do mais, o cliente receberá um
-            extrato, que é a sua forma de comprovar a operação realizada. Sendo assim, vemos o quanto é importante a
-            utilização desse sistema no ramo de varejo.
-        </span>
-        <br />
-        <span>
-            O sistema SAT fiscal fornece redução dos custos e unifica as obrigações dos consumidores em apenas um
-            local. Além do mais, apresenta autenticidade e garantia de funcionamento, pois integra com excelência
-            esse sistema a diversos outros, garantindo melhor performance e desempenho para todo o ramo de varejo no
-            geral.
-        </span>
-        <br />
-        <span>
-            Portanto, um sistema SAT fiscal foca nas melhorias e condições das atividades de uma empresa, além de
-            fazer com que ela obtenha resultados mais rápidos e precisos, contribuindo para a otimização do tempo de
-            serviço e fazendo com que tudo saia de acordo com a lei. Para essas e demais vantagens, entre em contato
-            com a Soft Clever Informática.
-        </span>
-        <br />
-        <span>A Soft Clever Informática e suas diversas vantagens</span>
-        <br />
-        <span>
-            A empresa Soft Clever Informática é especializada em sistema SAT fiscal, pois entende as necessidades de
-            cada cliente e fornece os melhores benefícios para todos os seus usuários, garantindo suporte de
-            qualidade, de forma remota e um atendimento de excelência, não importando as necessidades de sua empresa
-            e a sua localização.
-        </span>
-        <br />
-        <span>
-            Se você está em busca de um sistema de qualidade e que fornece maior segurança, entre em contato com a
-            Soft Clever Informática!
-        </span>
-        <br />
+        O sistema SAT fiscal é um equipamento/sistema que transmite e autentica os cupons fiscais eletrônicos,
+        registrando todas as operações comerciais na área de varejo. Além do mais, esse sistema substitui os
+        equipamentos antigos utilizados para a mesma finalidade e garante melhor desenvolvimento e contribuição
+        para o mercado.
+    </p>
+
+    <p>
+        Com a implantação do sistema SAT fiscal, você adquire mais organização e agilidade perante essa
+        atividade, que fica responsável por encaminhar automaticamente esses cupons fiscais eletrônicos à SEFAZ,
+        sendo item obrigatório em toda a área de varejo. A Soft Clever Informática fornece esse sistema,
+        facilitando a integração com a sua empresa.
+    </p>
+
+    <p>
+        Esse sistema SAT fiscal auxilia seus usuários a localizarem qualquer que for o seu documento fiscal,
+        diminuindo também a preocupação com relação as obrigações no ramo. O sistema SAT é instalado e só existe
+        por meio digital, ou seja, é necessário que uma empresa de respeito e devidamente homologada na área
+        fique responsável por fornecer e instalar esse sistema.
+    </p>
+
+    <p>Por que utilizar o sistema SAT fiscal?</p>
+
+    <p>
+        Esse sistema armazena e transmite documentos fiscais que circulam na área de varejo e sua validade é
+        resumida no sistema SAT fiscal por meio de certificado digital. Além do mais, o cliente receberá um
+        extrato, que é a sua forma de comprovar a operação realizada. Sendo assim, vemos o quanto é importante a
+        utilização desse sistema no ramo de varejo.
+    </p>
+
+    <p>
+        O sistema SAT fiscal fornece redução dos custos e unifica as obrigações dos consumidores em apenas um
+        local. Além do mais, apresenta autenticidade e garantia de funcionamento, pois integra com excelência
+        esse sistema a diversos outros, garantindo melhor performance e desempenho para todo o ramo de varejo no
+        geral.
+    </p>
+
+    <p>
+        Portanto, um sistema SAT fiscal foca nas melhorias e condições das atividades de uma empresa, além de
+        fazer com que ela obtenha resultados mais rápidos e precisos, contribuindo para a otimização do tempo de
+        serviço e fazendo com que tudo saia de acordo com a lei. Para essas e demais vantagens, entre em contato
+        com a Soft Clever Informática.
+    </p>
+
+    <p>A Soft Clever Informática e suas diversas vantagens</p>
+
+    <p>
+        A empresa Soft Clever Informática é especializada em sistema SAT fiscal, pois entende as necessidades de
+        cada cliente e fornece os melhores benefícios para todos os seus usuários, garantindo suporte de
+        qualidade, de forma remota e um atendimento de excelência, não importando as necessidades de sua empresa
+        e a sua localização.
+    </p>
+
+    <p>
+        Se você está em busca de um sistema de qualidade e que fornece maior segurança, entre em contato com a
+        Soft Clever Informática!
     </p>
 </div>
 <app-footer></app-footer>

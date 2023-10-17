@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class SolutionCardComponent {
     @Input()
-    image_src?: string = '/assets/images/atacado-e-distribuicao-1500w.webp';
+    image?: string = '/assets/images/atacado-e-distribuicao-1500w.webp';
     @Input()
     text?: string =
         'NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais.';

@@ -1,7 +1,7 @@
 {
-    "name": "soft-clever",
-    "author": "teleportHQ",
-    "version": "0.0.0",
+    "name": "soft-site-sirius-inf-br",
+    "author": "OGabrielToth",
+    "version": "1.1.0",
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
