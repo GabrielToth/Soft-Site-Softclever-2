@@ -11,7 +11,7 @@
 </hero-section>
 <app-videos></app-videos>
 <content-sections
-    image='../../../../assets/images/mulher-com-tablet-trabalhando-perto-das-prateleiras-do-armazem-com-carga-2-500w.jpg'
+    image='assets/images/mulher-com-tablet-trabalhando-perto-das-prateleiras-do-armazem-com-carga-2-500w.jpg'
     [leftSections]="[
         { image: 'https://images.unsplash.com/photo-1601642263169-e6159cd2320e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxidXRjaGVyfGVufDB8fHx8MTY4MTMxMjY4Mg&ixlib=rb-4.0.3&w=1400', title: 'Pedidos de Vendas', paragraphs: ['Integrado com o estoque e financeiro.', 'Emissão de pedidos de vendas de maneira expressa ou detalhada.', 'Diversas opções de filtros e relatórios e finalização de vendas parciais ou totais através da', 'emissão de NF-e ou NFS-e.', 'Geração de orçamentos e transferências, controle de entregas parciais com elaboração de romaneio de carga, geração de ordem de produção, múltiplos status, troca e devolução com geração de crédito ao cliente, reserva de produtos, controle de movimentações financeiras dos clientes, liberação e expedição de pedidos, impressão de recibo de entrega, etiquetas e pedidos e muito mais.']},
         { image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGZpbmFuY2V8ZW58MHx8fHwxNjgxMzk5NTIx&ixlib=rb-4.0.3&w=1400', title: 'Financeiro', paragraphs: ['Integrado com as compras e vendas.', 'Controle detalhado das contas a pagar e a receber.', 'Diversas opções de filtros e relatórios.', 'Opções de controle de contas contábeis, centro de custos e departamento.', 'Controle de conciliação bancárias.', 'Gera boleto bancário com controle de remessa e retorno junto ao banco.', 'Integração de pagamentos bancários através do SISPAG.', 'Permite lançamento de despesas avulsas e de contas estimadas e/ou reais.', 'Vínculo com conta corrente e cheques.', 'Permite projeção de novas despesas, registro de pagamentos individuais, tudo individualmente ou através de filtro, controle de fluxo de caixa, previsões e metas orçamentárias, controle de saldo bancários com transferência em contas correntes e muito mais.']},
@@ -26,7 +26,13 @@
         { image: 'https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDR8fGV4Y2VsfGVufDB8fHx8MTY4MTQxMzk1NA&ixlib=rb-4.0.3&w=1400', title: 'Tabelas Auxiliares', paragraphs: ['Essenciais para a melhor funcionalidade de cada módulo, permitem ao usuário cadastros auxiliares para emissão de Nota Fiscais, cadastro de produtos clientes e fornecedores, controle financeiro, produção e caixa, além de rotinas para a sincronização dos cadastros caso a empresa tenha mais de um banco de dados']}
     ]"
 ></content-sections>
-<home-servicos></home-servicos>
+<home-servicos
+    [cards]="[
+        { routerLink: '/solucao-varejo', heading: 'Varejo', image: 'assets/images/comercio-varejista-1500w.webp', text: 'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.' },
+        { routerLink: '/solucao-industria-servico', heading: 'Indústria e Serviço', image: 'https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGluZHVzdHJ5fGVufDB8fHx8MTY4MTIyNDgxNw&ixlib=rb-4.0.3&h=200', text: 'Ordens de produção com explosão de matéria prima e lote. Controle Completo de Assistência Técnica.' },
+        { routerLink: '/solucao-fiscal', heading: 'Fiscal', image: 'https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp', text: 'Sped ICMS, IPI, Pis e Cofins e Bloco K completo.' }
+    ]">
+</home-servicos>
 <app-footer></app-footer>
 <div class="fake-tags-google">
     <h1>Software ERP de Gestão Empresarial</h1>

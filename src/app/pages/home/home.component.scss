@@ -187,6 +187,8 @@
     
         .home-section {
             width: 100%;
+
+            padding: 0;
     
             .home-section-container {
                 width: 100%;
@@ -238,8 +240,9 @@
         }
     }
     
-    @media (max-width: 479px) {
+    @media (max-width: 550px) {
         .home-hero {
+            padding: 0;
             .home-hero-container {
                 padding: 0 32px;
     

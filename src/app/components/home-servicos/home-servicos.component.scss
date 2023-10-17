@@ -28,24 +28,38 @@
             width: 100%;
 
             display: grid;
-            grid-template-columns: repeat(2, 1fr); /* 2 elementos por linha */
+            grid-template-columns: repeat(6, 1fr); /* 2 elementos por linha */
+
+            justify-content: center; /* Centraliza o grid horizontalmente */
+            
             gap: 32px; /* Espaçamento entre os cards (vertical e horizontal) */
+
             .solution-link {
                 width: 100%;
+
+                grid-column: span 3; /* Ocupa 2 colunas em vez de 1 */
+
+                &.three-cards {
+                    grid-column: 2 / span 4; /* Ocupa 2 colunas em vez de 1 */
+                }
             }
-        }
-        
 
-        @media screen and (max-width: 767px) {
-            grid-template-columns: repeat(1, 1fr); /* 2 elementos por linha */
+            @media screen and (max-width: 767px) {
+                grid-template-columns: repeat(1, 1fr); /* 2 elementos por linha */
+    
+                margin: 0 auto;
 
-            margin: 0 auto;
-        }
-        @media screen and (max-width: 600px) {
-            padding: 16px 32px 32px;
-        }
-        @media screen and (max-width: 479px) {
-            width: 275px;
+                .solution-link {
+                    grid-column: span 1; /* Ocupa 2 colunas em vez de 1 */
+
+                    &.three-cards {
+                        grid-column: span 1; /* Ocupa 2 colunas em vez de 1 */
+                    }
+                }
+            }
+            @media screen and (max-width: 479px) {
+                width: 275px;
+            }
         }
     }
 }

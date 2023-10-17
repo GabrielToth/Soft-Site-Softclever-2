@@ -2,9 +2,10 @@
     <h1 class="solutions-heading">Conheça nossos Serviços</h1>
     <div class="solutions-container">
         <div class="solution-links">
-            <a *ngFor="let card of cards" [routerLink]="card.routerLink" class="solution-link">
+            <a *ngFor="let card of cards; let i = index" [routerLink]="card.routerLink" class="solution-link" [ngClass]="{'three-cards': i === 2 && cards.length === 3}">
                 <app-solution-card [heading]="card.heading" [image]="card.image" [text]="card.text"></app-solution-card>
             </a>
         </div>
     </div>
 </div>
+    

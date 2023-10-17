@@ -1,7 +1,7 @@
 <app-menu></app-menu>
 <hero-section
     heading="Indústria e Serviço"
-    image="../../../assets/images/jpg/industry.jpg"
+    image="assets/images/jpg/industry.jpg"
     [paragraphs]="[
         'Sistema de gestão empresarial completo que facilita o fluxo de informações entre todos os setores da empresa, tais como; produção, compras, vendas, estoque, fiscal, financeiro, expedição, cobrança e afins. O Sírius ERP está em constante atualização e crescimento e conta com mais de 12 mil usuários atendidos desde 1994. Disponibilizamos as melhores e mais avançadas tecnologias para atender de forma prática qualquer tipo de empresa de micro, pequeno, e médio porte. Oferecemos planos mensais ou anuais com descontos e não cobramos pela cópia do sistema. O nosso contrato mensal não possui fidelidade.',
         'Nosso suporte é remoto e online e atendemos em todo o território nacional.',
@@ -48,5 +48,11 @@
         </div>
     </div>
 </div>
-<home-servicos></home-servicos>
+<home-servicos
+    [cards]="[
+        { routerLink: '/solucao-varejo', heading: 'Varejo', image: 'assets/images/comercio-varejista-1500w.webp', text: 'Emissor S@T fiscal e NFC-e com integração aos módulos Pré-venda, Delivery, Comandas, Sirius App Comandas e Pré-venda, Sirius Web Lojas, Sirius Market Place e cartão de crédito/TEF.' },
+        { routerLink: '/solucao-atacado-e-distribuicao', heading: 'Atacado e Distribuição', image: 'assets/images/atacado-e-distribuicao-1500w.webp', text: 'NF-e, CT-e, NFS-e, Vendas, Liberação e Expedição de Pedidos, Reserva, Troca/Devolução, Financeiro, Cobrança, Compras e muito mais.' },
+        { routerLink: '/solucao-fiscal', heading: 'Fiscal', image: 'https://www.remessaonline.com.br/blog/wp-content/uploads/2021/01/bloggif_5ff493acd7925.jpeg.webp', text: 'Sped ICMS, IPI, Pis e Cofins e Bloco K completo.' }
+    ]">
+</home-servicos>
 <app-footer></app-footer>
