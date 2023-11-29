@@ -25,7 +25,7 @@ import { ContentSections } from './content-sections/content-sections.component';
         SolutionCardComponent,
         ContactFormComponent,
     ],
-    imports: [CommonModule, ReactiveFormsModule, ContentSectionsModule ,RouterModule],
+    imports: [CommonModule, ReactiveFormsModule, ContentSectionsModule, RouterModule],
     exports: [
         Videos,
         BotesWHATSCTT,

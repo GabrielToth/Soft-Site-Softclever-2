@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { ContentSection } from './content-section/content-section.component';
 import { ContentSections } from './content-sections.component';
 
-
-
 @NgModule({
   declarations: [ContentSection, ContentSections],
   imports: [
